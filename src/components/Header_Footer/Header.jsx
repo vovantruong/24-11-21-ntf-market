@@ -43,7 +43,7 @@ function Header() {
             </Form>
             <Nav className="right">
               <Nav.Link href="#">Upload</Nav.Link>
-              <Nav.Link href="#">Connect Wallet</Nav.Link>
+              <Nav.Link href="HeaderItem.jsx">Connect Wallet</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

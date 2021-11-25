@@ -1,4 +1,4 @@
-import Home from "./components/Home";
+import Home from "./components/HomeItem";
 
 function App() {
   return (
@@ -9,3 +9,19 @@ function App() {
 }
 
 export default App;
+
+//
+
+// import Home from "./components/Home";
+
+// function App() {
+//   return (
+//     <>
+//        <Home/>
+//     </>
+//   );
+// }
+
+// export default App;
+
+
