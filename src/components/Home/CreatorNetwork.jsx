@@ -24,7 +24,65 @@ import Avata05 from "../../assets/images/Home/avata05.png";
 
 /* ================================================================= */
 
-function CreatorNetwork() {
+const Eth__never__die = [
+  {
+    className: "first",
+    srcImg: EthNeverDie01,
+    title: "ETH never die",
+    srcAvt: Avata01,
+    count: "1.125 ETH",
+    text: "1 of 12",
+    link: "Place a bid",
+  },
+  {
+    className: "second",
+    srcImg: EthNeverDie02,
+    title: "ETH never die",
+    srcAvt: Avata01,
+    count: "1.125 ETH",
+    text: "1 of 12",
+    link: "Place a bid",
+  },
+  {
+    className: "thist",
+    srcImg: EthNeverDie03,
+    title: "ETH never die",
+    srcAvt: Avata01,
+    count: "1.125 ETH",
+    text: "1 of 12",
+    link: "Place a bid",
+  },
+];
+
+const group__social = [
+  {
+    className: "first",
+    src: Avata02,
+    title: "Payton Harris",
+    coin: "2.125 ETH",
+  },
+  {
+    className: "second",
+    src: Avata03,
+    title: "Payton Harris",
+    coin: "2.125 ETH",
+  },
+  {
+    className: "thirst",
+    src: Avata04,
+    title: "Payton Harris",
+    coin: "2.125 ETH",
+  },
+  {
+    className: "fours",
+    src: Avata05,
+    title: "Payton Harris",
+    coin: "2.125 ETH",
+  },
+];
+
+const CreatorNetwork = () => {
+
   return (
     <section id="creator__network">
       <Container>
@@ -83,12 +141,12 @@ function CreatorNetwork() {
                   <Router>
                     <div className="prev">
                       <Link to="#">
-                        <i class="fas fa-arrow-left"></i>
+                        <i className="fas fa-arrow-left"></i>
                       </Link>
                     </div>
                     <div className="next">
                       <Link to="#">
-                        <i class="fas fa-arrow-right"></i>
+                        <i className="fas fa-arrow-right"></i>
                       </Link>
                     </div>
                   </Router>
@@ -124,54 +182,27 @@ function CreatorNetwork() {
                   </Col>
                   <Col lg={5}>
                     <div className="eth_never_die">
-                      <div className="group__img first">
-                        <div className="img__eth_never">
-                          <Image src={EthNeverDie01} />
-                        </div>
-                        <div className="info__first">
-                          <h3>ETH never die</h3>
-                          <div className="amout">
-                            <Image src={Avata01} />
-                            <p className="eth_count">1.125 ETH</p>
-                            <p className="des">1 of 12</p>
+                      {Eth__never__die.map((e, index) => (
+                        <div
+                          key={index}
+                          className={"group__img " + e.className}
+                        >
+                          <div className="img__eth__never">
+                            <Image src={e.srcImg} />
                           </div>
-                          <Router>
-                            <Link to="#">Place a bid</Link>
-                          </Router>
-                        </div>
-                      </div>
-                      <div className="group__img second">
-                        <div className="img__eth_never">
-                          <Image src={EthNeverDie02} />
-                        </div>
-                        <div className="info__first">
-                          <h3>ETH never die</h3>
-                          <div className="amout">
-                            <Image src={Avata01} />
-                            <p className="eth_count">1.125 ETH</p>
-                            <p className="des">1 of 12</p>
+                          <div className="info__first">
+                            <h3>{e.title}</h3>
+                            <div className="amout">
+                              <Image src={Avata01} />
+                              <p className="eth_count">{e.count}</p>
+                              <p className="des">{e.text}</p>
+                            </div>
+                            <Router>
+                              <Link to="#">{e.link}</Link>
+                            </Router>
                           </div>
-                          <Router>
-                            <Link to="#">Place a bid</Link>
-                          </Router>
                         </div>
-                      </div>
-                      <div className="group__img thirt">
-                        <div className="img__eth_never">
-                          <Image src={EthNeverDie03} />
-                        </div>
-                        <div className="info__first">
-                          <h3>ETH never die</h3>
-                          <div className="amout">
-                            <Image src={Avata01} />
-                            <p className="eth_count">1.125 ETH</p>
-                            <p className="des">1 of 12</p>
-                          </div>
-                          <Router>
-                            <Link to="#">Place a bid</Link>
-                          </Router>
-                        </div>
-                      </div>
+                      ))}
                     </div>
                   </Col>
                 </Row>
@@ -180,40 +211,20 @@ function CreatorNetwork() {
             <Col lg={3}>
               <div className="right__btn__network">
                 <h6 className="title">Latest upload from creators</h6>
-                <div className="group__social first">
-                  <Image src={Avata02} />
-                  <div className="social__info">
-                    <h5>Payton Harris</h5>
-                    <p className="eth_count">2.125 ETH</p>
+                {group__social.map((e, index) => (
+                  <div key={index} className={e.className + " group__social"}>
+                    <Image src={e.src} />
+                    <div className="social__info">
+                      <h5>{e.title}</h5>
+                      <p className="eth_count">{e.coin}</p>
+                    </div>
+                    <hr />
                   </div>
-                  <hr />
-                </div>
-                <div className="group__social second">
-                  <Image src={Avata03} />
-                  <div className="social__info">
-                    <h5>Payton Harris</h5>
-                    <p className="eth_count">2.125 ETH</p>
-                  </div>
-                  <hr />
-                </div>
-                <div className="group__social thirt">
-                  <Image src={Avata04} />
-                  <div className="social__info">
-                    <h5>Payton Harris</h5>
-                    <p className="eth_count">2.125 ETH</p>
-                  </div>
-                  <hr />
-                </div>
-                <div className="group__social four">
-                  <Image src={Avata05} />
-                  <div className="social__info">
-                    <h5>Payton Harris</h5>
-                    <p className="eth_count">2.125 ETH</p>
-                  </div>
-                  <hr />
-                </div>
+                ))}
                 <Router>
-                  <Link to="#">Discover more <i class="fas fa-arrow-right"></i></Link>
+                  <Link to="#">
+                    Discover more <i className="fas fa-arrow-right"></i>
+                  </Link>
                 </Router>
               </div>
             </Col>

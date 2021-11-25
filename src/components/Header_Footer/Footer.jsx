@@ -60,7 +60,7 @@ function Footer() {
               </ul>
               <Form className="form">
                   <FormControl type="search" placeholder="Enter your email" />
-                  <Button><i class="fas fa-arrow-right"></i></Button>
+                  <Button><i className="fas fa-arrow-right"></i></Button>
               </Form>
             </div>
           </Col>

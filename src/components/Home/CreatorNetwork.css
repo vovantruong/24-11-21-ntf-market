@@ -221,7 +221,7 @@
   .bottom__network
   .left__network
   .eth_never_die
-  .img__eth_never
+  .img__eth__never
   img {
   position: absolute;
   width: 100%;
@@ -233,7 +233,7 @@
   .bottom__network
   .left__network
   .eth_never_die
-  .img__eth_never {
+  .img__eth__never {
   width: 160px;
   height: 148px;
   position: relative;
@@ -249,7 +249,7 @@
   .bottom__network
   .left__network
   .eth_never_die
-  .img__eth_never
+  .img__eth__never
   img:hover {
   transform: scale(1.2);
 }
