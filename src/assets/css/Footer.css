@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
-  --bg-main: #000000;
-  --txt-light: #ffffff;
-  --txt-pink: #ec4c93;
-  --bd-radius-input: 15px;
-  --bd-input: 1px solid #c4c4c4;
-  --bd-radius-btn: 50%;
-  --txt-dark-pink: #a92e71;
+  --bg-main-footer: #000000;
+  --txt-light-footer: #ffffff;
+  --txt-pink-footer: #ec4c93;
+  --bd-radius-input-footer: 15px;
+  --bd-input-footer: 1px solid #c4c4c4;
+  --bd-radius-btn-footer: 50%;
+  --txt-dark-pink-footer: #a92e71;
 }
 
 #footer li {
@@ -15,12 +15,12 @@
 }
 
 #footer a {
-  color: var(--txt-light);
+  color: var(--txt-light-footer);
   text-decoration: none;
 }
 
 #footer a:hover {
-  color: var(--txt-dark-pink);
+  color: var(--txt-dark-pink-footer);
   transition: 0.2s all;
 }
 
@@ -33,21 +33,21 @@
 
 #footer {
   font-family: "Poppins", sans-serif;
-  background-color: var(--bg-main);
+  background-color: var(--bg-main-footer);
   max-width: 1920px;
   height: 480px;
-  color: var(--txt-light);
+  color: var(--txt-light-footer);
 }
 
 #footer h3 {
   font-size: 24px;
-  color: var(--txt-pink);
+  color: var(--txt-pink-footer);
   margin: 0;
 }
 
 #footer h4 {
   font-size: 20px;
-  color: var(--txt-pink);
+  color: var(--txt-pink-footer);
   margin: 0;
 }
 
@@ -122,8 +122,8 @@
   font-size: 14px;
   width: 100%;
   height: 100%;
-  border-radius: var(--bd-radius-input);
-  border: var(--bd-input);
+  border-radius: var(--bd-radius-input-footer);
+  border: var(--bd-input-footer);
   box-shadow: none;
 }
 
@@ -133,8 +133,8 @@
   right: 16px;
   width: 30px;
   height: 30px;
-  border-radius: var(--bd-radius-btn);
-  background: var(--txt-dark-pink);
+  border-radius: var(--bd-radius-btn-footer);
+  background: var(--txt-dark-pink-footer);
   color: var(--txt-light);
   outline: none;
   border: none;
@@ -168,11 +168,11 @@
 }
 
 #footer .bottom__footer a {
-  color: var(--txt-pink);
+  color: var(--txt-pink-footer);
 }
 
 #footer .bottom__footer a:hover {
-  color: var(--txt-dark-pink);
+  color: var(--txt-dark-pink-footer);
 }
 
 /* =============================== Responsive ================================== */
