@@ -147,6 +147,7 @@
     position: absolute;
     top: 83px;
     left: 0;
+    z-index: 10;
     box-shadow: 0px 11px 12px rgb(0 0 0 / 30%);
   }
 

@@ -1,18 +1,18 @@
-import React from "react"
+import React from "react";
 import Footer from "./Header_Footer/Footer";
-import Header from "./Header_Footer/Header"
-import CreatorNetwork from './Home/CreatorNetwork'
+import Header from "./Header_Footer/Header";
+import CreatorNetwork from "./Home/CreatorNetwork";
 import "bootstrap/dist/css/bootstrap.min.css";
+import '../assets/css/Home.css'
 
 function Home() {
-  return(
+  return (
     <div id="home">
       <Header />
-     <CreatorNetwork />
+      <CreatorNetwork />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default Home
-
+export default Home;
