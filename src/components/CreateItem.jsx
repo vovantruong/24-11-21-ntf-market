@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./CreateItem/Header";
 import Content_CreateItem from "./CreateItem/Content_CreateItem";
 import Footer from './Header_Footer/Footer'
-function Activity() {
+function CreateItem() {
   return (
     <div>
      <Header/>
@@ -12,4 +12,4 @@ function Activity() {
   );
 }
 
-export default Activity;
+export default CreateItem;

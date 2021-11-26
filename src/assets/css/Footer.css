@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --bg-main-footer: #000000;
+  --txt-light-footer: #ffffff;
+  --txt-pink-footer: #ec4c93;
+  --bd-radius-input-footer: 15px;
+  --bd-input-footer: 1px solid #c4c4c4;
+  --bd-radius-btn-footer: 50%;
+  --txt-dark-pink-footer: #a92e71;
+}
+
+#footer li {
+  list-style-type: none;
+}
+
+#footer a {
+  color: var(--txt-light-footer);
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: var(--txt-dark-pink-footer);
+  transition: 0.2s all;
+}
+
+#footer ul {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 23px;
+}
+
+#footer {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-main-footer);
+  max-width: 1920px;
+  height: 480px;
+  color: var(--txt-light-footer);
+}
+
+#footer h3 {
+  font-size: 24px;
+  color: var(--txt-pink-footer);
+  margin: 0;
+}
+
+#footer h4 {
+  font-size: 20px;
+  color: var(--txt-pink-footer);
+  margin: 0;
+}
+
+#footer .container {
+  position: relative;
+  top: 125px;
+  width: 1144px;
+}
+
+#footer .container .row {
+  padding: 0 11px;
+}
+
+#footer .footer__logo,
+#footer .footer__info,
+#footer .footer__crypter,
+#footer .footer__newsletter {
+  padding: 0;
+}
+
+#footer .footer__logo img {
+  position: relative;
+  left: 24px;
+  width: 82px;
+  height: 82px;
+  text-align: center;
+}
+
+#footer .footer__logo .logo__text {
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-size: 17px;
+  margin-bottom: 0;
+  margin-top: 17px;
+}
+
+#footer .title h3 {
+  margin-top: 22px;
+}
+
+#footer .footer__crypter .crypter {
+  position: relative;
+  left: 59px;
+}
+
+#footer .footer__info .info {
+  position: relative;
+  left: 12px;
+}
+
+#footer .footer__newsletter .newsletter {
+  position: relative;
+  left: 37px;
+}
+
+#footer .newsletter p {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+#footer form {
+  position: relative;
+  top: 76px;
+  width: 308px;
+  height: 50px;
+}
+
+#footer form input {
+  position: absolute;
+  color: #000000;
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--bd-radius-input-footer);
+  border: var(--bd-input-footer);
+  box-shadow: none;
+}
+
+#footer form button {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  width: 30px;
+  height: 30px;
+  border-radius: var(--bd-radius-btn-footer);
+  background: var(--txt-dark-pink-footer);
+  color: var(--txt-light);
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
+#footer form button:focus {
+  box-shadow: none;
+}
+
+#footer form button i {
+  position: relative;
+  top: -3px;
+  left: -3px;
+}
+
+#footer .bottom__footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer hr {
+  margin-top: 35px;
+  margin-bottom: 28px;
+}
+
+#footer .bottom__footer p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#footer .bottom__footer a {
+  color: var(--txt-pink-footer);
+}
+
+#footer .bottom__footer a:hover {
+  color: var(--txt-dark-pink-footer);
+}
+
+/* =============================== Responsive ================================== */
+/* Ty le man hinh nho hon 1200*/
+@media screen and (max-width: 1200px) {
+  #footer .footer__info .info,
+  #footer .footer__crypter .crypter,
+  #footer .footer__newsletter .newsletter {
+    left: 0;
+  }
+}
+
+/* Ty le man hinh nho hon 1024*/
+@media screen and (max-width: 1024px) {
+  #footer .container {
+    width: 960px;
+  }
+
+  #footer .footer__info .info,
+  #footer .footer__crypter .crypter,
+  #footer .footer__newsletter .newsletter {
+    left: 0;
+  }
+}
+
+/* Ty le man hinh nho hon 992*/
+@media screen and (max-width: 992px) {
+  #footer {
+    height: 647px;
+  }
+
+  #footer form {
+    top: 0;
+    margin-top: 76px;
+  }
+
+  #footer .footer__info .info,
+  #footer .footer__crypter .crypter,
+  #footer .footer__newsletter .newsletter {
+    left: 0;
+  }
+}
+
+/* Ty le man hinh nho hon 768 */
+@media screen and (max-width: 768px) {
+  #footer {
+    height: 1050px;
+  }
+  #footer .container {
+    width: 720px;
+  }
+
+  #footer form {
+    top: 0;
+    margin-top: 76px;
+  }
+  #footer .footer__info .info,
+  #footer .footer__crypter .crypter,
+  #footer .footer__newsletter .newsletter {
+    left: 0;
+  }
+
+  #footer .footer__logo,
+  #footer .footer__info,
+  #footer .footer__crypter,
+  #footer .footer__newsletter {
+    margin: 20px 0;
+  }
+
+  #footer .bottom__footer {
+    display: block;
+  }
+  #footer .bottom__footer p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  #footer ul {
+    top: 0;
+    margin-top: 23px;
+  }
+}
+
+/* Ty le man hinh nho hon 576px*/
+@media screen and (max-width: 576px) {
+  #footer .container {
+    width: 410px;
+  }
+}
+
+/* Ty le man hinh nho hon 576px*/
+@media screen and (max-width: 450px) {
+  #footer {
+    height: 1135px;
+  }
+  #footer .container {
+    width: 320px;
+  }
+
+  #footer form {
+    max-width: 243px;
+  }
+}
+
+/* Ty le man hinh nho hon 320px */
+@media screen and (max-width: 320px) {
+  #footer {
+    height: 1135px;
+  }
+  #footer .container {
+    width: 270px;
+  }
+
+  #footer form {
+    max-width: 243px;
+  }
+}
