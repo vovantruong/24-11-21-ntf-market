@@ -1,4 +1,5 @@
 import Home from "./components/HomeItem";
+// import HomeItem from "./components/HomeItem";
 
 function App() {
   return (
@@ -10,18 +11,16 @@ function App() {
 
 export default App;
 
-//
-
-// import Home from "./components/Home";
-
-// function App() {
+// function AppHeaderItem() {
 //   return (
 //     <>
-//        <Home/>
+//        <HomeItem/>
 //     </>
 //   );
 // }
 
-// export default App;
+// export default AppHeaderItem();
+
+
 
 

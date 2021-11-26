@@ -1,13 +1,13 @@
 import React from 'react'
-import Header from './Header_Footer/HeaderItem'
+import HeaderItem from './Header_Footer/HeaderItem'
 
-function Home() {
+function HomeItem() {
   return (
-    <div id="home">
-      <Header />
+    <div id="homeItem">
+      <HeaderItem />
     </div>
   )
 }
 
-export default Home
+export default HomeItem
 
