@@ -28,8 +28,8 @@ function Header() {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link href="#action1">Discover</Nav.Link>
-              <Nav.Link href="#action2">How It Work</Nav.Link>
+              <Nav.Link href="/discover">Discover</Nav.Link>
+              <Nav.Link href="/how-it-work">How It Work</Nav.Link>
             </Nav>
             <Form className="d-flex">
               <FormControl
