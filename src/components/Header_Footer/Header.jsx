@@ -12,6 +12,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "../../assets/images/Header/Vector.png";
 import "../../assets/css/Header.css";
 
+import {Link} from "react-router-dom"
+
 function Header() {
   return (
     <header id="header">
@@ -28,8 +30,8 @@ function Header() {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link href="/discover">Discover</Nav.Link>
-              <Nav.Link href="/how-it-work">How It Work</Nav.Link>
+              <Link to="/discover">Discover</Link>
+              <Link to="/how-it-work">How It Work</Link>
             </Nav>
             <Form className="d-flex">
               <FormControl
@@ -42,8 +44,8 @@ function Header() {
               </Button>
             </Form>
             <Nav className="right">
-              <Nav.Link href="#">Upload</Nav.Link>
-              <Nav.Link href="#">Connect Wallet</Nav.Link>
+              <Link to="/upload">Upload</Link>
+              <Link to="/connect-wallet">Connect Wallet</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
