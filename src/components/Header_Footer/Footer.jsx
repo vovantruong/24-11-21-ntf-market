@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image, Form,FormControl,Button } from "react-bootstrap";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../../assets/css/Footer.css";
 import Logo from "../../assets/images/Footer/Vector.png";
 
@@ -22,14 +22,12 @@ function Footer() {
             <div className="crypter">
               <h4>Crypter.</h4>
               <ul>
-                <Router>
                   <li>
                     <Link to="/discover">Discover</Link>
                   </li>
                   <li>
                     <Link to="/connet-wallet">Connect wallet</Link>
                   </li>
-                </Router>
               </ul>
             </div>
           </Col>
@@ -37,14 +35,12 @@ function Footer() {
             <div className="info">
               <h4>Info</h4>
               <ul>
-                <Router>
                   <li>
                     <Link to="/faq">FAQ</Link>
                   </li>
                   <li>
                     <Link to="/create-item">Create item</Link>
                   </li>
-                </Router>
               </ul>
             </div>
           </Col>
@@ -52,11 +48,9 @@ function Footer() {
             <div className="newsletter">
               <h4>Join Newsletter</h4>
               <ul>
-                <Router>
                   <li>
                     <Link to="/subscribe">Subscribe our newsletter to get more free design course and resource</Link>
                   </li>
-                </Router>
               </ul>
               <Form className="form">
                   <FormControl type="search" placeholder="Enter your email" />
@@ -68,9 +62,7 @@ function Footer() {
         <hr />
         <div className="bottom__footer">
             <p>Copyright © 2021. All rights reserved</p>
-            <Router>
-            <p>We use cookies for better service. <Link to="">Accept</Link></p>
-            </Router>          
+            <p>We use cookies for better service. <Link to="">Accept</Link></p>         
         </div>
       </Container>
     </footer>
