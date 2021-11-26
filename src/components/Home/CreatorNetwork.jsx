@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./CreatorNetwork.css";
 
 /* ================================================================= */
@@ -92,9 +92,7 @@ const CreatorNetwork = () => {
         <div className="top__network">
           <h6>create, explore, & collect digital art nfts.</h6>
           <h2>The new creative economy.</h2>
-          <Router>
-            <Link to="/discover">Start your search</Link>
-          </Router>
+          <Link to="/discover">Start your search</Link>
         </div>
         <div className="content__network">
           <Row>
@@ -130,29 +128,25 @@ const CreatorNetwork = () => {
                   <Image src={CardCurrent} />
                 </div>
                 <div className="btn__place__view">
-                  <Router>
-                    <Link className="place" to="">
-                      Place a bid
-                    </Link>
-                    <br />
-                    <Link className="view" to="">
-                      View item
-                    </Link>
-                  </Router>
+                  <Link className="place" to="">
+                    Place a bid
+                  </Link>
+                  <br />
+                  <Link className="view" to="">
+                    View item
+                  </Link>
                 </div>
                 <div className="previout__next">
-                  <Router>
-                    <div className="prev">
-                      <Link to="#">
-                        <i className="fas fa-arrow-left"></i>
-                      </Link>
-                    </div>
-                    <div className="next">
-                      <Link to="#">
-                        <i className="fas fa-arrow-right"></i>
-                      </Link>
-                    </div>
-                  </Router>
+                  <div className="prev">
+                    <Link to="#">
+                      <i className="fas fa-arrow-left"></i>
+                    </Link>
+                  </div>
+                  <div className="next">
+                    <Link to="#">
+                      <i className="fas fa-arrow-right"></i>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </Col>
@@ -167,7 +161,9 @@ const CreatorNetwork = () => {
                     <div className="the__future">
                       <div className="the__img__lg">
                         <Image src={ImgSmoke} />
-                        <div className="arrow"><i className="fas fa-arrow-right"></i></div>
+                        <div className="arrow">
+                          <i className="fas fa-arrow-right"></i>
+                        </div>
                       </div>
                       <div className="the__info">
                         <div className="info__left">
@@ -193,7 +189,9 @@ const CreatorNetwork = () => {
                         >
                           <div className="img__eth__never">
                             <Image src={e.srcImg} />
-                            <div className="arrow"><i className="fas fa-arrow-right"></i></div>
+                            <div className="arrow">
+                              <i className="fas fa-arrow-right"></i>
+                            </div>
                           </div>
                           <div className="info__eth__never">
                             <h3>{e.title}</h3>
@@ -202,9 +200,8 @@ const CreatorNetwork = () => {
                               <p className="eth_count">{e.count}</p>
                               <p className="des">{e.text}</p>
                             </div>
-                            <Router>
-                              <Link to="#">{e.link}</Link>
-                            </Router>
+
+                            <Link to="#">{e.link}</Link>
                           </div>
                         </div>
                       ))}
@@ -230,11 +227,10 @@ const CreatorNetwork = () => {
                     </div>
                   </>
                 ))}
-                <Router>
-                  <Link to="#">
-                    Discover more <i className="fas fa-arrow-right"></i>
-                  </Link>
-                </Router>
+
+                <Link to="#">
+                  Discover more <i className="fas fa-arrow-right"></i>
+                </Link>
               </div>
             </Col>
           </Row>
