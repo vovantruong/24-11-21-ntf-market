@@ -44,7 +44,7 @@ const Eth__never__die = [
     link: "Place a bid",
   },
   {
-    className: "thist",
+    className: "thirst",
     srcImg: EthNeverDie03,
     title: "ETH never die",
     srcAvt: Avata01,
@@ -60,29 +60,32 @@ const group__social = [
     src: Avata02,
     title: "Payton Harris",
     coin: "2.125 ETH",
+    mess: 6,
   },
   {
     className: "second",
     src: Avata03,
     title: "Payton Harris",
     coin: "2.125 ETH",
+    mess: 6,
   },
   {
     className: "thirst",
     src: Avata04,
     title: "Payton Harris",
     coin: "2.125 ETH",
+    mess: 6,
   },
   {
     className: "fours",
     src: Avata05,
     title: "Payton Harris",
     coin: "2.125 ETH",
+    mess: 6,
   },
 ];
 
 const CreatorNetwork = () => {
-
   return (
     <section id="creator__network">
       <Container>
@@ -157,13 +160,14 @@ const CreatorNetwork = () => {
         </div>
         <div className="bottom__network">
           <Row>
-            <Col lg={9}>
+            <Col xl={9} lg={12}>
               <div className="left__network">
                 <Row>
                   <Col lg={7}>
                     <div className="the__future">
                       <div className="the__img__lg">
                         <Image src={ImgSmoke} />
+                        <div className="arrow"><i className="fas fa-arrow-right"></i></div>
                       </div>
                       <div className="the__info">
                         <div className="info__left">
@@ -189,8 +193,9 @@ const CreatorNetwork = () => {
                         >
                           <div className="img__eth__never">
                             <Image src={e.srcImg} />
+                            <div className="arrow"><i className="fas fa-arrow-right"></i></div>
                           </div>
-                          <div className="info__first">
+                          <div className="info__eth__never">
                             <h3>{e.title}</h3>
                             <div className="amout">
                               <Image src={Avata01} />
@@ -208,18 +213,22 @@ const CreatorNetwork = () => {
                 </Row>
               </div>
             </Col>
-            <Col lg={3}>
+            <Col xl={3} lg={12}>
               <div className="right__btn__network">
                 <h6 className="title">Latest upload from creators</h6>
                 {group__social.map((e, index) => (
-                  <div key={index} className={e.className + " group__social"}>
-                    <Image src={e.src} />
-                    <div className="social__info">
-                      <h5>{e.title}</h5>
-                      <p className="eth_count">{e.coin}</p>
+                  <>
+                    <div key={index} className={e.className + " group__social"}>
+                      <div className="social__img">
+                        <Image src={e.src} />
+                        <div className="message">{e.mess}</div>
+                      </div>
+                      <div className="social__info">
+                        <h5>{e.title}</h5>
+                        <p className="eth_count">{e.coin}</p>
+                      </div>
                     </div>
-                    <hr />
-                  </div>
+                  </>
                 ))}
                 <Router>
                   <Link to="#">
@@ -233,6 +242,6 @@ const CreatorNetwork = () => {
       </Container>
     </section>
   );
-}
+};
 
 export default CreatorNetwork;

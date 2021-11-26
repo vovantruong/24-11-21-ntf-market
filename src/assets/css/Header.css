@@ -104,6 +104,11 @@
   margin-left: 130px;
 }
 
+#header nav .left a:hover{
+  color: #B5689E;
+
+}
+
 #header nav .left a:nth-child(1) {
   margin-right: 30px;
 }
