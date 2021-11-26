@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --txt-pink: #b5689e;
+  --txt-light: #fff;
+  --txt-gray:#606060;;
+  --bg-btn: #ec4c93;
+  --boder-radius: 20px;
+  --border: 1.5px solid #ec4c93;
+  --border-input: 1.5px solid #c4c4c4;
+  --dark-pink: #a92e71;
+  
+}
+#header {
+  font-family: "Poppins", sans-serif;
+}
+#header nav .container {
+  max-width: 1920px;
+}
+.left span {
+  border: 1px solid #dadada;
+  border-radius: var(--boder-radius);
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.left:hover span {
+  background: var(--dark-pink);
+  color: var(--txt-light);
+}
+.right {
+  text-align: right;
+  font-size: 14px;
+  font-weight: 500;
+}
+.btn_upload {
+  border: 1px solid #dadada;
+  border-radius: var(--boder-radius);
+  padding: 12px 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.content_profile {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: var(--txt-gray);
+}
+.content_profile_edit{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--txt-gray);
+}
+.upload_profile :hover.btn_upload {
+  background: var(--dark-pink);
+  color: var(--txt-light);
+}
+.acount_info_tittle {
+  text-align: left;
+}
+.form-control {
+  border-radius: 10px;
+}
+Label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 13px;
+  color: #c4c4c4;
+}
+.addmore {
+  border: 1px solid #dadada;
+  border-radius: var(--boder-radius);
+  padding: 10px 10px;
+}
+.more_acount :hover.addmore {
+  background: var(--dark-pink);
+  color: var(--txt-light);
+}
+.update_profile {
+  border: 1px solid #dadada;
+  border-radius: var(--boder-radius);
+  padding: 10px 20px;
+  background: var(--dark-pink);
+  color: var(--txt-light);
+}
+.profile :hover.update_profile {
+  color: var(--bg-btn);
+}
+.clearn_all {
+  margin-left: 5%;
+}

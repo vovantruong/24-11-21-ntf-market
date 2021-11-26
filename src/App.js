@@ -1,9 +1,10 @@
-import Home from "./components/Home";
+import Navbaritem from "./components/EditProfile/Navbaritem";
+// import Home from "./components/Home";
 
 function App() {
   return (
     <>
-       <Home/>
+       <Navbaritem/>
     </>
   );
 }
