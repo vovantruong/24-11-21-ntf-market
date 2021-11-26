@@ -19,10 +19,10 @@ function Header() {
     <header id="header">
       <Navbar expand="lg">
         <Container>
-          <Navbar.Brand href="/">
+          <Link to="/">
             <Image src={logo} width="33,22px" height="31,63px" />
             <p className="logo">Womentech</p>
-          </Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
