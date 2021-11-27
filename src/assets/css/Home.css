@@ -1,13 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-#home{
-    font-family: "Poppins", sans-serif;
+#home {
+  font-family: "Poppins", sans-serif;
 }
 
-#home a{
-    text-decoration: none;
+#home a {
+  text-decoration: none;
 }
 
-#home li{
-    list-style-type: none;
+#home li {
+  list-style-type: none;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  background: #A92E71;
+  position: absolute;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #B769A0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  border-radius: 10px;
+}
+
+/* Handle on hover */

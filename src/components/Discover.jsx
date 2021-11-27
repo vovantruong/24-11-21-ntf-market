@@ -5,7 +5,9 @@ import Header from "./Header_Footer/Header";
 function Discover() {
   return (
     <div>
+      <Header />
       <h1>Discover</h1>
+      <Footer />
     </div>
   );
 }

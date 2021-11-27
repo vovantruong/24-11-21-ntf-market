@@ -5,7 +5,9 @@ import Header from "./Header_Footer/Header";
 function HowItWork() {
   return (
     <div>
+      <Header />
       <h1>How it Work</h1>
+      <Footer />
     </div>
   );
 }

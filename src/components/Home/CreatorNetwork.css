@@ -188,7 +188,7 @@
 }
 
 #creator__network .previout__next {
-  display: flex;
+  display: inline-flex;
   position: relative;
   top: 11.4rem;
   left: 12px;
@@ -221,7 +221,7 @@
   height: 433px;
   overflow: hidden;
   border-radius: 10px;
-  transition: .4s all;
+  transition: 0.4s all;
 }
 
 #creator__network .bottom__network .left__network .the__img__lg img,
@@ -253,11 +253,11 @@
   transform: scale(1.3);
 }
 
-#creator__network .bottom__network .left__network .the__img__lg:hover .arrow{
+#creator__network .bottom__network .left__network .the__img__lg:hover .arrow {
   opacity: 1;
 }
 
-#creator__network .bottom__network .left__network .the__img__lg .arrow{
+#creator__network .bottom__network .left__network .the__img__lg .arrow {
   color: #606060;
   background: #fff;
   width: 22%;
@@ -269,18 +269,18 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   z-index: 10;
   opacity: 0;
-  transition: .5s all ;
+  transition: 0.5s all;
 }
 
 #creator__network
   .bottom__network
   .left__network
   .eth_never_die
-  .img__eth__never:hover 
-  img{
+  .img__eth__never:hover
+  img {
   transform: scale(1.3);
 }
 
@@ -288,8 +288,8 @@
   .bottom__network
   .left__network
   .eth_never_die
-  .img__eth__never:hover 
-  .arrow{
+  .img__eth__never:hover
+  .arrow {
   opacity: 1;
 }
 
@@ -302,7 +302,7 @@
   align-items: center;
 }
 
-#creator__network .eth_never_die .img__eth__never .arrow{
+#creator__network .eth_never_die .img__eth__never .arrow {
   color: #606060;
   background: #fff;
   width: 27%;
@@ -316,10 +316,10 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   z-index: 10;
   opacity: 0;
-  transition: .5s all ;
+  transition: 0.5s all;
 }
 
 #creator__network .right__btn__network .group__social .social__img {
@@ -573,4 +573,213 @@
   #creator__network .bottom__network .eth_never_die {
     left: 13px;
   }
+
+  #creator__network .right__btn__network {
+    top: 40px;
+    border-left: 0;
+    left: -40px;
+  }
+}
+
+/* Ty le man hinh nho hon 768px*/
+@media screen and (max-width: 768px) {
+  #creator__network {
+    min-height: 3700px;
+  }
+
+  #creator__network .container {
+    max-width: 700px;
+  }
+
+  #creator__network .content__network .left__img {
+    position: relative;
+    left: 28px;
+  }
+
+  #creator__network .right__card {
+    left: 25px;
+    top: 60px;
+  }
+
+  #creator__network .card__current {
+    left: 8.5rem;
+  }
+
+  #creator__network .bottom__network {
+    top: 36rem;
+  }
+
+  #creator__network .btn__place__view a {
+    width: 90%;
+  }
+
+  #creator__network .btn__place__view a.view {
+    top: 100px;
+  }
+
+  #creator__network .previout__next {
+    left: 42%;
+  }
+
+  #creator__network .bottom__network .left__network .the__img__lg {
+    left: 19%;
+  }
+
+  #creator__network .bottom__network .the__info {
+    justify-content: space-around;
+  }
+
+  #creator__network .bottom__network .the__info .info__left {
+    position: relative;
+    left: 51px;
+  }
+
+  #creator__network .bottom__network .eth_never_die {
+    top: 50px;
+    left: 8rem;
+    display: inline-block;
+  }
+
+  #creator__network .right__btn__network {
+    left: -13px;
+    width: 92%;
+  }
+}
+
+/* Ty le man hinh nho hon 540px*/
+@media screen and (max-width: 540px) {
+  #creator__network {
+    min-height: 3525px;
+  }
+  #creator__network .container {
+    max-width: 480px;
+  }
+
+  #creator__network .content__network .left__img {
+    width: 400px;
+    height: 600px;
+  }
+
+  #creator__network .btn__place__view {
+    left: 0;
+  }
+
+  #creator__network .previout__next {
+    left: 37%;
+  }
+
+  #creator__network .bottom__network .left__network .the__img__lg {
+    width: 357px;
+    height: 346px;
+    left: 12%;
+  }
+
+  #creator__network .card__current {
+    left: 20px;
+  }
+
+  #creator__network .bottom__network .the__info {
+    justify-content: space-between;
+  }
+  #creator__network .bottom__network .eth_never_die {
+    left: 55px;
+    display: inline-block;
+  }
+  #creator__network .bottom__network .group__img .info__eth__never {
+    left: 30px;
+  }
+}
+
+/* Ty le man hinh nho hon 468px*/
+@media screen and (max-width: 468px) {
+  #creator__network {
+    min-height: 3150px;
+  }
+
+  #creator__network .container {
+    max-width: 335px;
+  }
+
+  #creator__network .content__network .left__img {
+    width: 320px;
+    height: 440px;
+  }
+
+  #creator__network .card__current {
+    width: 296px;
+    height: 253px;
+  }
+
+  #creator__network .bottom__network .left__network .the__img__lg {
+    width: 283px;
+    height: 276px;
+  }
+
+  #creator__network .right__card h1 {
+    font-size: 50px;
+    line-height: 60px;
+    left: -21px;
+  }
+  #creator__network .account__info {
+    left: -23px;
+  }
+
+  #creator__network .bottom__network .the__info {
+    display: inherit;
+  }
+
+  #creator__network .card__current {
+    left: -11px;
+  }
+
+  #creator__network .btn__place__view {
+    left: -5px;
+  }
+
+  #creator__network .previout__next {
+    left: 30%;
+  }
+
+  #creator__network .bottom__network .the__info .info__left {
+    left: 16px;
+  }
+
+  #creator__network .bottom__network .left__network .the__img__lg {
+    left: 6%;
+  }
+
+  #creator__network .bottom__network .eth_never_die {
+    left: 13px;
+  }
+
+  #creator__network .bottom__network .info__right {
+    left: 16px;
+    top: 10px;
+    display: inline-block;
+  }
+
+  #creator__network .bottom__network .info__right p.eth_count {
+    margin: 0;
+  }
+
+  #creator__network
+    .bottom__network
+    .left__network
+    .eth_never_die
+    .img__eth__never {
+    width: 130px;
+    height: 118px;
+  }
+
+  #creator__network .content__network .left__img {
+    left: 0;
+  }
+}
+
+/* Ty le man hinh nho hon 320px*/
+@media screen and (max-width: 320px) {
+}
+
+/* Ty le man hinh nho hon 240px*/
+@media screen and (max-width: 240px) {
 }
