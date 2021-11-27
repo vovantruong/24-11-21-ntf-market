@@ -1,0 +1,184 @@
+#crypter {
+  max-width: 1920px;
+  min-height: 687px;
+  background: #f4f5f6;
+}
+
+#crypter .container {
+  max-width: 1144px;
+}
+
+#crypter h5,
+#crypter h1,
+#crypter p {
+  margin: 0;
+}
+
+#crypter .left__crypter {
+  position: relative;
+  top: 121px;
+}
+
+#crypter .left__crypter h5 {
+  color: #606060;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#crypter .left__crypter h1 {
+  color: #000000;
+  font-weight: 700;
+  font-size: 60px;
+  position: relative;
+  top: 8px;
+  line-height: 63px;
+}
+
+#crypter .left__crypter p {
+  color: #606060;
+  font-weight: 400;
+  font-size: 16px;
+  position: relative;
+  top: 32px;
+}
+
+#crypter .left__crypter .link__crypter {
+  display: inline-block;
+  position: relative;
+  top: 85px;
+}
+
+#crypter .left__crypter .link__crypter a {
+  padding: 14px 30px;
+  border: 1.5px solid #ec4c93;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: 0.2s all ease;
+}
+
+#crypter .left__crypter .link__crypter a.create:hover {
+  color: #a92e71;
+}
+
+#crypter .left__crypter .link__crypter a.discover:hover {
+  background: #ec4c93;
+  color: #a92e71;
+}
+
+#crypter .left__crypter .link__crypter a.create {
+  color: #fff;
+  background: #ec4c93;
+}
+
+#crypter .left__crypter .link__crypter a.discover {
+  color: #000000;
+  position: relative;
+  left: 16px;
+}
+
+#crypter .right__crypter .img__crypter {
+  width: 684px;
+  height: 551px;
+  position: relative;
+  top: 67px;
+  right: 6.3rem;
+}
+
+#crypter .right__crypter .img__crypter img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* ============================== Ressponsive ============================== */
+
+@media screen and (max-width: 1024px) {
+  #crypter {
+    min-height: 600px;
+  }
+  #crypter .container {
+    max-width: 960px;
+  }
+
+  #crypter .right__crypter .img__crypter {
+    width: 547px;
+    height: 440px;
+  }
+  #crypter .left__crypter h5,
+  #crypter .left__crypter p {
+    font-size: 14px;
+  }
+  #crypter .left__crypter h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #crypter {
+    min-height: 1000px;
+  }
+  #crypter .container {
+    max-width: 720px;
+  }
+  #crypter .left__crypter {
+    text-align: center;
+  }
+
+  #crypter .right__crypter .img__crypter {
+    width: 547px;
+    height: 440px;
+    position: relative;
+    top: 18rem;
+    left: 5rem;
+  }
+}
+@media screen and (max-width: 540px) {
+  #crypter {
+    min-height: 1000px;
+  }
+  #crypter .container {
+    max-width: 720px;
+  }
+
+  #crypter .right__crypter .img__crypter {
+    width: 492px;
+    height: 396px;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #crypter {
+    min-height: 910px;
+  }
+  #crypter .right__crypter .img__crypter {
+    width: 393px;
+    height: 316px;
+  }
+
+  #crypter .left__crypter h1 {
+    font-size: 40px;
+  }
+
+  #crypter .left__crypter h5,
+  #crypter .left__crypter p {
+    font-size: 12px;
+  }
+
+  #crypter .left__crypter p {
+    top: 14px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #crypter {
+    min-height: 785px;
+  }
+
+  #crypter .right__crypter .img__crypter {
+    width: 314px;
+    height: 252px;
+    left: 22px;
+  }
+}
