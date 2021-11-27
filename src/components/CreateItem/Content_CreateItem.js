@@ -1,55 +1,104 @@
-import React from "react";
-import {
-  Navbar,
-  Container,
-  Nav,
-  Image,
-  Form,
-  Button,
-  FormControl,
-} from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "../../assets/images/Header/Vector.png";
-import "../../assets/css/Header.css";
+/* ========================= Import Library React ======================== */
 
-function Header() {
+import React from "react";
+import { Container, Row, Col, Image } from "react-bootstrap";
+// import "./CreatorNetwork.css";
+
+/* ================================================================= */
+
+/* ========================= Import Image ======================== */
+
+import Preview from "../../assets/images/Create Item/unsplash_hoS3dzgpHzw.png";
+import Avatar from "../../assets/images/Home/unsplash_mEZ3PoFGs_k.png";
+
+/* ================================================================= */
+
+const CreateItem = () => {
+
   return (
-    <header id="header">
-      <Navbar expand="lg">
-        <Container>
-          <Navbar.Brand href="/">
-            <Image src={logo} width="33,22px" height="31,63px" />
-            <p className="logo">Womentech</p>
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
-            <Nav
-              className="left me-auto my-2 my-lg-0"
-              style={{ maxHeight: "100px" }}
-              navbarScroll
-            >
-              <Nav.Link href="#action1">Discover</Nav.Link>
-              <Nav.Link href="#action2">How It Work</Nav.Link>
-            </Nav>
-            <Form className="d-flex">
-              <FormControl
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <Button>
-                <i className="fas fa-search"></i>
-              </Button>
-            </Form>
-            <Nav className="right">
-              <Nav.Link href="#">Upload123</Nav.Link>
-              <Nav.Link href="#">Connect Wallet</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </header>
+    <section id="createitem">
+      <Container>
+        <div className="content__createitem">
+          <Row>
+            <Col lg={7}>
+              <div className="left__CreateSimple">
+                <h1>Create Simple Collectible</h1>
+              </div>
+              <div className="left__UploadFile">
+                <h6><b>Upload file</b></h6>
+                <p>Drag or choose your file to upload </p>
+                <div class="form-Uploadfile">
+                  <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId"></input>
+                </div>
+              </div>
+              <div className="left__ItemDetail">
+                <h6><b>Item Details</b></h6>
+              </div>
+              <div className="left__itemname">
+                <label>ITEM NAME</label>
+                <div class="form-itemname">
+                  <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId"></input>
+                </div>
+                <label>DESCRIPTION</label>
+                <div class="form-description">
+                  <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId"></input>
+                </div>
+                <label>ROYALTIES</label>
+                <Row>
+                  <col-md-3>
+                    <div class="form-royalties">
+                      <select name="">
+                        <option>option 1</option>
+                        <option>option 2</option>
+                        <option>option 3</option>
+                      </select>
+                    </div>
+                  </col-md-3>
+                  <col-md-3>
+                    <div class="form-royalties">
+                      <select name="">
+                        <option>option 1</option>
+                        <option>option 2</option>
+                        <option>option 3</option>
+                      </select>
+                    </div>
+                  </col-md-3>
+                </Row>
+
+              </div>
+            </Col>
+            <Col lg={5}>
+              <div className="right__card">
+                <h1>Preview</h1>
+                <div className="Preview_account">
+                  <div className="creator">
+                    <div className="img">
+                      <Image src={Preview} />
+                    </div>
+                    <div className="descriptions">
+                      <b>Amazing digital art</b>
+                    </div>
+                  </div>
+                  <div className="price">
+                    <div className="img">
+                      <Image src={Avatar} />
+                    </div>
+                    <div className="descriptions">
+                      <p>____________________________________</p>
+                      <p>Highest bid <b>0.001 ETH</b></p>
+                    </div>
+                  </div>
+                </div>
+                <div className="card__current">
+                  <p>Clear All</p>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </div>
+      </Container>
+    </section>
   );
 }
 
-export default Header;
+export default CreateItem;
