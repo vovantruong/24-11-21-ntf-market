@@ -540,6 +540,27 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  #creator__network {
+    min-height: 2490px;
+  }
+
+  #creator__network .container {
+    max-width: 1010px;
+  }
+  #creator__network .right__btn__network {
+    border-left: none;
+  }
+
+  #creator__network .right__btn__network .group__social{
+    width: 100%;
+  }
+
+  #creator__network .bottom__network .info__right{
+    right: 111px;
+  }
+}
+
 /* Ty le man hinh nho hon 1024*/
 @media screen and (max-width: 1024px) {
   #creator__network {
@@ -578,6 +599,44 @@
     top: 40px;
     border-left: 0;
     left: -40px;
+  }
+}
+
+/* Ty le man hinh nho hon 990px*/
+@media screen and (max-width: 990px) {
+  #creator__network {
+    min-height: 3700px;
+  }
+
+  #creator__network .container {
+    max-width: 830px;
+  }
+
+  #creator__network .content__network .left__img {
+    position: relative;
+    left: 5.5rem;
+  }
+
+  #creator__network .card__current {
+    left: 13rem;
+  }
+  #creator__network .right__card {
+    top: 4rem;
+  }
+
+  #creator__network .bottom__network {
+    top: 36rem;
+  }
+
+  #creator__network .bottom__network .eth_never_die {
+    top: 50px;
+  }
+  #creator__network .bottom__network .the__info {
+    justify-content: left;
+  }
+
+  #creator__network .bottom__network .info__right {
+    left: 6rem;
   }
 }
 
@@ -643,6 +702,9 @@
   #creator__network .right__btn__network {
     left: -13px;
     width: 92%;
+  }
+  #creator__network .bottom__network .info__right {
+    left: -1rem;
   }
 }
 
@@ -778,7 +840,7 @@
 
 /* Ty le man hinh nho hon 320px*/
 @media screen and (max-width: 320px) {
-  #creator__network{
+  #creator__network {
     min-height: 210rem;
   }
   #creator__network .container {
@@ -846,7 +908,7 @@
     height: 220px;
   }
 
-  #creator__network .bottom__network .left__network .the__img__lg{
+  #creator__network .bottom__network .left__network .the__img__lg {
     position: relative;
     left: 0px;
   }
@@ -877,7 +939,7 @@
     margin-bottom: 55px;
   }
 
-  #creator__network .right__btn__network{
+  #creator__network .right__btn__network {
     top: 6rem;
   }
 }
