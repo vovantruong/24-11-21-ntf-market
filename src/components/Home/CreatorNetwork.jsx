@@ -210,22 +210,20 @@ const CreatorNetwork = () => {
                 </Row>
               </div>
             </Col>
-            <Col xl={3} lg={12}>
+            <Col lg={12} xl={3}>
               <div className="right__btn__network">
                 <h6 className="title">Latest upload from creators</h6>
                 {group__social.map((e, index) => (
-                  <>
-                    <div key={index} className={e.className + " group__social"}>
-                      <div className="social__img">
-                        <Image src={e.src} />
-                        <div className="message">{e.mess}</div>
-                      </div>
-                      <div className="social__info">
-                        <h5>{e.title}</h5>
-                        <p className="eth_count">{e.coin}</p>
-                      </div>
+                  <div key={index} className={e.className + " group__social"}>
+                    <div className="social__img">
+                      <Image src={e.src} />
+                      <div className="message">{e.mess}</div>
                     </div>
-                  </>
+                    <div className="social__info">
+                      <h5>{e.title}</h5>
+                      <p className="eth_count">{e.coin}</p>
+                    </div>
+                  </div>
                 ))}
 
                 <Link to="#">

@@ -778,6 +778,108 @@
 
 /* Ty le man hinh nho hon 320px*/
 @media screen and (max-width: 320px) {
+  #creator__network{
+    min-height: 210rem;
+  }
+  #creator__network .container {
+    max-width: 250px;
+  }
+  #creator__network .content__network .left__img {
+    width: 230px;
+    height: 316px;
+  }
+  #creator__network .top__network h6 {
+    font-size: 10px;
+  }
+
+  #creator__network .top__network h2 {
+    font-size: 25px;
+  }
+  #creator__network .top__network a {
+    font-size: 10px;
+  }
+
+  #creator__network .content__network {
+    top: 13rem;
+  }
+
+  #creator__network .right__card h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  #creator__network .card__current {
+    width: 236px;
+    height: 202px;
+    top: 55px;
+    left: -29px;
+  }
+  #creator__network .btn__place__view a {
+    font-size: 11px;
+  }
+
+  #creator__network .btn__place__view a.view {
+    top: 80px;
+  }
+  #creator__network .previout__next {
+    top: 13rem;
+    left: 22%;
+  }
+
+  #creator__network .account__info {
+    display: inherit;
+    top: 0;
+  }
+
+  #creator__network .account__info .price {
+    left: 0;
+    top: 15px;
+  }
+
+  #creator__network .btn__place__view {
+    top: 75px;
+    left: -17px;
+  }
+
+  #creator__network .bottom__network .left__network .the__img__lg {
+    width: 226px;
+    height: 220px;
+  }
+
+  #creator__network .bottom__network .left__network .the__img__lg{
+    position: relative;
+    left: 0px;
+  }
+
+  #creator__network .bottom__network .the__info {
+    position: relative;
+    top: 20px;
+  }
+
+  #creator__network .bottom__network .the__info h3 {
+    font-size: 18px;
+  }
+
+  #creator__network .bottom__network .info__eth p {
+    font-size: 11px;
+  }
+  #creator__network .bottom__network .group__img {
+    display: block;
+  }
+
+  #creator__network .bottom__network .eth_never_die {
+    top: 80px;
+  }
+
+  #creator__network .bottom__network .group__img .info__eth__never {
+    left: 3px;
+    margin-top: 43px;
+    margin-bottom: 55px;
+  }
+
+  #creator__network .right__btn__network{
+    top: 6rem;
+  }
 }
 
 /* Ty le man hinh nho hon 240px*/

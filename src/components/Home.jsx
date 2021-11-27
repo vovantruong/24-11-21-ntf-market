@@ -10,7 +10,7 @@ function Home() {
   return (
     <div id="home">
       <Header />
-      {/* <CreatorNetwork /> */}
+      <CreatorNetwork />
       <Seller/>
       <Footer />
     </div>
