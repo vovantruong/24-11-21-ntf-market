@@ -4,12 +4,14 @@ import Header from "./Header_Footer/Header";
 import CreatorNetwork from "./Home/CreatorNetwork";
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../assets/css/Home.css'
+import Seller from "./Home/Seller";
 
 function Home() {
   return (
     <div id="home">
       <Header />
-      <CreatorNetwork />
+      {/* <CreatorNetwork /> */}
+      <Seller/>
       <Footer />
     </div>
   );
