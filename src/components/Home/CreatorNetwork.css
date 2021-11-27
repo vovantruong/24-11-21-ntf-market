@@ -510,7 +510,7 @@
 #creator__network .right__btn__network .group__social {
   position: relative;
   left: 32px;
-
+  width: 82%;
   padding-bottom: 23px;
   border-bottom: 1.5px solid #c4c4c4;
 }
