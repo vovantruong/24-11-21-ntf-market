@@ -97,9 +97,7 @@
     color: white;
 }
 #activity .content{
-    position: relative;
     width: 702px;
-    height: 121;
 }
 #activity .content .row{
     padding: 20px 0;
