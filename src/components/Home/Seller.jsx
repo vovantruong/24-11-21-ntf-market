@@ -77,7 +77,7 @@ function Seller() {
       {
         breakpoint: 300,
         settings: {
-          slidesToShow: 1.1,
+          slidesToShow: 1,
           slidesToScroll: 1,
           rows: 1,
         },
