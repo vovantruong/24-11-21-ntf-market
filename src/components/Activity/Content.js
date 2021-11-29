@@ -27,7 +27,7 @@ function Content() {
         </div>
         <hr width="100%" align="center" />
         <div class="main">
-          <div class="title">
+          <div>
             <h1 class="title">Activity</h1>
           </div>
           <div class="read">

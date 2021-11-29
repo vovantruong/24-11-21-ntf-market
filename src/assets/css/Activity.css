@@ -9,7 +9,6 @@
     padding-top: 10px;
     color: black;
     margin: -4px -20px;
-    border-radius: 90px;
 }
 #activity .fa-arrow-left{
     font-size: 1rem;
@@ -22,7 +21,7 @@
 }
 #activity .btn-activity h5{
     position: relative;
-    right: 284px;
+    right: 400px;
     float: right;
     top: 73.5px;
     bottom: 38.5px;
@@ -34,8 +33,9 @@
 }
 #activity .back-home{  
     position: absolute;
-    left: 280px;
+    left: 400px;
     top: 156px;
+    bottom: 38px;
     width: 239px;
     height: 48px;
     font-family: SVN-Poppins;
@@ -51,17 +51,16 @@
 
 
 #activity .title{
-    /* height: 60px; */
     position: relative;
-    top: 30px;
-    left: 145px;
+    top: 35px;
+    left: 400px;
     width: 179px;
     height: 50px;
 }
 #activity .read span{
     position: relative;
-    top: 30px;
-    left: 870px;
+    top: -3px;
+    left: 974px;
     width: 114px;
     height: 22px;
     border:1px solid gray;
@@ -72,8 +71,6 @@
 }
 #activity .selection-activity{
     position: relative;
-    top: 80px;
-    left: 300px;
     width: 350px;
     height: 25px;
 }
@@ -85,6 +82,9 @@
     line-height: 15px;
     color: #606060;
     padding: 10px 1px;
+    position: relative;
+    left: 400px;
+    top: 30px;
     text-align: center;
 }
 #activity .selection-activity .col-md-4:hover{
@@ -98,8 +98,6 @@
 }
 #activity .content{
     position: relative;
-    top: 120px;
-    left: 320px;
     width: 702px;
     height: 121;
 }
@@ -107,6 +105,8 @@
     padding: 20px 0;
     position: relative;
     cursor: default;
+    left: 420px;
+    top: 40px;
 }
 
 #activity .content .col-md-8 .article-title{
@@ -139,8 +139,8 @@
 
 #activity .content .col-md-1 .status-content{
     position: absolute;
-    top: 37%;
-    right: 13%;
+    top: 55px;
+    left: 661px;
     width: 10px;
     height: 10px;
     background: gray;
@@ -153,8 +153,8 @@
 }
 #activity .check-filters{
     position: absolute;
-    right: 281px;
-    top: 72px;
+    right: 400px;
+    top: 43px;
     width: 345px;
     height: 610px;
     border: 1px solid gray;
@@ -257,5 +257,5 @@
 }
 #activity .main{
     position: relative;
-    height: 867px;
+    height: 871px;
 }
