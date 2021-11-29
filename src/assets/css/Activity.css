@@ -42,11 +42,12 @@
     border: 1px solid gray;
     border-radius: 90px;
     text-align: center;
-    padding: 3px 20px;    
+    padding: 1px 20px;    
 }
 #activity .back-home:hover , #activity .nav-link:hover , activity .read span:hover{
     background: #a92e71;
     color: white;
+    border-radius: 90px;
 }
 
 
@@ -88,6 +89,7 @@
     text-align: center;
 }
 #activity .selection-activity .col-md-4:hover{
+    /* border: 1px solid #a92e71; */
     cursor: pointer;
     color: #a92e71;
 }
@@ -105,6 +107,7 @@
     cursor: default;
     left: 420px;
     top: 40px;
+    
 }
 
 #activity .content .col-md-8 .article-title{
@@ -114,6 +117,7 @@
     font-weight: bold;
     font-size: 24px;
     line-height: 25px;
+    color: black !important;
 }
 
 #activity .content .col-md-8{
@@ -138,16 +142,14 @@
 #activity .content .col-md-1 .status-content{
     position: absolute;
     top: 55px;
-    left: 661px;
-    width: 10px;
-    height: 10px;
-    background: gray;
-    border-radius: 90%;
+    font-size: 0.7rem;
 }
-#activity .content .row:hover , .status-content{
+
+#activity .content .col-md-1 .status-content .fa-circle:hover, #activity .content .row:hover {
     background: rgb(241, 240, 240);
     border-radius: 10px;
-    background-size: cover;
+    color: #a92e71 !important;
+    
 }
 #activity .check-filters{
     position: absolute;
@@ -205,7 +207,6 @@
 #activity .check-filters .item-check span{
     position: absolute;
     margin: auto 12px;
-    font-family: SVN-Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -215,7 +216,6 @@
 #activity .check-filters .hr-item-check{
     position: relative;
     width: 242px; 
-    /* width: 225px; */
     top: 31px;
     left: 45px;
 }
@@ -244,11 +244,13 @@
     padding: 2px;
 }
 #activity .check-filters .btn-select-item .btn-select-all:hover{
+    border: 1px solid #a92e71;
     background: #a92e71;
     color: white;
     cursor: default;
 }
 #activity .check-filters .btn-select-item .btn-unselect-all:hover{
+    border: 1px solid #a92e71;
     background: #a92e71;
     color: white;
     cursor: default;

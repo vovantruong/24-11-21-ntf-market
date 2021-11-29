@@ -8,7 +8,7 @@ import {
   Nav,
   Image,
 } from "react-bootstrap";
-// import back from "../../assets/images/Activity/Vector.png";
+
 function Content() {
   return (
     <div>
@@ -51,7 +51,7 @@ function Content() {
                 />
               </div>
               <div class="col-md-8">
-                <span class="article-title">Something went wrong</span> <br />
+                <div class="article-title">Something went wrong</div> <br />
                 <span class="content-of-the-article">
                   {" "}
                   cant's display activity card. Try again later
@@ -60,7 +60,7 @@ function Content() {
                 <span class="post-time">2 day ago </span>
               </div>
               <div class="col-md-1">
-                <div class="status-content"></div>
+                <div class="status-content"><i class="fas fa-circle"></i></div>
               </div>
             </div>
             <div class="row">
@@ -82,7 +82,7 @@ function Content() {
                 <span class="post-time">2 day ago </span>
               </div>
               <div class="col-md-1">
-                <div class="status-content"></div>
+                <div class="status-content"><i class="fas fa-circle"></i></div>
               </div>
             </div>
             <div class="row">
@@ -104,7 +104,7 @@ function Content() {
                 <span class="post-time">2 day ago </span>
               </div>
               <div class="col-md-1">
-                <div class="status-content"></div>
+                <div class="status-content"><i class="fas fa-circle"></i></div>
               </div>
             </div>
             <div class="row">
@@ -126,7 +126,7 @@ function Content() {
                 <span class="post-time">2 day ago </span>
               </div>
               <div class="col-md-1">
-                <div class="status-content"></div>
+                <div class="status-content"><i class="fas fa-circle"></i></div>
               </div>
             </div>
           </div>
