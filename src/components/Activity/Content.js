@@ -1,17 +1,14 @@
 import React from "react";
 import "../../assets/css/Activity.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import mypicture from "../../assets/images/Activity/unsplash_mEZ3PoFGs_k .png";
+import mypicture from "../../assets/images/Activity/unsplash_mEZ3PoFGs_k.png";
 import {
   Navbar,
   Container,
   Nav,
   Image,
-  Form,
-  Button,
-  FormControl,
 } from "react-bootstrap";
-import back from "../../assets/images/Activity/Vector.png";
+// import back from "../../assets/images/Activity/Vector.png";
 function Content() {
   return (
     <div>
