@@ -10,13 +10,13 @@ function Footer() {
         <Container>
           <Row>
             <Col className="footer__logo" lg={3} md={6}>
-              <div className="logo">
+              <Col className="logo">
                 <Image className="logo__img" src={Logo} />
                 <p className="logo__text">Womentech</p>
-              </div>
-              <div className="title">
+              </Col>
+              <Col className="title">
                 <h3>The New Creative Economy.</h3>
-              </div>
+              </Col>
             </Col>
             <Col className="footer__crypter" lg={3} md={6}>
               <div className="crypter">
