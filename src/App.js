@@ -1,8 +1,8 @@
-
+import ConnectWallect from "./components/ConnectWallet";
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <ConnectWallect/>
     </div>
   );
 }
