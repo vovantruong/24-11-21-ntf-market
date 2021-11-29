@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-// import "./CreatorNetwork.css";
+import "../../assets/css/CreateItem.css";
 
 /* ================================================================= */
 
@@ -68,31 +68,77 @@ const CreateItem = () => {
               </div>
             </Col>
             <Col lg={5}>
-              <div className="right__card">
+
+              <div className="right__Preview">
                 <h1>Preview</h1>
-                <div className="Preview_account">
-                  <div className="creator">
-                    <div className="img">
-                      <Image src={Preview} />
-                    </div>
-                    <div className="descriptions">
-                      <b>Amazing digital art</b>
-                    </div>
-                  </div>
-                  <div className="price">
-                    <div className="img">
+                <div className="img_preview">
+                  <Image src={Preview} />
+                </div>
+                <div className="digital">
+                  <div className="digital_art">
+                    <b>Amazing digital art</b>
+                    <div className="img_avatar">
                       <Image src={Avatar} />
                     </div>
-                    <div className="descriptions">
-                      <p>____________________________________</p>
-                      <p>Highest bid <b>0.001 ETH</b></p>
-                    </div>
+                    <hr></hr>
+                    <p>Highest bid <b>0.001 ETH</b></p>
                   </div>
                 </div>
-                <div className="card__current">
+
+                <div className="price_ETH">
                   <p>Clear All</p>
                 </div>
               </div>
+            </Col>
+          </Row>
+        </div>
+
+        <div className="content__Bottom">
+          <Row>
+            <Col lg={7}>
+              <div className="Menu">
+                <div className="Menu_left">
+                  <div className="put">
+                    <h5>Put on sale</h5>
+                    <p>You’ll receive bids on this item</p>
+                  </div>
+                  <div className="instant">
+                    <h5>Instant sale price</h5>
+                    <p>Enter the price for which the item will be instantly sold</p>
+                  </div>
+                  <div className="unlock">
+                    <h5>Unlock once purchased</h5>
+                    <p>Content will be unlocked after successful transaction</p>
+                  </div>
+                  <div className="choose">
+                    <h5>Choose collection</h5>
+                    <p>Choose an exiting collection or create a new one</p>
+                  </div>
+                </div>
+                <div className="Menu_right">
+                  ahsdjhasdjh
+                </div>
+                <div className="bottom_menu">
+                  <div className="bottom_create">
+                    <div className="circle_xanhbien"></div>
+                    <b>Create collection</b>
+                  </div>
+                  <div className="bottom_create">
+                    <div className="circle_xanhla"></div>
+                    <b>Crypto Legend - Professorion</b>
+                  </div>
+                  <div className="bottom_create">
+                    <div className="circle_hong"></div>
+                    <b>Crypto Legend - Professor</b>
+                  </div>
+                  <div className="bottom_create">
+                    <div className="circle_tim"></div>
+                    <b>Legend Photography</b>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col lg={5}>
             </Col>
           </Row>
         </div>
