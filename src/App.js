@@ -1,25 +1,14 @@
-import Home from "./components/HomeItem";
-// import HomeItem from "./components/HomeItem";
+import HomeItem from "./components/HomeItem";
 
 function App() {
   return (
     <>
-       <Home/>
+       <HomeItem/>
     </>
   );
 }
 
 export default App;
-
-// function AppHeaderItem() {
-//   return (
-//     <>
-//        <HomeItem/>
-//     </>
-//   );
-// }
-
-// export default AppHeaderItem();
 
 
 
