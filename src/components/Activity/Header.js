@@ -42,7 +42,7 @@ function Header() {
               </Button>
             </Form>
             <Nav className="right">
-              <Nav.Link href="#">Uploadf</Nav.Link>
+              <Nav.Link href="#">Upload</Nav.Link>
               <Nav.Link href="#">Connect Wallet</Nav.Link>
             </Nav>
           </Navbar.Collapse>
