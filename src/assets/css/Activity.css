@@ -1,0 +1,212 @@
+#activity .nav-link{
+    padding: 0.2rem 1rem;
+    padding-top: 6px;
+    color: black;
+}
+#activity .fa-arrow-left{
+    font-size: 1rem;
+}
+#activity .btn-activity h5{
+    padding-top: 10px;
+}
+#activity h5{
+    font-weight: bold;
+}
+#activity .btn-activity h5{
+    position: absolute;
+    right: 17%;
+}
+#activity .btn-title{
+    width: 100%px;
+    height: 130px;
+}
+#activity .back-home{  
+    position: absolute;
+    left: 280px;
+    top: 156px;
+    width: 239px;
+    height: 48px;
+    font-family: SVN-Poppins;
+    border: 1px solid gray;
+    border-radius: 90px;
+    text-align: center;
+    padding: 3px 20px;    
+}
+#activity .back-home:hover , #activity .nav-link:hover , activity .read span:hover{
+    background: #a92e71;
+    color: white;
+}
+
+#activity .btn-activity{
+    position: absolute;
+    right: 0;
+    top: 156px;
+    font-family: SVN-Poppins;
+}
+#activity .title{
+    /* height: 60px; */
+    position: relative;
+    top: 30px;
+    left: 145px;
+    width: 179px;
+    height: 50px;
+}
+#activity .read span{
+    position: relative;
+    top: 30px;
+    left: 870px;
+    width: 114px;
+    height: 22px;
+    border:1px solid gray;
+    border-radius: 90px;
+    padding: 8px 10px;
+    font-weight: bold;
+}
+#activity .selection-activity{
+    position: relative;
+    top: 80px;
+    left: 300px;
+    width: 350px;
+    height: 25px;
+}
+#activity .selection-activity .col-md-4{
+    font-family: SVN-Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    color: #606060;
+    padding: 10px 1px;
+    text-align: center;
+}
+#activity .selection-activity .col-md-4:hover{
+    cursor: pointer;
+    color: #a92e71;
+}
+#activity .selection-activity .col-md-4:active{
+    background: #a92e71;
+    border-radius: 90px;
+    color: white;
+}
+#activity .content{
+    position: relative;
+    top: 120px;
+    left: 320px;
+    width: 702px;
+    height: 121;
+}
+#activity .content .row{
+    padding: 20px 0;
+    position: relative;
+}
+
+#activity .content .col-md-8 .article-title{
+    position: static;
+    font-family: SVN-Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+}
+
+#activity .content .col-md-8{
+    position: relative;
+    right: 8%;
+}
+
+#activity .content .col-md-8 .post-time{
+    font-family: SVN-Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 17px;
+    color: #606060;
+}
+
+#activity .content .col-md-8 .content-of-the-article{
+    color: #606060;
+}
+
+#activity .content .col-md-1 .status-content{
+    position: absolute;
+    top: 37%;
+    right: 13%;
+    width: 10px;
+    height: 10px;
+    background: gray;
+    border-radius: 90%;
+}
+div#activity .content .row:hover + div#activity .content .col-md-1 .status-content{
+    background: red;
+}
+#activity .check-filters{
+    position: absolute;
+    right: 281px;
+    top: 72px;
+    width: 345px;
+    height: 610px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    
+}
+#activity .check-filters h1{
+    position: relative;
+    top: 45px;
+    left: 45px;
+}
+#activity .check-filters .item-check .check-box{
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+#activity .check-filters .item-check{
+    position: relative;
+    top: 38px;
+    left: 45px;
+    padding-top: 24px;
+}
+#activity .check-filters .item-check span{
+    position: absolute;
+    margin: auto 12px;
+    font-family: SVN-Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #000000;
+}
+#activity .check-filters .hr-item-check{
+    position: relative;
+    width: 242px; 
+    /* width: 225px; */
+    top: 31px;
+    left: 45px;
+}
+#activity .check-filters .btn-select-item .btn-select-all{
+    position: relative;
+    width: 115px;
+    height: 32px;
+    border: 1px solid gray;
+    border-radius: 90px;
+    text-align: center;
+    top: 33px;
+    left: 44px;
+    font-weight: bold;
+}
+#activity .check-filters .btn-select-item .btn-unselect-all{
+    position: relative;
+    width: 115px;
+    height: 32px;
+    border: 1px solid gray;
+    border-radius: 90px;
+    text-align: center;
+    top: 0px;
+    left: 173px;
+    font-weight: bold;
+}
+#activity .main{
+    position: relative;
+    padding-bottom: 180px;
+}
