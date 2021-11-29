@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "./Activity/Header";
+import HeaderItem from './Header_Footer/HeaderItem';
 import Content from "./Activity/Content";
 import Footer from './Header_Footer/Footer'
 function Activity() {
   return (
     <div>
-     <Header/>
+     <HeaderItem/>
      <Content/>
      <Footer/>
     </div>
