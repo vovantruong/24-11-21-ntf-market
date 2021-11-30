@@ -10,12 +10,21 @@
   --dark-pink: #a92e71;
   
 }
-#header {
+
+.navbar_item .container {
+  position: relative;
+  top: 125px;
+  width: 1144px;
+}
+
+.navbar_item{
   font-family: "Poppins", sans-serif;
-}
-#header nav .container {
+  margin-bottom: 134px;
   max-width: 1920px;
+  margin-bottom: 20%;
+ 
 }
+.navbar_item
 .left span {
   border: 1px solid #dadada;
   border-radius: var(--boder-radius);
@@ -26,6 +35,12 @@
 .left:hover span {
   background: var(--dark-pink);
   color: var(--txt-light);
+}
+.navbar_item .ruler {
+  border: 1px solid #C4C4C4;
+  margin-left: -40%;
+  margin-right: -40%;
+
 }
 .right {
   text-align: right;
@@ -63,6 +78,29 @@
 .form-control {
   border-radius: 10px;
 }
+.navbar_item .form-twitter {
+  position: relative;
+}
+
+.navbar_item .form-twitter button {
+  position: absolute;
+  top: 36px;
+  right: 16px;
+  width: 88px;
+  height: 22px;
+  size: 12px;
+  color: var(--txt-gray);
+  font-size: 8px;
+  background: var(--txt-light);
+  border: 1px solid #dadada;
+  border-radius: var(--boder-radius);
+  text-align: center;
+}
+.navbar_item .form-twitter :hover.vertical{
+  background: var(--dark-pink);
+  color: var(--txt-light);
+}
+
 Label {
   font-style: normal;
   font-weight: bold;
@@ -91,4 +129,32 @@ Label {
 }
 .clearn_all {
   margin-left: 5%;
+}
+/* chia ti le man hinh nho 576px */
+@media screen and (max-width: 576px) {
+  .navbar_item .container {
+    width: 410px;
+  }
+  .navbar_item{
+    margin-bottom: 40%;
+   
+  }
+.acount_info_tittle{
+  margin-top: 30px;
+}
+.link-address{
+  visibility: hidden;
+}
+}
+/* chia ti le man hinh nho hon 450px */
+@media screen and (max-width: 450px) {
+  
+  .navbar_item .container {
+    width: 320px;
+  }
+  .navbar_item{
+    margin-bottom: 60%;
+   
+  }
+ 
 }

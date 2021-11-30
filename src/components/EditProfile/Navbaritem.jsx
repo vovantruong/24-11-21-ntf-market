@@ -2,7 +2,7 @@ import React from "react";
 import {
   Container,
   Row,
-  Col, Image, Form
+  Col, Image, Form,Button
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import avatar from "../../assets/images/Editprofile/unsplash_mEZ3PoFGs_k.png";
@@ -11,26 +11,28 @@ import "../../assets/css/navbaritem.css";
 
 export default function Navbaritem() {
   return (
-    <header className="navbar_item mt-5">
-
+    <header className="navbar_item">
+  
       <Container>
         <Row >
-          <Col md="6" sm="12">
-            <div className="left">
+          <Col md="6" sm="6" lg="6" xs="12">
+            <div className="left link-address">
               <span> <i className="fas fa-arrow-left"></i>&nbsp;Back to home</span>
             </div>
           </Col>
-          <Col md="6" sm="12">
-            <div className="right">
-              <p>Connect Wallet</p>
+          <Col md="6" sm="6" lg="6" xs="12">
+            <div className="right link-address">
+              <span>Connect Wallet</span>
             </div>
           </Col>
         </Row>
       </Container>
-      <hr />
+   
       <Container>
-
+      <div className="ruler mt-4">
+      </div>
         <div className="Edit_tittle mt-5">
+        
           <h2 className="tittle">
             Edit profile
           </h2>
@@ -43,13 +45,13 @@ export default function Navbaritem() {
 
             </div>
           </Col>
-          <Col md="2" sm="12">
+          <Col md="3" sm="12">
             <div className="profile_photo">
               <b className="tittle_photo content_tittle ">Profile photo</b>
               <p className="content_profile">We recommend an image of at
                 least 400x400. Gifs work too</p>
               <div className="upload_profile mt-5">
-                <b className="btn_upload">Upload</b>
+                <b className="btn_upload mt-4">Upload</b>
               </div>
 
             </div>
@@ -82,9 +84,11 @@ export default function Navbaritem() {
                 <Form.Text className="text-muted">
                 </Form.Text>
               </Form.Group>
-              <Form.Group className="mb-3" controlId="formBasicTwitter">
+
+              <Form.Group className="mb-3 form-twitter" controlId="formBasicTwitter">
                 <Form.Label>TWITTER</Form.Label>
                 <Form.Control type="text" placeholder="@ twitter username"/>
+                     <Button className="vertical"> Verify account</Button>
               </Form.Group>
             </Form>
            <div className="more_acount mt-5">
@@ -99,10 +103,11 @@ export default function Navbaritem() {
             <span className="update_profile">Update Profile</span>
             <span className="clearn_all mu-4"><i class="fas fa-times-circle"></i>Clear all</span>
             </div>
-
           </Col>
         </Row>
       </Container>
+    
+      
     </header>
   );
 }

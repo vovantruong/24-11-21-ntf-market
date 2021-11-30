@@ -1,9 +1,9 @@
-import Home from "./components/Home";
+import EditProfile from "./components/Editprofile";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <EditProfile />
     </div>
   );
 }
