@@ -167,9 +167,17 @@
 }
 
 #creator__network .btn__place__view a.place {
+  background: #ffffff;
+  border: 1.5px solid #c4c4c4;
+  color: #000000;
+  top: 21px;
+  transition: 0.2s all;
+}
+
+#creator__network .btn__place__view a.place:hover {
   background: #a92e71;
   color: #ffffff;
-  top: 21px;
+  border: 1.5px solid #a92e71;
 }
 
 #creator__network .btn__place__view a.view {
@@ -532,6 +540,149 @@
   border-bottom: none;
 }
 
+/* =============================== CSS model =============================== */
+.modal-content {
+  width: 433px;
+  height: 518px;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.modal-content p {
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content .modal-header {
+  border: none;
+  position: relative;
+  top: -7px;
+  padding: 0;
+}
+
+.modal-content .modal-header .h4 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.modal-content .modal-header button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1.5px solid #c4c4c4;
+  position: relative;
+  right: 10px;
+  padding: 3px;
+}
+
+.modal-content .modal-header button:focus {
+  box-shadow: none;
+}
+
+.modal-content .modal-body {
+  padding: 0;
+}
+
+.modal-content .modal-footer {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.modal-content .modal-footer button {
+  width: 388px;
+  height: 48px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+}
+
+.modal-content .modal-footer button:focus {
+  box-shadow: none;
+}
+
+.modal-content .modal-footer button.place,
+.modal-content .modal-footer button.cancel {
+  background-color: #fff;
+  color: #000000;
+  border: 1.5px solid #c4c4c4;
+}
+
+.modal-content .modal-footer button.place:hover,
+.modal-content .modal-footer button.cancel:hover {
+  background-color: #a92e71;
+  color: #fff;
+  border: 1.5px solid #a92e71;
+}
+
+.modal-content form {
+  width: 100%;
+  position: relative;
+  top: 10px;
+}
+
+.modal-content form input {
+  width: 100%;
+  border: none;
+  padding: 0;
+}
+
+.modal-content form input:focus {
+  box-shadow: none;
+}
+
+.modal-content hr {
+  margin: 10px 0;
+  position: relative;
+  top: 17px;
+}
+
+.modal-content .info__bid .amount {
+  position: relative;
+  top: 12px;
+  line-height: 37px;
+}
+
+.modal-content form input::placeholder {
+  color: #c4c4c4;
+}
+
+.modal-content .info__bid {
+  position: relative;
+  top: 57px;
+}
+
+.modal-content .info__bid h3{
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  top: 5px;
+}
+
+.modal-content p.top__text,
+.modal-content .balance p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.modal-content p.top__text {
+  position: relative;
+  top: 26px;
+}
+
+.modal-content .balance p:first-child {
+  color: #c4c4c4;
+}
+
+.modal-content .balance {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* =============================== Responsive ================================== */
 /* Ty le man hinh nho hon 1280*/
 @media screen and (max-width: 1280px) {
@@ -552,11 +703,11 @@
     border-left: none;
   }
 
-  #creator__network .right__btn__network .group__social{
+  #creator__network .right__btn__network .group__social {
     width: 100%;
   }
 
-  #creator__network .bottom__network .info__right{
+  #creator__network .bottom__network .info__right {
     right: 111px;
   }
 }
@@ -835,6 +986,10 @@
 
   #creator__network .content__network .left__img {
     left: 0;
+  }
+
+  .modal-content {
+    width: 340px;
   }
 }
 

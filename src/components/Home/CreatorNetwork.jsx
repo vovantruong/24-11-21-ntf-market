@@ -1,7 +1,16 @@
 /* ========================= Import Library React ======================== */
 
-import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import React, { useState } from "react";
+import {
+  Container,
+  Row,
+  Col,
+  Image,
+  Modal,
+  Button,
+  Form,
+  FormControl,
+} from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./CreatorNetwork.css";
 
@@ -24,6 +33,7 @@ import Avata05 from "../../assets/images/Home/avata05.png";
 
 /* ================================================================= */
 
+/* Du lieu mau */
 const Eth__never__die = [
   {
     className: "first",
@@ -86,10 +96,15 @@ const group__social = [
 ];
 
 const CreatorNetwork = () => {
+  /* ===================  */
+  const [modalShow, setModalShow] = useState(false);
+  /* ===================  */
+
   return (
     <section id="creator__network">
       <Container>
-        <div className="top__network">
+        <ShowModel show={modalShow} onHide={() => setModalShow(false)} />
+        <div className="top__network" >
           <h6>create, explore, & collect digital art nfts.</h6>
           <h2>The new creative economy.</h2>
           <Link to="/discover">Start your search</Link>
@@ -128,7 +143,11 @@ const CreatorNetwork = () => {
                   <Image src={CardCurrent} />
                 </div>
                 <div className="btn__place__view">
-                  <Link className="place" to="">
+                  <Link
+                    onClick={() => setModalShow(true)}
+                    className="place"
+                    to=""
+                  >
                     Place a bid
                   </Link>
                   <br />
@@ -237,5 +256,54 @@ const CreatorNetwork = () => {
     </section>
   );
 };
+
+/* ================================ Model ================================== */
+function ShowModel(props) {
+  const banlance = [
+    { left: "Your balance", right: "8.498 ETH" },
+    { left: "Service fee", right: "0 ETH" },
+    { left: "Total bid amount", right: "0 ETH" },
+  ];
+
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Place a bid
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <p className="top__text">You are about to purchase COINZ from UI8</p>
+        <div className="info__bid">
+          <h3>Your bid</h3>
+          <Form>
+            <FormControl type="text" placeholder="Enter bid" />
+          </Form>
+          <hr/>
+          <div className="amount">
+            {banlance.map((e, index) => (
+              <div key={index} className="balance">
+                <p>{e.left}</p>
+                <p>{e.right}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button className="place">Place a bid</Button>
+        <Button className="cancel" onClick={props.onHide}>
+          Cancel
+        </Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+/* ======================================================================== */
 
 export default CreatorNetwork;
