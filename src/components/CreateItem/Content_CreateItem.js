@@ -77,7 +77,6 @@ const CreateItem = () => {
                     </Col>
                   </Row>
                 </div>
-
               </div>
             </Col>
             <Col lg={5}>
@@ -123,13 +122,12 @@ const CreateItem = () => {
             </Col>
           </Row>
         </div>
-
         <div className="content__Bottom">
           <Row>
             <Col lg={7}>
               <div className="Menu">
                 <Row>
-                  <Col className="Menu_left"  lg={8} md={6}>
+                  <Col className="Menu_left" lg={8} md={6}>
                     <div className="put">
                       <h5>Put on sale</h5>
                       <p>You’ll receive bids on this item</p>
@@ -147,7 +145,7 @@ const CreateItem = () => {
                       <p>Choose an exiting collection or create a new one</p>
                     </div>
                   </Col>
-                  <Col className="Menu_right"  lg={2} md={6}>
+                  <Col className="Menu_right" lg={2} md={6}>
                     <div class="button_a">a</div>
                     <div class="button_a">a</div>
                     <div class="button_a">a</div>
@@ -178,6 +176,9 @@ const CreateItem = () => {
             <Col lg={5}>
             </Col>
           </Row>
+        </div>
+        <div className="button_view">
+          <a name="" id="" class="btn btn-primary" href="#" role="button">Create item</a>
         </div>
       </Container>
     </createitem>
