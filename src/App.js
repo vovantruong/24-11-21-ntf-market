@@ -1,10 +1,10 @@
-import Home from "./components/Home";
+import ScanWallet01 from "./components/ScanWallet01";
 
 function App() {
   return (
-    <>
-       <Home/>
-    </>
+    <div className="App">
+       <ScanWallet01/>
+    </div>
   );
 }
 
