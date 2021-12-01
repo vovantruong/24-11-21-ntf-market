@@ -104,7 +104,7 @@ const CreatorNetwork = () => {
     <section id="creator__network">
       <Container>
         <ShowModel show={modalShow} onHide={() => setModalShow(false)} />
-        <div className="top__network" >
+        <div className="top__network animate__animated animate__fadeInDown" >
           <h6>create, explore, & collect digital art nfts.</h6>
           <h2>The new creative economy.</h2>
           <Link to="/discover">Start your search</Link>
@@ -112,12 +112,12 @@ const CreatorNetwork = () => {
         <div className="content__network">
           <Row>
             <Col lg={7}>
-              <div className="left__img">
+              <div className="left__img animate__animated animate__fadeInLeft" >
                 <Image src={ImageCreatorLg} />
               </div>
             </Col>
             <Col lg={5}>
-              <div className="right__card">
+              <div className="right__card animate__animated animate__fadeInRight">
                 <h1>the creator network®</h1>
                 <div className="account__info">
                   <div className="creator">
@@ -171,7 +171,7 @@ const CreatorNetwork = () => {
             </Col>
           </Row>
         </div>
-        <div className="bottom__network">
+        <div className="bottom__network" data-aos="fade-up" data-aos-duration="1200">
           <Row>
             <Col xl={9} lg={12}>
               <div className="left__network">
@@ -283,6 +283,7 @@ function ShowModel(props) {
           <h3>Your bid</h3>
           <Form>
             <FormControl type="text" placeholder="Enter bid" />
+            <p>ETH</p>
           </Form>
           <hr/>
           <div className="amount">

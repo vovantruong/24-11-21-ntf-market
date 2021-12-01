@@ -1,0 +1,487 @@
+#discover {
+  max-width: 1920px;
+  min-height: 1445px;
+  background: #ffffff;
+  color: #000000;
+  padding: 125px 0;
+}
+
+#discover .container {
+  width: 1144px;
+}
+
+#discover h1,
+#discover h5,
+#discover p {
+  margin: 0;
+}
+
+#discover .category__img .top__card {
+  width: 258px;
+  height: 299px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+#discover .category__img .top__card img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all ease;
+}
+
+#discover .category__img .top__card:hover > img {
+  transform: scale(1.2);
+}
+
+#discover .category__img .top__card:hover > .just__like {
+  opacity: 1;
+}
+
+#discover .top__card .just__like {
+  opacity: 0;
+  transition: 0.6s all ease;
+}
+
+#discover .top__card .just__like .icon__img {
+  position: absolute;
+  top: 16px;
+  border: none;
+  right: 16px;
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+#discover .top__card .just__like .icon__img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 55%;
+}
+
+#discover .title__bid h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+#discover .category__img {
+  position: relative;
+  top: 6.2rem;
+}
+
+#discover .category__img .slick-list {
+  height: 428px;
+  padding-left: 12px;
+}
+
+#discover .card__discover .card__title,
+#discover .card__discover .card__icon,
+#discover .card__discover .bottom__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#discover .card__discover .body__card {
+  position: relative;
+  top: 23px;
+}
+
+#discover .card__discover hr {
+  position: relative;
+  top: 26px;
+}
+
+#discover .card__discover .card__title h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+
+#discover .card__discover .card__icon {
+  position: relative;
+  top: 15px;
+  align-items: inherit;
+}
+
+#discover .card__discover {
+  width: 260px !important;
+}
+
+#discover .card__discover .card__icon img {
+  width: 29px;
+  height: 29px;
+}
+
+#discover .card__discover .card__icon p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#discover .card__icon p,
+#discover .bottom__card p {
+  color: #606060;
+}
+
+#discover .card__discover .bottom__card p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+#discover .card__discover .bottom__card p.bt_left span {
+  font-weight: 600;
+  color: #000000;
+}
+
+#discover .body__card .card__title p {
+  display: flex;
+  align-items: center;
+  width: 66px;
+  height: 26px;
+  justify-content: center;
+  border: 1.5px solid #a92e71;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #a92e71;
+}
+
+#discover .card__discover .bottom__card {
+  position: relative;
+  top: 20px;
+}
+
+#discover .category__img .just__like p.place {
+  position: absolute;
+  background: #a92e71;
+  bottom: 16px;
+  left: 72px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 16px;
+  width: 115px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#discover .category__img .just__like p.purchas {
+  position: absolute;
+  left: 16px;
+  top: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ec4c93;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 87px;
+  height: 24px;
+  color: #fff;
+}
+
+#discover .category__img .just__like button:focus {
+  box-shadow: none;
+}
+
+#discover .nav__menu .recently__menu {
+  width: 188px;
+  height: 48px;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1.5px solid #c4c4c4;
+  padding: 0 12px;
+  color: #000000;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#discover .nav__menu .recently__menu h5 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#discover .nav__menu .recently__menu .arrow__down {
+  width: 30px;
+  height: 30px;
+  border: 1.5px solid #c4c4c4;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+}
+
+#discover .recently__menu .arrow__down i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#discover .menu__item {
+  width: 568px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  left: 10px;
+}
+
+#discover .menu__item a {
+  color: #000000;
+  height: 31px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 10px;
+}
+
+#discover .menu__item a.active {
+  background: #a92e71;
+  color: #fff;
+}
+
+#discover .nav__menu .row {
+  align-items: center;
+}
+
+#discover .nav__menu .filter__menu {
+  margin-left: auto;
+  width: 117px;
+  height: 49px;
+  border-radius: 30px;
+  background: #ec4c93;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#discover .nav__menu .filter__menu:focus {
+  box-shadow: none;
+}
+
+#discover h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+#discover .load__more {
+  width: 97px;
+  height: 32px;
+}
+
+#discover .load__more {
+  width: 97px;
+  height: 32px;
+  border: 1.5px solid #c4c4c4;
+  border-radius: 16px;
+  color: #000000;
+  font-weight: 500;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  top: 98px;
+}
+
+#discover .nav__menu {
+  position: relative;
+  top: 65px;
+}
+
+#discover .top__category,
+#discover .bottom__category {
+  height: 424px;
+  margin-bottom: 60px;
+}
+
+/* =========================== Responsive ============================= */
+@media screen and (max-width: 1024px) {
+  #discover .container {
+    max-width: 960px;
+  }
+
+  #discover .menu__item {
+    left: -100px;
+  }
+
+  #discover .category__img .top__card {
+    width: 219px;
+    height: 254px;
+  }
+
+  #discover .category__img .just__like p.place {
+    left: 50px;
+  }
+  #discover .card__discover .bottom__card,
+  #discover .card__discover .body__card,
+  #discover .card__discover hr {
+    width: 219px;
+  }
+
+  #discover .card__discover .card__title h5 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #discover .category__img .just__like p.place {
+    left: 86px;
+  }
+
+  #discover {
+    min-height: 164rem;
+    position: relative;
+  }
+
+  #discover .category__img {
+    padding-left: 22px;
+  }
+
+  #discover .container {
+    max-width: 720px;
+  }
+
+  #discover .menu__item {
+    left: 0;
+  }
+
+  #discover .nav__menu .recently__menu {
+    margin-bottom: 20px;
+  }
+
+  #discover .category__img .top__card {
+    width: 297px;
+    height: 343px;
+  }
+  #discover .card__discover .bottom__card,
+  #discover .card__discover .body__card,
+  #discover .card__discover hr {
+    width: 297px;
+  }
+
+  #discover .bottom__category {
+    position: relative;
+    top: 34rem;
+  }
+
+  #discover .card__discover {
+    margin-bottom: 4rem;
+  }
+  #discover .load__more {
+    position: absolute;
+    bottom: 125px;
+    top: inherit;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #discover {
+    min-height: 310rem;
+  }
+
+  #discover .category__img .just__like p.place {
+    left: 90px;
+  }
+
+  #discover .nav__menu .filter__menu {
+    margin: 40px auto 27px;
+  }
+  #discover .container {
+    max-width: 480px;
+  }
+  #discover .menu__item {
+    display: contents;
+  }
+  #discover .category__img {
+    padding-left: 5rem;
+  }
+
+  #discover .bottom__category {
+    top: 100rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #discover .container {
+    max-width: 310px;
+  }
+  #discover .category__img {
+    padding-left: 0;
+    position: relative;
+    left: -5px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #discover .container {
+    max-width: 280px;
+  }
+
+  #discover {
+    min-height: 288rem;
+}
+
+  #discover .category__img {
+    padding-left: 0;
+    position: relative;
+    left: 20px;
+  }
+
+  #discover .category__img .just__like p.place {
+    left: 55px;
+  }
+
+  #discover .category__img .top__card {
+    width: 219px;
+    height: 254px;
+  }
+
+  #discover .card__discover .bottom__card,
+  #discover .card__discover .body__card,
+  #discover .card__discover hr {
+    width: 219px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  #discover {
+    min-height: 262rem;
+  }
+  #discover .container {
+    max-width: 210px;
+  }
+  #discover .category__img {
+    left: -14px;
+  }
+  #discover .category__img .just__like p.place {
+    left: 56px;
+  }
+  #discover .bottom__category {
+    top: 75rem;
+  }
+  #discover .card__discover {
+    width: inherit !important;
+  }
+}

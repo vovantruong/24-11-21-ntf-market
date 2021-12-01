@@ -1,6 +1,7 @@
 #creator__network {
   max-width: 1920px;
   min-height: 1955px;
+  overflow: hidden;
 }
 
 #creator__network .container {
@@ -623,6 +624,7 @@
   width: 100%;
   position: relative;
   top: 10px;
+  display: flex;
 }
 
 .modal-content form input {

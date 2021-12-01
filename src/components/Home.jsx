@@ -6,6 +6,7 @@ import Seller from "./Home/Seller";
 import Crypter from "./Home/Crypter";
 import HotCollections from './Home/HotCollections';
 import HotBid from "./Home/HotBid";
+import HomeDiscover from "./Home/HomeDiscover";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../assets/css/Home.css'
@@ -19,6 +20,7 @@ function Home() {
       <Seller/>
       <HotBid />
       <HotCollections />
+      <HomeDiscover />
       <Crypter />
       <Footer />
     </div>
