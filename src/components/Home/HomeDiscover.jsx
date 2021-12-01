@@ -10,7 +10,7 @@ import Image04 from "../../assets/images/Home/unsplat-13.png";
 import Avata from "../../assets/images/Home/avata-1.png";
 import IconNotBG from "../../assets/images/Home/icon/heart-no-bg.png";
 
-const discover = [
+const discover__home = [
   {
     img: Image01,
     txt: "Purchasing",
@@ -83,7 +83,7 @@ function HomeDiscover() {
   };
 
   return (
-    <section id="discover">
+    <section id="discover__home">
       <Container>
         <h1 data-aos="fade-up" data-aos-duration="1000">Dicover</h1>
         <div className="nav__menu"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="30">
@@ -125,7 +125,7 @@ function HomeDiscover() {
         <div className="category__img">
           <div className="top__category" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="30">
             <Row>
-              {discover.map((e, index) => (
+              {discover__home.map((e, index) => (
                 <Col key={index} lg={3} md={6} xs={12}>
                   <div className="card__discover">
                     <div className="top__card">
@@ -162,7 +162,7 @@ function HomeDiscover() {
           </div>
           <div className="bottom__category" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="40">
             <Row>
-              {discover.reverse().map((e, index) => (
+              {discover__home.reverse().map((e, index) => (
                 <Col key={index} lg={3} md={6}>
                   <div className="card__discover">
                     <div className="top__card">
