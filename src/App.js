@@ -1,9 +1,10 @@
-import EditProfile from "./components/Editprofile";
+// import EditProfile from "./components/Editprofile";
+import Profile from "./components/Profile";
 
 function App() {
   return (
     <div className="App">
-      <EditProfile />
+      <Profile />
     </div>
   );
 }
