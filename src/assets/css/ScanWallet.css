@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+#connectwallect {
+    font-family: "Poppins", sans-serif;
+    max-width: 1920px;
+    margin: 0;
+    padding: 0;
+  }
+#connectwallect .button-header{
+    position: relative;
+    height: 126px;
+}
+#connectwallect .button-header .nav-link{
+    color: #000000;
+}
+#connectwallect .back-home{
+    position: absolute;
+    left: 400px;
+    top: 73px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    border: 1px solid gray;
+    border-radius: 90px;
+    text-align: center; 
+}
+#connectwallect .back-home:hover,  #connectwallect .back-home .nav-link:hover {
+    background: #a92e71;
+    color: white !important;
+    border-radius: 90px;
+}
+
+#connectwallect .title-header{
+    position: absolute;
+    top: 82px;
+    right: 400px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 14px;
+    text-align: right;
+    color: #000000;
+}
+#connectwallect .main{
+    position: relative;
+    height: 922px;
+}
+#connectwallect .img-title-select{
+    position: relative;
+    width: 523px;
+    height: 125px;
+    left: 400px;
+    top: 125px;
+    padding: 30px;
+    cursor: pointer;
+}
+#connectwallect .img-title-select span{
+    position: relative; 
+    padding: auto;
+    left: 30px;
+    top: 3px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    color: #000000;
+}
+#connectwallect .img-main{
+    position: absolute;
+    right: 400px;
+    top: 220px;
+    left: 1076px;
+}
+#connectwallect .img-title-select:hover::after{
+    position: absolute;
+    content: "\f061";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 1.3rem;
+    top: 36%;
+    left: 90%;
+    /* display: none; */
+}
+#connectwallect .title-main{
+    position: absolute;
+    right: 427px;
+    top: 125px;
+    left: 1074px;
+    
+}
+#connectwallect .title-main span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 40px;
+    color: #000;
+}
+#connectwallect .title-main p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+}
+#connectwallect .selection-button{
+    position: absolute;
+    left: 1075px;
+    display: flex;
+    overflow: hidden;
+    top: 690px;
+}
+#connectwallect .selection-button .nav-link{
+    color:#000;
+    border: 1px solid gray;
+    border-radius: 90px;
+}
+#connectwallect .selection-button .nav-link:hover{
+    color:white;
+    background: #a92e71;
+   
+}
+/* #connectwallect .selection-button .nav-link .choose{
+    color:white;
+    border: 1px solid gray;
+    border-radius: 90px;
+    padding: 12px 25px;
+    width: 186px;
+    background: #a92e71;
+} */

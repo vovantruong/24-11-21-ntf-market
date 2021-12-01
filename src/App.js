@@ -1,8 +1,9 @@
+import ScanWallet01 from "./components/ScanWallet01";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+       <ScanWallet01/>
     </div>
   );
 }
