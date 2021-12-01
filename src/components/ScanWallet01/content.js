@@ -11,7 +11,7 @@ import main from "../../assets/images/scan wallet1_2/scanWallet01.png";
 function Content() {
   return (
     <div>
-      <connectwallect id="connectwallect">
+      <connectwallect id="connectwallect01">
         {/* <Container> */}
           <div class="main-connect-wallect">
             <div class="button-header">
@@ -82,10 +82,10 @@ function Content() {
               <span>I agree Stack terms of service</span>
             </div>
             <div class="selection-button">
-            <Nav.Link href="#cancel">
+            <Nav.Link href="#connectwallet">
                <span> Cancel</span>
             </Nav.Link>
-            <Nav.Link href="#choose">
+            <Nav.Link href="#home">
                <div class="choose">Get started now</div>
             </Nav.Link>
             </div>

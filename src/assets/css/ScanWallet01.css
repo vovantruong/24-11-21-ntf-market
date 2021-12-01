@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-#connectwallect {
+#connectwallect01 {
     font-family: "Poppins", sans-serif;
     max-width: 1920px;
     margin: 0;
     padding: 0;
   }
-#connectwallect .button-header{
+#connectwallect01 .button-header{
     position: relative;
     height: 126px;
 }
-#connectwallect .button-header .nav-link{
+#connectwallect01 .button-header .nav-link{
     color: #000000;
 }
-#connectwallect .back-home{
+#connectwallect01 .back-home{
     position: absolute;
     left: 400px;
     top: 73px;
@@ -23,13 +23,13 @@
     border-radius: 90px;
     text-align: center; 
 }
-#connectwallect .back-home:hover,  #connectwallect .back-home .nav-link:hover {
+#connectwallect01 .back-home:hover,  #connectwallect01 .back-home .nav-link:hover {
     background: #a92e71;
     color: white !important;
     border-radius: 90px;
 }
 
-#connectwallect .title-header{
+#connectwallect01 .title-header{
     position: absolute;
     top: 82px;
     right: 400px;
@@ -39,11 +39,11 @@
     text-align: right;
     color: #000000;
 }
-#connectwallect .main{
+#connectwallect01 .main{
     position: relative;
     height: 922px;
 }
-#connectwallect .img-title-select{
+#connectwallect01 .img-title-select{
     position: relative;
     width: 523px;
     height: 125px;
@@ -52,7 +52,7 @@
     padding: 30px;
     cursor: pointer;
 }
-#connectwallect .img-title-select span{
+#connectwallect01 .img-title-select span{
     position: relative; 
     padding: auto;
     left: 30px;
@@ -62,13 +62,13 @@
     line-height: 25px;
     color: #000000;
 }
-#connectwallect .img-main{
+#connectwallect01 .img-main{
     position: absolute;
     right: 400px;
     top: 274px;
     left: 1074px;
 }
-#connectwallect .img-title-select:hover::after{
+#connectwallect01 .img-title-select:hover::after{
     position: absolute;
     content: "\f061";
     font-family: "Font Awesome 5 Pro";
@@ -77,37 +77,37 @@
     left: 90%;
     /* display: none; */
 }
-#connectwallect .title-main{
+#connectwallect01 .title-main{
     position: absolute;
     right: 427px;
     top: 125px;
     left: 1074px;
     
 }
-#connectwallect .title-main span{
+#connectwallect01 .title-main span{
     font-style: normal;
     font-weight: 500;
     font-size: 38px;
     line-height: 40px;
     color: #000;
 }
-#connectwallect .title-main p{
+#connectwallect01 .title-main p{
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 160%;
 }
-#connectwallect .item-check{
+#connectwallect01 .item-check{
     position: relative;
     top: -26px;
     left: 1074px;
 }
-#connectwallect .item-check .check-box{ 
+#connectwallect01 .item-check .check-box{ 
     width: 24px;
     height: 24px;
     cursor: pointer;
 }
-#connectwallect .item-check span{
+#connectwallect01 .item-check span{
     padding: 0 12px;
     position: relative;
     top: -6px;
@@ -116,7 +116,7 @@
     font-size: 14px;
     line-height: 160%;
 }
-#connectwallect .item-check .check-box:hover::before{
+#connectwallect01 .item-check .check-box:hover::before{
     content: '';
     left: 0;
     width: 24px;
@@ -125,7 +125,7 @@
     border-radius: 3px;
     position: absolute;
 }
-#connectwallect .item-check .check-box:checked::after{
+#connectwallect01 .item-check .check-box:checked::after{
     content: '\f00c';
     font-family: "Font Awesome 5 Pro";
     color: rgb(241, 240, 240);
@@ -138,13 +138,13 @@
     position: absolute;
     padding: 0 3px;
 }
-#connectwallect .selection-button{
+#connectwallect01 .selection-button{
         position: relative;
     left: 1058px;
     display: flex;
     overflow: hidden;
 }
-#connectwallect .selection-button .nav-link span{
+#connectwallect01 .selection-button .nav-link span{
     color:#000;
     border: 1px solid gray;
     border-radius: 90px;
@@ -152,11 +152,11 @@
     position: relative;
     top: 16px;
 }
-#connectwallect .selection-button .nav-link span:hover{
+#connectwallect01 .selection-button .nav-link span:hover{
     color:white;
     background: #a92e71;
 }
-#connectwallect .selection-button .nav-link .choose{
+#connectwallect01 .selection-button .nav-link .choose{
     color:white;
     border: 1px solid gray;
     border-radius: 90px;
