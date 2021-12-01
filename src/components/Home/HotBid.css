@@ -1,0 +1,345 @@
+#hot__bid {
+  max-width: 1920px;
+  min-height: 785px;
+  background-color: #ffffff;
+}
+
+#hot__bid h1,
+#hot__bid h5,
+#hot__bid p {
+  margin: 0;
+}
+
+#hot__bid .top__bid {
+  position: relative;
+  top: 7.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hot__bid .container {
+  max-width: 1144px;
+}
+
+#hot__bid .top__bid .previout__next button {
+  width: 29px;
+  height: 29px;
+  position: relative;
+  background: none;
+  border: 1.5px solid #c4c4c4;
+  margin: 0 3px;
+}
+
+#hot__bid .top__bid .previout__next button:focus {
+  box-shadow: none;
+}
+
+#hot__bid .top__bid .previout__next button i {
+  color: #c4c4c4;
+  font-weight: 500;
+  font-size: 13px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#hot__bid .bottom__bid .top__card {
+  width: 258px;
+  height: 299px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+#hot__bid .bottom__bid .top__card img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all ease;
+}
+
+#hot__bid .bottom__bid .top__card:hover > img {
+  transform: scale(1.2);
+}
+
+#hot__bid .bottom__bid .top__card:hover > .just__like {
+  opacity: 1;
+}
+
+#hot__bid .top__card .just__like {
+  opacity: 0;
+  transition: 0.6s all ease;
+}
+
+#hot__bid .top__card .just__like .icon__img {
+  position: absolute;
+  top: 16px;
+  border: none;
+  right: 16px;
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+#hot__bid .top__card .just__like .icon__img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 55%;
+}
+
+#hot__bid .title__bid h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+#hot__bid .bottom__bid {
+  position: relative;
+  top: 11.8rem;
+}
+
+#hot__bid .bottom__bid .slick-list {
+  height: 428px;
+  padding-left: 12px;
+}
+
+#hot__bid .card__bid .card__title,
+#hot__bid .card__bid .card__icon,
+#hot__bid .card__bid .bottom__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* #hot__bid .card__bid .body__card,
+#hot__bid .card__bid .bottom__card,
+#hot__bid .card__bid hr{
+  margin-right: 22px;
+} */
+
+#hot__bid .card__bid .body__card {
+  position: relative;
+  top: 23px;
+}
+
+#hot__bid .card__bid hr {
+  position: relative;
+  top: 26px;
+}
+
+#hot__bid .card__bid .card__title h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+
+#hot__bid .card__bid .card__icon {
+  position: relative;
+  top: 15px;
+  align-items: inherit;
+}
+
+#hot__bid .card__bid {
+  width: 260px !important;
+}
+
+#hot__bid .card__bid .card__icon img {
+  width: 29px;
+  height: 29px;
+}
+
+#hot__bid .card__bid .card__icon p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#hot__bid .card__icon p,
+#hot__bid .bottom__card p {
+  color: #606060;
+}
+
+#hot__bid .card__bid .bottom__card p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+#hot__bid .card__bid .bottom__card p.bt_left span {
+  font-weight: 600;
+  color: #000000;
+}
+
+#hot__bid .body__card .card__title p {
+  display: flex;
+  align-items: center;
+  width: 66px;
+  height: 26px;
+  justify-content: center;
+  border: 1.5px solid #a92e71;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #a92e71;
+}
+
+#hot__bid .card__bid .bottom__card {
+  position: relative;
+  top: 20px;
+}
+
+#hot__bid .bottom__bid .just__like p.place {
+  position: absolute;
+  background: #a92e71;
+  bottom: 16px;
+  left: 72px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 16px;
+  width: 115px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hot__bid .bottom__bid .just__like p.purchas {
+  position: absolute;
+  left: 16px;
+  top: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ec4c93;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 87px;
+  height: 24px;
+  color: #fff;
+}
+
+#hot__bid .bottom__bid .just__like button:focus {
+  box-shadow: none;
+}
+
+/* ============================== Responsive ============================ */
+
+@media screen and (max-width: 1024px) {
+  #hot__bid .container {
+    max-width: 960px;
+  }
+  #hot__bid .bottom__bid .slick-list {
+    padding-left: 30px;
+  }
+
+  #hot__bid .top__bid {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #hot__bid .container {
+    max-width: 720px;
+  }
+  #hot__bid .bottom__bid .top__card {
+    width: 206px;
+    height: 239px;
+  }
+
+  #hot__bid .bottom__bid .slick-list {
+    padding-left: 10px;
+  }
+  #hot__bid .card__bid .card__title,
+  #hot__bid .card__bid .bottom__card {
+    display: block;
+  }
+
+  #hot__bid .card__bid .body__card {
+    width: 206px;
+  }
+
+  #hot__bid .card__bid .card__icon {
+    justify-content: stretch;
+    margin-bottom: 30px;
+  }
+
+  #hot__bid .card__bid hr {
+    width: 206px;
+  }
+
+  #hot__bid .bottom__bid .just__like p.place {
+    left: 47px;
+  }
+
+  #hot__bid .card__bid .card__icon p {
+    position: relative;
+    left: 111px;
+  }
+
+  #hot__bid .card__bid .card__title h5 {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  #hot__bid .container {
+    max-width: 490px;
+  }
+  #hot__bid .bottom__bid .slick-list {
+    padding-left: 20px;
+  }
+  #hot__bid .top__bid {
+    padding: 0 18px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  #hot__bid .bottom__bid .top__card {
+    width: 258px;
+    height: 299px;
+  }
+  #hot__bid .bottom__bid .slick-list {
+    padding-left: 66px;
+  }
+  #hot__bid .bottom__bid .just__like p.place {
+    left: 72px;
+  }
+  #hot__bid .card__bid .card__title {
+    display: flex;
+  }
+  #hot__bid .card__bid .body__card,
+  #hot__bid .card__bid hr {
+    width: 100%;
+  }
+  #hot__bid .card__bid .card__icon p {
+    left: 0;
+  }
+
+  #hot__bid .card__bid .card__icon {
+    justify-content: space-between;
+  }
+
+  #hot__bid .top__bid {
+    padding: 0px 70px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #hot__bid .bottom__bid .slick-list {
+    padding-left: 42px;
+  }
+  #hot__bid .top__bid {
+    padding: 0px 45px;
+    display: block;
+  }
+
+  #hot__bid .previout__next{
+    position: relative;
+    top: 10px;
+  }
+}
