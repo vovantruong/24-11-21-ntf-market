@@ -36,9 +36,9 @@ function Content() {
           </div>
           <div class="selection-activity">
             <div class="row">
-              <div class="col-md-4">My activity</div>
-              <div class="col-md-4">Following</div>
-              <div class="col-md-4">All activity</div>
+              <div class="col-md-4"><a href="#">My activity</a></div>
+              <div class="col-md-4"><a href="#">Following</a></div>
+              <div class="col-md-4"><a href="#">All activity</a></div>
             </div>
           </div>
           <div class="content">
