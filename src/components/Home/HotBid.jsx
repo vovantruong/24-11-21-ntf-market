@@ -17,7 +17,6 @@ const hotbid = [
   {
     img: Image01,
     txt: "Purchasing",
-    icon: IconNotBG,
     place: "Place a bid",
     title: "Amazing digital art",
     eth: "1.125 ETH",
@@ -30,7 +29,6 @@ const hotbid = [
   {
     img: Image02,
     txt: "Purchasing",
-    icon: IconNotBG,
     place: "Place a bid",
     title: "Amazing digital art",
     eth: "1.125 ETH",
@@ -43,7 +41,6 @@ const hotbid = [
   {
     img: Image03,
     txt: "Purchasing",
-    icon: IconNotBG,
     place: "Place a bid",
     title: "Amazing digital art",
     eth: "1.125 ETH",
@@ -56,7 +53,6 @@ const hotbid = [
   {
     img: Image04,
     txt: "Purchasing",
-    icon: IconNotBG,
     place: "Place a bid",
     title: "Amazing digital art",
     eth: "1.125 ETH",
@@ -69,7 +65,6 @@ const hotbid = [
   {
     img: Image05,
     txt: "Purchasing",
-    icon: IconNotBG,
     place: "Place a bid",
     title: "Amazing digital art",
     eth: "1.125 ETH",
@@ -137,7 +132,7 @@ function HotBid() {
     ],
   };
 
-  const [clicked, setClicked] = useState(false);
+  const [clicked, setClicked] = useState(true);
 
   return (
     <section id="hot__bid">
@@ -163,8 +158,15 @@ function HotBid() {
                   <Image src={e.img} />
                   <div className="just__like">
                     <p className="purchas">{e.txt}</p>
-                    <Button className="icon__img">
-                      <Image src={e.icon} />
+                    <Button
+                      className="icon__img"
+                      onClick={() => setClicked(!clicked)}
+                    >
+                      {clicked ? (
+                        <i className="far fa-heart"></i>
+                      ) : (
+                        <i className="fas fa-heart"></i>
+                      )}
                     </Button>
                     <p className="place">{e.place}</p>
                   </div>
