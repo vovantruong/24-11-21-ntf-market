@@ -23,20 +23,19 @@
     border-radius: 90px;
     text-align: center; 
 }
-#connectwallect .back-home:hover,  #connectwallect .nav-link:hover {
+#connectwallect .back-home:hover,  #connectwallect .back-home .nav-link:hover {
     background: #a92e71;
     color: white !important;
     border-radius: 90px;
 }
 
 #connectwallect .title-header{
-    position: absolute;
+    position: relative;
     top: 82px;
-    right: 400px;
+    left: 1413px;
     font-weight: 500;
     font-size: 13px;
     line-height: 14px;
-    text-align: right;
     color: #000000;
 }
 #connectwallect .main{
@@ -63,7 +62,7 @@
 }
 #connectwallect .img-main{
     position: absolute;
-    right: 400px;
+    left: 1020px;
     top: 125px;
 }
 #connectwallect .img-title-select:hover::after{

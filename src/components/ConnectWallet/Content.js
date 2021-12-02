@@ -13,63 +13,72 @@ function Content() {
     <div>
       <connectwallect id="connectwallect">
         {/* <Container> */}
-          <div class="main-connect-wallect">
-            <div class="button-header">
-              <div class="back-home">
-              <Nav.Link href="#backhome">
+        <div class="main-connect-wallect">
+          <div class="button-header">
+            <div class="back-home">
+              <Nav.Link href="/">
                 <i class="fas fa-arrow-left"></i> Back to home
+              </Nav.Link>
+            </div>
+            <div class="title-header">Connect Wallect</div>
+          </div>
+          <hr width="100%" align="center" />
+        </div>
+        <div class="main">
+        <div class="img-title-select">
+            <Nav.Link href="scanwallet">
+              <Image
+                src={purple}
+                class="img-picture"
+                width="65px"
+                height="65px"
+              />
+              <span>Coinbase Wallet</span>
             </Nav.Link>
-              </div>
-              <div class="title-header">Connect Wallect</div>
-            </div>
-            <hr width="100%" align="center" />
           </div>
-          <div class="main">
-            <div class="img-title-select">
-            <Image
-                  src={purple}
-                  class="img-picture"
-                  width="65px"
-                  height="65px"
-                />
-                <span>Coinbase Wallet</span>
-            </div>
-            <div class="img-title-select">
-            <Image
-                  src={blue}
-                  class="img-picture"
-                  width="65px"
-                  height="65px"
-                />
-                <span>Coinbase Wallet</span>
-            </div>
-            <div class="img-title-select">
-            <Image
-                  src={green}
-                  class="img-picture"
-                  width="65px"
-                  height="65px"
-                />
-                <span>Coinbase Wallet</span>
-            </div>
-            <div class="img-title-select">
-            <Image
-                  src={pink}
-                  class="img-picture"
-                  width="65px"
-                  height="65px"
-                />
-                <span>Coinbase Wallet</span>
-            </div>
-            <div class="img-main">
-            <Image
-                  src={main}
-                  class="img-picture"
-                  width="500px"
-                  height="500px"
-                />
-            </div>
+
+          <div class="img-title-select">
+            <Nav.Link href="scanwallet">
+              <Image
+                src={blue}
+                class="img-picture"
+                width="65px"
+                height="65px"
+              />
+              <span>Coinbase Wallet</span>
+            </Nav.Link>
           </div>
+          <div class="img-title-select">
+            <Nav.Link href="scanwallet">
+              <Image
+                src={green}
+                class="img-picture"
+                width="65px"
+                height="65px"
+              />
+              <span>Coinbase Wallet</span>
+            </Nav.Link>
+          </div>
+          <div class="img-title-select">
+            <Nav.Link href="scanwallet">
+              <Image
+                src={pink}
+                class="img-picture"
+                width="65px"
+                height="65px"
+              />
+              <span>Coinbase Wallet</span>
+            </Nav.Link>
+          </div>
+          <div class="img-main">
+            <Image
+              src={main}
+              class="img-picture"
+              width="500px"
+              height="500px"
+            />
+          </div>
+        </div>
         {/* </Container> */}
       </connectwallect>
     </div>
