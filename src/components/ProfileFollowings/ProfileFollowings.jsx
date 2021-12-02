@@ -66,9 +66,9 @@ const menu_item = [
   { item: "Followers" },
 ];
 
-export default function ProfilePage() {
+export default function ProfileFollowings() {
   const [active, setActive] = useState(0);
-  const handleClick = (index) => {
+  const handleClick = (index) => {  
     setActive(index);
   };
   return (
