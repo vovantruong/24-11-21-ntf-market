@@ -30,13 +30,12 @@
 }
 
 #connectwallect01 .title-header{
-    position: absolute;
+    position: relative;
     top: 82px;
-    right: 400px;
+    left: 1419px;
     font-weight: 500;
     font-size: 13px;
     line-height: 14px;
-    text-align: right;
     color: #000000;
 }
 #connectwallect01 .main{
@@ -51,6 +50,9 @@
     top: 125px;
     padding: 30px;
     cursor: pointer;
+}
+#connectwallect01 .img-title-select .nav-link{
+    padding: 0;
 }
 #connectwallect01 .img-title-select span{
     position: relative; 
