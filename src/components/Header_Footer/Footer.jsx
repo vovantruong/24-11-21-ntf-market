@@ -9,7 +9,7 @@ function Footer() {
     <footer id="footer">
       <Container>
         <Row>
-          <Col className="footer__logo" lg={3} md={6}>
+          <Col className="footer__logo" lg={3} md={12}>
             <div className="logo">
               <Image className="logo__img" src={Logo} />
               <p className="logo__text">Womentech</p>
