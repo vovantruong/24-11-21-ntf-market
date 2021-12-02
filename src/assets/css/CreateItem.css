@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root{
+  --bg-btn-header: #ec4c93;
 }
 #createitem .content__createitem{
   margin-top: 125px;
@@ -9,24 +10,16 @@
   margin-top: 8px;
   margin-left: 133px;
 }
-#createitem .content__createitem .Multiple p{
-  border:  1px solid rgb(110, 96, 96);
-  border-radius: 15px;
-  padding-left: 15px;
-  padding-top: 5px;
-position: static;
-width: 135px;
-height: 30px;
-left: 50px;
+#createitem .content__createitem .Multiple a{
+  position: relative;
+  /* background: #A92E71; */
+border:  1px solid rgb(110, 96, 96);
+border-radius: 15px;
 font-family: SVN-Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 15px;
-/* identical to box height */
-
-
 color: #000000;
+text-decoration: none;
+margin-left: 65px;
+padding: 5px 5px;
 }
 #createitem .content__createitem .Collectible{
   position: static;
@@ -248,14 +241,13 @@ margin-left: 27px;
 margin-bottom: 15px;
 }
 #createitem .content__Bottom .Menu_right .btn{
-  background: #A92E71;
-  border-radius: 20px; 
-  margin-bottom: 5px;
+  height: 23px;
+  width: 23px;
+  background-color: #A92E71;
+  border-radius: 50%;
+  display: inline-block;
   margin-left: 5px;
-  padding-bottom: 13px;
-  padding-top: 5px;
-  margin-top: 5px;
-  margin-right: 10px;
+  margin-bottom: 2px;
 }
 #createitem .content__Bottom .Menu_right{
   margin-left: 110px;
@@ -276,15 +268,12 @@ border-radius: 30px;
 margin-bottom: 125px;
 margin-top: 50px;
 }
-#createitem .button_view .btn{
-  background-color: #A92E71;
-  border-radius: 50%;
-  border: 1px solid #A92E71;
-  margin-left: 5px;
-}
 #createitem .button_view p{
-  margin-top: 10px;
-  color: #FFFFFF;
+color: #FFFFFF;
+margin-top: 10px;
+}
+#createitem .button_view a{
+  color: black;margin-left: 20px;
 }
 /*bottom_menu*/
 #createitem .bottom_menu .create_bottom{

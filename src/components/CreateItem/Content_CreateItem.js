@@ -28,7 +28,7 @@ const CreateItem = () => {
                     <h1>Create single collectible</h1>
                   </Col>
                   <Col className="Multiple" lg={4} md={6}>
-                    <p>Switch to Multiple</p>
+                    <a href="mutiple">Switch to Multiple</a>
                   </Col>
                 </Row>
               </div>
@@ -194,7 +194,7 @@ const CreateItem = () => {
         </div>
         <div className="button_view">
           <p>Create item</p>
-          <a name="" id="" class="btn btn-primary" href="#" role="button"><i class="fas fa-arrow-right"></i></a>
+          <a href="button_view"><i class="fas fa-arrow-right"></i></a>
         </div>
       </Container>
     </createitem>
