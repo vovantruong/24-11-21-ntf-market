@@ -10,11 +10,15 @@
   --dark-pink: #a92e71;
   
 }
+.navbar_item {
+  font-family: "Poppins", sans-serif;
+  max-width: 1920px;
+}
 
 .navbar_item .container {
   position: relative;
   top: 125px;
-  width: 1144px;
+  max-width: 1140px;
 }
 
 .navbar_item{
@@ -22,7 +26,6 @@
   margin-bottom: 134px;
   max-width: 1920px;
   margin-bottom: 20%;
- 
 }
 .navbar_item
 .left span {
@@ -38,8 +41,8 @@
 }
 .navbar_item .ruler {
   border: 1px solid #C4C4C4;
-  margin-left: -40%;
-  margin-right: -40%;
+  margin-left: -18%;
+  margin-right: -18%;
 
 }
 .right {
@@ -132,18 +135,25 @@ Label {
 }
 /* chia ti le man hinh nho 576px */
 @media screen and (max-width: 576px) {
-  .navbar_item .container {
+.navbar_item .container {
     width: 410px;
+    margin-bottom: 0px!important;
   }
   .navbar_item{
     margin-bottom: 40%;
    
   }
+  .right{
+    visibility: hidden;
+  }
 .acount_info_tittle{
   margin-top: 30px;
 }
-.link-address{
+/* .link-address{
   visibility: hidden;
+} */
+.navbar_item .left span {
+  font-size: 10px;
 }
 }
 /* chia ti le man hinh nho hon 450px */
