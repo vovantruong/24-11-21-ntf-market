@@ -2,6 +2,7 @@ import React from "react";
 import "../../assets/css/Activity.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import mypicture from "../../assets/images/Activity/unsplash_mEZ3PoFGs_k.png";
+import {Routes,Route} from "react-router-dom";
 import {
   Navbar,
   Container,
@@ -15,7 +16,7 @@ function Content() {
       <activity id="activity">
         <div class="row btn-title">
           <div class="back-home">
-            <Nav.Link href="#backhome">
+            <Nav.Link href="/">
               <h5>
                 <i class="fas fa-arrow-left"></i> <span> Back to home</span>
               </h5>
@@ -41,7 +42,7 @@ function Content() {
             </div>
           </div>
           <div class="content">
-            <div class="row">
+          <div class="row">
               <div class="col-md-3">
                 <Image
                   src={mypicture}
@@ -51,7 +52,7 @@ function Content() {
                 />
               </div>
               <div class="col-md-8">
-                <div class="article-title">Something went wrong</div> <br />
+                <span class="article-title">Something went wrong</span> <br />
                 <span class="content-of-the-article">
                   {" "}
                   cant's display activity card. Try again later

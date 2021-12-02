@@ -21,11 +21,12 @@
 }
 #activity .btn-activity h5{
     position: relative;
-    right: 400px;
-    float: right;
-    top: 73.5px;
-    bottom: 38.5px;
-    font-family: SVN-Poppins;
+    top: 82px;
+    left: 1471px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 14px;
+    color: #000000;
 }
 #activity .btn-title{
     width: 100%px;
@@ -112,7 +113,6 @@
 
 #activity .content .col-md-8 .article-title{
     position: static;
-    font-family: SVN-Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -126,7 +126,6 @@
 }
 
 #activity .content .col-md-8 .post-time{
-    font-family: SVN-Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -153,7 +152,7 @@
 }
 #activity .check-filters{
     position: absolute;
-    right: 400px;
+    left: 1175px;
     top: 43px;
     width: 345px;
     height: 610px;
