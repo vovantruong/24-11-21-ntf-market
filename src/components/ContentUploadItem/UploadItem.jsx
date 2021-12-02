@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Image, Form, FormControl, Button } from "react-bootstrap";
 import single from "../../assets/images/Upload item/unsplash_pEgsWN0kwbQ.png";
 import mutiple from "../../assets/images/Upload item/unsplash_Lki74Jj7H-U.png";
+import "../../assets/css/UploadItem.css";
 
 function UploadItem() {
     return (
@@ -9,13 +10,17 @@ function UploadItem() {
             <Container>
                 <div className="ContentUpload">
                     <Row>
-                        <Col className="left_Upload" lg={2} md={6}>
-                            <a href="/back">Back to home</a>
+                        <Col className="left_Upload" lg={3} md={6}>
+                            <div className="btnBack">
+                                <a className="Back" href="/back">
+                                    <a class="btna" href="/btna"><i class="fas fa-arrow-left"></i></a><b>Back to home</b>
+                                </a>
+                            </div>
                         </Col>
                         <Col className="center_Upload" lg={7} md={6}>
                         </Col>
                         <Col className="right_Upload" lg={2} md={6}>
-                            <a href="/upload">Upload Item</a>
+                            <a href="/upload"><b>Upload Item</b></a>
                         </Col>
                     </Row>
                 </div>
@@ -31,26 +36,28 @@ function UploadItem() {
                                 <Row>
                                     <Col className="left_Upload" lg={1} md={6}>
                                     </Col>
-                                    <Col className="center_Upload" lg={8} md={6}>
-                                        <h1>Upload item</h1>
-                                        <p>Choose “Single” if you want your collectible to be one of a kind or “Multiple” if you want to sell one
-                                            collectible multiple times</p>
+                                    <Col className="center_Upload" lg={10} md={6}>
+                                        <div className="item">
+                                            <h1>Upload item</h1>
+                                            <p>Choose “Single” if you want your collectible to be one of a kind or “Multiple” if you want to sell one
+                                                collectible multiple times</p>
+                                        </div>
                                         <div className="Creat">
                                             <Row>
                                                 <Col className="single" lg={5} md={6}>
                                                     <div className="img_single">
                                                         <Image src={single} />
                                                     </div>
-                                                    <div className="creat_single">
-                                                        <a href="creat_single"> Creat single</a>
+                                                    <div className="creat_single_mutiple">
+                                                        <a href="creat_single"> <b>Creat single</b></a>
                                                     </div>
                                                 </Col>
                                                 <Col className="mutiple" lg={5} md={6}>
                                                     <div className="img_mutiple">
                                                         <Image src={mutiple} />
                                                     </div>
-                                                    <div className="creat_mutiple">
-                                                        <a href="creat_mutiple"> Creat mutiple</a>
+                                                    <div className="creat_single_mutiple">
+                                                        <a href="creat_mutiple"> <b>Creat mutiple</b></a>
                                                     </div>
                                                 </Col>
                                             </Row>

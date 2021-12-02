@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+    /* --txt-pink-footer: #ec4c93; */
+    --bd-radius-input-upload: 15px;
+    --bd-input-upload: 1px solid #c4c4c4;
+    /* --bd-radius-btn-footer: 50%;
+    --txt-dark-pink-footer: #a92e71; */
+  }
+#uploaditem .ContentUpload {
+    margin-top: 72px;
+    margin-bottom: 30px;
+}
+
+#uploaditem .ContentUpload .left_Upload .btnBack .Back{
+    border-radius: var(--bd-radius-input-upload);
+    border: var(--bd-input-upload);
+    text-decoration: initial;
+    color: #000000;
+    padding: 3px 10px;
+    padding-bottom: 6px;
+}
+#uploaditem .ContentUpload .left_Upload .btnBack .Back .btna{
+    text-decoration: initial;
+    color: #000000;
+    margin-right: 12px;
+}
+#uploaditem .Upload_Item{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+#uploaditem .ContentUpload .right_Upload a {
+    text-decoration: initial;
+    color: #000000;
+    position: static;
+    padding-left: 72px;
+}
+#uploaditem .Center_upload .item{
+    margin-bottom: 60px;
+}
+#uploaditem .Center_upload h1{
+    text-align: center;
+}
+#uploaditem .Center_upload p{
+position: static;
+width: 880px;
+top: 66px;
+font-family: SVN-Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 19px;
+text-align: center;
+color: #606060;
+margin: 24px 0px;
+}
+#uploaditem .Center_upload .Creat{
+    text-align: center;
+    margin-left: 115px;
+}
+#uploaditem .Center_upload .Creat .single{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 18px 18px 22px;
+position: static;
+width: 354px;
+height: 364px;
+background: #FFFFFF;
+border-radius: var(--bd-radius-input-upload);
+border: var(--bd-input-upload);
+}
+#uploaditem .Center_upload .Creat .mutiple{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 18px 18px 22px;
+position: static;
+width: 354px;
+height: 364px;
+background: #FFFFFF;
+border-radius: var(--bd-radius-input-upload);
+border: var(--bd-input-upload);
+margin-left: 17px;
+}
+#uploaditem .Center_upload .Creat a{
+    border-radius: var(--bd-radius-input-upload);
+    border: var(--bd-input-upload);
+    text-decoration: initial;
+    color: #000000;
+    padding: 5px 20px;
+    padding-bottom: 8px;
+}
+#uploaditem .Center_upload .Creat .creat_single_mutiple{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#uploaditem .Center_upload .confirmation{
+color: #606060;
+margin-left: 40px;
+text-align: center;
+margin-top: 30px;
+font-family: SVN-Poppins;
+font-style: normal;
+font-size: 8px;
+}
