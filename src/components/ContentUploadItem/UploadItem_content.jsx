@@ -60,7 +60,7 @@ function UploadItem() {
                                                     </div>
                                                     <div className="creat_single_mutiple">
                                                         <div className="single_mutiple">
-                                                            <a href="creat_mutiple"> <b>Creat mutiple</b></a>
+                                                            <a href="creat_mutiple"> <b>Creat multiple</b></a>
                                                         </div>
                                                     </div>
                                                 </Col>
