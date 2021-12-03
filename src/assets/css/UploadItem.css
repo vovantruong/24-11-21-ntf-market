@@ -11,19 +11,23 @@
     margin-top: 72px;
     margin-bottom: 30px;
 }
-
-#uploaditem .ContentUpload .left_Upload .btnBack .Back{
-    border-radius: var(--bd-radius-input-upload);
-    border: var(--bd-input-upload);
-    text-decoration: initial;
-    color: #000000;
-    padding: 3px 10px;
-    padding-bottom: 6px;
+#uploaditem .ContentUpload .left_Upload .btnBack .Back:hover{
+    background:#a92e71;
+    cursor: default;
+    border: 1px solid #c4c4c4;
+    border-radius: 15px;
+    padding: 5px 0px;
 }
 #uploaditem .ContentUpload .left_Upload .btnBack .Back .btna{
-    text-decoration: initial;
+    text-decoration: none;
     color: #000000;
-    margin-right: 12px;
+    padding: 5px 10px;
+    padding-bottom: 6px;
+    border-radius: 15px;
+    border: 1px solid #c4c4c4;
+}
+#uploaditem .ContentUpload .left_Upload .btnBack .Back .btna b{
+    padding-left: 10px;
 }
 #uploaditem .Upload_Item{
     margin-top: 30px;
@@ -90,12 +94,17 @@ margin-left: 17px;
     border: var(--bd-input-upload);
     text-decoration: initial;
     color: #000000;
-    padding: 5px 20px;
-    padding-bottom: 8px;
+    padding: 1px 10px;
 }
 #uploaditem .Center_upload .Creat .creat_single_mutiple{
     margin-top: 30px;
     margin-bottom: 20px;
+}
+#uploaditem .Center_upload .Creat .creat_single_mutiple .single_mutiple:hover{
+    background: #a92e71;
+    position: relative;
+    border-radius: 15px;
+    cursor: default;
 }
 #uploaditem .Center_upload .confirmation{
 color: #606060;

@@ -13,7 +13,7 @@ function UploadItem() {
                         <Col className="left_Upload" lg={3} md={6}>
                             <div className="btnBack">
                                 <a className="Back" href="/back">
-                                    <a class="btna" href="/btna"><i class="fas fa-arrow-left"></i></a><b>Back to home</b>
+                                    <a class="btna" href="/btna"><i class="fas fa-arrow-left"><b>Back to home</b></i> </a>
                                 </a>
                             </div>
                         </Col>
@@ -49,7 +49,9 @@ function UploadItem() {
                                                         <Image src={single} />
                                                     </div>
                                                     <div className="creat_single_mutiple">
-                                                        <a href="creat_single"> <b>Creat single</b></a>
+                                                        <div className="single_mutiple">
+                                                            <a href="creat_single"> <b>Creat single</b></a>
+                                                        </div>
                                                     </div>
                                                 </Col>
                                                 <Col className="mutiple" lg={5} md={6}>
@@ -57,7 +59,9 @@ function UploadItem() {
                                                         <Image src={mutiple} />
                                                     </div>
                                                     <div className="creat_single_mutiple">
-                                                        <a href="creat_mutiple"> <b>Creat mutiple</b></a>
+                                                        <div className="single_mutiple">
+                                                            <a href="creat_mutiple"> <b>Creat mutiple</b></a>
+                                                        </div>
                                                     </div>
                                                 </Col>
                                             </Row>
