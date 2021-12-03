@@ -28,7 +28,7 @@ const CreateItem = () => {
                     <h1>Create single collectible</h1>
                   </Col>
                   <Col className="Multiple" lg={4} md={6}>
-                    <a href="mutiple">Switch to Multiple</a>
+                    <div className="switch_multiple"> <p>Swich to multiple</p></div>
                   </Col>
                 </Row>
               </div>

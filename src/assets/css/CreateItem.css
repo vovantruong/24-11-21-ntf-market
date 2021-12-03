@@ -3,23 +3,27 @@
 :root{
   --bg-btn-header: #ec4c93;
 }
+#createitem .left__CreateSimple .switch_multiple:hover {
+    border: 1px solid #a92e71;
+    background: #a92e71;
+    color: white;
+    cursor: default;
+    border-radius: 15px;
+    height: 40px;
+}
+#createitem .left__CreateSimple .switch_multiple p{
+border:  1px solid rgb(110, 96, 96);
+border-radius: 15px;
+text-align: center;
+padding: 7px 0px;
+
+}
 #createitem .content__createitem{
   margin-top: 125px;
 }
 #createitem .content__createitem .Multiple{
   margin-top: 8px;
   margin-left: 133px;
-}
-#createitem .content__createitem .Multiple a{
-  position: relative;
-  /* background: #A92E71; */
-border:  1px solid rgb(110, 96, 96);
-border-radius: 15px;
-font-family: SVN-Poppins;
-color: #000000;
-text-decoration: none;
-margin-left: 65px;
-padding: 5px 5px;
 }
 #createitem .content__createitem .Collectible{
   position: static;
@@ -208,6 +212,15 @@ color: #606060;
 flex: none;
 margin-top: 20px;
 margin-bottom: 10px;
+}
+#createitem .content__createitem .left__itemname .form-itemname .form-control{
+  border-radius: 15px;
+}
+#createitem .content__createitem .left__itemname .form-description .form-control{
+  border-radius: 15px;
+}
+#createitem .content__createitem .left__itemname .select_text .form-control{
+  border-radius: 15px;
 }
 #createitem .content__createitem .hr_left{
   position: static;
