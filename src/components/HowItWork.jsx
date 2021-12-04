@@ -58,10 +58,12 @@ function HowItWork() {
               <Col lg={3} md={3}>
                 <div className="left__body">
                   {icon.map((e, index) => (
-                    <p key={index}>
-                      <i className={e.icon}></i>
-                      {e.name}
-                    </p>
+                    <div key={index} className="icon">
+                      <p >
+                        <i className={e.icon}></i>
+                        {e.name}
+                      </p>
+                    </div>
                   ))}
                 </div>
               </Col>
