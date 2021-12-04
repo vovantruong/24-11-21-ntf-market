@@ -17,11 +17,11 @@ function Home() {
     <div id="home">
       <Header/>
       <CreatorNetwork />
-      <Seller/>
+      {/* <Seller/> */}
       <HotBid />
-      <HotCollections />
+      {/* <HotCollections />
       <HomeDiscover />
-      <Crypter />
+      <Crypter /> */}
       <Footer />
     </div>
   );

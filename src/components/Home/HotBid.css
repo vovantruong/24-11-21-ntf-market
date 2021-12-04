@@ -227,7 +227,7 @@
   justify-content: center;
   font-size: 19px;
 }
-#hot__bid .bottom__bid .icon__img i.fas{
+#hot__bid .bottom__bid .icon__img i.fas {
   color: #a92e71;
 }
 
@@ -345,5 +345,28 @@
   #hot__bid .previout__next {
     position: relative;
     top: 10px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #hot__bid .container {
+    max-width: 250px;
+  }
+  #hot__bid .top__bid {
+    padding: 0;
+  }
+  #hot__bid .bottom__bid .top__card {
+    width: 206px;
+    height: 239px;
+  }
+  #hot__bid .bottom__bid .slick-list {
+    padding-left: 13px;
+  }
+
+  #hot__bid .card__bid .card__title h5{
+    font-size: 13px;
+  }
+  #hot__bid .card__bid .body__card {
+    width: 206px;
   }
 }
