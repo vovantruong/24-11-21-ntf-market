@@ -79,6 +79,7 @@
 
 #how__it__work .left__body p {
   padding-bottom: 30px;
+  display: inline-block;
 }
 
 #how__it__work .left__body i {
@@ -97,6 +98,15 @@
 #how__it__work .body__work {
   position: relative;
   top: 13.5rem;
+}
+
+#how__it__work .left__body p:hover{
+  color: #000;
+  cursor: default;
+}
+
+#how__it__work .accordion-button:hover{
+  color: #a92e71;
 }
 
 @media screen and (max-width: 1024px) {
