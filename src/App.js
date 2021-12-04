@@ -1,5 +1,6 @@
-import EditProfile from "./components/Editprofile";
-import Profile from "./components/Profile";
+// import EditProfile from "./components/Editprofile";
+// import Profile from "./components/Profile";
+import Followings from "./components/ProfileFollowings.jsx";
 import {Routes,Route} from "react-router-dom"
 
 
@@ -8,9 +9,9 @@ function App() {
     <div className="App">
       <Routes>
       
-       <Route path="/profile" element={<Profile/>}/>
-       <Route path="/edit-profile" element={<EditProfile/>}/>
-       {/* <Route path="/profile-followings" element={<Profile/>}/> */}
+       {/* <Route path="/profile" element={<Profile/>}/>
+       <Route path="/edit-profile" element={<EditProfile/>}/> */}
+       <Route path="/profile-followings" element={<Followings/>}/>
      </Routes>
    
     </div>
