@@ -5,8 +5,6 @@ import "./HotBid.css";
 
 // ========================== Import Image ================================ //
 import Avata from "../../assets/images/Home/avata-1.png";
-import IconNotBG from "../../assets/images/Home/icon/heart-no-bg.png";
-import IconBG from "../../assets/images/Home/icon/heart-bg.png";
 import Image01 from "../../assets/images/Home/unsplat-13.png";
 import Image02 from "../../assets/images/Home/unsplat-14.png";
 import Image03 from "../../assets/images/Home/unsplat-15.png";
