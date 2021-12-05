@@ -8,6 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import avatar from "../../assets/images/Editprofile/unsplash_mEZ3PoFGs_k.png";
 
 import "../../assets/css/navbaritem.css";
+import { Link } from "react-router-dom";
 
 export default function Navbaritem() {
   return (
@@ -17,7 +18,7 @@ export default function Navbaritem() {
         <Row >
           <Col md="6" sm="6" lg="6" xs="12">
             <div className="left link-address">
-              <span> <i className="fas fa-arrow-left"></i>&nbsp;Back to home</span>
+              <Link to="/"> <i className="fas fa-arrow-left"></i>&nbsp;Back to home</Link>
             </div>
           </Col>
           <Col md="6" sm="6" lg="6" xs="12">
