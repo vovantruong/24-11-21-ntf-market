@@ -6,6 +6,7 @@ import HowItWork from "./components/HowItWork";
 import UploadItem from "./components/UploadItem";
 import { Routes, Route } from "react-router-dom";
 import CreateItem from "./components/CreateItem";
+import ScanWallet01 from './components/ScanWallet01.jsx';
 
 function App() {
   return (
@@ -14,11 +15,12 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/discover" element={<Discover />} />
         <Route path="/how-it-work" element={<HowItWork />} />
-        <Route path="/scanwallet" element={<ScanWallet />} />
+        <Route path="/scan-wallet" element={<ScanWallet />} />
         <Route path="/connect-wallet" element={<ConnectWallet />} />
         <Route path="/upload" element={<UploadItem />} />
         <Route path="/create-item" element={<CreateItem />} />
-      </Routes>
+       <Route path="/scan-wallet01" element={<ScanWallet01/>}/>
+     </Routes>
     </div>
   );
 }
