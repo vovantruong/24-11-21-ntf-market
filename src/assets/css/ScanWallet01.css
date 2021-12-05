@@ -150,7 +150,6 @@
     position: relative;
     left: 655px;
     display: flex;
-    overflow: hidden;
 }
 #connectwallect01 .selection-button a span{
     color:#000;
