@@ -9,6 +9,7 @@
 
 #createitem .container{
   max-width: 1250px;
+  margin-left: 105px;
 }
 
 
@@ -16,6 +17,7 @@
   width: 156px;
   height: 39px;
   border-radius: 46px;
+  margin-left: 43px;
 }
 #createitem .left__CreateSimple .switch_multiple:hover {
   border: 1px solid #a92e71;
@@ -203,6 +205,9 @@
   flex-grow: 0;
   margin: 40px 0px;
 }
+#createitem .content__createitem .left__itemname{
+  margin-right: 65px;
+}
 #createitem .content__createitem .left__itemname label {
   position: static;
   left: 0px;
@@ -270,7 +275,7 @@
   margin-bottom: 2px;
 }
 #createitem .content__Bottom .Menu_right {
-  margin-left: 110px;
+  margin-left: 60px;
 }
 /*button_view*/
 #createitem .button_view {
