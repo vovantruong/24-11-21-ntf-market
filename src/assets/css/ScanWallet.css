@@ -10,11 +10,17 @@
     height: 126px;
     
 }
+#scanwallet a{
+    text-decoration: none;
+    color: black;
+}
 #scanwallet .container{
     max-width: 1144px;
 }
-#scanwallet .button-header .nav-link{
-    color: #000000;
+#scanwallet .button-header a{
+    padding: 7px 10px;
+    border: 1px solid gray;
+    border-radius: 90px;
 }
 #scanwallet .back-home{
     position: absolute;
@@ -23,11 +29,9 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 15px;
-    border: 1px solid gray;
-    border-radius: 90px;
     text-align: center; 
 }
-#scanwallet .back-home:hover,  #scanwallet .back-home .nav-link:hover {
+#scanwallet .back-home:hover,  #scanwallet .back-home a:hover {
     background: #a92e71;
     color: white !important;
     border-radius: 90px;
@@ -110,12 +114,13 @@
     overflow: hidden;
     top: 690px;
 }
-#scanwallet .selection-button .nav-link{
+#scanwallet .selection-button a{
+    padding: 7px 10px;
     color:#000;
     border: 1px solid gray;
     border-radius: 90px;
 }
-#scanwallet .selection-button .nav-link:hover{
+#scanwallet .selection-button a:hover{
     color:white;
     background: #a92e71;
    
@@ -123,8 +128,6 @@
 .hidden-img{
     width: 65px;
     height: 65px;
-    /* background: url(../images/connect\ wallet/purple.png);
-    background-size: cover; */
 }
 .check-item{
     position: absolute;
@@ -155,11 +158,3 @@
     display: none;
 
 }
-/* #scanwallet .selection-button .nav-link .choose{
-    color:white;
-    border: 1px solid gray;
-    border-radius: 90px;
-    padding: 12px 25px;
-    width: 186px;
-    background: #a92e71;
-} */

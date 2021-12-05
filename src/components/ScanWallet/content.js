@@ -7,7 +7,7 @@ import blue from "../../assets/images/connect wallet/blue.png";
 import green from "../../assets/images/connect wallet/green.png";
 import pink from "../../assets/images/connect wallet/pink.png";
 import qrcode from "../../assets/images/scan wallet1_2/qrcode.png";
-
+import {Link} from "react-router-dom";
 function Content() {
   return (
     <div>
@@ -16,9 +16,9 @@ function Content() {
         <div class="main-connect-wallect">
           <div class="button-header">
             <div class="back-home">
-              <Nav.Link href="/">
+              <Link to="/">
                 <i class="fas fa-arrow-left"></i> Back to home
-              </Nav.Link>
+              </Link>
             </div>
             <div class="title-header">Connect Wallect</div>
           </div>
@@ -59,9 +59,9 @@ function Content() {
           </div>
 
           <div class="selection-button">
-            <Nav.Link href="scanwallet01">
+            <Link to="scan-wallet01">
               <span> Dont’s have a wallet app?</span>
-            </Nav.Link>
+            </Link>
           </div>
         </div>
         </Container>
