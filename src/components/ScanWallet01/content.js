@@ -8,6 +8,7 @@ import blue from "../../assets/images/connect wallet/blue.png";
 import green from "../../assets/images/connect wallet/green.png";
 import pink from "../../assets/images/connect wallet/pink.png";
 import main from "../../assets/images/scan wallet1_2/scanWallet01.png";
+import { Link } from "react-router-dom";
 function Content() {
   return (
     <div>
@@ -16,9 +17,9 @@ function Content() {
         <div class="main-connect-wallect">
           <div class="button-header">
             <div class="back-home">
-              <Nav.Link href="/">
+              <Link to="/">
                 <i class="fas fa-arrow-left"></i> Back to home
-              </Nav.Link>
+              </Link>
             </div>
             <div class="title-header">Connect Wallect</div>
           </div>
@@ -26,7 +27,7 @@ function Content() {
         </div>
         <div class="main">
           <div class="img-title-select">
-            <Nav.Link href="scanwallet">
+            <Link to="scan-wallet">
               <Image
                 src={purple}
                 class="img-picture"
@@ -34,11 +35,11 @@ function Content() {
                 height="65px"
               />
               <span>Coinbase Wallet</span>
-            </Nav.Link>
+            </Link>
           </div>
 
           <div class="img-title-select">
-            <Nav.Link href="scanwallet">
+            <Link to="scan-wallet">
               <Image
                 src={blue}
                 class="img-picture"
@@ -46,10 +47,10 @@ function Content() {
                 height="65px"
               />
               <span>Coinbase Wallet</span>
-            </Nav.Link>
+            </Link>
           </div>
           <div class="img-title-select">
-            <Nav.Link href="scanwallet">
+            <Link to="scan-wallet">
               <Image
                 src={green}
                 class="img-picture"
@@ -57,10 +58,10 @@ function Content() {
                 height="65px"
               />
               <span>Coinbase Wallet</span>
-            </Nav.Link>
+            </Link>
           </div>
           <div class="img-title-select">
-            <Nav.Link href="scanwallet">
+            <Link to="scan-wallet">
               <Image
                 src={pink}
                 class="img-picture"
@@ -68,7 +69,7 @@ function Content() {
                 height="65px"
               />
               <span>Coinbase Wallet</span>
-            </Nav.Link>
+            </Link>
           </div>
           <div class="title-main">
             <span>Terms of service</span>
@@ -95,12 +96,12 @@ function Content() {
             <span>I agree Stack terms of service</span>
           </div>
           <div class="selection-button">
-            <Nav.Link href="connectwallet">
+            <Link to="connect-wallet">
               <span> Cancel</span>
-            </Nav.Link>
-            <Nav.Link href="/">
+            </Link>
+            <Link to="/">
               <div class="choose">Get started now</div>
-            </Nav.Link>
+            </Link>
           </div>
         </div>
         </Container>

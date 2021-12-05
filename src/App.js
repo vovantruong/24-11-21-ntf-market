@@ -7,10 +7,10 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/scanwallet01" element={<ScanWallet01 />} />
+        <Route path="/scan-wallet01" element={<ScanWallet01 />} />
         <Route path="/" element={<Home />} />
-        <Route path="/scanwallet" element={<ScanWallet />} />
-        <Route path="/connectwallet" element={<ConnectWallet />} />
+        <Route path="/scan-wallet" element={<ScanWallet />} />
+        <Route path="/connect-wallet" element={<ConnectWallet />} />
       </Routes>
     </div>
   );

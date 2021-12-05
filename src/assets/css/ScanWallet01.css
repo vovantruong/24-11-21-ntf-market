@@ -12,21 +12,24 @@
     position: relative;
     height: 126px;
 }
-#connectwallect01 .button-header .nav-link{
+#connectwallect01 a{
+    text-decoration: none;
     color: #000000;
+}
+#connectwallect01 .button-header a{
+    padding: 8px 10px;
+    border: 1px solid gray;
+    border-radius: 90px;
 }
 #connectwallect01 .back-home{
     position: absolute;
-    /* left: 400px; */
     top: 73px;
     font-weight: 500;
     font-size: 14px;
     line-height: 15px;
-    border: 1px solid gray;
-    border-radius: 90px;
     text-align: center; 
 }
-#connectwallect01 .back-home:hover,  #connectwallect01 .back-home .nav-link:hover {
+#connectwallect01 .back-home:hover,  #connectwallect01 .back-home a:hover {
     background: #a92e71;
     color: white !important;
     border-radius: 90px;
@@ -55,7 +58,7 @@
     padding: 30px;
     cursor: pointer;
 }
-#connectwallect01 .img-title-select .nav-link{
+#connectwallect01 .img-title-select a{
     padding: 0;
 }
 #connectwallect01 .img-title-select span{
@@ -149,19 +152,21 @@
     display: flex;
     overflow: hidden;
 }
-#connectwallect01 .selection-button .nav-link span{
+#connectwallect01 .selection-button a span{
     color:#000;
     border: 1px solid gray;
     border-radius: 90px;
     padding: 12px 25px;
     position: relative;
-    top: 16px;
+    top: 15px;
 }
-#connectwallect01 .selection-button .nav-link span:hover{
+#connectwallect01 .selection-button a span:hover{
     color:white;
     background: #a92e71;
 }
-#connectwallect01 .selection-button .nav-link .choose{
+#connectwallect01 .selection-button a .choose{
+    position: relative;
+    left: 12px;
     color:white;
     border: 1px solid gray;
     border-radius: 90px;
