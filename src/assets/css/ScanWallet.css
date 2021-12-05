@@ -52,10 +52,14 @@
     cursor: pointer;
 }
 #connectwallect .img-title-select span{
-    position: relative; 
+    /* position: relative; 
     padding: auto;
     left: 30px;
-    top: 3px;
+    top: 3px; */
+    position: absolute;
+    padding: auto;
+    left: 114px;
+    top: 53px;
     font-weight: 600;
     font-size: 24px;
     line-height: 25px;
@@ -112,6 +116,41 @@
     color:white;
     background: #a92e71;
    
+}
+.hidden-img{
+    width: 65px;
+    height: 65px;
+    /* background: url(../images/connect\ wallet/purple.png);
+    background-size: cover; */
+}
+.check-item{
+    position: absolute;
+    left: 30px;
+    border-radius: 50%;
+    padding: 23px;
+    z-index: 100;
+ 
+}
+.item-1{
+    border: 1px solid purple;
+    color: purple;  
+     display: none;
+}
+.item-2{
+    border: 1px solid blue;
+    color: blue;
+    display: none;
+}
+.item-3{
+    border: 1px solid green;
+    color: green;
+    display: none;
+}
+.item-4{
+    border: 1px solid pink;
+    color: pink;
+    display: none;
+
 }
 /* #connectwallect .selection-button .nav-link .choose{
     color:white;
