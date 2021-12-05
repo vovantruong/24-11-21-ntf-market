@@ -8,6 +8,8 @@ import { Routes, Route } from "react-router-dom";
 import CreateItem from "./components/CreateItem";
 import ScanWallet01 from './components/ScanWallet01.jsx';
 import HomeItem from './components/HomeItem.jsx'
+import Activity from "./components/Activity.jsx";
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
         <Route path="/create-item" element={<CreateItem />} />
        <Route path="/scan-wallet01" element={<ScanWallet01/>}/>
        <Route path="/home-item" element={<HomeItem/>}/>
+       <Route path="/activity" element={<Activity/>}/>
      </Routes>
     </div>
   );
