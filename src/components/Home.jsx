@@ -1,10 +1,13 @@
-import React from 'react'
-import Header from './Header_Footer/Header'
+import React from "react"
+import Footer from "./Header_Footer/Footer";
+import Header from "./Header_Footer/Header";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Home() {
-  return (
+  return(
     <div id="home">
-      <Header />
+    <Header />
+      <Footer />
     </div>
   )
 }
