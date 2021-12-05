@@ -303,6 +303,12 @@
   top: 98px;
 }
 
+#discover__home .load__more:hover{
+  background: #a92e71;
+  color: #fff;
+  border: 1.5px solid #a92e71;
+}
+
 #discover__home .nav__menu {
   position: relative;
   top: 65px;
