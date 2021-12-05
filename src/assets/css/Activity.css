@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
   }
+#activity .container{
+    max-width: 1144px;
+}
 #activity .nav-link{
     padding-top: 12px;
     color: black;
@@ -16,13 +19,10 @@
 #activity .btn-activity h5{
     padding-top: 10px;
 }
-#activity .btn-activity h5{
+#activity .btn-activity-right{
     position: relative;
-    top: 82px;
-    left: 1437px;
-    font-weight: 500;
-    line-height: 14px;
-    color: #000000;
+    left: 1046px;
+    top: 74px;
 }
 #activity .btn-title{
     width: 100%px;
@@ -30,8 +30,8 @@
 }
 #activity .back-home{  
     position: absolute;
-    left: 400px;
-    top: 156px;
+    /* left: 400px; */
+    top: 145px;
     bottom: 38px;
     width: 239px;
     height: 48px;
@@ -54,16 +54,16 @@
 }
 
 #activity .title{
-    position: relative;
-    top: 35px;
-    left: 400px;
+    position: absolute;
+    top: 36px;
+    left: 0;
     width: 179px;
     height: 50px;
 }
 #activity .read span{
     position: relative;
-    top: -3px;
-    left: 974px;
+    top: 53px;
+    left: 574px;
     width: 114px;
     height: 22px;
     border:1px solid gray;
@@ -86,8 +86,8 @@
     color: #606060;
     padding: 10px 1px;
     position: relative;
-    left: 400px;
-    top: 30px;
+    left: 0;
+    top: 85px;
     text-align: center;
 }
 #activity .selection-activity .col-md-4 a{
@@ -111,8 +111,8 @@
     padding: 20px 0;
     position: relative;
     cursor: default;
-    left: 420px;
-    top: 65px;
+    left: 20px;
+    top: 120px;
     
 }
 
@@ -157,8 +157,8 @@
 }
 #activity .check-filters{
     position: absolute;
-    left: 1175px;
-    top: 43px;
+    right: 0;
+    top: 45px;
     width: 345px;
     height: 610px;
     border: 1px solid gray;

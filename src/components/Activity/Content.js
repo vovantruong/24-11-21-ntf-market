@@ -14,6 +14,7 @@ function Content() {
   return (
     <div>
       <activity id="activity">
+        <Container>
         <div class="row btn-title">
           <div class="back-home">
             <Nav.Link href="/">
@@ -22,8 +23,8 @@ function Content() {
               </h5>
             </Nav.Link>
           </div>
-          <div class="btn-activity">
-            <h5>Activity</h5>
+          <div>
+            <h5 class="btn-activity-right">Activity</h5>
           </div>
         </div>
         <hr width="100%" align="center" />
@@ -172,6 +173,7 @@ function Content() {
             </div>
           </div>
         </div>
+        </Container>
       </activity>
     </div>
   );
