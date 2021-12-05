@@ -378,10 +378,11 @@ a.profile {
     display: contents;
   }
   .detail__profile {
-    height: 20%;
-    /* margin-top: 800px; */
+    height: 160%;
+    margin-top: -65%;
     margin-left: 20px;
     left: 0px;
+    position: relative !important;
  
   }
   a.profile {
