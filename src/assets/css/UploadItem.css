@@ -37,7 +37,7 @@
     text-decoration: initial;
     color: #000000;
     position: static;
-    padding-left: 72px;
+    padding-left: 122px;
 }
 #uploaditem .Center_upload .item{
     margin-bottom: 60px;
@@ -115,3 +115,29 @@ font-family: SVN-Poppins;
 font-style: normal;
 font-size: 8px;
 }
+
+/* =============================== Responsive ================================== */
+/* Ty le man hinh nho hon 1200*/
+@media screen and (max-width: 1200px) {
+    #uploaditem .Upload_Item .center_Upload h1{
+        margin-left: 100px;
+    }
+    #uploaditem .Upload_Item .center_Upload .Creat .single{
+        margin-left: 160px;
+        margin-bottom: 20px;
+    }
+    #uploaditem .Upload_Item .center_Upload .Creat .mutiple{
+        margin-left: 160px;
+    }
+    #uploaditem .Upload_Item .center_Upload .confirmation p{
+        padding-right: 35px;
+    }
+  }
+  
+  /* Ty le man hinh nho hon 991*/
+  @media screen and (max-width: 991px) {
+    #uploaditem .Upload_Item{
+        width: 150px;
+        flex-direction: column;
+    }
+  }

@@ -17,9 +17,9 @@ function UploadItem() {
                                 </a>
                             </div>
                         </Col>
-                        <Col className="center_Upload" lg={7} md={6}>
+                        <Col className="center_Upload" lg={6} md={6}>
                         </Col>
-                        <Col className="right_Upload" lg={2} md={6}>
+                        <Col className="right_Upload" lg={3} md={6}>
                             <a href="/upload"><b>Upload Item</b></a>
                         </Col>
                     </Row>
