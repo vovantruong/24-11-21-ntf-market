@@ -3,12 +3,10 @@
 #home {
   font-family: "Poppins", sans-serif;
 }
-
-#home a {
+ a {
   text-decoration: none;
 }
-
-#home li {
+ li {
   list-style-type: none;
 }
 
