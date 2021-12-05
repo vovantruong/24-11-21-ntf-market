@@ -397,6 +397,10 @@ a.profile {
   .just__like p.place {
     left: 50px;
   }
+  .detail__profile{
+    position: relative;
+    height: 100px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -429,19 +433,22 @@ a.profile {
     display: contents;
   }
   .detail__profile {
-    height: 20%;
+    position: relative;
+    height: 120%;
     /* margin-top: 800px; */
     margin-left: 20px;
     left: 0px;
+    margin-top:-30%;
  
   }
   a.profile {
-    margin-top: -360px;
+    margin-top: -240px;
   }
   a.cover {
-    margin-top: -365px;
+    margin-top: -241px;
     font-size: 10px;
     padding: 15px;
+    right: 43% !important;
   }
   a.profile{
     font-size: 12px;
@@ -459,5 +466,12 @@ a.profile {
   }
 
 
+
+}
+/* Ty le man hinh nho hon 320px */
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 310px;
+  }
 }
 
