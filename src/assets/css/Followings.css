@@ -375,6 +375,10 @@
   font-size: 12px;
   color: #606060;
 }
+.navbar_item .detail__profile .view__profile
+{
+padding-top: 40px;  
+}
 
 
 
