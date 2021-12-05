@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
   }
+  #connectwallect01 .container{
+    max-width: 1144px;
+  }
 #connectwallect01 .button-header{
     position: relative;
     height: 126px;
@@ -14,7 +17,7 @@
 }
 #connectwallect01 .back-home{
     position: absolute;
-    left: 400px;
+    /* left: 400px; */
     top: 73px;
     font-weight: 500;
     font-size: 14px;
@@ -30,9 +33,10 @@
 }
 
 #connectwallect01 .title-header{
-    position: relative;
+    position: absolute;
     top: 82px;
-    left: 1419px;
+    /* left: 1419px; */
+    right: 0;
     font-weight: 500;
     font-size: 13px;
     line-height: 14px;
@@ -46,7 +50,7 @@
     position: relative;
     width: 523px;
     height: 125px;
-    left: 400px;
+    /* left: 400px; */
     top: 125px;
     padding: 30px;
     cursor: pointer;
@@ -66,9 +70,9 @@
 }
 #connectwallect01 .img-main{
     position: absolute;
-    right: 400px;
+    right: 0;
+    /* left: 674px; */
     top: 274px;
-    left: 1074px;
 }
 #connectwallect01 .img-title-select:hover::after{
     position: absolute;
@@ -81,9 +85,9 @@
 }
 #connectwallect01 .title-main{
     position: absolute;
-    right: 427px;
+    right: 0;
     top: 125px;
-    left: 1074px;
+    left: 674px;
     
 }
 #connectwallect01 .title-main span{
@@ -101,8 +105,7 @@
 }
 #connectwallect01 .item-check{
     position: relative;
-    top: -26px;
-    left: 1074px;
+    left: 674px;
 }
 #connectwallect01 .item-check .check-box{ 
     width: 24px;
@@ -141,8 +144,8 @@
     padding: 0 3px;
 }
 #connectwallect01 .selection-button{
-        position: relative;
-    left: 1058px;
+    position: relative;
+    left: 655px;
     display: flex;
     overflow: hidden;
 }
