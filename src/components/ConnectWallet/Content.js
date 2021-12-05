@@ -12,7 +12,7 @@ function Content() {
   return (
     <div>
       <connectwallect id="connectwallect">
-        {/* <Container> */}
+        <Container>
         <div class="main-connect-wallect">
           <div class="button-header">
             <div class="back-home">
@@ -79,7 +79,7 @@ function Content() {
             />
           </div>
         </div>
-        {/* </Container> */}
+        </Container>
       </connectwallect>
     </div>
   );
