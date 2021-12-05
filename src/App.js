@@ -5,7 +5,7 @@ function App() {
     <>
        <UploadItem/>
     </>
-  );
+  )
 }
 
 export default App;

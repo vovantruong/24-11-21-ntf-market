@@ -7,8 +7,8 @@ import Footer from './Header_Footer/Footer'
 function UploadItem() {
   return (
     <div id="home">
-      <Header />,
-      <UploadItem_content />,
+      <Header />
+      <UploadItem_content />
       <Footer />
     </div>
   )
