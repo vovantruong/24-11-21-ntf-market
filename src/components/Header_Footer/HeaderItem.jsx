@@ -41,19 +41,15 @@ function Header() {
               />
               <Button>
                 <i className="fas fa-search"></i>
-              </Button>             
-            </Form>
-
-            <Nav className="bell">
-              <Button>
-               <i class='far fa-bell'></i>
               </Button>
-            </Nav>
-
+            </Form>
+            <div className="bell">
+              <Nav.Link href="bell"><i class='far fa-bell'></i></Nav.Link>
+            </div>
             <Nav className="right">
               <Nav.Link href="#">Upload</Nav.Link>
               <Nav.Link href="#" class="acount">
-              <Image src={user} width="20px" height="20px" />1.000 ETH
+                <Image src={user} width="20px" height="20px" />1.000 ETH
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
