@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import {
   Container,
   Row,
-  Col, Image, Button,
+  Col, Image,
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import bgItem from "../../assets/images/Profile/unsplash_wQLAGv4_OYs.png";
