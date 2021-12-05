@@ -6,11 +6,7 @@ import {
   Row,
   Col,
   Image,
-  Form,
-  FormControl,
-  Button,
 } from "react-bootstrap";
-import { BrowserRouter as Router, Link } from "react-router-dom";
 import "../../assets/css/CreateItem.css";
 
 /* ================================================================= */
