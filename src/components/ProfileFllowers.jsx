@@ -2,16 +2,15 @@ import React from "react"
 import Footer from "./Header_Footer/Footer";
 import Header from "./Header_Footer/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ProfileFollowings from "./Profile/ProfilePage";
+import FollowersPage from "./ProfileFollowers/FollowersPage";
 
-function Followers() {
+export default function ProfileFollowers() {
   return (
     <div id="profile">
       <Header />
-      <ProfileFollowings />
+      <FollowersPage />
       <Footer />
     </div>
   )
 }
 
-export default Followers
