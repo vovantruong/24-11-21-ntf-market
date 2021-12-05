@@ -8,16 +8,21 @@
 #activity .container{
     max-width: 1144px;
 }
-#activity .nav-link{
-    padding-top: 12px;
+#activity a{
+    /* padding-top: 12px;
     color: black;
-    margin: -4px -20px;
+    margin: -4px -20px; */
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+#activity .back-home a{
+    padding: 7px 10px;
+    border: 1px solid gray;
+    border-radius: 90px;
 }
 #activity .fa-arrow-left{
     font-size: 1rem;
-}
-#activity .btn-activity h5{
-    padding-top: 10px;
 }
 #activity .btn-activity-right{
     position: relative;
@@ -30,26 +35,18 @@
 }
 #activity .back-home{  
     position: absolute;
-    /* left: 400px; */
-    top: 145px;
+    top: 160px;
     bottom: 38px;
-    width: 239px;
-    height: 48px;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 15px;
-    border: 1px solid gray;
-    border-radius: 90px;
-    text-align: center;
-    padding: 1px 20px;    
+    line-height: 15px; 
 }
-#activity .back-home:hover, activity .read span:hover{
+#activity .back-home a:hover, #activity .read span:hover{
     background: #a92e71;
     color: white;
     border-radius: 90px;
 }
-#activity .nav-link:hover{
+#activity a:hover{
     color: white;
 }
 
@@ -74,16 +71,10 @@
 }
 #activity .selection-activity{
     position: relative;
-    width: 350px;
+    width: 320px;
     height: 25px;
 }
 #activity .selection-activity .col-md-4{
-    font-family: SVN-Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 15px;
-    color: #606060;
     padding: 10px 1px;
     position: relative;
     left: 0;
@@ -91,8 +82,11 @@
     text-align: center;
 }
 #activity .selection-activity .col-md-4 a{
+    font-family: "SVN-Poppins";
+    font-style: normal;
     text-decoration: none;
     padding: 6px 10px;
+    font-size: 16px;
     color: #606060;
 }
 #activity .selection-activity .col-md-4 a:hover{

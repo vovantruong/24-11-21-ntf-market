@@ -2,7 +2,7 @@ import React from "react";
 import "../../assets/css/Activity.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import mypicture from "../../assets/images/Activity/unsplash_mEZ3PoFGs_k.png";
-import {Routes,Route} from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   Navbar,
   Container,
@@ -17,14 +17,12 @@ function Content() {
         <Container>
         <div class="row btn-title">
           <div class="back-home">
-            <Nav.Link href="/">
-              <h5>
+            <Link to="/">             
                 <i class="fas fa-arrow-left"></i> <span> Back to home</span>
-              </h5>
-            </Nav.Link>
+            </Link>
           </div>
-          <div>
-            <h5 class="btn-activity-right">Activity</h5>
+          <div class="btn-activity-right">
+            Activity
           </div>
         </div>
         <hr width="100%" align="center" />
@@ -37,9 +35,9 @@ function Content() {
           </div>
           <div class="selection-activity">
             <div class="row">
-              <div class="col-md-4"><a href="#">My activity</a></div>
-              <div class="col-md-4"><a href="#">Following</a></div>
-              <div class="col-md-4"><a href="#">All activity</a></div>
+              <div class="col-md-4"><Link to="#">My activity</Link></div>
+              <div class="col-md-4"><Link to="#">Following</Link></div>
+              <div class="col-md-4"><Link to="#">All activity</Link></div>
             </div>
           </div>
           <div class="content">
