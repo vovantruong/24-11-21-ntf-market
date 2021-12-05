@@ -11,7 +11,7 @@ import qrcode from "../../assets/images/scan wallet1_2/qrcode.png";
 function Content() {
   return (
     <div>
-      <connectwallect id="connectwallect">
+      <connectwallect id="scanwallet">
         <Container>
         <div class="main-connect-wallect">
           <div class="button-header">
