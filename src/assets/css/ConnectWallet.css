@@ -12,7 +12,7 @@
     position: relative;
     height: 126px;
 }
-#connectwallect .button-header .nav-link{
+#connectwallect .button-header a{
     color: #000000;
 }
 #connectwallect .back-home{
@@ -26,7 +26,7 @@
     border-radius: 90px;
     text-align: center; 
 }
-#connectwallect .back-home:hover,  #connectwallect .back-home .nav-link:hover {
+#connectwallect .back-home:hover,  #connectwallect .back-home a:hover {
     background: #a92e71;
     color: white !important;
     border-radius: 90px;

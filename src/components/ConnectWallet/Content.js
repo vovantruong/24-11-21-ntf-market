@@ -26,7 +26,7 @@ function Content() {
         </div>
         <div class="main">
         <div class="img-title-select">
-            <Nav.Link href="scanwallet">
+            <Nav.Link href="scan-wallet">
               <Image
                 src={purple}
                 class="img-picture"
@@ -38,7 +38,7 @@ function Content() {
           </div>
 
           <div class="img-title-select">
-            <Nav.Link href="scanwallet">
+            <Nav.Link href="scan-wallet">
               <Image
                 src={blue}
                 class="img-picture"
@@ -49,7 +49,7 @@ function Content() {
             </Nav.Link>
           </div>
           <div class="img-title-select">
-            <Nav.Link href="scanwallet">
+            <Nav.Link href="scan-wallet">
               <Image
                 src={green}
                 class="img-picture"
@@ -60,7 +60,7 @@ function Content() {
             </Nav.Link>
           </div>
           <div class="img-title-select">
-            <Nav.Link href="scanwallet">
+            <Nav.Link href="sca-nwallet">
               <Image
                 src={pink}
                 class="img-picture"
