@@ -92,7 +92,7 @@ export default function ProfilePage() {
             <Link className="cover" to="">
               Edit cover photo &nbsp; <i class="fas fa-pen"></i>
             </Link>
-            <Link className="profile" to="/">
+            <Link className="profile" to="/edit-profile">
               Edit profile &nbsp; <i class="far fa-image"></i>
             </Link>
           </div>

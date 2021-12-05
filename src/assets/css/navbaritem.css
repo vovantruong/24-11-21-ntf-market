@@ -28,14 +28,17 @@
   margin-bottom: 20%;
 }
 .navbar_item
-.left span {
+.left a {
   border: 1px solid #dadada;
   border-radius: var(--boder-radius);
   padding: 10px 20px;
   font-size: 14px;
   font-weight: 500;
+  text-decoration: none;
+  color: #000;
+ 
 }
-.left:hover span {
+.left:hover a {
   background: var(--dark-pink);
   color: var(--txt-light);
 }
