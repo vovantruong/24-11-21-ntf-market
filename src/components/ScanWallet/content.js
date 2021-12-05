@@ -59,7 +59,7 @@ function Content() {
           </div>
 
           <div class="selection-button">
-            <Link to="scan-wallet01">
+            <Link to="/scan-wallet01">
               <span> Dont’s have a wallet app?</span>
             </Link>
           </div>
