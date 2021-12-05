@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./HomeDiscover.css";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
-import { Link, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import Image01 from "../../assets/images/Home/unsplat-14.png";
 import Image02 from "../../assets/images/Home/unsplat-16.png";

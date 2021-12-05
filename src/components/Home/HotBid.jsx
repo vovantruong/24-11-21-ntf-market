@@ -5,8 +5,6 @@ import "./HotBid.css";
 
 // ========================== Import Image ================================ //
 import Avata from "../../assets/images/Home/avata-1.png";
-import IconNotBG from "../../assets/images/Home/icon/heart-no-bg.png";
-import IconBG from "../../assets/images/Home/icon/heart-bg.png";
 import Image01 from "../../assets/images/Home/unsplat-13.png";
 import Image02 from "../../assets/images/Home/unsplat-14.png";
 import Image03 from "../../assets/images/Home/unsplat-15.png";
@@ -17,7 +15,6 @@ const hotbid = [
   {
     img: Image01,
     txt: "Purchasing",
-    icon: IconNotBG,
     place: "Place a bid",
     title: "Amazing digital art",
     eth: "1.125 ETH",
@@ -30,7 +27,6 @@ const hotbid = [
   {
     img: Image02,
     txt: "Purchasing",
-    icon: IconNotBG,
     place: "Place a bid",
     title: "Amazing digital art",
     eth: "1.125 ETH",
@@ -43,7 +39,6 @@ const hotbid = [
   {
     img: Image03,
     txt: "Purchasing",
-    icon: IconNotBG,
     place: "Place a bid",
     title: "Amazing digital art",
     eth: "1.125 ETH",
@@ -56,7 +51,6 @@ const hotbid = [
   {
     img: Image04,
     txt: "Purchasing",
-    icon: IconNotBG,
     place: "Place a bid",
     title: "Amazing digital art",
     eth: "1.125 ETH",
@@ -69,7 +63,6 @@ const hotbid = [
   {
     img: Image05,
     txt: "Purchasing",
-    icon: IconNotBG,
     place: "Place a bid",
     title: "Amazing digital art",
     eth: "1.125 ETH",
@@ -100,7 +93,7 @@ function HotBid() {
     autoplaySpeed: 4000,
     slidesToShow: 4,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1025,
@@ -134,10 +127,18 @@ function HotBid() {
           rows: 1,
         },
       },
+      {
+        breakpoint: 280,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          rows: 1,
+        },
+      },
     ],
   };
 
-  const [clicked, setClicked] = useState(false);
+  const [clicked, setClicked] = useState(true);
 
   return (
     <section id="hot__bid">
@@ -163,8 +164,15 @@ function HotBid() {
                   <Image src={e.img} />
                   <div className="just__like">
                     <p className="purchas">{e.txt}</p>
-                    <Button className="icon__img">
-                      <Image src={e.icon} />
+                    <Button
+                      className="icon__img"
+                      onClick={() => setClicked(!clicked)}
+                    >
+                      {clicked ? (
+                        <i className="far fa-heart"></i>
+                      ) : (
+                        <i className="fas fa-heart"></i>
+                      )}
                     </Button>
                     <p className="place">{e.place}</p>
                   </div>
