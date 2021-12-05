@@ -40,7 +40,7 @@ function Seller() {
     autoplaySpeed: 4500,
     slidesToShow: 5,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
     responsive: [
       {
         breakpoint: 1025,

@@ -109,6 +109,7 @@
 #connectwallect01 .item-check{
     position: relative;
     left: 674px;
+    width: 39%;
 }
 #connectwallect01 .item-check .check-box{ 
     width: 24px;
@@ -150,6 +151,7 @@
     position: relative;
     left: 655px;
     display: flex;
+    width: 30%;
 }
 #connectwallect01 .selection-button a span{
     color:#000;

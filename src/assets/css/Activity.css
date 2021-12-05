@@ -99,9 +99,9 @@
     border-radius: 90px;
     color: white;
 }
-/* #activity .content{
+#activity .content{
     width: 702px;
-} */
+}
 #activity .content .row{
     padding: 20px 0;
     position: relative;
@@ -154,7 +154,7 @@
     position: absolute;
     right: 0;
     top: 45px;
-    /* width: 345px; */
+    width: 345px;
     height: 610px;
     border: 1px solid gray;
     border-radius: 10px;

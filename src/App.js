@@ -9,6 +9,8 @@ import CreateItem from "./components/CreateItem";
 import ScanWallet01 from './components/ScanWallet01.jsx';
 import HomeItem from './components/HomeItem.jsx'
 import Activity from "./components/Activity.jsx";
+import EditProfile from "./components/Editprofile";
+import Profile from "./components/Profile";
 
 
 function App() {
@@ -25,6 +27,9 @@ function App() {
        <Route path="/scan-wallet01" element={<ScanWallet01/>}/>
        <Route path="/home-item" element={<HomeItem/>}/>
        <Route path="/activity" element={<Activity/>}/>
+       <Route path="/profile" element={<Profile/>}/>
+       <Route path="/edit-profile" element={<EditProfile/>}/>
+       {/* <Route path="/profile-followings" element={<Profile/>}/> */}
      </Routes>
     </div>
   );
