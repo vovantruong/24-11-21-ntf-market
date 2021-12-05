@@ -9,7 +9,7 @@ import {
   FormControl,
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "../../assets/images/Header/Vector.png";
+import logo from "../../assets/images/Header/women-tech-logo-bg.png";
 import "../../assets/css/Header.css";
 
 import {Link} from "react-router-dom"
@@ -20,8 +20,7 @@ function Header() {
       <Navbar expand="lg">
         <Container>
           <Navbar.Brand href="/">
-            <Image src={logo} width="33,22px" height="31,63px" />
-            <p className="logo">Womentech</p>
+            <Image className='logo' src={logo}/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
