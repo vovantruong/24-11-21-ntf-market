@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Image, Form,FormControl,Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../../assets/css/Footer.css";
-import Logo from "../../assets/images/Footer/Vector.png";
+import Logo from "../../assets/images/Header/Women Tech_Logo_png-02.png";
 
 function Footer() {
   return (
@@ -12,7 +12,6 @@ function Footer() {
           <Col className="footer__logo" lg={3} md={12}>
             <div className="logo">
               <Image className="logo__img" src={Logo} />
-              <p className="logo__text">Womentech</p>
             </div>
             <div className="title">
               <h3>The New Creative Economy.</h3>
