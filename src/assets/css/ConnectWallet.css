@@ -8,6 +8,11 @@
 #connectwallect .container{
     max-width: 1144px;
 }
+
+#connectwallect a{
+    text-decoration: none;
+}
+
 #connectwallect .button-header{
     position: relative;
     height: 126px;
@@ -17,7 +22,7 @@
 }
 #connectwallect .back-home{
     position: absolute;
-    /* left: 400px; */
+ padding: 10px;
     top: 73px;
     font-weight: 500;
     font-size: 14px;
