@@ -8,13 +8,17 @@
 #connectwallect .button-header{
     position: relative;
     height: 126px;
+    
+}
+#connectwallect .container{
+    max-width: 1144px;
 }
 #connectwallect .button-header .nav-link{
     color: #000000;
 }
 #connectwallect .back-home{
     position: absolute;
-    left: 400px;
+    /* left: 400px; */
     top: 73px;
     font-weight: 500;
     font-size: 14px;
@@ -30,9 +34,10 @@
 }
 
 #connectwallect .title-header{
-    position: relative;
+    position: absolute;
     top: 82px;
-    left: 1419px;
+    right: 0;
+    /* left: 1419px; */
     font-weight: 500;
     font-size: 13px;
     line-height: 14px;
@@ -46,7 +51,7 @@
     position: relative;
     width: 523px;
     height: 125px;
-    left: 400px;
+    /* left: 400px; */
     top: 125px;
     padding: 30px;
     cursor: pointer;
@@ -66,10 +71,9 @@
     color: #000000;
 }
 #connectwallect .img-main{
-    position: absolute;
-    right: 400px;
+    position: absolute; 
     top: 220px;
-    left: 1076px;
+    right: 0;
 }
 #connectwallect .img-title-select:hover::after{
     position: absolute;
@@ -82,9 +86,8 @@
 }
 #connectwallect .title-main{
     position: absolute;
-    right: 427px;
+    right: 131px;
     top: 125px;
-    left: 1074px;
     
 }
 #connectwallect .title-main span{
@@ -102,7 +105,7 @@
 }
 #connectwallect .selection-button{
     position: absolute;
-    left: 1075px;
+    right: 205px;
     display: flex;
     overflow: hidden;
     top: 690px;
