@@ -11,6 +11,7 @@ import {
 import single from "../../assets/images/Upload item/unsplash_pEgsWN0kwbQ.png";
 import mutiple from "../../assets/images/Upload item/unsplash_Lki74Jj7H-U.png";
 import "../../assets/css/UploadItem.css";
+import {Link} from 'react-router-dom'
 
 function UploadItem() {
   return (
@@ -20,18 +21,18 @@ function UploadItem() {
           <Row>
             <Col className="left_Upload" lg={3} md={6}>
               <div className="btnBack">
-                <a class="btna" href="/btna">
+                <Link className="btna" to="/">
                   <i class="fas fa-arrow-left">
                   </i>
                   Back to home
-                </a>
+                </Link>
               </div>
             </Col>
             <Col className="center_Upload" lg={6} md={6}></Col>
             <Col className="right_Upload" lg={3} md={6}>
-              <a href="/upload">
+              <Link to="/upload">
                 <b>Upload Item</b>
-              </a>
+              </Link>
             </Col>
           </Row>
         </div>
@@ -63,7 +64,7 @@ function UploadItem() {
                           </div>
                           <div className="creat_single_mutiple">
                             <div className="single_mutiple">
-                              <a href="creat_single">
+                              <a href="create-item">
                                 {" "}
                                 <b>Creat single</b>
                               </a>

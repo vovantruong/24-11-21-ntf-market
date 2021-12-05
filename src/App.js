@@ -5,6 +5,7 @@ import Discover from "./components/Discover";
 import HowItWork from "./components/HowItWork";
 import UploadItem from "./components/UploadItem";
 import { Routes, Route } from "react-router-dom";
+import CreateItem from "./components/CreateItem";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/scanwallet" element={<ScanWallet />} />
         <Route path="/connect-wallet" element={<ConnectWallet />} />
         <Route path="/upload" element={<UploadItem />} />
+        <Route path="/create-item" element={<CreateItem />} />
       </Routes>
     </div>
   );
