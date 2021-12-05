@@ -20,21 +20,21 @@ const salyFadel = [
     srcImg: avatar,
     title: "Sally Fadel",
     text: "161 followers",
-    link: "Unfollow",
+    link: "Follow",
   },
   {
     className: "second",
     srcImg: avatar,
     title: "Sally Fadel",
     text: "161 followers",
-    link: "Unfollow",
+    link: "Follow",
   },
   {
     className: "thirst",
     srcImg: avatar,
     title: "Sally Fadel",
     text: "161 followers",
-    link: "Unfollow",
+    link: "Follow",
   },
 ];
 
