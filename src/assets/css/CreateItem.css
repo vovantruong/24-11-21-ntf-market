@@ -6,6 +6,11 @@
 #createitem h1{
   font-family: 'Lora' sans-serif;
 }
+
+#createitem .container{
+  max-width: 1250px;
+}
+
 #createitem .left__CreateSimple .switch_multiple:hover {
   border: 1px solid #a92e71;
   background: #a92e71;
