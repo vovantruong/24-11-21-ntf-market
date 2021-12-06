@@ -108,10 +108,12 @@
 #header nav .left {
   margin-left: 130px;
 }
+#header nav .left:hover{
+  background: none !important;
+}
 
 #header nav .left a:hover{
   color: #B5689E;
-
 }
 
 #header nav .left a:nth-child(1) {

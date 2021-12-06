@@ -38,7 +38,7 @@
   color: #000;
  
 }
-.left:hover a {
+.navbar_item  .left:hover a {
   background: var(--dark-pink);
   color: var(--txt-light);
 }

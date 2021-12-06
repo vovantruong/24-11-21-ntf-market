@@ -24,14 +24,14 @@ function App() {
         <Route path="/scan-wallet" element={<ScanWallet />} />
         <Route path="/connect-wallet" element={<ConnectWallet />} />
         <Route path="/upload" element={<UploadItem />} />
-         <Route path="/create-item" element={<CreateItem />} />
+        <Route path="/create-item" element={<CreateItem />} />
         <Route path="/scan-wallet01" element={<ScanWallet01 />} />
         <Route path="/home-item" element={<HomeItem />} />
         <Route path="/activity" element={<Activity />} />
-        <Route path="/profile" element={<Profile />} /> 
+        <Route path="/profile" element={<Profile />} />  
         <Route path="/edit-profile" element={<EditProfile />} />
         <Route path="/profile-followings" element={<Followings />} />
-        <Route path="/profile-followers" element={<ProfileFollowers />} /> 
+        <Route path="/profile-followers" element={<ProfileFollowers />} />
       </Routes>
     </div>
   );
