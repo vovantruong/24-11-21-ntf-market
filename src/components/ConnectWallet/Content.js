@@ -1,7 +1,7 @@
 import React from "react";
 import "../../assets/css/ConnectWallet.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Navbar, Container, Nav, Image } from "react-bootstrap";
+import { Container,Image } from "react-bootstrap";
 import purple from "../../assets/images/connect wallet/purple.png";
 import blue from "../../assets/images/connect wallet/blue.png";
 import green from "../../assets/images/connect wallet/green.png";

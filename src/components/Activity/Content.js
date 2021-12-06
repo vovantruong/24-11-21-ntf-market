@@ -4,9 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import mypicture from "../../assets/images/Activity/my-avt.png";
 import { Link } from "react-router-dom";
 import {
-  Navbar,
   Container,
-  Nav,
   Image,
 } from "react-bootstrap";
 

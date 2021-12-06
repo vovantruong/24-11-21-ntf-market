@@ -4,9 +4,6 @@ import {
   Row,
   Col,
   Image,
-  Form,
-  FormControl,
-  Button,
 } from "react-bootstrap";
 import single from "../../assets/images/Upload item/unsplash_pEgsWN0kwbQ.png";
 import mutiple from "../../assets/images/Upload item/unsplash_Lki74Jj7H-U.png";
