@@ -34,9 +34,9 @@ const CreateItem = () => {
               <div className="left__CreateSimple">
                 <Row>
                   <Col className=" Collectible" lg={8} md={6}>
-                  {
-                    sigle ? <h1>Create single collectible</h1> :  <h1>Create multiple collectible</h1>
-                  }
+                    {
+                      sigle ? <h1>Create single collectible</h1> : <h1>Create multiple collectible</h1>
+                    }
                   </Col>
                   <Col className="Multiple" lg={4} md={6}>
                     <div
@@ -88,16 +88,7 @@ const CreateItem = () => {
                     <Col class="form-royalties" lg={4} md={6}>
                       <div class="royalties">
                         <label for="">ROYALTIES</label>
-                        <select class="form-control" name="" id="">
-                          <a
-                            name=""
-                            id=""
-                            class="btn btn-primary"
-                            href="#"
-                            role="button"
-                          >
-                            123
-                          </a>
+                        <select class="form-control">
                           <option>10%</option>
                           <option>2</option>
                           <option>3</option>
@@ -139,7 +130,7 @@ const CreateItem = () => {
               <div className="right__Preview">
                 <h1>Preview</h1>
                 <div className="img_preview">
-                  <Image src={Preview} width="270px" height="310px" />
+                  <Image src={Preview} width="260px" height="310px" />
                 </div>
                 <div className="digital_price">
                   <Row>
@@ -176,7 +167,8 @@ const CreateItem = () => {
                   </Col>
                 </Row>
                 <div class="clearAll">
-                  <p>Clear all</p>
+                  <i class="fas fa-times-circle"></i>
+                  <span>Clear All</span>
                 </div>
               </div>
             </Col>
@@ -211,32 +203,17 @@ const CreateItem = () => {
                     </div>
                   </Col>
                   <Col className="Menu_right" lg={2} md={6}>
-                    <div class="button_right">
-                      <a
-                        name=""
-                        id=""
-                        class="btn btn-primary"
-                        href="#"
-                        role="button"
-                      ></a>
+                    <div class="checkbox-example">
+                      <input type="checkbox" value="1" id="checkboxOneInput" />
+                      <label for="checkboxOneInput"></label>
                     </div>
-                    <div class="button_right">
-                      <a
-                        name=""
-                        id=""
-                        class="btn btn-primary"
-                        href="#"
-                        role="button"
-                      ></a>
+                    <div class="checkbox-example1">
+                      <input type="checkbox" value="1" id="checkboxOneInput" />
+                      <label for="checkboxOneInput"></label>
                     </div>
-                    <div class="button_right">
-                      <a
-                        name=""
-                        id=""
-                        class="btn btn-primary"
-                        href="#"
-                        role="button"
-                      ></a>
+                    <div class="checkbox-example2">
+                      <input type="checkbox" value="1" id="checkboxOneInput" />
+                      <label for="checkboxOneInput"></label>
                     </div>
                   </Col>
                 </Row>
