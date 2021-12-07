@@ -16,7 +16,7 @@ import user from "../../assets/images/Home Item/unsplash_mEZ3PoFGs_k.png";
 
 function Header() {
   return (
-    <header id="headerItem">
+    <header id="header">
       <Navbar expand="lg">
         <Container>
           <Navbar.Brand href="/">
