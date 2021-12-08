@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+#how__it__work {
+  max-width: 1920px;
+  height: 1026px;
+  background: #fff;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  /* overflow: hidden; */
+}
+
+#how__it__work .container {
+  width: 1144px;
+}
+
+#how__it__work h1,
+#how__it__work h6,
+#how__it__work p {
+  margin: 0;
+}
+
+#how__it__work button:focus {
+  box-shadow: none;
+}
+
+#how__it__work .top__work h6 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#how__it__work .top__work h1 {
+  font-size: 36px;
+  font-weight: 600;
+  padding-top: 4px;
+  padding-bottom: 30px;
+}
+
+#how__it__work .top__work p {
+  font-size: 14px;
+  font-weight: 400;
+  width: 50%;
+}
+
+#how__it__work .top__work p span {
+  color: #a92e71;
+}
+
+#how__it__work .accordion-item {
+  border: none;
+  border-top: 1px solid #c4c4c4;
+}
+
+#how__it__work .accordion-button {
+  height: 95px;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#how__it__work .accordion-body {
+  color: #606060;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#how__it__work .accordion-button:not(.collapsed) {
+  color: #000;
+  background: #fff;
+}
+
+#how__it__work .left__body {
+  font-size: 14px;
+  font-weight: 500;
+  color: #c4c4c4;
+}
+
+#how__it__work .left__body p {
+  padding-bottom: 30px;
+  display: inline-block;
+}
+
+#how__it__work .left__body i {
+  padding-right: 14px;
+}
+
+#how__it__work .right__body {
+  position: relative;
+}
+
+#how__it__work .top__work {
+  position: relative;
+  top: 7.7rem;
+}
+
+#how__it__work .body__work {
+  position: relative;
+  top: 13.5rem;
+}
+
+#how__it__work .left__body p:hover{
+  color: #000;
+  cursor: default;
+}
+
+#how__it__work .accordion-button:hover{
+  color: #a92e71;
+}
+
+@media screen and (max-width: 1024px) {
+  #how__it__work .container {
+    width: 1144px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  #how__it__work {
+    height: 1265px;
+  }
+
+  #how__it__work .container {
+    width: 480px;
+  }
+
+  #how__it__work .top__work p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #how__it__work {
+    height: 1415px;
+  }
+
+  #how__it__work .container {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #how__it__work .container {
+    width: 300px;
+  }
+
+  #how__it__work .top__work h1{
+      font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  /* #how__it__work {
+    height: 1415px;
+  } */
+  #how__it__work .container {
+    width: 250px;
+  }
+
+  #how__it__work .top__work h6{
+      font-size: 10px;
+  }
+
+  #how__it__work .top__work p{
+      font-size: 10px;
+  }
+
+  #how__it__work .top__work h1{
+      font-size: 23px;
+  }
+}

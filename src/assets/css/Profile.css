@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --txt-pink: #b5689e;
+  --txt-light: #fff;
+  --txt-gray: #606060;
+  --bg-btn: #ec4c93;
+  --boder-radius: 20px;
+  --border: 1.5px solid #ec4c93;
+  --border-input: 1.5px solid #c4c4c4;
+  --dark-pink: #a92e71;
+}
+#profile .navbar_item {
+  font-family: "Poppins", sans-serif;
+  max-width: 1920px;
+}
+#profile .navbar_item .container {
+  max-width: 1140px;
+  margin-bottom: 140px;
+}
+#profile Image {
+  background: red;
+  width: auto;
+  height: auto;
+}
+
+#profile .btn__cover__profile a {
+  position: absolute;
+  margin-top: -200px;
+  right: 0px;
+}
+#profile a.cover {
+  color: var(--txt-light);
+  right: 145px;
+  text-decoration: none;
+  border: 1px solid;
+  padding: 10px 15px;
+  margin-right: 35px;
+  border-radius: var(--boder-radius);
+  border: var(--border-input);
+}
+#profile a.profile {
+  color: var(--txt-light);
+  text-decoration: none;
+  padding: 10px 15px;
+  width: auto;
+  border-radius: var(--boder-radius);
+  border: var(--border-input);
+}
+#profile .btn__cover__profile :hover.cover {
+  background: var(--dark-pink);
+}
+#profile .btn__cover__profile :hover.profile {
+  background: var(--dark-pink);
+}
+#profile .detail__profile {
+  text-align: center;
+  border: 1px solid #c4c4c4;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: -223px;
+  background: var(--txt-light);
+  padding: 0 35px;
+  height: 160%;
+}
+/* .view__bid {
+  margin-top: 12%;
+} */
+#profile .content__detail {
+  right: 20px;
+  font-size: 11px;
+  margin-top: 10%;
+}
+#profile .link__Profile b {
+  font-size: 12px;
+}
+#profile .follower_profile {
+  text-decoration: none;
+  background: var(--dark-pink);
+  padding: 10px 15px;
+  border-radius: var(--boder-radius);
+  color: var(--txt-light);
+}
+#profile .view__like {
+  border-radius: 50%;
+  border: 1.5px solid #606060;
+  margin-left: 10px;
+  padding: 10px 15px;
+  color: #606060;
+} 
+#profile :hover.view__like {
+  background: var(--dark-pink);
+  color: var(--txt-light);
+}
+.icon__social i {
+  padding: 0 10px;
+  font-size: 30px;
+  margin-top: 65px;
+}
+#profile .ruler__bottom {
+  border: 1px solid #c4c4c4;
+  margin-top: 35%;
+}
+#profile .bottom__date {
+  color: #606060;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+/* css bid */
+#profile .top__bid {
+  position: relative;
+  top: 7.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#profile .container {
+  max-width: 1144px;
+}
+
+#profile .top__card {
+  width: 258px;
+  height: 299px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+#profile .top__card img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all ease;
+}
+
+#profile .top__card:hover > img {
+  transform: scale(1.2);
+}
+
+#profile .top__card:hover > .just__like {
+  opacity: 1;
+}
+
+#profile .top__card .just__like {
+  opacity: 0;
+  transition: 0.6s all ease;
+}
+
+#profile .top__card .just__like .icon__img {
+  position: absolute;
+  top: 16px;
+  border: none;
+  right: 16px;
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+#profile .top__card .just__like .icon__img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 55%;
+}
+
+#profile .title__bid h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+#profile .bottom__bid {
+  position: relative;
+  top: 11.8rem;
+}
+
+#profile .bottom__bid .slick-list {
+  height: 428px;
+  padding-left: 12px;
+}
+
+#profile .card__bid .card__title,
+#profile .card__bid .card__icon,
+#profile .card__bid .bottom__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#profile .card__bid .body__card,
+#profile .card__bid .bottom__card,
+#profile .card__bid hr {
+  margin-right: 22px;
+}
+
+#profile .card__bid .body__card {
+  position: relative;
+  top: 23px;
+}
+
+#profile .card__bid hr {
+  position: relative;
+  top: 26px;
+}
+
+#profile .card__bid .card__title h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+
+#profile .card__bid .card__icon {
+  position: relative;
+  top: 15px;
+  align-items: inherit;
+}
+
+#profile .card__bid {
+  width: 260px !important;
+}
+
+#profile .card__bid .card__icon img {
+  width: 29px;
+  height: 29px;
+}
+
+#profile .card__bid .card__icon p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#profile .card__icon p,
+#profile .bottom__card p {
+  color: #606060;
+}
+
+#profile .card__bid .bottom__card p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+#profile .card__bid .bottom__card p.bt_left span {
+  font-weight: 600;
+  color: #000000;
+}
+#profile .body__card .card__title p {
+  display: flex;
+  align-items: center;
+  width: 66px;
+  height: 26px;
+  justify-content: center;
+  border: 1.5px solid #a92e71;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #a92e71;
+}
+
+#profile .card__bid .bottom__card {
+  position: relative;
+  top: 20px;
+}
+#profile .just__like p.place {
+  position: absolute;
+  background: #a92e71;
+  bottom: 16px;
+  left: 72px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 16px;
+  width: 115px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#profile .just__like p.purchas {
+  position: absolute;
+  left: 16px;
+  top: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ec4c93;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 87px;
+  height: 24px;
+  color: #fff;
+}
+
+#profile .just__like button:focus {
+  box-shadow: none;
+}
+/* menuitem */
+
+#profile .menu__item {
+  width: 568px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  margin-top: -70px;
+  left: 345px;
+}
+
+#profile .menu__item a {
+  color: #000000;
+  height: 31px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+#profile .menu__item a.active {
+  background: #a92e71;
+  color: #fff;
+}
+
+/* =========================== Responsive ============================= */
+@media screen and (max-width: 1024px) {
+  #profile .container {
+    max-width: 960px;
+  }
+  #profile .menu__item {
+    left: -100px;
+  }
+
+  #profile .top__card {
+    width: 219px;
+    height: 254px;
+  }
+
+  #profile .just__like p.place {
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #profile .just__like p.place {
+    left: 86px;
+  }
+
+  #profile .container {
+    max-width: 720px;
+  }
+
+  #profile .menu__item {
+    left: 0;
+  }
+
+  #profile .top__card {
+    width: 297px;
+    height: 343px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* .just__like p.place {
+    left: 90px;
+  } */
+  #profile .container {
+    max-width: 480px;
+  }
+  #profile .menu__item {
+    display: contents;
+  }
+  #profile .detail__profile {
+    height: 160%;
+    margin-top: -65%;
+    margin-left: 20px;
+    left: 0px;
+    position: relative !important;
+ 
+  }
+  #profile a.profile {
+    margin-top: -360px;
+  }
+  #profile a.cover {
+    margin-top: -365px;
+    font-size: 10px;
+    padding: 15px;
+  }
+  #profile a.profile{
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  #profile .bg__profile {
+    margin-top: 200px;
+  }
+  #profile .card__bid{
+    /* margin-top: 420px !important; */
+  }
+}
+

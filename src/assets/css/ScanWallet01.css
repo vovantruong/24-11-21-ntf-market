@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+#connectwallect01 {
+    font-family: "Poppins", sans-serif;
+    max-width: 1920px;
+    margin: 0;
+    padding: 0;
+  }
+  #connectwallect01 .container{
+    max-width: 1144px;
+  }
+#connectwallect01 .button-header{
+    position: relative;
+    height: 126px;
+}
+#connectwallect01 a{
+    text-decoration: none;
+    color: #000000;
+}
+#connectwallect01 .button-header a{
+    padding: 8px 10px;
+    border: 1px solid gray;
+    border-radius: 90px;
+}
+#connectwallect01 .back-home{
+    position: absolute;
+    top: 73px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center; 
+}
+#connectwallect01 .back-home:hover,  #connectwallect01 .back-home a:hover {
+    background: #a92e71;
+    color: white !important;
+    border-radius: 90px;
+}
+
+#connectwallect01 .title-header{
+    position: absolute;
+    top: 82px;
+    /* left: 1419px; */
+    right: 0;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 14px;
+    color: #000000;
+}
+#connectwallect01 .main{
+    position: relative;
+    height: 922px;
+}
+#connectwallect01 .img-title-select{
+    position: relative;
+    width: 523px;
+    height: 125px;
+    /* left: 400px; */
+    top: 125px;
+    padding: 30px;
+    cursor: pointer;
+}
+#connectwallect01 .img-title-select a{
+    padding: 0;
+}
+#connectwallect01 .img-title-select span{
+    position: relative; 
+    padding: auto;
+    left: 30px;
+    top: 3px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    color: #000000;
+}
+#connectwallect01 .img-main{
+    position: absolute;
+    right: 0;
+    /* left: 674px; */
+    top: 274px;
+}
+#connectwallect01 .img-title-select:hover::after{
+    position: absolute;
+    content: "\f061";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 1.3rem;
+    top: 36%;
+    left: 90%;
+    /* display: none; */
+}
+#connectwallect01 .title-main{
+    position: absolute;
+    right: 0;
+    top: 125px;
+    left: 674px;
+    
+}
+#connectwallect01 .title-main span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 40px;
+    color: #000;
+}
+#connectwallect01 .title-main p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+}
+#connectwallect01 .item-check{
+    position: relative;
+    left: 674px;
+    width: 39%;
+}
+#connectwallect01 .item-check .check-box{ 
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+#connectwallect01 .item-check span{
+    padding: 0 12px;
+    position: relative;
+    top: -6px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+}
+#connectwallect01 .item-check .check-box:hover::before{
+    content: '';
+    left: 0;
+    width: 24px;
+    height: 24px;
+    border: 3px solid #a92e71;
+    border-radius: 3px;
+    position: absolute;
+}
+#connectwallect01 .item-check .check-box:checked::after{
+    content: '\f00c';
+    font-family: "Font Awesome 5 Pro";
+    color: rgb(241, 240, 240);
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 3px;
+    background: #a92e71;
+    position: absolute;
+    padding: 0 3px;
+}
+#connectwallect01 .selection-button{
+    position: relative;
+    left: 655px;
+    display: flex;
+    width: 30%;
+}
+#connectwallect01 .selection-button a span{
+    color:#000;
+    border: 1px solid gray;
+    border-radius: 90px;
+    padding: 12px 25px;
+    position: relative;
+    top: 15px;
+}
+#connectwallect01 .selection-button a span:hover{
+    color:white;
+    background: #a92e71;
+}
+#connectwallect01 .selection-button a .choose{
+    position: relative;
+    left: 12px;
+    color:white;
+    border: 1px solid gray;
+    border-radius: 90px;
+    padding: 12px 25px;
+    width: 186px;
+    background: #a92e71;
+}

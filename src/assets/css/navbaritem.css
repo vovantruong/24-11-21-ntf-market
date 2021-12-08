@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --txt-pink: #b5689e;
+  --txt-light: #fff;
+  --txt-gray:#606060;;
+  --bg-btn: #ec4c93;
+  --boder-radius: 20px;
+  --border: 1.5px solid #ec4c93;
+  --border-input: 1.5px solid #c4c4c4;
+  --dark-pink: #a92e71;
+  
+}
+.navbar_item {
+  font-family: "Poppins", sans-serif;
+  max-width: 1920px;
+}
+
+.navbar_item .container {
+  position: relative;
+  top: 125px;
+  max-width: 1140px;
+}
+
+.navbar_item{
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 134px;
+  max-width: 1920px;
+  margin-bottom: 20%;
+}
+.navbar_item
+.left a {
+  border: 1px solid #dadada;
+  border-radius: var(--boder-radius);
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+ 
+}
+.navbar_item  .left:hover a {
+  background: var(--dark-pink);
+  color: var(--txt-light);
+}
+.navbar_item .ruler {
+  border: 1px solid #C4C4C4;
+  margin-left: -18%;
+  margin-right: -18%;
+
+}
+.right {
+  text-align: right;
+  font-size: 14px;
+  font-weight: 500;
+}
+.btn_upload {
+  border: 1px solid #dadada;
+  border-radius: var(--boder-radius);
+  padding: 12px 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.content_profile {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: var(--txt-gray);
+}
+.content_profile_edit{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--txt-gray);
+}
+.upload_profile :hover.btn_upload {
+  background: var(--dark-pink);
+  color: var(--txt-light);
+}
+.acount_info_tittle {
+  text-align: left;
+}
+.form-control {
+  border-radius: 10px;
+}
+.navbar_item .form-twitter {
+  position: relative;
+}
+
+.navbar_item .form-twitter button {
+  position: absolute;
+  top: 36px;
+  right: 16px;
+  width: 88px;
+  height: 22px;
+  size: 12px;
+  color: var(--txt-gray);
+  font-size: 8px;
+  background: var(--txt-light);
+  border: 1px solid #dadada;
+  border-radius: var(--boder-radius);
+  text-align: center;
+}
+.navbar_item .form-twitter :hover.vertical{
+  background: var(--dark-pink);
+  color: var(--txt-light);
+}
+
+Label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 13px;
+  color: #c4c4c4;
+}
+.addmore {
+  border: 1px solid #dadada;
+  border-radius: var(--boder-radius);
+  padding: 10px 10px;
+}
+.more_acount :hover.addmore {
+  background: var(--dark-pink);
+  color: var(--txt-light);
+}
+.update_profile {
+  border: 1px solid #dadada;
+  border-radius: var(--boder-radius);
+  padding: 10px 20px;
+  background: var(--dark-pink);
+  color: var(--txt-light);
+}
+.profile :hover.update_profile {
+  color: var(--bg-btn);
+}
+.clearn_all {
+  margin-left: 5%;
+}
+/* chia ti le man hinh nho 576px */
+@media screen and (max-width: 576px) {
+.navbar_item .container {
+    width: 410px;
+    margin-bottom: 0px!important;
+  }
+  .navbar_item{
+    margin-bottom: 40%;
+   
+  }
+  .right{
+    visibility: hidden;
+  }
+.acount_info_tittle{
+  margin-top: 30px;
+}
+/* .link-address{
+  visibility: hidden;
+} */
+.navbar_item .left span {
+  font-size: 10px;
+}
+}
+/* chia ti le man hinh nho hon 450px */
+@media screen and (max-width: 450px) {
+  
+  .navbar_item .container {
+    width: 320px;
+  }
+  .navbar_item{
+    margin-bottom: 60%;
+   
+  }
+ 
+}
