@@ -74,7 +74,7 @@ function UploadItem() {
                           </div>
                           <div className="creat_single_mutiple">
                             <div className="single_mutiple">
-                              <a href="create-item">
+                              <a href="view_item">
                                 {" "}
                                 <b>Creat multiple</b>
                               </a>
