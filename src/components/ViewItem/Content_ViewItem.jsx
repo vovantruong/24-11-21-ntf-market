@@ -6,7 +6,13 @@ import {
     Row,
     Col,
     Image,
+    Modal,
+    Button,
+    Form,
+    FormControl,
 } from "react-bootstrap";
+import { Link } from "react-router-dom";
+// import "./components/Home/CreatorNetwork.css";
 import "../../assets/css/ViewItem.css";
 
 /* ================================================================= */
@@ -18,10 +24,13 @@ import avtOwner from "../../assets/images/View Item/unsplash_mEZ3PoFGs_k.png";
 
 /* ================================================================= */
 
-function Contnt_viewItem() {
+const Contnt_viewItem = () => {
+    /* ===================  */
+    const [modalShow, setModalShow] = useState(false);
     return (
         <viewitem id="viewitem">
             <Container>
+                <ShowModel show={modalShow} onHide={() => setModalShow(false)} />
                 <Row>
                     <Col lg={7}>
                         <div className="left_imgArt">
@@ -136,37 +145,46 @@ function Contnt_viewItem() {
                                 <div className="purchase_place">
                                     <Row>
                                         <Col lg={6}>
-                                            <button className="purchase">
-                                                <a href="#">
+                                            <div className="purchase">
+                                                <Link
+                                                    onClick={() => setModalShow(true)}
+                                                    className="purchase"
+                                                    to=""
+                                                >
+                                                    Place a bid
                                                     Purchase now
-                                                </a>
-                                            </button>
+                                                </Link>
+                                            </div>
                                         </Col>
                                         <Col lg={6}>
-                                            <button className="place">
-                                                <a href="#">
-                                                    Place a bid
-                                                </a>
-                                            </button>
+                                            <div className="place">
+                                                <Link
+                                                    onClick={() => setModalShow(true)}
+                                                    className="place"
+                                                    to=""
+                                                >
+                                                    Purchase now
+                                                </Link>
+                                            </div>
                                         </Col>
                                     </Row>
                                 </div>
                                 <div className="Service">
-                                <span>
-                                    Service fee
-                                </span>
-                                <span>
-                                    <b>
-                                    1.5%
-                                    </b>
-                                </span>
-                                <span>
-                                    2.563 ETH
-                                </span>
-                                <span>
-                                    $4,540.62
-                                </span>
-                            </div>
+                                    <span>
+                                        Service fee
+                                    </span>
+                                    <span>
+                                        <b>
+                                            1.5%
+                                        </b>
+                                    </span>
+                                    <span>
+                                        2.563 ETH
+                                    </span>
+                                    <span>
+                                        $4,540.62
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </Col>
@@ -176,5 +194,55 @@ function Contnt_viewItem() {
         </viewitem>
     );
 }
+
+function ShowModel(props) {
+    const banlance = [
+        { left: "Your balance", right: "8.498 ETH" },
+        { left: "Service fee", right: "0 ETH" },
+        { left: "Total bid amount", right: "0 ETH" },
+    ];
+
+    return (
+        <Modal
+            {...props}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+        >
+            <Modal.Header closeButton>
+                <Modal.Title id="contained-modal-title-vcenter">
+                    Place a bid
+                </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+                <p className="top__text">You are about to purchase COINZ from UI8</p>
+                <div className="info__bid">
+                    <h3>Your bid</h3>
+                    <Form>
+                        <FormControl type="text" placeholder="Enter bid" />
+                        <p>ETH</p>
+                    </Form>
+                    <hr />
+                    <div className="amount">
+                        {banlance.map((e, index) => (
+                            <div key={index} className="balance">
+                                <p>{e.left}</p>
+                                <p>{e.right}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </Modal.Body>
+            <Modal.Footer>
+                <div className="place">Place a bid</div>
+                <div className="purchases">Purchase now</div>
+                <Button className="cancel" onClick={props.onHide}>
+                    Cancel
+                </Button>
+            </Modal.Footer>
+        </Modal>
+    );
+}
+/* ======================================================================== */
 
 export default Contnt_viewItem;

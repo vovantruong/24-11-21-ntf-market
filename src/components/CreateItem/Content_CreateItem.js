@@ -6,7 +6,12 @@ import {
   Row,
   Col,
   Image,
+  Modal,
+  Button,
+  Form,
+  FormControl,
 } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "../../assets/css/CreateItem.css";
 
 /* ================================================================= */
@@ -20,10 +25,12 @@ import Avatar from "../../assets/images/Home/avata-1.png";
 
 const CreateItem = () => {
   const [sigle, setSigle] = useState(true);
+  const [modalShow, setModalShow] = useState(false);
 
   return (
     <createitem id="createitem">
       <Container>
+        <ShowModel show={modalShow} onHide={() => setModalShow(false)} />
         <div className="content__createitem">
           <Row>
             <Col lg={7}>
@@ -127,10 +134,21 @@ const CreateItem = () => {
                 <h1>Preview</h1>
                 <div className="img_preview">
                   <Image src={Preview} width="260px" height="310px" />
+                  <div className="like">
+                    <p className="purchase">
+                      Purchasing
+                    </p>
+                    <button type="button" class="icon__img btn btn-primary">
+                      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAQCAYAAAD0xERiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEuSURBVHgBpZPRbcMwDESpdIBmBG1QZQNngqZ//ZQ3cCdoO0G6QbtBnQniEZQJohE8QnjwCVAc2QgcAoQgk3w+iaKRzLz3jS4v6la9Vz/8qWXxnS6vU3HDJASPTIp0m+1r9b26IySM4ltlxgQ7E17rxy5T4glZE/JWiH9yuzH88MvEVkZG1ZV6h78X4hVP9QHYP+Rq4kYWGk92WvEIj1pUfwbsBGVKXwTlNbikrKW6vSyz1KCfpxBCdM6hq42uVveHeymqCo17V/9G80wW+JKhzZ0Mne1nIFCCxlUEoVbMKKmhbDzKbQlIEJ4C7qm+mYBRspfh3UUCYxazVHQDKsJYtCOwT8Bs5KDsahJmYQQ6FgNYE74mPJRqVlMwFqSpOHKdBM0qyxRaGbrWznUYdgGCBoxhNS9rUgAAAABJRU5ErkJggg==" />
+                    </button>
+                    <p class="place">
+                      Place a bid
+                    </p>
+                  </div>
                 </div>
                 <div className="digital_price">
                   <Row>
-                    <Col className="digital" lg={8} md={6}>
+                    <Col className="digital" lg={7} md={6}>
                       <div className="digital_art">
                         <b>Amazing digital art</b>
                         <div className="img_avatar">
@@ -138,25 +156,24 @@ const CreateItem = () => {
                         </div>
                       </div>
                     </Col>
-                    <Col className="price_ETH" lg={4} md={6}>
+                    <Col className="price_ETH" lg={5} md={6}>
                       <div className="price">
                         <b>1.125 ETH</b>
                         <p>3 in stock</p>
-                        {/* <p>New bid</p> */}
                       </div>
                     </Col>
                   </Row>
                 </div>
                 <hr></hr>
                 <Row>
-                  <Col className="highest_bid" lg={8} md={6}>
+                  <Col className="highest_bid" lg={7} md={6}>
                     <div className="highest">
                       <p>
                         Highest bid <b>0.001 ETH</b>
                       </p>
                     </div>
                   </Col>
-                  <Col className="bid" lg={4} md={6}>
+                  <Col className="bid" lg={5} md={6}>
                     <div className="newbid">
                       <p>New bid</p>
                     </div>
@@ -248,13 +265,66 @@ const CreateItem = () => {
         </div>
         <div className="button_view">
           <p>Create item</p>
-          <a href="button_view">
+          <Link
+            onClick={() => setModalShow(true)}
+            className="place"
+            to=""
+          >
             <i class="fas fa-arrow-right"></i>
-          </a>
+          </Link>
         </div>
       </Container>
     </createitem>
   );
 };
 
+/* ======================================================================== */
+function ShowModel(props) {
+  const banlance = [
+    { left: "Your balance", right: "8.498 ETH" },
+    { left: "Service fee", right: "0 ETH" },
+    { left: "Total bid amount", right: "0 ETH" },
+  ];
+
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Place a bid
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <p className="top__text">You are about to purchase COINZ from UI8</p>
+        <div className="info__bid">
+          <h3>Your bid</h3>
+          <Form>
+            <FormControl type="text" placeholder="Enter bid" />
+            <p>ETH</p>
+          </Form>
+          <hr />
+          <div className="amount">
+            {banlance.map((e, index) => (
+              <div key={index} className="balance">
+                <p>{e.left}</p>
+                <p>{e.right}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Modal.Body>
+      <Modal.Footer>
+        <div className="">Place a bid</div>
+        <Button className="cancel" onClick={props.onHide}>
+          Cancel
+        </Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+/* ======================================================================== */
 export default CreateItem;

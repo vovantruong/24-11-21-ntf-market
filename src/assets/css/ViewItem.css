@@ -7,6 +7,7 @@
 #viewitem.container{
     max-width: 1250px;
     margin-left: 105px;
+    font-family: "Lora";
   }
 #viewitem .right_Art{
   font-family: SVN-Poppins;
@@ -128,32 +129,38 @@
     margin-left: 16px;
 }
 #viewitem .right_Art .highest .purchase_place .purchase{
-    border: 1px solid #C4C4C4;
+    /* border: 1px solid #C4C4C4; */
     box-sizing: border-box;
     border-radius: 25px;
-    width: 166px;
+    width: 180px;
     height: 48px;
-    margin-left: 24px;
     justify-content: center;
     align-items: center;
     display: flex;
     font-size: 16px;
-    background-color: white;
-    color: black;
+    /* background-color: white; */
+    margin-left: 12px;
+    display: flex;
 }
 #viewitem .right_Art .highest .purchase_place .purchase a{
     text-decoration: none;
     color: black;
+    text-align: center;
+    border: 1px solid #C4C4C4;
+    font-size: 16px;
+    
 }
 #viewitem .right_Art .highest .purchase_place .purchase a:hover{
     color: #FFFFFF;
-}
-#viewitem .right_Art .highest .purchase_place .purchase:hover{
     background: #A92E71;
     color: #FFFFFF;
 }
+/* #viewitem .right_Art .highest .purchase_place .purchase:hover{
+    background: #A92E71;
+    color: #FFFFFF;
+} */
 #viewitem .right_Art .highest .purchase_place .place{
-    border: 1px solid #C4C4C4;
+    /* border: 1px solid #C4C4C4; */
     box-sizing: border-box;
     border-radius: 25px;
     width: 166px;
@@ -167,13 +174,18 @@
 #viewitem .right_Art .highest .purchase_place .place a{
     text-decoration: none;
     color: black;
+    text-align: center;
+    border: 1px solid #C4C4C4;
+    font-size: 16px;
+    border: 1px solid #C4C4C4;
 }
 #viewitem .right_Art .highest .purchase_place .place a:hover{
     color: #FFFFFF;
-}
-#viewitem .right_Art .highest .purchase_place .place:hover{
     background: #A92E71;
 }
+/* #viewitem .right_Art .highest .purchase_place .place:hover{
+    background: #A92E71;
+} */
 #viewitem .right_Art .highest .Service{
     margin-left: 24px;
     margin-top: 35px;

@@ -57,7 +57,7 @@ function UploadItem() {
                       <Row>
                         <Col className="single" lg={5} md={6}>
                           <div className="img_single">
-                            <Image src={single} />
+                            <Image src={single} width={318} height={255}/>
                           </div>
                           <div className="creat_single_mutiple">
                             <div className="single_mutiple">
@@ -70,11 +70,11 @@ function UploadItem() {
                         </Col>
                         <Col className="mutiple" lg={5} md={6}>
                           <div className="img_mutiple">
-                            <Image src={mutiple} />
+                            <Image src={mutiple} width={318} height={255}/>
                           </div>
                           <div className="creat_single_mutiple">
                             <div className="single_mutiple">
-                              <a href="view_item">
+                              <a href="create-item">
                                 {" "}
                                 <b>Creat multiple</b>
                               </a>

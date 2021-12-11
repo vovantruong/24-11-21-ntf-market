@@ -7,7 +7,7 @@
   /* --bd-radius-btn-footer: 50%;
     --txt-dark-pink-footer: #a92e71; */
 }
-#uploaditem {
+#uploaditem .container{
   font-family: "Lora";
 }
 #uploaditem  a {
@@ -99,7 +99,7 @@
   padding: 30px 18px 22px;
   position: static;
   width: 354px;
-  height: 364px;
+  height: 367px;
   background: #ffffff;
   border-radius: var(--bd-radius-input-upload);
   border: var(--bd-input-upload);
@@ -112,7 +112,7 @@
   padding: 30px 18px 22px;
   position: static;
   width: 354px;
-  height: 364px;
+  height: 367px;
   background: #ffffff;
   border-radius: var(--bd-radius-input-upload);
   border: var(--bd-input-upload);
