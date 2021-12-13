@@ -2,33 +2,31 @@
 :root {
   --txt-pink: #b5689e;
   --txt-light: #fff;
-  --txt-gray:#606060;;
+  --txt-gray: #606060;
   --bg-btn: #ec4c93;
   --boder-radius: 20px;
   --border: 1.5px solid #ec4c93;
   --border-input: 1.5px solid #c4c4c4;
   --dark-pink: #a92e71;
-  
 }
-.navbar_item {
+#edit__profile .navbar_item {
   font-family: "Poppins", sans-serif;
   max-width: 1920px;
 }
-
-.navbar_item .container {
+#edit__profile .top_content_header {
+  margin-top: -110px;
+}
+#edit__profile .navbar_item .container {
   position: relative;
-  top: 125px;
-  max-width: 1140px;
+  top: 53px;
 }
 
-.navbar_item{
+#edit__profile .navbar_item {
   font-family: "Poppins", sans-serif;
   margin-bottom: 134px;
   max-width: 1920px;
-  margin-bottom: 20%;
 }
-.navbar_item
-.left a {
+#edit__profile .navbar_item .left a {
   border: 1px solid #dadada;
   border-radius: var(--boder-radius);
   padding: 10px 20px;
@@ -36,64 +34,62 @@
   font-weight: 500;
   text-decoration: none;
   color: #000;
- 
 }
-.navbar_item  .left:hover a {
+#edit__profile .navbar_item .left:hover a {
   background: var(--dark-pink);
   color: var(--txt-light);
 }
-.navbar_item .ruler {
-  border: 1px solid #C4C4C4;
+#edit__profile .navbar_item .ruler {
+  border: 1px solid #c4c4c4;
   margin-left: -18%;
   margin-right: -18%;
-
 }
-.right {
+#edit__profile .right {
   text-align: right;
   font-size: 14px;
   font-weight: 500;
 }
-.btn_upload {
+#edit__profile .btn_upload {
   border: 1px solid #dadada;
   border-radius: var(--boder-radius);
   padding: 12px 10px;
   font-size: 14px;
   font-weight: 600;
 }
-.content_profile {
+#edit__profile .content_profile {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 150%;
   color: var(--txt-gray);
 }
-.content_profile_edit{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 150%;
-    color: var(--txt-gray);
+#edit__profile .content_profile_edit {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--txt-gray);
 }
-.upload_profile :hover.btn_upload {
+#edit__profile .upload_profile :hover.btn_upload {
   background: var(--dark-pink);
   color: var(--txt-light);
 }
-.acount_info_tittle {
+#edit__profile .acount_info_tittle {
   text-align: left;
 }
-.form-control {
+#edit__profile .form-control {
   border-radius: 10px;
 }
-.navbar_item .form-twitter {
+#edit__profile .navbar_item .form-twitter {
   position: relative;
 }
 
-.navbar_item .form-twitter button {
+#edit__profile .navbar_item .form-twitter button {
   position: absolute;
-  top: 36px;
+  top: 35px;
   right: 16px;
   width: 88px;
-  height: 22px;
+  height: 26px;
   size: 12px;
   color: var(--txt-gray);
   font-size: 8px;
@@ -102,72 +98,99 @@
   border-radius: var(--boder-radius);
   text-align: center;
 }
-.navbar_item .form-twitter :hover.vertical{
+#edit__profile .navbar_item .form-twitter :hover.vertical {
   background: var(--dark-pink);
   color: var(--txt-light);
 }
 
-Label {
+#edit__profile Label {
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
   line-height: 13px;
   color: #c4c4c4;
 }
-.addmore {
+#edit__profile .addmore {
   border: 1px solid #dadada;
   border-radius: var(--boder-radius);
   padding: 10px 10px;
+  font-size: 14px;
 }
-.more_acount :hover.addmore {
+#edit__profile .more_acount :hover.addmore {
   background: var(--dark-pink);
   color: var(--txt-light);
 }
-.update_profile {
+#edit__profile .tittle_updateprofile .to_update {
+  font-size: 14px;
+}
+#edit__profile .update_profile {
   border: 1px solid #dadada;
   border-radius: var(--boder-radius);
   padding: 10px 20px;
   background: var(--dark-pink);
   color: var(--txt-light);
 }
-.profile :hover.update_profile {
+#edit__profile .content__input {
+  margin-left: 90px;
+}
+#edit__profile .profile :hover.update_profile {
   color: var(--bg-btn);
 }
-.clearn_all {
+#edit__profile .update_ruler {
+  border-bottom: 1px solid #c4c4c4;
+  margin-top: 40px;
+}
+#edit__profile .clearn_all {
   margin-left: 5%;
+}
+@media screen and (max-width: 1024px) {
+  #edit__profile .navbar_item .container {
+    width: 1144px;
+  }
+  #edit__profile .navbar_item .ruler {
+    margin-right: 0px !important;
+  }
+  #edit__profile .content__input {
+    margin-left: 0px !important;
+  }
 }
 /* chia ti le man hinh nho 576px */
 @media screen and (max-width: 576px) {
-.navbar_item .container {
+  #edit__profile .navbar_item .container {
     width: 410px;
-    margin-bottom: 0px!important;
   }
-  .navbar_item{
+  #edit__profile .navbar_item {
     margin-bottom: 40%;
-   
   }
-  .right{
-    visibility: hidden;
+  #edit__profile .acount_info_tittle {
+    margin-top: 30px;
   }
-.acount_info_tittle{
-  margin-top: 30px;
-}
-/* .link-address{
-  visibility: hidden;
-} */
-.navbar_item .left span {
-  font-size: 10px;
-}
+  #edit__profile .navbar_item .left span {
+    font-size: 10px;
+  }
+  #edit__profile .navbar_item .ruler {
+    margin-right: 0px !important;
+    margin-top: 20px;
+  }
+  #edit__profile .right {
+    margin-top: -23px !important;
+  }
+  #edit__profile .right.link-address {
+    margin-left: 50px;
+  }
 }
 /* chia ti le man hinh nho hon 450px */
 @media screen and (max-width: 450px) {
-  
-  .navbar_item .container {
+  #edit__profile .navbar_item .container {
     width: 320px;
   }
-  .navbar_item{
+  #edit__profile .navbar_item {
     margin-bottom: 60%;
-   
   }
- 
+  #edit__profile .navbar_item .ruler {
+    margin-right: 0px !important;
+  }
+  #edit__profile .right {
+    margin-top: -23px !important;
+  }
 }
