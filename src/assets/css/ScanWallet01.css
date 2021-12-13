@@ -226,6 +226,7 @@
         flex-direction: column;
         align-content: space-around;
         flex-wrap: wrap;
+        margin-bottom: -450px;
     }
     #connectwallect01 .img-main {
         position: relative;
@@ -244,4 +245,37 @@
         top: 169px;
     }
 
+}
+@media all and (max-width: 545px){
+    .layout-right .img-main img {
+        width: unset; 
+        height: unset;
+    }
+    #connectwallect01 .img-title-select{
+        text-align: center;
+    }
+    #connectwallect01 .title-main p {
+    position: relative;
+    width: 274px;
+    }
+    #connectwallect01 .layout-right {
+        left: 13%;
+    }
+    #connectwallect01 .layout-right .title-main>span{
+        text-align: center;
+    }
+    .layout-right .img-main img{
+        width: 300px;
+        height: 150px;
+    }
+}
+@media all and (max-width: 430px){
+    #connectwallect01 .layout-right {
+        left: 21%;
+    }
+}
+@media all and (max-width: 330px){
+    #connectwallect01 .layout-right {
+        left: 36%;
+    }
 }
