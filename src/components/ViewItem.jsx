@@ -4,14 +4,14 @@ import Header from "./Header_Footer/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Content_ViewItem from "./ViewItem/Content_ViewItem";
 
-function Profile() {
+function ViewItem() {
   return (
-    <div id="profile">
+    <>
       <Header />
       <Content_ViewItem  />
       <Footer />
-    </div>
+    </>
   )
 }
 
-export default Profile
+export default ViewItem
