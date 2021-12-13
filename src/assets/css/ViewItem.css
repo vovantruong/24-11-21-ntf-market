@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+#viewitem {
+    font-family: 'Poppins', sans-serif;
+}
+
 #viewitem .left_imgArt{
     margin-top: 125px;
     margin-bottom: 125px;
@@ -10,7 +14,6 @@
     font-family: "Lora";
   }
 #viewitem .right_Art{
-  font-family: SVN-Poppins;
   margin-top: 125px;
   margin-bottom: 125px;
   text-align: left;
@@ -46,7 +49,6 @@
 }
 #viewitem .right_Art .link p{
     color: #606060;
-    font-family: SVN-Poppins;
     font-size: 16px;
     text-align: left;
 }
@@ -66,7 +68,6 @@
     background: black;
 }
 #viewitem .right_Art .info span{
-    font-family: SVN-Poppins;
     margin-right: 20px;
     padding: 6px 6px;
 }
@@ -106,25 +107,21 @@
 }
 #viewitem .right_Art .highest .price_highest{
     margin: 24px 24px;
-    font-family: SVN-Poppins;
 }
 #viewitem .right_Art .highest .price_highest .highest_bid{
     font-size: 16px;
     color: #606060;
     padding-right: 4px;
-    font-family: SVN-Poppins;
     margin-left: 16px;
 }
 #viewitem .right_Art .highest .price_highest .eth{
     font-size: 20px;
     color: #606060;
-    font-family: SVN-Poppins;
     margin-left: 5px;
 }
 #viewitem .right_Art .highest .price_highest .ETH{
     font-size: 20px;
     padding-right: 10px;
-    font-family: SVN-Poppins;
     margin-left: 5px;
     margin-left: 16px;
 }
@@ -192,7 +189,6 @@
 }
 #viewitem .right_Art .highest .Service span{
     padding-right: 12px;
-    font-family: SVN-Poppins;
     color: #606060;
 }
 /* #viewitem .left_imgArt .imgArt img{
