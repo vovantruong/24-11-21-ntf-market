@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-#viewitem {
+#viewitem .container{
     font-family: 'Poppins', sans-serif;
+    margin-right: 100px;
 }
 
 #viewitem .left_imgArt{
