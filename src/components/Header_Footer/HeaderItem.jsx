@@ -17,6 +17,7 @@ import logo from "../../assets/images/Header/Vector.png";
 import "../../assets/css/Header.css";
 import "../../assets/css/HeaderItem.css";
 import user from "../../assets/images/Home Item/unsplash_mEZ3PoFGs_k.png";
+import bell from "../../assets/images/Home Item/Ellipse 16.png";
 
 const Header = () => {
   /* ===================  */
@@ -57,7 +58,7 @@ const Header = () => {
                 className="bell"
                 to=""
               >
-                <i class='far fa-bell'></i>
+                <Image src={bell} width="16px" height="16px" />
               </Link>
 
             </Nav>
