@@ -21,7 +21,10 @@ import "../../assets/css/ViewItem.css";
 
 import imgArt from "../../assets/images/View Item/unsplash__8hGFBxWD0A.png";
 import avtOwner from "../../assets/images/View Item/unsplash_mEZ3PoFGs_k.png";
-// import arrow from "../../assets/images/View Item/Button arrow.svg";
+import arrow from "../../assets/images/View Item/Button arrow.png";
+import vector from "../../assets/images/View Item/Vector.png";
+import button from "../../assets/images/View Item/Button ....png";
+import ellipse from "../../assets/images/View Item/Ellipse 4.png";
 /* ================================================================= */
 
 const Contnt_viewItem = () => {
@@ -44,8 +47,10 @@ const Contnt_viewItem = () => {
                                         UNLOCKABLE
                                     </p>
                                     <button type="button" class="icon__img btn btn-primary">
-                                        <img className="heart" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAQCAYAAAD0xERiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEuSURBVHgBpZPRbcMwDESpdIBmBG1QZQNngqZ//ZQ3cCdoO0G6QbtBnQniEZQJohE8QnjwCVAc2QgcAoQgk3w+iaKRzLz3jS4v6la9Vz/8qWXxnS6vU3HDJASPTIp0m+1r9b26IySM4ltlxgQ7E17rxy5T4glZE/JWiH9yuzH88MvEVkZG1ZV6h78X4hVP9QHYP+Rq4kYWGk92WvEIj1pUfwbsBGVKXwTlNbikrKW6vSyz1KCfpxBCdM6hq42uVveHeymqCo17V/9G80wW+JKhzZ0Mne1nIFCCxlUEoVbMKKmhbDzKbQlIEJ4C7qm+mYBRspfh3UUCYxazVHQDKsJYtCOwT8Bs5KDsahJmYQQ6FgNYE74mPJRqVlMwFqSpOHKdBM0qyxRaGbrWznUYdgGCBoxhNS9rUgAAAABJRU5ErkJggg==" />
-                                        {/* <img className="arrow"src={arrow} /> */}
+                                        <img className="arrow"src={arrow} width="42px" height="42px"/>
+                                        <img className="ellipse" src={ellipse} width="42px" height="42px"/>
+                                        <img className="button..."src={button} width="42px" height="42px"/>
+                                        {/* <img className="vector" src={vector} width="23.31px" height="19.2px"/> */}
                                     </button>
                                 </div>
                             </div>

@@ -142,8 +142,8 @@
     transition: 0.5s all ease;
 }
 #createitem .content__createitem .right__Preview .img_preview .like{
-  /* opacity: 0;
-  transition: 0.6s all ease; */
+  opacity: 0;
+  transition: 0.6s all ease;
 }
 #createitem .content__createitem .right__Preview .img_preview .like p.purchase{
   position: absolute;
@@ -496,4 +496,121 @@ input[type=checkbox] {
 #createitem .button_view a{
   color: white;
   width: 1.5px;
+}
+
+
+/* =============================== Responsive ================================== */
+/* Ty le man hinh nho hon 1200*/
+@media screen and (max-width: 1200px) {
+  #footer .footer__info .info,
+  #footer .footer__crypter .crypter,
+  #footer .footer__newsletter .newsletter {
+    left: 0;
+  }
+}
+
+/* Ty le man hinh nho hon 11138*/
+@media screen and (max-width: 772px) {
+  #createitem .container {
+    width: 960px;
+  }
+  #createitem .left__CreateSimple .switch_multiple p  {
+    margin-right: 50px !important;
+    left: 0 !important;
+  }
+  #footer .footer__info .info,
+  #footer .footer__crypter .crypter,
+  #footer .footer__newsletter .newsletter {
+    left: 0;
+  }
+}
+
+/* Ty le man hinh nho hon 992*/
+@media screen and (max-width: 992px) {
+  #footer {
+    height: 647px;
+  }
+
+  #footer form {
+    top: 0;
+    margin-top: 76px;
+  }
+
+  #footer .footer__info .info,
+  #footer .footer__crypter .crypter,
+  #footer .footer__newsletter .newsletter {
+    left: 0;
+  }
+}
+
+/* Ty le man hinh nho hon 768 */
+@media screen and (max-width: 768px) {
+  #footer {
+    height: 1050px;
+  }
+  #footer .container {
+    width: 650px;
+  }
+
+  #footer form {
+    width: 100%;
+    top: 0;
+    margin-top: 40px;
+    width: 720px;
+  }
+  #footer .footer__info .info,
+  #footer .footer__crypter .crypter,
+  #footer .footer__newsletter .newsletter {
+    left: 0;
+  }
+
+  #footer .footer__logo,
+  #footer .footer__info,
+  #footer .footer__crypter,
+  #footer .footer__newsletter {
+    margin: 20px 0;
+  }
+
+  #footer .bottom__footer {
+    display: block;
+  }
+  #footer .bottom__footer p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  #footer ul {
+    top: 0;
+    margin-top: 23px;
+  }
+}
+
+/* Ty le man hinh nho hon 576px*/
+@media screen and (max-width: 576px) {
+  #footer .container {
+    width: 410px;
+  }
+}
+
+/* Ty le man hinh nho hon 576px*/
+@media screen and (max-width: 450px) {
+  #footer {
+    height: 1135px;
+  }
+  #footer .container {
+    width: 320px;
+  }
+}
+
+/* Ty le man hinh nho hon 320px */
+@media screen and (max-width: 320px) {
+  #footer {
+    height: 1135px;
+  }
+  #footer .container {
+    width: 270px;
+  }
+
+  #footer form {
+    max-width: 243px;
+  }
 }
