@@ -101,7 +101,7 @@
     }
     #connectwallect .img-main{
         position: relative;
-        left: 4%;
+        left: 3%;
     }
 }
 @media all and (max-width: 532px){
@@ -109,8 +109,24 @@
         text-align: center;
         width: unset;
     }
-    .layout-right .img-main img{
+    #connectwallect .layout-right .img-main img{
         width: 350px;
         height: 350px;
+        display: block;
+        margin: 0 auto;
+    }
+    #connectwallect .img-main {
+        left: 0%;
+    }
+}
+@media all and (max-width: 350px){
+    #connectwallect .layout-right .img-main img{
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: 0 auto;
+    }
+    #connectwallect .img-title-select span{
+        font-size: 16px;
     }
 }

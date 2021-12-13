@@ -204,9 +204,38 @@
     #scanwallet .img-main {
     position: relative;
     top: 220px;
-    left: 11%;
+    left: 7%;
 
     }
 
 
+}
+@media all and (max-width: 550px){
+    #scanwallet .img-main {
+        left: unset;
+    }
+    #scanwallet .layout-right .img-main img{
+        width: 200px;
+        height: 200px;
+    }
+    #scanwallet .title-main span{
+        font-size: 20px;
+    }
+    #scanwallet .img-title-select span{
+        font-size: 20px;
+    }
+    #scanwallet .img-title-select {
+        left: -12%;
+    }
+    #scanwallet .img-title-select span {
+        position: absolute;
+        top: 37px;
+    }
+    #scanwallet .selection-button {
+        right: unset;
+        top: 452px;
+    }
+    #scanwallet .main {
+        margin-bottom: -353px;
+    }
 }

@@ -198,6 +198,7 @@
     #connectwallect01 .layout-left {
         position: relative !important;
         top: -375px;
+        left: 5%;
     }
     #connectwallect01 .title-main {
         left: 15px;
@@ -231,8 +232,11 @@
     #connectwallect01 .img-main {
         position: relative;
         top: 96px;
-        left: 4%;
+        left: 7%;
 
+    }
+    #connectwallect01 .img-title-select span{
+        font-size: 17px;
     }
     #connectwallect01 .item-check {
         left: 15px;
@@ -247,10 +251,6 @@
 
 }
 @media all and (max-width: 545px){
-    .layout-right .img-main img {
-        width: unset; 
-        height: unset;
-    }
     #connectwallect01 .img-title-select{
         text-align: center;
     }
@@ -263,19 +263,38 @@
     }
     #connectwallect01 .layout-right .title-main>span{
         text-align: center;
+        font-size: 20px;
     }
-    .layout-right .img-main img{
-        width: 300px;
+    #connectwallect01 .layout-right .img-main img{
+        width: 400px;
         height: 150px;
+        /* display: block;
+        margin: 0 auto; */
+    }
+    #connectwallect01 .img-main {
+        left: unset;
     }
 }
 @media all and (max-width: 430px){
     #connectwallect01 .layout-right {
-        left: 21%;
+        left: 41%;
+    }
+    #connectwallect01 .img-main {
+        left: -5%;
+    }
+    #connectwallect01 .layout-right .img-main img{
+        width: 300px;
+        height: 100px;
+    }
+    #connectwallect01 .selection-button {
+        left: -31px;
     }
 }
 @media all and (max-width: 330px){
     #connectwallect01 .layout-right {
         left: 36%;
+    }
+    #connectwallect01 .img-main {
+        left: 0;
     }
 }
