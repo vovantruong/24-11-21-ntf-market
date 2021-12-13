@@ -101,3 +101,13 @@
         left: 4%;
     }
 }
+@media all and (max-width: 532px){
+    #connectwallect .img-title-select{
+        text-align: center;
+        width: unset;
+    }
+    .layout-right .img-main img{
+        width: 350px;
+        height: 350px;
+    }
+}
