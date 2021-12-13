@@ -1102,5 +1102,32 @@
 }
 
 /* Ty le man hinh nho hon 240px*/
-@media screen and (max-width: 240px) {
+@media screen and (max-width: 280px) {
+  #creator__network .bottom__network .eth_never_die{
+    left: 43px;
+  }
+
+  #creator__network .right__btn__network h6.title{
+    text-align: center;
+  }
+
+  #creator__network {
+    min-height: 215rem;
+}
+
+  #creator__network .bottom__network .left__network .eth_never_die .img__eth__never{
+    width: 150px;
+    height: 140px;
+  }
+
+  #creator__network .bottom__network .info__eth__never a{
+    padding: 5px 35px;
+  }
+  #creator__network .right__btn__network .group__social{
+    left: 21px;
+  }
+  #creator__network .bottom__network .right__btn__network a{
+    padding: 8px 45px;
+    left: 20px;
+  }
 }

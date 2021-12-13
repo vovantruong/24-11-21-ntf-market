@@ -182,3 +182,28 @@
     left: 22px;
   }
 }
+
+@media screen and (max-width: 280px) {
+  #crypter .left__crypter h5,
+  #crypter .left__crypter p {
+    font-size: 10px;
+  }
+  #crypter .left__crypter h1 {
+    font-size: 23px;
+    line-height: 40px;
+  }
+  #crypter .left__crypter .link__crypter {
+    display: grid;
+  }
+  #crypter .left__crypter .link__crypter a {
+    margin: 10px 0;
+  }
+  #crypter .left__crypter .link__crypter a.discover{
+    left: 0;
+  }
+  #crypter .right__crypter .img__crypter{
+    left: 0;
+    width: 251px;
+    height: 200px;
+  }
+}
