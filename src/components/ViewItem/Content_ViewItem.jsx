@@ -22,9 +22,9 @@ import "../../assets/css/ViewItem.css";
 import imgArt from "../../assets/images/View Item/unsplash__8hGFBxWD0A.png";
 import avtOwner from "../../assets/images/View Item/unsplash_mEZ3PoFGs_k.png";
 import arrow from "../../assets/images/View Item/Button arrow.png";
-import vector from "../../assets/images/View Item/Vector.png";
+// import vector from "../../assets/images/View Item/Vector.png";
 import button from "../../assets/images/View Item/Button ....png";
-import ellipse from "../../assets/images/View Item/Ellipse 4.png";
+import ellipse from "../../assets/images/View Item/heart.png";
 /* ================================================================= */
 
 const Contnt_viewItem = () => {
