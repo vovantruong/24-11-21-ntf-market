@@ -125,11 +125,11 @@
     background: #a92e71;
    
 }
-.hidden-img{
+#scanwallet .hidden-img{
     width: 65px;
     height: 65px;
 }
-.check-item{
+#scanwallet .check-item{
     position: absolute;
     left: 30px;
     border-radius: 50%;
@@ -137,24 +137,76 @@
     z-index: 100;
  
 }
-.item-1{
+#scanwallet .item-1{
     border: 1px solid purple;
     color: purple;  
      display: none;
 }
-.item-2{
+#scanwallet .item-2{
     border: 1px solid blue;
     color: blue;
     display: none;
 }
-.item-3{
+#scanwallet .item-3{
     border: 1px solid green;
     color: green;
     display: none;
 }
-.item-4{
+#scanwallet .item-4{
     border: 1px solid pink;
     color: pink;
     display: none;
+
+}
+
+@media all and (max-width: 1024px){
+    #scanwallet .layout-right {
+        position: relative !important;
+        z-index: -1;
+    }
+    #scanwallet .main {
+        display: flex;
+        height: 1469px;
+        flex-direction: column;
+        align-content: space-around;
+        flex-wrap: wrap;
+    }
+    #scanwallet .img-title-select {
+        left: 7%;
+    }
+    #scanwallet .img-main {
+    position: relative;
+    top: 220px;
+    left: 11%;
+
+    }
+    #scanwallet .title-main {
+        left: 7%;
+        width: 100%;
+    }
+
+}
+@media all and (max-width: 767px){
+    #scanwallet .layout-right {
+        position: relative !important;
+    }
+    #scanwallet .main {
+        display: flex;
+        height: 1469px;
+        flex-direction: column;
+        align-content: space-around;
+        flex-wrap: wrap;
+    }
+    #scanwallet .img-title-select {
+        left: 4%;
+        width: 86%;
+    }
+    #scanwallet .img-main {
+    position: relative;
+    top: 220px;
+    left: 11%;
+
+    }
+
 
 }
