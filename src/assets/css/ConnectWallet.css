@@ -70,8 +70,8 @@
 }
 #connectwallect .img-main{
     position: absolute;
-   right: 0;
-    top: 125px;
+    right: 0;
+    bottom: -125px;
 }
 #connectwallect .img-title-select:hover::after{
     position: absolute;
@@ -85,3 +85,19 @@
 /* #connectwallect .img-title-select:hover,{
     display: block;
 } */
+#connectwallect .layout-right {
+    position: relative;
+}
+@media all and (max-width: 1024px){
+    #connectwallect .main {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    #connectwallect .img-main{
+        position: relative;
+        left: 4%;
+    }
+}

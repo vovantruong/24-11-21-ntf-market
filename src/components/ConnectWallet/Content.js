@@ -25,6 +25,7 @@ function Content() {
           <hr width="100%" align="center" />
         </div>
         <div class="main">
+          <div class="layout-left">
         <div class="img-title-select">
             <Link to="/scan-wallet">
               <Image
@@ -70,6 +71,8 @@ function Content() {
               <span>Coinbase Wallet</span>
             </Link>
           </div>
+          </div>
+          <div class="layout-right">
           <div class="img-main">
             <Image
               src={main}
@@ -77,6 +80,7 @@ function Content() {
               width="500px"
               height="500px"
             />
+          </div>
           </div>
         </div>
         </Container>
