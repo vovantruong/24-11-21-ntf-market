@@ -2,10 +2,10 @@ import React from "react";
 import "../../assets/css/ScanWallet.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Container, Nav, Image } from "react-bootstrap";
-import purple from "../../assets/images/connect wallet/purple.png";
-import blue from "../../assets/images/connect wallet/blue.png";
-import green from "../../assets/images/connect wallet/green.png";
-import pink from "../../assets/images/connect wallet/pink.png";
+import purple from "../../assets/images/scan wallet1_2/purple.svg";
+import blue from "../../assets/images/scan wallet1_2/blue1.svg";
+import green from "../../assets/images/scan wallet1_2/green.svg";
+import pink from "../../assets/images/scan wallet1_2/pink.svg";
 import qrcode from "../../assets/images/scan wallet1_2/qrcode.png";
 import {Link} from "react-router-dom";
 function Content() {
@@ -25,6 +25,7 @@ function Content() {
           <hr width="100%" align="center" />
         </div>
         <div class="main">
+          <div class="layout-left">
           <div onClick={clickImg1} class="img-title-select img-1">
               <img src={purple}  class="img-picture1"/>
             <i class="fas fa-check check-item item-1"></i>
@@ -45,6 +46,8 @@ function Content() {
             <i class="fas fa-check check-item item-4"></i>
             <span>Coinbase Wallet</span>
           </div>
+          </div>
+          <div class="layout-right">
           <div class="title-main">
             <span>Scan to connect</span>
             <p>Powered by UI8.Wallet</p>
@@ -62,6 +65,7 @@ function Content() {
             <Link to="/scan-wallet01">
               <span> Dont’s have a wallet app?</span>
             </Link>
+          </div>
           </div>
         </div>
         </Container>

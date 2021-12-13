@@ -31,6 +31,8 @@ function Content() {
           <div class="read">
             <span>Mark all as read</span>
           </div>
+          <div class="part-main">
+          <div class="layout-left">
           <div class="selection-activity">
             <div class="row">
               <div class="col-md-4"><Link to="#">My activity</Link></div>
@@ -128,6 +130,8 @@ function Content() {
               </div>
             </div>
           </div>
+          </div>     
+          <div class="layout-right">
           <div class="check-filters">
             <h1>Filters</h1>
             <div class="item-check">
@@ -167,6 +171,8 @@ function Content() {
               <div class="btn-select-all">Select all</div>
               <div class="btn-unselect-all">Unselect all</div>
             </div>
+          </div>
+          </div>
           </div>
         </div>
         </Container>
