@@ -30,10 +30,6 @@
     text-align: right;
     top: 184px;
 }
-#activity hr{
-    width: 1920px;
-    margin-left: -401px;
-}
 #activity .btn-title{
     width: 100%px;
     height: 130px;
@@ -147,7 +143,8 @@
     color: #C4C4C4;
 }
 
-#activity .content .col-md-1 .status-content .fa-circle:hover, #activity .content .row:hover {
+
+ #activity .content .row:hover{
     background: rgb(241, 240, 240);
     border-radius: 10px;
     color: #a92e71 !important;
