@@ -7,6 +7,7 @@
 #viewitem .left_imgArt{
     margin-top: 125px;
     margin-bottom: 125px;
+    position: absolute;
 }
 #viewitem.container{
     max-width: 1250px;
@@ -207,8 +208,8 @@
 #viewitem .left_imgArt .imgArt .like p.purchase{
     position: absolute;
     background: black;
-    bottom: 375px;
-    left: 145px;
+    bottom: 700px;
+    left: 45px;
     color: #fff;
     font-size: 14px;
     /* font-weight: 500; */
@@ -222,8 +223,8 @@
   }
 #viewitem .left_imgArt .imgArt .like .icon__img{
     position: absolute;
-    top: 890px;
-    left: 350px;
+    top: 650px;
+    left: 220px;
     border: none;
     /* width: 50px;
     height: 50px; */
@@ -248,8 +249,8 @@
   #viewitem .left_imgArt .imgArt .like p.place{
     position: absolute;
       background: #a92e71;
-      bottom: 375px;
-      left: 193px;
+      bottom: 700px;
+      left: 100px;
       color: #fff;
       font-size: 13px;
       /* font-weight: 500; */
