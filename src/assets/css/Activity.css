@@ -25,10 +25,10 @@
     font-size: 1rem;
 }
 #activity .btn-activity-right{
-    position: relative;
-    left: 1046px;
-    top: 19px;
-    width: 8%;
+    position: absolute;
+    width: 1142px;
+    text-align: right;
+    top: 184px;
 }
 #activity .btn-title{
     width: 100%px;
@@ -59,14 +59,12 @@
     height: 50px;
 }
 #activity .read span{
-    position: relative;
-    top: 53px;
-    left: 574px;
-    width: 114px;
-    height: 22px;
-    border:1px solid gray;
+    position: absolute;
+    top: 35px;
+    right: 391px;
+    border: 1px solid gray;
     border-radius: 90px;
-    padding: 8px 10px;
+    padding: 9px 12px;
     font-weight: bold;
     cursor: default;
 }
@@ -258,4 +256,57 @@
 #activity .main{
     position: relative;
     height: 871px;
+}
+.layout-right {
+    position: static;
+}
+@media all and (max-width: 1120px){
+    .part-main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: space-around;
+    }
+    .layout-right {
+        position: relative !important;
+        top: 159px;
+        display: flex;
+    justify-content: center
+    }
+    #activity .main {
+        height: 1500px;
+    }
+    #activity .check-filters {
+        right: unset;
+    }
+    #activity .read span{
+       right: 0;
+    }
+}
+@media all and (max-width: 770px){
+    #activity .selection-activity {
+        width: unset;
+    }
+    #activity .content .row>*{
+        width: unset;
+    }
+    #activity .content .col-md-8 {
+        right: 0%;
+    }
+    #activity .content {
+        width: unset;
+        position: relative;
+        top: 68px;
+    }
+}
+@media all and (max-width: 500px){
+    #activity .content .col-md-1 .status-content{
+        display: none;
+    }
+}
+@media all and (max-width: 486px){
+    #activity .main {
+        height: 1811px;
+    }
 }
