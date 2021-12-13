@@ -257,18 +257,18 @@
     position: relative;
     height: 871px;
 }
-.layout-right {
+#activity .layout-right {
     position: static;
 }
 @media all and (max-width: 1120px){
-    .part-main {
+    #activity .part-main {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         align-content: space-around;
         justify-content: space-around;
     }
-    .layout-right {
+    #activity .layout-right {
         position: relative !important;
         top: 159px;
         display: flex;
