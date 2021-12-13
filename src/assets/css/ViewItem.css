@@ -205,6 +205,9 @@
  opacity: 0;
     transition: 0.6s all ease; 
   }
+  #viewitem .left_imgArt .imgArt:hover .like{
+    opacity: 1;
+  }
 #viewitem .left_imgArt .imgArt .like p.purchase{
     position: absolute;
     background: black;

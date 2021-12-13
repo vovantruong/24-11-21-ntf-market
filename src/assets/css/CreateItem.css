@@ -135,6 +135,9 @@
   overflow: hidden;
   border-radius: 15px;
 }
+#createitem .content__createitem .right__Preview .img_preview:hover .like{
+  opacity: 1;
+}
 #createitem .content__createitem .right__Preview .img_preview img{
   position: absolute;
     width: 100%;
