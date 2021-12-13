@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import bgItem from "../../assets/images/Profile/unsplash_wQLAGv4_OYs.png";
-import avatar from "../../assets/images/Profile/unsplash_mEZ3PoFGs_k.png";
-import Image01 from "../../assets/images/Profile/unsplash_8uZPynIu-rQ.png";
+import bgItem from "../../assets/images/Profile/unsplash_wQLAGv4_OYs.svg";
+import avatar from "../../assets/images/Profile/unsplash_mEZ3PoFGs_k.svg"
+import Image01 from "../../assets/images/Profile/unsplash_8uZPynIu-rQ.svg";
 import IconNotBG from "../../assets/images/Profile/heart-no-bg.png";
 import "../../assets/css/Profile.css";
 import { Link } from "react-router-dom";

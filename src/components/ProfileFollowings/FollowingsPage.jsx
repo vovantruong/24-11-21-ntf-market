@@ -5,13 +5,12 @@ import {
   Col, Image,
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import bgItem from "../../assets/images/Profile/unsplash_wQLAGv4_OYs.png";
-import avatar from "../../assets/images/Profile/unsplash_mEZ3PoFGs_k.png";
-import Image01 from "../../assets/images/Profile_followings_and_Profile_follows/unsplash_tZCrFpSNiIQ.png";
+import bgItem from "../../assets/images/Profile_followings_and_Profile_follows/bg_item.svg";
+import avatar from "../../assets/images/Profile_followings_and_Profile_follows/avatar.svg";
+import Image01 from "../../assets/images/Profile_followings_and_Profile_follows/content.svg";
 import "../../assets/css/Followings.css";
 import { Link } from "react-router-dom";
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-  integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
 
 
 const salyFadel = [
