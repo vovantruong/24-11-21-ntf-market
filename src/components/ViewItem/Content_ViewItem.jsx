@@ -21,7 +21,7 @@ import "../../assets/css/ViewItem.css";
 
 import imgArt from "../../assets/images/View Item/unsplash__8hGFBxWD0A.png";
 import avtOwner from "../../assets/images/View Item/unsplash_mEZ3PoFGs_k.png";
-
+// import arrow from "../../assets/images/View Item/Button arrow.svg";
 /* ================================================================= */
 
 const Contnt_viewItem = () => {
@@ -36,6 +36,18 @@ const Contnt_viewItem = () => {
                         <div className="left_imgArt">
                             <div className="imgArt">
                                 <Image src={imgArt} width="640px" height="768px" />
+                                <div className="like">
+                                    <p className="purchase">
+                                        ART
+                                    </p>
+                                    <p class="place">
+                                        UNLOCKABLE
+                                    </p>
+                                    <button type="button" class="icon__img btn btn-primary">
+                                        <img className="heart" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAQCAYAAAD0xERiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEuSURBVHgBpZPRbcMwDESpdIBmBG1QZQNngqZ//ZQ3cCdoO0G6QbtBnQniEZQJohE8QnjwCVAc2QgcAoQgk3w+iaKRzLz3jS4v6la9Vz/8qWXxnS6vU3HDJASPTIp0m+1r9b26IySM4ltlxgQ7E17rxy5T4glZE/JWiH9yuzH88MvEVkZG1ZV6h78X4hVP9QHYP+Rq4kYWGk92WvEIj1pUfwbsBGVKXwTlNbikrKW6vSyz1KCfpxBCdM6hq42uVveHeymqCo17V/9G80wW+JKhzZ0Mne1nIFCCxlUEoVbMKKmhbDzKbQlIEJ4C7qm+mYBRspfh3UUCYxazVHQDKsJYtCOwT8Bs5KDsahJmYQQ6FgNYE74mPJRqVlMwFqSpOHKdBM0qyxRaGbrWznUYdgGCBoxhNS9rUgAAAABJRU5ErkJggg==" />
+                                        {/* <img className="arrow"src={arrow} /> */}
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </Col>
@@ -151,7 +163,6 @@ const Contnt_viewItem = () => {
                                                     className="purchase"
                                                     to=""
                                                 >
-                                                    Place a bid
                                                     Purchase now
                                                 </Link>
                                             </div>
@@ -163,7 +174,7 @@ const Contnt_viewItem = () => {
                                                     className="place"
                                                     to=""
                                                 >
-                                                    Purchase now
+                                                    Place a bid
                                                 </Link>
                                             </div>
                                         </Col>
