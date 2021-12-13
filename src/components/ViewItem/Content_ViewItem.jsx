@@ -35,7 +35,7 @@ const Contnt_viewItem = () => {
             <Container>
                 <ShowModel show={modalShow} onHide={() => setModalShow(false)} />
                 <Row>
-                    <Col lg={6}>
+                    <Col lg={6} md={12}>
                         <div className="left_imgArt">
                             <div className="imgArt">
                                 <Image src={imgArt} width="640px" height="768px" />
@@ -56,7 +56,7 @@ const Contnt_viewItem = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col lg={6}>
+                    <Col lg={6} md={12}>
                         <div className="right_Art">
                             <h1> <b>
                                 The amazing art
