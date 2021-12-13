@@ -17,15 +17,15 @@
 #scanwallet .container{
     max-width: 1144px;
 }
-#scanwallet .button-header a{
-    padding: 7px 10px;
+#scanwallet .button-header a {
+    padding: 8px 10px;
     border: 1px solid gray;
     border-radius: 90px;
 }
 #scanwallet .back-home{
     position: absolute;
-    /* left: 400px; */
-    top: 73px;
+    
+    top: 84px;
     font-weight: 500;
     font-size: 14px;
     line-height: 15px;

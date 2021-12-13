@@ -20,16 +20,18 @@
 #connectwallect .button-header a{
     color: #000000;
 }
-#connectwallect .back-home{
+#connectwallect .back-home {
     position: absolute;
- padding: 10px;
+    padding: 0 10px;
+    padding-bottom: 9px;
+    padding-top: 10px;
     top: 73px;
     font-weight: 500;
     font-size: 14px;
     line-height: 15px;
     border: 1px solid gray;
     border-radius: 90px;
-    text-align: center; 
+    text-align: center;
 }
 #connectwallect .back-home:hover,  #connectwallect .back-home a:hover {
     background: #a92e71;
@@ -48,6 +50,7 @@
 }
 #connectwallect .main{
     position: relative;
+    margin-bottom: 250px;
 }
 #connectwallect .img-title-select{
     position: relative;
