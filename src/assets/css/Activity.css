@@ -310,3 +310,14 @@
         height: 1811px;
     }
 }
+@media all and (max-width: 370px){
+    #activity .check-filters {
+        width: 295px;
+    }
+    #activity .check-filters .btn-select-item .btn-select-all {
+        left: 17px;
+    }
+    #activity .check-filters .btn-select-item .btn-unselect-all{
+        left: 149px;
+    }
+}
