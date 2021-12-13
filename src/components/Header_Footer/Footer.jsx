@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Image, Form,FormControl,Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../../assets/css/Footer.css";
-import Logo from "../../assets/images/Header/Women Tech_Logo_png-02.png";
+import Logo from "../../assets/images/Image-logo-svg/logo-woman-bg-white.svg"
 
 function Footer() {
   return (
