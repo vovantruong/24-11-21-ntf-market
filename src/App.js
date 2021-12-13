@@ -13,6 +13,7 @@ import EditProfile from "./components/Editprofile";
 import Profile from "./components/Profile";
 import Followings from "./components/ProfileFollowings.jsx";
 import ProfileFollowers from "./components/ProfileFllowers";
+import ViewItem from "./components/ViewItem.jsx";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/edit-profile" element={<EditProfile />} />
         <Route path="/profile-followings" element={<Followings />} />
         <Route path="/profile-followers" element={<ProfileFollowers />} />
+        <Route path="/view_item" element={<ViewItem />} />
       </Routes>
     </div>
   );

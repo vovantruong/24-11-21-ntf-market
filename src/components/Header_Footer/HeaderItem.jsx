@@ -1,24 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import {
-  Navbar,
   Container,
-  Nav,
+  Row,
+  Col,
   Image,
-  Form,
+  Modal,
   Button,
+  Form,
   FormControl,
+  Nav,
+  Navbar,
 } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "../../assets/images/Header/Vector.png";
 import "../../assets/css/Header.css";
 import "../../assets/css/HeaderItem.css";
 import user from "../../assets/images/Home Item/unsplash_mEZ3PoFGs_k.png";
+import bell from "../../assets/images/Home Item/Ellipse 16.png";
 
-function Header() {
+const Header = () => {
+  /* ===================  */
+  const [modalShow, setModalShow] = useState(false);
   return (
     <header id="header">
       <Navbar expand="lg">
         <Container>
+          <ShowModel show={modalShow} onHide={() => setModalShow(false)} />
           <Navbar.Brand href="/">
             <Image src={logo} width="33,22px" height="31,63px" />
             <p className="logo">Womentech</p>
@@ -41,19 +49,24 @@ function Header() {
               />
               <Button>
                 <i className="fas fa-search"></i>
-              </Button>             
+              </Button>
             </Form>
 
             <Nav className="bell">
-              <Button>
-               <i class='far fa-bell'></i>
-              </Button>
+              <Link
+                onClick={() => setModalShow(true)}
+                className="bell"
+                to=""
+              >
+                <Image src={bell} width="16px" height="16px" />
+              </Link>
+
             </Nav>
 
             <Nav className="right">
               <Nav.Link href="#">Upload</Nav.Link>
               <Nav.Link href="#" class="acount">
-              <Image src={user} width="20px" height="20px" />1.000 ETH
+                <Image src={user} width="20px" height="20px" />1.000 ETH
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -61,6 +74,55 @@ function Header() {
       </Navbar>
     </header>
   );
+};
+function ShowModel(props) {
+  const banlance = [
+    { left: "Your balance", right: "8.498 ETH" },
+    { left: "Service fee", right: "0 ETH" },
+    { left: "Total bid amount", right: "0 ETH" },
+  ];
+
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Place a bid
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <p className="top__text">You are about to purchase COINZ from UI8</p>
+        <div className="info__bid">
+          <h3>Your bid</h3>
+          <Form>
+            <FormControl type="text" placeholder="Enter bid" />
+            <p>ETH</p>
+          </Form>
+          <hr />
+          <div className="amount">
+            {banlance.map((e, index) => (
+              <div key={index} className="balance">
+                <p>{e.left}</p>
+                <p>{e.right}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Modal.Body>
+      <Modal.Footer>
+        <div className="place">Place a bid</div>
+        <div className="purchases">Purchase now</div>
+        <Button className="cancel" onClick={props.onHide}>
+          Cancel
+        </Button>
+      </Modal.Footer>
+    </Modal>
+  );
 }
+/* ======================================================================== */
 
 export default Header;

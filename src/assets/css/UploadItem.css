@@ -7,7 +7,7 @@
   /* --bd-radius-btn-footer: 50%;
     --txt-dark-pink-footer: #a92e71; */
 }
-#uploaditem {
+#uploaditem .container{
   font-family: "Lora";
 }
 #uploaditem  a {
@@ -79,7 +79,6 @@
   position: static;
   width: 880px;
   top: 66px;
-  font-family: SVN-Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -97,10 +96,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 18px 18px 22px;
+  padding: 30px 18px 22px;
   position: static;
   width: 354px;
-  height: 364px;
+  height: 367px;
   background: #ffffff;
   border-radius: var(--bd-radius-input-upload);
   border: var(--bd-input-upload);
@@ -110,10 +109,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 18px 18px 22px;
+  padding: 30px 18px 22px;
   position: static;
   width: 354px;
-  height: 364px;
+  height: 367px;
   background: #ffffff;
   border-radius: var(--bd-radius-input-upload);
   border: var(--bd-input-upload);
