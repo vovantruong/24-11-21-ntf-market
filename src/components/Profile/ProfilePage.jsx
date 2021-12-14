@@ -154,7 +154,7 @@ export default function ProfilePage() {
                 >
                   <div className="card__bid">
                     <div className="top__card">
-                      <Image src={e.img} width="100px" />
+                      <Image src={e.img}/>
                       <div className="just__like">
                         <p className="purchas">{e.txt}</p>
                         <Button className="icon__img">
