@@ -109,6 +109,10 @@
   color: #a92e71;
 }
 
+#how__it__work .col-md-9{
+  padding: 0;
+}
+
 @media screen and (max-width: 1024px) {
   #how__it__work .container {
     width: 1144px;

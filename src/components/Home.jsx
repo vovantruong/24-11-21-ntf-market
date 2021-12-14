@@ -17,7 +17,7 @@ function Home() {
     <div id="home">
       <Header/>
       <CreatorNetwork />
-      <Seller/>
+       <Seller/>
       <HotBid />
       <HotCollections />
       <HomeDiscover />
