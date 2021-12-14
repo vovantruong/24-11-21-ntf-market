@@ -14,11 +14,11 @@
   max-width: 1920px;
 }
 #edit__profile .top_content_header {
-  margin-top: -110px;
+  margin-top: 35px;
 }
 #edit__profile .navbar_item .container {
   position: relative;
-  top: 53px;
+  top: 55px;
 }
 
 #edit__profile .navbar_item {
