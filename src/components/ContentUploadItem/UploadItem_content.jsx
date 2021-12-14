@@ -8,7 +8,7 @@ import {
 import single from "../../assets/images/Upload item/unsplash_pEgsWN0kwbQ.png";
 import mutiple from "../../assets/images/Upload item/unsplash_Lki74Jj7H-U.png";
 import "../../assets/css/UploadItem.css";
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function UploadItem() {
   return (
@@ -55,29 +55,33 @@ function UploadItem() {
                     </div>
                     <div className="Creat">
                       <Row>
-                        <Col className="single" lg={5} md={6}>
-                          <div className="img_single">
-                            <Image src={single} width={318} height={255}/>
-                          </div>
-                          <div className="creat_single_mutiple">
-                            <div className="single_mutiple">
-                              <a href="create-item">
-                                {" "}
-                                <b>Creat single</b>
-                              </a>
+                        <Col lg={5} md={6}>
+                          <div className="single" >
+                            <div className="img_single">
+                              <Image src={single} width={318} height={255} />
+                            </div>
+                            <div className="creat_single_mutiple">
+                              <div className="single_mutiple">
+                                <a href="create-item">
+                                  {" "}
+                                  <b>Creat single</b>
+                                </a>
+                              </div>
                             </div>
                           </div>
                         </Col>
-                        <Col className="mutiple" lg={5} md={6}>
-                          <div className="img_mutiple">
-                            <Image src={mutiple} width={318} height={255}/>
-                          </div>
-                          <div className="creat_single_mutiple">
-                            <div className="single_mutiple">
-                              <a href="create-item">
-                                {" "}
-                                <b>Creat multiple</b>
-                              </a>
+                        <Col lg={5} md={6}>
+                          <div className="mutiple">
+                            <div className="img_mutiple">
+                              <Image src={mutiple} width={318} height={255} />
+                            </div>
+                            <div className="creat_single_mutiple">
+                              <div className="single_mutiple">
+                                <a href="create-item">
+                                  {" "}
+                                  <b>Creat multiple</b>
+                                </a>
+                              </div>
                             </div>
                           </div>
                         </Col>

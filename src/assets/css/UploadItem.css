@@ -171,8 +171,133 @@
     left: 30px;
   }
 }
+/* Ty le man hinh nho hon 989*/
 
 /* Ty le man hinh nho hon 991*/
+@media screen and (max-width: 989px)
+{
+  #uploaditem a{
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 430px;
+  }
+  #uploaditem .Center_upload .item{
+    position: relative;
+    right: 430px;
+  }
+  #uploaditem .Center_upload h1{
+    margin-left: 340px;
+    width: 200px;
+  }
+  #uploaditem .Center_upload .Creat .single{
+    position: relative;
+    right: 280px;
+    bottom: 20px;
+  }
+  #uploaditem .Center_upload .Creat .single .img_single{
+    position: relative;
+    top: 10px;
+  }
+  #uploaditem .Center_upload .Creat .creat_single_mutiple {
+    position: relative;
+    right: 210px;
+  }
+  #uploaditem .Center_upload .Creat .mutiple{
+    position: relative;
+    right: 295px;
+  }
+  #uploaditem .Center_upload .confirmation{
+    position: relative;
+    right: 480px;
+  }
+}
+
+/* Ty le man hinh nho hon 768*/
+@media screen and (max-width: 768px){
+  #uploaditem .ContentUpload{
+    position: relative;
+    right: 140px;
+  }
+  #uploaditem .Center_upload h1{
+    position: relative;
+    right: 35px;
+  }
+  #uploaditem .Center_upload p {
+    width: 300px;
+    margin-left: 250px;
+  }
+  #uploaditem .Center_upload .Creat .single .img_single {
+    position: relative;
+  }
+  #uploaditem .Center_upload .Creat {
+    height: 800px;
+  }
+   #uploaditem .Center_upload .Creat .single {
+    right: 320px;
+  }
+  #uploaditem .Center_upload .Creat .mutiple{
+    position: relative;
+    margin-top: 400px;
+    right: 470px;
+  }
+  #uploaditem .Center_upload .Creat .mutiple .img_mutiple{
+    position: relative;
+    top: 8px;
+  }
+}
+/* Ty le man hinh nho hon 768*/
+@media screen and (max-width: 411px){
+  #uploaditem a {
+    position: relative;
+    right: 180px;
+  }
+  #uploaditem .Center_upload h1{
+    position: relative;
+    left: 160px;
+  }
+#uploaditem .Center_upload p{
+  position: relative;
+  left: 200px;
+}
+#uploaditem .Center_upload .Creat {
+  position: relative;
+  height: 2000px;
+}
+#uploaditem .Center_upload .Creat .single{
+  position: relative;
+  top: 30px;
+}
+}
+/* Ty le man hinh nho hon 768*/
+@media screen and (max-width: 767px){
+  #uploaditem .Upload_Item .Center_upload{
+    position: relative;
+    width: 1000px;
+    height: 1300px;
+  }
+  #uploaditem .Center_upload h1 {
+    position: relative;
+    left: 350px;
+  }
+  #uploaditem .Center_upload p{
+    position: relative;
+    left: 400px;
+  }
+  #uploaditem .Center_upload .Creat .single {
+    position: relative;
+    top: 50px;
+    left:85px
+  }
+  #uploaditem .Center_upload .Creat .mutiple{
+    position: relative;
+    left:70px;
+    bottom: 200px;
+  }
+  #uploaditem .Center_upload .confirmation p {
+    position: relative;
+    top: 150px;
+  }
+}
 @media screen and (max-width: 768px) {
   #createitem .content__createitem{
     position: relative;

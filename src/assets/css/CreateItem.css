@@ -518,103 +518,63 @@ input[type=checkbox] {
   #createitem .container {
     width: 960px;
   }
-  #createitem .left__CreateSimple .switch_multiple p  {
-    margin-right: 50px !important;
-    left: 0 !important;
-  }
-  #footer .footer__info .info,
-  #footer .footer__crypter .crypter,
-  #footer .footer__newsletter .newsletter {
-    left: 0;
-  }
+}
+  @media screen and (max-width: 1024px) {
+    #createitem .content__createitem {
+      position: relative;
+      right: 275px;
+    }
+    #createitem .content__Bottom{
+      position: relative;
+      right: 275px;
+    }
+    #createitem .content__Bottom .Menu_right{
+      position: relative;
+      right: 45px;
+    }
+    #createitem .content__createitem .left__UploadFile .form-Uploadfile{
+      /* position: relative; */
+      width: 510px;
+    }
+    #createitem .switch_multiple{
+      position: relative;
+      left: 180px;
+      bottom: 100px;
+    }
+    #createitem .content__createitem .hr_left{
+      position: relative;
+      width: 505px;
+    }
+    /* #createitem .bottom_menu .create_bottom {
+    } */
 }
 
-/* Ty le man hinh nho hon 992*/
-@media screen and (max-width: 992px) {
-  #footer {
-    height: 647px;
+@media screen and (max-width: 991px) {
+  #createitem .left__CreateSimple .switch_multiple p{
+    position: relative;
+    top: 100px;
+    right: 320px;
   }
-
-  #footer form {
-    top: 0;
-    margin-top: 76px;
+  #createitem .content__createitem {
+    position: relative;
+    left: 1px;
   }
-
-  #footer .footer__info .info,
-  #footer .footer__crypter .crypter,
-  #footer .footer__newsletter .newsletter {
-    left: 0;
+  #createitem .content__createitem .left__itemname {
+    position: relative;
+    width: 510px;
   }
-}
-
-/* Ty le man hinh nho hon 768 */
-@media screen and (max-width: 768px) {
-  #footer {
-    height: 1050px;
+  #createitem .content__createitem .right__Preview{
+    position: relative;
+    left: 65px;
   }
-  #footer .container {
-    width: 650px;
+  #createitem .content__Bottom{
+    position: relative;
+    left: 5px;
+    top: 20px;
   }
-
-  #footer form {
-    width: 100%;
-    top: 0;
-    margin-top: 40px;
-    width: 720px;
-  }
-  #footer .footer__info .info,
-  #footer .footer__crypter .crypter,
-  #footer .footer__newsletter .newsletter {
-    left: 0;
-  }
-
-  #footer .footer__logo,
-  #footer .footer__info,
-  #footer .footer__crypter,
-  #footer .footer__newsletter {
-    margin: 20px 0;
-  }
-
-  #footer .bottom__footer {
-    display: block;
-  }
-  #footer .bottom__footer p {
-    font-size: 14px;
-    line-height: 25px;
-  }
-  #footer ul {
-    top: 0;
-    margin-top: 23px;
-  }
-}
-
-/* Ty le man hinh nho hon 576px*/
-@media screen and (max-width: 576px) {
-  #footer .container {
-    width: 410px;
-  }
-}
-
-/* Ty le man hinh nho hon 576px*/
-@media screen and (max-width: 450px) {
-  #footer {
-    height: 1135px;
-  }
-  #footer .container {
-    width: 320px;
-  }
-}
-
-/* Ty le man hinh nho hon 320px */
-@media screen and (max-width: 320px) {
-  #footer {
-    height: 1135px;
-  }
-  #footer .container {
-    width: 270px;
-  }
-
-  #footer form {
-    max-width: 243px;
+  #createitem .content__Bottom .Menu_right{
+    position: relative;
+    left: 350px;
+    bottom: 320px;
   }
 }
