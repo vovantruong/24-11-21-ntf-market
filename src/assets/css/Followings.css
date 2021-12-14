@@ -17,21 +17,23 @@
   max-width: 1140px;
   margin-bottom: 140px;
 }
-#followwing__followers .navbar_item Image {
+#followwing__followers Image {
   background: red;
   width: auto;
   height: auto;
 }
-
-#followwing__followers .navbar_item .btn__cover__profile a {
-  position: absolute;
-  margin-top: -5%;
-  right: 0px;
-  /* margin-left: 60%; */
+#followwing__followers .card__bid {
+  margin-top: 60px;
 }
-#followwing__followers .navbar_item a.cover {
+
+#followwing__followers .btn__cover__profile a {
+  position: absolute;
+  margin-top: -65px;
+  right: 0px;
+}
+#followwing__followers a.cover {
   color: var(--txt-light);
-  right: 23%;
+  right: 145px;
   text-decoration: none;
   border: 1px solid;
   padding: 10px 15px;
@@ -39,77 +41,87 @@
   border-radius: var(--boder-radius);
   border: var(--border-input);
 }
-#followwing__followers .navbar_item a.profile {
+#followwing__followers a.profile {
   color: var(--txt-light);
   text-decoration: none;
   padding: 10px 15px;
   width: auto;
   border-radius: var(--boder-radius);
   border: var(--border-input);
-  right: 14%;
 }
-#followwing__followers .navbar_item .btn__cover__profile :hover.cover {
+#followwing__followers .btn__cover__profile :hover.cover {
   background: var(--dark-pink);
 }
-#followwing__followers .navbar_item .btn__cover__profile :hover.profile {
+#followwing__followers .btn__cover__profile :hover.profile {
   background: var(--dark-pink);
 }
-#followwing__followers .navbar_item .detail__profile {
+#followwing__followers .detail__profile {
   text-align: center;
   border: 1px solid #c4c4c4;
   border-radius: 20px;
   position: absolute;
-  margin-top: -8%;
+  margin-top: -95px;
   background: var(--txt-light);
   padding: 0 35px;
-  height: 90%;
+  height: 720px;
 }
-/* .view__bid {
-  margin-top: 12%;
-} */
-#followwing__followers .navbar_item .content__detail {
+
+#followwing__followers .content__detail {
   right: 20px;
   font-size: 11px;
   margin-top: 10%;
 }
-.navbar_item .link__Profile b {
+#followwing__followers .link__Profile b {
   font-size: 12px;
 }
-#followwing__followers .navbar_item .follower_profile {
+#followwing__followers .follower_profile {
   text-decoration: none;
   background: var(--dark-pink);
   padding: 10px 15px;
   border-radius: var(--boder-radius);
   color: var(--txt-light);
 }
-#followwing__followers .navbar_item .view__like {
+#followwing__followers .view__like {
   border-radius: 50%;
   border: 1.5px solid #606060;
   margin-left: 10px;
   padding: 10px 15px;
   color: #606060;
 }
-#followwing__followers .navbar_item :hover.view__like {
+#followwing__followers .icon__link {
+  margin-top: 70px;
+  padding: 0 10px;
+  margin-bottom: -25px;
+}
+#followwing__followers :hover.view__like {
   background: var(--dark-pink);
   color: var(--txt-light);
 }
-#followwing__followers .navbar_item .icon__social i {
+#followwing__followers .icon__social i {
   padding: 0 10px;
   font-size: 30px;
   margin-top: 65px;
 }
-#followwing__followers .navbar_item .ruler__bottom {
+#followwing__followers .ruler__bottom {
   border: 1px solid #c4c4c4;
   margin-top: 35%;
 }
-#followwing__followers .navbar_item .bottom__date {
+#followwing__followers .bottom__date {
   color: #606060;
   font-size: 12px;
-  margin-top: 30px;
+  margin-top: 35px;
 }
-
+#followwing__followers .detail__profile .view__profile {
+  padding-top: 28px;
+}
+#followwing__followers .view__name__profile {
+  margin-top: 18px;
+}
+#followwing__followers .view__name__profile .name__profile {
+  font-size: 24px;
+}
 /* css bid */
-#followwing__followers .navbar_item .top__bid {
+#followwing__followers .top__bid {
   position: relative;
   top: 7.4rem;
   display: flex;
@@ -117,38 +129,38 @@
   justify-content: space-between;
 }
 
-#followwing__followers .navbar_item .container {
+#followwing__followers .container {
   max-width: 1144px;
 }
 
-#followwing__followers .navbar_item .top__card {
+#followwing__followers .top__card {
   width: 258px;
   height: 299px;
   position: relative;
   overflow: hidden;
   border-radius: 15px;
 }
-#followwing__followers .navbar_item .top__card img {
+#followwing__followers .top__card img {
   position: absolute;
   width: 100%;
   height: 100%;
   transition: 0.5s all ease;
 }
 
-#followwing__followers .navbar_item .top__card:hover > img {
+#followwing__followers .top__card:hover > img {
   transform: scale(1.2);
 }
 
-#followwing__followers .navbar_item .top__card:hover > .just__like {
+#followwing__followers .top__card:hover > .just__like {
   opacity: 1;
 }
 
-#followwing__followers .navbar_item .top__card .just__like {
+#followwing__followers .top__card .just__like {
   opacity: 0;
   transition: 0.6s all ease;
 }
 
-#followwing__followers .navbar_item .top__card .just__like .icon__img {
+#followwing__followers .top__card .just__like .icon__img {
   position: absolute;
   top: 16px;
   border: none;
@@ -159,7 +171,7 @@
   border-radius: 50%;
 }
 
-#followwing__followers .navbar_item .top__card .just__like .icon__img img {
+#followwing__followers .top__card .just__like .icon__img img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -168,86 +180,91 @@
   height: 55%;
 }
 
-#followwing__followers .navbar_item .title__bid h1 {
+#followwing__followers .title__bid h1 {
   font-size: 40px;
   font-weight: 500;
 }
-
-#followwing__followers .navbar_item .bottom__bid {
+#followwing__followers .bottom__bid {
   position: relative;
   top: 11.8rem;
 }
 
-#followwing__followers .navbar_item .bottom__bid .slick-list {
+#followwing__followers .bottom__bid .slick-list {
   height: 428px;
   padding-left: 12px;
 }
 
-#followwing__followers .navbar_item .card__bid .card__title,
-#followwing__followers .navbar_item .card__bid .card__icon,
-#followwing__followers .navbar_item .card__bid .bottom__card {
+#followwing__followers .card__bid .card__title,
+#followwing__followers .card__bid .card__icon,
+#followwing__followers .card__bid .bottom__card {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+#followwing__followers .card__title {
+  margin-bottom: -30px;
+}
 
-#followwing__followers .navbar_item .card__bid .body__card,
-#followwing__followers .navbar_item .card__bid .bottom__card,
-#followwing__followers .navbar_item .card__bid hr {
+#followwing__followers .card__bid .body__card,
+#followwing__followers .card__bid .bottom__card,
+#followwing__followers .card__bid hr {
   margin-right: 22px;
 }
 
-#followwing__followers .navbar_item .card__bid .body__card {
+#followwing__followers .card__bid .body__card {
   position: relative;
   top: 23px;
 }
 
-#followwing__followers .navbar_item .card__bid hr {
+#followwing__followers .card__bid hr {
   position: relative;
   top: 26px;
 }
 
-#followwing__followers .navbar_item .card__bid .card__title h5 {
+#followwing__followers .card__bid .card__title h5 {
   font-size: 16px;
   font-weight: 500;
   color: #000000;
+  margin-top: -10px;
 }
 
-#followwing__followers .navbar_item .card__bid .card__icon {
+#followwing__followers .card__bid .card__icon {
   position: relative;
   top: 15px;
   align-items: inherit;
 }
 
-#followwing__followers .navbar_item0 .card__bid {
+#followwing__followers .card__bid {
   width: 260px !important;
+  margin-left: 30px;
+  position: relative;
 }
 
-#followwing__followers .navbar_item .card__bid .card__icon img {
+#followwing__followers .card__bid .card__icon img {
   width: 29px;
   height: 29px;
 }
 
-#followwing__followers .navbar_item .navbar_item .card__bid .card__icon p {
+#followwing__followers .card__bid .card__icon p {
   font-size: 14px;
   font-weight: 400;
 }
 
-#followwing__followers .navbar_item .card__icon p,
-#followwing__followers .navbar_item .bottom__card p {
+#followwing__followers .card__icon p,
+#followwing__followers .bottom__card p {
   color: #606060;
 }
 
-#followwing__followers .navbar_item .card__bid .bottom__card p {
+#followwing__followers .card__bid .bottom__card p {
   font-size: 12px;
   font-weight: 400;
 }
 
-#followwing__followers .navbar_item .card__bid .bottom__card p.bt_left span {
+#followwing__followers .card__bid .bottom__card p.bt_left span {
   font-weight: 600;
   color: #000000;
 }
-#followwing__followers .navbar_item .body__card .card__title p {
+#followwing__followers .body__card .card__title p {
   display: flex;
   align-items: center;
   width: 66px;
@@ -260,11 +277,11 @@
   color: #a92e71;
 }
 
-#followwing__followers .navbar_item .card__bid .bottom__card {
+#followwing__followers .card__bid .bottom__card {
   position: relative;
   top: 20px;
 }
-#followwing__followers .navbar_item .just__like p.place {
+#followwing__followers .just__like p.place {
   position: absolute;
   background: #a92e71;
   bottom: 16px;
@@ -280,7 +297,7 @@
   justify-content: center;
 }
 
-#followwing__followers .navbar_item .just__like p.purchas {
+#followwing__followers .just__like p.purchas {
   position: absolute;
   left: 16px;
   top: 21px;
@@ -296,23 +313,25 @@
   color: #fff;
 }
 
-#followwing__followers .navbar_item .just__like button:focus {
+#followwing__followers .just__like button:focus {
   box-shadow: none;
 }
 /* menuitem */
 
-#followwing__followers .navbar_item .menu__item {
+#followwing__followers .menu__item {
   width: 568px;
   height: 31px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: absolute;
-  margin-top: 3%;
-  left: 35%;
+  margin-top: 55px;
+  left: 525px;
 }
-
-#followwing__followers .navbar_item .menu__item a {
+#followwing__followers .btn__cover__profile {
+  position: relative;
+}
+#followwing__followers .menu__item a {
   color: #000000;
   height: 31px;
   border-radius: 6px;
@@ -326,28 +345,26 @@
   border-radius: 20px;
 }
 
-#followwing__followers .navbar_item .menu__item a.active {
+#followwing__followers .menu__item a.active {
   background: #a92e71;
   color: #fff;
-}
-#followwing__followers .navbar_item .view_content_col {
-  margin-top: 8.7%;
-}
-/* .view__content_unfollow{
-  text-align: left;
-} */
-#followwing__followers .navbar_item .fadel__view_followings {
-  margin-top: 90px;
 }
 #followwing__followers .navbar_item .group__img {
   display: flex;
   margin-top: 40px;
+  border-bottom: 1px solid #C4C4C4;
+  padding-top: 20px;
+  width: 120%;
 }
 #followwing__followers .navbar_item .item__image_content {
   margin-top: 20px;
-}
-#followwing__followers .navbar_item .item__image_content {
   padding-top: 20px;
+
+}
+.border__ruler{
+  border-bottom: 1px solid #C4C4C4;
+  padding-top: 20px;
+  width: 120%;
 }
 #followwing__followers .navbar_item .fadel__view_followings a.place {
   background: #ffffff;
@@ -369,16 +386,21 @@
 
 #followwing__followers .navbar_item .info__view__tittle {
   text-align: left;
+  margin-top: -25px;
 }
 #followwing__followers .navbar_item .text__followings__view {
   font-size: 12px;
   color: #606060;
 }
-/* .navbar_item .detail__profile .view__profile
-{
-padding-top: 40px;  
-} */
-
+.img__view__followings{
+  padding-top: -45px;
+}
+.view_content_col{
+  margin-top: 90px;
+}
+.item__image_content{
+ padding: 40px -200px;
+}
 /* =========================== Responsive ============================= */
 @media screen and (max-width: 1024px) {
   #followwing__followers .navbar_item .container {
@@ -439,6 +461,10 @@ padding-top: 40px;
     left: 0px;
     margin-top: -30%;
   }
+  #followwing__followers .navbar_item .group__img {
+ 
+    width: 0px !important;
+  }
   #followwing__followers .navbar_item a.profile {
     margin-top: -240px;
   }
@@ -455,9 +481,6 @@ padding-top: 40px;
 
   #followwing__followers .navbar_item .bg__profile {
     margin-top: 200px;
-  }
-  #followwing__followers .navbar_item .card__bid {
-    /* margin-top: 420px !important; */
   }
   #followwing__followers .navbar_item .view__img_small {
     display: flex;

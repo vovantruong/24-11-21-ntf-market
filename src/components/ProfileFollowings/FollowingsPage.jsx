@@ -8,6 +8,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import bgItem from "../../assets/images/Profile_followings_and_Profile_follows/bg_item.svg";
 import avatar from "../../assets/images/Profile_followings_and_Profile_follows/avatar.svg";
 import Image01 from "../../assets/images/Profile_followings_and_Profile_follows/content.svg";
+import twitter from "../../assets/images/Profile/twiter.svg";
+import instagram from "../../assets/images/Profile/instagram.svg";
+import facebook from "../../assets/images/Profile/facebook.svg";
 import "../../assets/css/Followings.css";
 import { Link } from "react-router-dom";
 const salyFadel = [
@@ -120,9 +123,9 @@ export default function FollowingsPage() {
                           <Link className="link__note view__like" to=""><i class="far fa-flag"></i></Link>
                         </div>
                         <div className="icon__social mt-5">
-                          <i class="fab fa-twitter"></i>
-                          <i class="fab fa-instagram"></i>
-                          <i class="fab fa-facebook-f"></i>
+                          <img className="icon__link" src={twitter} />
+                          <img className="icon__link" src={instagram} />
+                          <img className="icon__link" src={facebook} />
                         </div>
                         <div className="ruler__bottom"></div>
                         <div className="bottom__date">Member since Mar 15, 2021</div>
@@ -138,7 +141,10 @@ export default function FollowingsPage() {
                           className={"group__img " + e.className}
                         >
                           <div className="img__view__followings">
+                            <div className="img__content__sally">
                             <Image className="img_view_profile" src={e.srcImg} width="88px" height="88px" />
+                            </div>
+                        
                           </div>&emsp;
                           <div className="info__view__tittle">
                             <b>{e.title}</b>
@@ -152,31 +158,21 @@ export default function FollowingsPage() {
                               {e.link}
                             </Link>
                           </div>
+                         
                         </div>
                       ))}
                     </div>
-
                   </Col>
+
                 </Row>
               </Col>
               <Col className="view_content_col">
-
                 {salyFadel_image.map((e, index) => (
                   <div key={index}>
                     <div className="item__image_content">
                       <Image className="img__view_src" src={e.img} />
                     </div>
-                  </div>
-                ))}
-
-              </Col>
-
-              <Col className="view_content_col">
-                {salyFadel_image.map((e, index) => (
-                  <div key={index}>
-                    <div className="item__image_content">
-                      <Image src={e.img} />
-                    </div>
+                    <div className="border__ruler"></div>
                   </div>
                 ))}
 
@@ -187,9 +183,9 @@ export default function FollowingsPage() {
                     <div className="item__image_content">
                       <Image src={e.img} />
                     </div>
+                    <div className="border__ruler"></div>
                   </div>
                 ))}
-
               </Col>
               <Col className="view_content_col">
                 {salyFadel_image.map((e, index) => (
@@ -197,6 +193,17 @@ export default function FollowingsPage() {
                     <div className="item__image_content">
                       <Image src={e.img} />
                     </div>
+                    <div className="border__ruler"></div>
+                  </div>
+                ))}
+              </Col>
+              <Col className="view_content_col">
+                {salyFadel_image.map((e, index) => (
+                  <div key={index}>
+                    <div className="item__image_content">
+                      <Image src={e.img} />
+                    </div>
+                    <div className="border__ruler"></div>
                   </div>
                 ))}
 
