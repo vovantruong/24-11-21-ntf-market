@@ -22,7 +22,7 @@
   width: auto;
   height: auto;
 }
-.card__bid {
+#profile__header__top .card__bid {
   margin-top: 60px;
 }
 
