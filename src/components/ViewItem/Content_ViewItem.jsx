@@ -22,9 +22,9 @@ import "../../assets/css/ViewItem.css";
 import imgArt from "../../assets/images/View Item/unsplash__8hGFBxWD0A.png";
 import avtOwner from "../../assets/images/View Item/unsplash_mEZ3PoFGs_k.png";
 import arrow from "../../assets/images/View Item/Button arrow.png";
-import vector from "../../assets/images/View Item/Vector.png";
+// import vector from "../../assets/images/View Item/Vector.png";
 import button from "../../assets/images/View Item/Button ....png";
-import ellipse from "../../assets/images/View Item/Ellipse 4.png";
+import ellipse from "../../assets/images/View Item/heart.png";
 /* ================================================================= */
 
 const Contnt_viewItem = () => {
@@ -35,7 +35,7 @@ const Contnt_viewItem = () => {
             <Container>
                 <ShowModel show={modalShow} onHide={() => setModalShow(false)} />
                 <Row>
-                    <Col lg={7}>
+                    <Col lg={6} md={12}>
                         <div className="left_imgArt">
                             <div className="imgArt">
                                 <Image src={imgArt} width="640px" height="768px" />
@@ -56,7 +56,7 @@ const Contnt_viewItem = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col lg={5}>
+                    <Col lg={6} md={12}>
                         <div className="right_Art">
                             <h1> <b>
                                 The amazing art

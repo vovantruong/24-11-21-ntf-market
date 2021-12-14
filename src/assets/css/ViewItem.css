@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-#viewitem {
+#viewitem .container{
     font-family: 'Poppins', sans-serif;
+    margin-right: 100px;
 }
 
 #viewitem .left_imgArt{
     margin-top: 125px;
     margin-bottom: 125px;
+    position: relative;
 }
 #viewitem.container{
     max-width: 1250px;
@@ -19,7 +21,7 @@
   text-align: left;
   fill: solid;
   color: #000000;
-  margin-left: 63px;
+  margin-left: 60px;
 }
 #viewitem .right_Art .price_art{
     font-family: 'Poppins' sans-serif;
@@ -201,11 +203,14 @@
  opacity: 0;
     transition: 0.6s all ease; 
   }
+  #viewitem .left_imgArt .imgArt:hover .like{
+    opacity: 1;
+  }
 #viewitem .left_imgArt .imgArt .like p.purchase{
     position: absolute;
     background: black;
-    bottom: 375px;
-    left: 145px;
+    bottom: 700px;
+    left: 45px;
     color: #fff;
     font-size: 14px;
     /* font-weight: 500; */
@@ -219,8 +224,8 @@
   }
 #viewitem .left_imgArt .imgArt .like .icon__img{
     position: absolute;
-    top: 890px;
-    left: 350px;
+    top: 650px;
+    left: 220px;
     border: none;
     /* width: 50px;
     height: 50px; */
@@ -245,8 +250,8 @@
   #viewitem .left_imgArt .imgArt .like p.place{
     position: absolute;
       background: #a92e71;
-      bottom: 375px;
-      left: 193px;
+      bottom: 700px;
+      left: 100px;
       color: #fff;
       font-size: 13px;
       /* font-weight: 500; */
@@ -257,3 +262,84 @@
       align-items: center;
       justify-content: center;
   }
+
+  /* =============================== Responsive ================================== */
+/* Ty le man hinh nho hon 768px*/
+@media screen and (max-width: 768px) {
+    #viewitem .right_Art .highest{
+        height: 350px;
+    }
+    #viewitem .right_Art .highest .purchase_place .place a{
+        position: relative;
+        top: 20px;
+        left: 115px;
+    }
+    #viewitem .right_Art .owner_will .owner{
+        position: relative;
+        top: 10px;
+        right: 12px;
+    }
+    #viewitem .right_Art .owner_will span{
+        position: relative;
+        top: 10px;
+        right: 12px;
+    }
+    #viewitem .right_Art .highest .purchase_place .purchase a{
+        position: relative;
+        left: 90px;
+    }
+  }
+/* Ty le man hinh nho hon 984px*/
+@media screen and (max-width: 984px) {
+    #viewitem .right_Art .highest{
+        position: relative;
+        height: 350px;
+    }
+    #viewitem .right_Art .highest .purchase_place .place a{
+        position: relative;
+        top: 20px;
+        left: 115px;
+    }
+    #viewitem .right_Art .owner_will .owner{
+        position: relative;
+        top: 10px;
+        right: 12px;
+    }
+    #viewitem .right_Art .owner_will span{
+        position: relative;
+        top: 10px;
+        right: 12px;
+    }
+    #viewitem .right_Art .highest .purchase_place .purchase a{
+        position: relative;
+        left: 90px;
+    }
+    #viewitem .right_Art{
+        position: relative;
+        /* left: 100px; */
+        right: 55px;
+    }
+    #viewitem .left_imgArt .imgArt img{
+        position: relative;
+    /* width: 360px; */
+    /* height: 400px; */
+    }
+}
+/* Ty le man hinh nho hon 375px*/
+@media screen and (max-width: 375px) {
+    #viewitem .right_Art {
+        position: relative;
+        /* left: 100px; */
+        /* width: 100px; */
+    }
+    #viewitem .left_imgArt .imgArt .like .icon__img {
+        width: 200px;
+    }
+}
+/* @media screen and (max-width: 1024px) {
+    #viewitem .right_Art{
+        left: 100px;
+        top: 200px;
+        margin-left: 200px;
+    }
+} */
