@@ -8,13 +8,17 @@
     --txt-dark-pink-footer: #a92e71; */
 }
 #uploaditem .container{
-  font-family: "Lora";
+  font-family: "Lora",sans-serif;
+}
+#uploaditem .Center_upload .item {
+  font-family: 'Poppins', sans-serif;
 }
 #uploaditem  a {
   text-decoration: none;
   font-family: "Lora";
   color: #000;
   font-weight: 500;
+  font-family: 'Poppins', sans-serif;
 }
 #uploaditem a:hover {
   color: #fff;
@@ -76,6 +80,7 @@
   text-align: center;
 }
 #uploaditem .Center_upload p {
+  font-family: 'Poppins', sans-serif;
   position: static;
   width: 880px;
   top: 66px;
@@ -128,11 +133,10 @@
   margin-left: 40px;
   text-align: center;
   margin-top: 30px;
-  font-family: SVN-Poppins;
   font-style: normal;
   font-size: 8px;
+  font-family: 'Poppins', sans-serif;
 }
-
 /* =============================== Responsive ================================== */
 /* Ty le man hinh nho hon 1200*/
 @media screen and (max-width: 375px) {
