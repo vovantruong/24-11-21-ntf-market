@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 #viewitem .container{
-    max-width: 1144px;
+    width: 1144px;
     font-family: 'Poppins', sans-serif;
-    margin-right: 100px;
 }
 
 #viewitem .left_imgArt{
@@ -359,9 +358,9 @@
         top: 20px;
         left: 40px;
     }
-    #viewitem .left_imgArt .imgArt img{
+    #viewitem .left_imgArt .imgArt{
         position: relative;
-        width: 280px;
+        width: 200px;
         height: 400px;
     }
     #viewitem .left_imgArt .imgArt .like .icon__img {
@@ -371,9 +370,13 @@
         width: 50px;
     }
     #viewitem .left_imgArt .imgArt img {
-        right: 20px;
-        left: 5px;
+        position: relative;
+        width: 200px;
     }
+    /* #viewitem .right_Art .highest .Service{
+        position: relative;
+        right: 20px;
+    } */
 }
 @media screen and (max-width: 414px) {
     #viewitem .left_imgArt .imgArt img {
@@ -397,10 +400,34 @@
     } */
 }
 
-/* @media screen and (max-width: 1024px) {
-    #viewitem .right_Art{
-        left: 100px;
-        top: 200px;
-        margin-left: 200px;
+@media screen and (max-width: 1024px) {
+    #viewitem .left_imgArt{
+        right: 40px;
     }
-} */
+    #viewitem .right_Art .highest {
+        position: relative;
+        width: 360px;
+        bottom: 40px;
+    }
+    #viewitem .right_Art .highest .purchase_place .purchase{
+        position: relative;
+        left: 1px;
+    }
+    #viewitem .right_Art .highest .purchase_place .place{
+        position: relative;
+        left: 1px;
+    }
+}
+@media screen and (max-width: 576px) {
+    #viewitem .left_imgArt .imgArt img {
+        position: relative;
+        width: 350px;
+    }
+    #viewitem .right_Art .highest .Service {
+        position: relative;
+        right: 30px;
+    }
+    #viewitem .right_Art .highest .Service{
+        left: 0.5px;
+    }
+}
