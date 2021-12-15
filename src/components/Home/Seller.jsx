@@ -61,6 +61,14 @@ function Seller() {
       {
         breakpoint: 561,
         settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          rows: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
           slidesToShow: 1.5,
           slidesToScroll: 1,
           rows: 1,

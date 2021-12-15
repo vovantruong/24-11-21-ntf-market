@@ -805,7 +805,7 @@
 
   #creator__network .content__network .left__img {
     position: relative;
-    left: 28px;
+    left: 20px;
   }
 
   #creator__network .right__card {
@@ -834,11 +834,14 @@
   }
 
   #creator__network .bottom__network .left__network .the__img__lg {
-    left: 19%;
+    left: 17%;
   }
 
   #creator__network .bottom__network .the__info {
     justify-content: space-around;
+    position: relative;
+    left: -14px;
+
   }
 
   #creator__network .bottom__network .the__info .info__left {
@@ -873,6 +876,7 @@
   #creator__network .content__network .left__img {
     width: 400px;
     height: 600px;
+    left: 28px;
   }
 
   #creator__network .btn__place__view {
@@ -886,7 +890,7 @@
   #creator__network .bottom__network .left__network .the__img__lg {
     width: 357px;
     height: 346px;
-    left: 12%;
+    left: 11%;
   }
 
   #creator__network .card__current {
@@ -956,19 +960,19 @@
   }
 
   #creator__network .bottom__network .the__info .info__left {
-    left: 16px;
+    left: 27px;
   }
 
   #creator__network .bottom__network .left__network .the__img__lg {
-    left: 6%;
+    left: 4.5%;
   }
 
   #creator__network .bottom__network .eth_never_die {
-    left: 13px;
+    left: 4px;
   }
 
   #creator__network .bottom__network .info__right {
-    left: 16px;
+    left: 28px;
     top: 10px;
     display: inline-block;
   }
@@ -987,11 +991,16 @@
   }
 
   #creator__network .content__network .left__img {
-    left: 0;
+    left: -1px;
   }
 
   .modal-content {
     width: 340px;
+  }
+
+  #creator__network .right__btn__network{
+    left: -32px;
+    width: 100%;
   }
 }
 
