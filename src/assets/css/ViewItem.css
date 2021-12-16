@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 #viewitem .container{
+    width: 1144px;
     font-family: 'Poppins', sans-serif;
-    margin-right: 100px;
 }
 
 #viewitem .left_imgArt{
@@ -12,7 +12,7 @@
 }
 #viewitem.container{
     max-width: 1250px;
-    margin-left: 105px;
+    /* margin-left: 105px; */
     font-family: "Lora";
   }
 #viewitem .right_Art{
@@ -21,7 +21,7 @@
   text-align: left;
   fill: solid;
   color: #000000;
-  margin-left: 60px;
+  margin-left: 140px;
 }
 #viewitem .right_Art .price_art{
     font-family: 'Poppins' sans-serif;
@@ -71,7 +71,7 @@
 }
 #viewitem .right_Art .info span{
     margin-right: 20px;
-    padding: 6px 6px;
+    padding: 2px 6px;
 }
 #viewitem .right_Art .info{
     border: 1px solid #606060;
@@ -265,7 +265,7 @@
 
   /* =============================== Responsive ================================== */
 /* Ty le man hinh nho hon 768px*/
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     #viewitem .right_Art .highest{
         height: 350px;
     }
@@ -288,7 +288,13 @@
         position: relative;
         left: 90px;
     }
-  }
+    #viewitem .right_Art {
+        position: relative;
+        left: 100px;
+        right: 55px;
+        bottom: 160px;
+    }
+  } */
 /* Ty le man hinh nho hon 984px*/
 @media screen and (max-width: 984px) {
     #viewitem .right_Art .highest{
@@ -321,25 +327,107 @@
     }
     #viewitem .left_imgArt .imgArt img{
         position: relative;
-    /* width: 360px; */
-    /* height: 400px; */
+        left: 40px;
     }
 }
 /* Ty le man hinh nho hon 375px*/
 @media screen and (max-width: 375px) {
     #viewitem .right_Art {
         position: relative;
-        /* left: 100px; */
-        /* width: 100px; */
+        right: 130px;
+        bottom: 100px;
     }
     #viewitem .left_imgArt .imgArt .like .icon__img {
         width: 200px;
     }
-}
-/* @media screen and (max-width: 1024px) {
-    #viewitem .right_Art{
-        left: 100px;
-        top: 200px;
-        margin-left: 200px;
+    #viewitem .right_Art .highest {
+        position: relative;
+        width: 330px;
+        height: 400px;
     }
-} */
+    #viewitem .right_Art .highest .purchase_place .purchase{
+        position: relative;
+        right: 30px;
+    }
+    #viewitem .right_Art .highest .purchase_place .place {
+        position: relative;
+        right: 30px;
+    }
+    #viewitem .right_Art .highest .Service span{
+        position: relative;
+        top: 20px;
+        left: 40px;
+    }
+    #viewitem .left_imgArt .imgArt{
+        position: relative;
+        width: 200px;
+        height: 400px;
+    }
+    #viewitem .left_imgArt .imgArt .like .icon__img {
+        display: none;
+    }
+    #viewitem .right_Art .price_art .stock {
+        width: 50px;
+    }
+    #viewitem .left_imgArt .imgArt img {
+        position: relative;
+        width: 200px;
+    }
+    /* #viewitem .right_Art .highest .Service{
+        position: relative;
+        right: 20px;
+    } */
+}
+@media screen and (max-width: 414px) {
+    #viewitem .left_imgArt .imgArt img {
+        position: relative;
+        width: 320px;
+        height: 350px;
+    }
+    #viewitem .left_imgArt .imgArt .like .icon__img {
+        display: none;
+    }
+    #viewitem .right_Art {
+        position: relative;
+        right: 130px;
+        bottom: 100px;
+    }
+}
+@media screen and (max-width:1399px) {
+    /* #viewitem .left_imgArt .imgArt img {
+        position: relative;
+        right: 25px;
+    } */
+}
+
+@media screen and (max-width: 1024px) {
+    #viewitem .left_imgArt{
+        right: 40px;
+    }
+    #viewitem .right_Art .highest {
+        position: relative;
+        width: 360px;
+        bottom: 40px;
+    }
+    #viewitem .right_Art .highest .purchase_place .purchase{
+        position: relative;
+        left: 1px;
+    }
+    #viewitem .right_Art .highest .purchase_place .place{
+        position: relative;
+        left: 1px;
+    }
+}
+@media screen and (max-width: 576px) {
+    #viewitem .left_imgArt .imgArt img {
+        position: relative;
+        width: 350px;
+    }
+    #viewitem .right_Art .highest .Service {
+        position: relative;
+        right: 30px;
+    }
+    #viewitem .right_Art .highest .Service{
+        left: 0.5px;
+    }
+}

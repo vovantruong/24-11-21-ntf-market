@@ -3,15 +3,11 @@
 :root {
   --bg-btn-header: #ec4c93;
 }
-#createitem h1{
-  font-family: 'Lora' sans-serif;
-}
 
 #createitem .container{
-  max-width: 1250px;
-  margin-left: 275px;
-  font-family: "Lora";
-
+  max-width: 1144px;
+  /* margin-left: 50px; */
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -47,7 +43,6 @@
   position: static;
   width: 309px;
   height: 102px;
-  font-family: SVN-Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 46px;
@@ -80,7 +75,7 @@
 }
 #createitem .content__createitem .left__UploadFile h6 {
   position: static;
-  width: 86px;
+  width: 100px;
   height: 17px;
   left: 0px;
   top: 0px;
@@ -123,7 +118,7 @@
   position: relative;
   width: 350px;
   height: 645px;
-  left: 45px;
+  left: 100px;
   top: 0;
   background: #ffffff;
   box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.1);
@@ -198,13 +193,12 @@
     justify-content: center;
 }
 #createitem .content__createitem .right__Preview h1 {
-  position: static;
+  /* position: static; */
   width: 104px;
   height: 27px;
   left: 0px;
   top: 0px;
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 100px;
   font-size: 26px;
   line-height: 27px;
   color: #000000;
@@ -212,6 +206,7 @@
   order: 0;
   flex-grow: 0;
   margin: 24px 0px;
+  font-family: 'Poppins', sans-serif;
 }
 #createitem .content__createitem .digital_price {
   margin-top: 15px;
@@ -229,7 +224,6 @@
   width: 52px;
   height: 13px;
   right: 0;
-
 }
 /*avatar*/
 #createitem .content__createitem .digital_price .img_avatar {
@@ -242,7 +236,7 @@
   height: 17px;
 }
 #createitem .content__createitem .digital_price .price_ETH b{
-  margin-left: 25px;
+  margin-left: 27px;
 }
 #createitem .content__createitem .digital_price .price_ETH p {
   width: 66px;
@@ -263,7 +257,7 @@
   width: 49px;
   height: 13px;
   font-size: 12px;
-  margin-left:20px;
+  margin-left:22px;
 }
 /* clear all */
 #createitem .content__createitem .right__Preview .clearAll {  
@@ -303,9 +297,9 @@
   flex-grow: 0;
   margin: 40px 0px;
 }
-#createitem .content__createitem .left__itemname{
+/* #createitem .content__createitem .left__itemname{
   margin-right: 65px;
-}
+} */
 #createitem .content__createitem .left__itemname label {
   position: static;
   left: 0px;
@@ -359,7 +353,7 @@
   padding-bottom: 25px;
 }
 /*Menu_right*/
-input[type=checkbox] {
+#createitem .input[type=checkbox] {
   visibility: hidden;
 }
 .checkbox-example,
@@ -394,10 +388,10 @@ input[type=checkbox] {
   background:#a92e71 ;
   margin-top: 3px;
 }
-.checkbox-example  input[type=checkbox]:checked + label {
+#createitem .checkbox-example  input[type=checkbox]:checked + label {
   left: 25px;
 }
-input[type=checkbox] {
+#createitem input[type=checkbox] {
   visibility: hidden;
 }
 #createitem .content__Bottom .Menu_right .btn {
@@ -413,7 +407,8 @@ input[type=checkbox] {
   background: #ccc;
 }
 #createitem .content__Bottom .Menu_right {
-  margin-left: 60px;
+  margin-left: 100px;
+  margin-top: 10px;
 }
 /*button_view*/
 #createitem .button_view {
@@ -433,11 +428,14 @@ input[type=checkbox] {
 }
 #createitem .button_view p {
   color: #ffffff;
-  margin-top: 10px;
+  margin-top: 14px;
 }
 #createitem .button_view a {
   color: black;
   margin-left: 20px;
+}
+#createitem .content__Bottom .Menu_left {
+
 }
 /*bottom_menu*/
 #createitem .bottom_menu .create_bottom {
@@ -505,13 +503,13 @@ input[type=checkbox] {
 
 /* =============================== Responsive ================================== */
 /* Ty le man hinh nho hon 1200*/
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   #footer .footer__info .info,
   #footer .footer__crypter .crypter,
   #footer .footer__newsletter .newsletter {
     left: 0;
   }
-}
+} */
 
 /* Ty le man hinh nho hon 11138*/
 @media screen and (max-width: 772px) {
@@ -520,33 +518,27 @@ input[type=checkbox] {
   }
 }
   @media screen and (max-width: 1024px) {
-    #createitem .content__createitem {
-      position: relative;
-      right: 275px;
+    #createitem .content__createitem .left__UploadFile .form-Uploadfile{
+      /* position: relative; */
+      width: 575px;
     }
-    #createitem .content__Bottom{
-      position: relative;
-      right: 275px;
+    #createitem .content__createitem .hr_left{
+      width: 575px;
     }
     #createitem .content__Bottom .Menu_right{
       position: relative;
-      right: 45px;
+      left: 380px;
+      bottom: 480px;
     }
-    #createitem .content__createitem .left__UploadFile .form-Uploadfile{
-      /* position: relative; */
-      width: 510px;
+    #createitem .content__createitem .right__Preview{
+      position: relative;
+      width: 320px;
     }
     #createitem .switch_multiple{
       position: relative;
-      left: 180px;
+      left: 240px;
       bottom: 100px;
     }
-    #createitem .content__createitem .hr_left{
-      position: relative;
-      width: 505px;
-    }
-    /* #createitem .bottom_menu .create_bottom {
-    } */
 }
 
 @media screen and (max-width: 991px) {
@@ -577,4 +569,113 @@ input[type=checkbox] {
     left: 350px;
     bottom: 320px;
   }
+}
+  @media screen and (max-width: 576px) {
+    #createitem .content__createitem .left__itemname .select_text{
+      position: relative;
+      right: 184px;
+    }
+    #createitem .content__Bottom .Menu_left{
+      position: relative;
+      left: 10px;
+    }
+    #createitem .content__createitem .left__itemname .size {
+      position: relative;
+      left: 1px;
+      top: 0;
+    }
+    #createitem .content__createitem .left__itemname .royalties{
+      position: relative;
+      width: 240px;
+      left: 185px;
+    }
+    #createitem .content__createitem .left__itemname .form-properti{
+      position: relative;
+      width: 240px;
+      left: 185px;
+      top: 0;
+    }
+    #createitem .switch_multiple{
+      position: relative;
+      left: 500px;
+      bottom: 200px;
+    }
+    #createitem .content__createitem .left__UploadFile .form-Uploadfile {
+      width: 510px;
+    }
+    #createitem .content__createitem .digital_price .price_ETH b{
+      position: relative;
+      /* top: 10px; */
+      left: 162px;
+      bottom: 15px;
+    }
+    #createitem .content__createitem .digital_price .price_ETH p{
+      position: relative;
+      /* top: 10px; */
+      left: 162px;
+      bottom: 15px;
+    }
+    #createitem .content__createitem .right__Preview .bid .newbid {
+      position: relative;
+      /* top: 10px; */
+      left: 162px;
+      bottom: 30px;
+    }
+    #createitem .content__createitem .right__Preview .clearAll{
+      bottom: 20px;
+    }
+    hr:not([size]) {
+      width: 260px;
+    }
+    #createitem .content__Bottom .Menu_left {
+      position: relative;
+      left: 5px;
+    }
+    #createitem .content__Bottom .Menu_right{
+     display: none;
+    }
+    #createitem .bottom_menu{
+      position: relative;
+      left: 5px;
+      width: 200px;
+    }
+    #createitem .bottom_menu .create_bottom{
+      position: relative;
+      margin-top: 10px;
+    }
+    #createitem .content__createitem .hr_left{
+      width: 510px;
+    }
+}
+
+@media screen and (max-width: 768px){
+  #createitem .container{
+    position: relative;
+    left: 30px;
+  }
+  #createitem .content__createitem .left__itemname {
+    position: relative;
+    width: 500px;
+  }
+  #createitem .content__createitem .left__itemname .size{
+    position: relative;
+    margin-left: 185px;
+    width: 240px;
+  }
+  #createitem .content__createitem .right__Preview {
+    left: 130px;
+  }
+  #createitem .content__Bottom .Menu_left{
+    left: 1px;
+  }
+  #createitem .bottom_menu{
+    left: 1px;
+  }
+}
+@media screen and (max-width: 411px){
+  /* #createitem .switch_multiple{
+    position: relative;
+    margin-top: 80px;
+    margin-right: 100px;
+  } */
 }
