@@ -28,7 +28,7 @@
     position: absolute;
     width: 1142px;
     text-align: right;
-    top: 184px;
+    top: 166px;
 }
 #activity .btn-title{
     width: 100%px;
@@ -106,7 +106,7 @@
     cursor: default;
     left: 20px;
     top: 120px;
-    
+    width: unset;
 }
 
 #activity .content .col-md-8 .article-title{
@@ -116,6 +116,7 @@
     font-size: 24px;
     line-height: 25px;
     color: black !important;
+    width: auto;
 }
 
 #activity .content .col-md-8{
@@ -165,6 +166,7 @@
     position: relative;
     top: 45px;
     left: 45px;
+    width: max-content;
 }
 #activity .check-filters .item-check .check-box{
     position: relative;
@@ -202,6 +204,7 @@
     top: 38px;
     left: 45px;
     padding-top: 24px;
+    width: max-content;
 }
 #activity .check-filters .item-check span{
     position: absolute;
@@ -261,7 +264,7 @@
 #activity .layout-right {
     position: static;
 }
-@media all and (max-width: 1120px){
+@media all and (max-width: 1200px){
     #activity .part-main {
         display: flex;
         flex-wrap: wrap;
@@ -284,12 +287,12 @@
     #activity .read span{
        right: 0;
     }
-}
-@media all and (max-width: 770px){
-    #activity .selection-activity {
-        width: unset;
+    #activity .selection-activity{
+        margin: 0 auto;
     }
-    #activity .content .row>*{
+}
+@media all and (max-width: 768px){
+    #activity .selection-activity {
         width: unset;
     }
     #activity .content .col-md-8 {
@@ -300,13 +303,16 @@
         position: relative;
         top: 68px;
     }
-}
-@media all and (max-width: 500px){
+    #activity .content .row .col-md-3{
+        margin: 0 auto;
+    }
+    #activity .content .row{
+        left: 0;
+        text-align: center;
+    }
     #activity .content .col-md-1 .status-content{
         display: none;
     }
-}
-@media all and (max-width: 486px){
     #activity .main {
         height: 1811px;
     }
