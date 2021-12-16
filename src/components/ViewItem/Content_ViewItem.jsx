@@ -19,8 +19,8 @@ import "../../assets/css/ViewItem.css";
 
 /* ========================= Import Image ======================== */
 
-import imgArt from "../../assets/images/View Item/unsplash__8hGFBxWD0A.png";
-import avtOwner from "../../assets/images/View Item/unsplash_mEZ3PoFGs_k.png";
+import imgArt from "../../assets/images/View Item/unsplash__8hGFBxWD0A.svg";
+import avtOwner from "../../assets/images/View Item/unsplash_mEZ3PoFGs_k.svg";
 import arrow from "../../assets/images/View Item/Button arrow.png";
 // import vector from "../../assets/images/View Item/Vector.png";
 import button from "../../assets/images/View Item/Button ....png";
