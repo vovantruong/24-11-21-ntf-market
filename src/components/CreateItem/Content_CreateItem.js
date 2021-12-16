@@ -18,8 +18,8 @@ import "../../assets/css/CreateItem.css";
 
 /* ========================= Import Image ======================== */
 
-import Preview from "../../assets/images/Create Item/unsplash_hoS3dzgpHzw.png";
-import Avatar from "../../assets/images/Home/avata-1.png";
+import Preview from "../../assets/images/Create Item/unsplash_hoS3dzgpHzw.svg";
+import Avatar from "../../assets/images/Create Item//unsplash_mEZ3PoFGs_k.svg";
 
 /* ================================================================= */
 
