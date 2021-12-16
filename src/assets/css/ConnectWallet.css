@@ -91,7 +91,7 @@
 #connectwallect .layout-right {
     position: relative;
 }
-@media all and (max-width: 1024px){
+@media all and (max-width: 1200px){
     #connectwallect .main {
         position: relative;
         display: flex;
@@ -103,10 +103,16 @@
         position: relative;
         left: 3%;
     }
-}
-@media all and (max-width: 532px){
+    #connectwallect .img-title-select:hover::after{
+        left: 100%;
+    }
     #connectwallect .img-title-select{
-        text-align: center;
+        margin: 0 auto;
+        width: 72%;
+    }
+}
+@media all and (max-width: 576px){
+    #connectwallect .img-title-select{
         width: unset;
     }
     #connectwallect .layout-right .img-main img{
@@ -128,5 +134,13 @@
     }
     #connectwallect .img-title-select span{
         font-size: 16px;
+        left: 7%;
+    }
+    #connectwallect .layout-right{
+        position: static;
+    }
+    #connectwallect .img-title-select img{
+        width: 50px;
+        height: 50px;
     }
 }
