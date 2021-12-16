@@ -171,7 +171,7 @@
     border: 1px solid gray;
     border-radius: 90px;
     padding: 12px 25px;
-    width: 186px;
+    /* width: 186px; */
     background: #a92e71;
 }
 #connectwallect01 .layout-right {
@@ -180,6 +180,10 @@
 #connectwallect01 .layout-left {
     position: static;
 }
+#connectwallect01 .selection-button{
+    width: max-content;
+}
+
 @media all and (max-width: 1200px){
 
     #connectwallect01 .main {
@@ -220,15 +224,16 @@
     }
     #connectwallect01 .item-check {
         left: 15px;
-        width: 59%;
+        width: max-content;
         top: 280px;
         margin: 0 auto;
     }
+    #connectwallect01 .item-v1{
+        padding-right: 33px;
+    }
     #connectwallect01 .selection-button {
         left: 10px;
-        display: flex;
         top: 294px;
-        width: 45%;
         margin: 0 auto;
     }
 }
@@ -236,15 +241,8 @@
     #connectwallect01 .img-title-select span{
         font-size: 17px;
     }
-    #connectwallect01 .selection-button {
-        width: 60%;
-
-    }
 }
 @media all and (max-width: 576px){
-    /* #connectwallect01 .img-main{
-        top: 159px;
-    } */
     #connectwallect01 .img-main img {
         width: 250px;
         height: 100px;
@@ -253,25 +251,41 @@
         font-size: 24px;
     }
     #connectwallect01 .item-check {
-        width: 84%;
         top: 214px;
     }
     #connectwallect01 .selection-button {
-        top: 219px;
-        width: 83%;
+        top: 230px;
     }
     #connectwallect01 .main {
         margin-bottom: -340px;
     }
-    #connectwallect01 .selection-button a .choose {
-        padding: 3px 17px;
-        top: 10px;
-        text-align: center;
-    }
-    #connectwallect01 .selection-button a span {
-        padding: 3px 12px;
-    }
     #connectwallect01 .img-title-select:hover::after{
         display: none;
+    }
+    #connectwallect01 .item-check span{
+        font-size: 12px;
+    }
+      #connectwallect01 .selection-button a .choose {
+        padding: 6px 13px;
+        top: 7px;
+    }
+    #connectwallect01 .selection-button a span {
+        padding: 6px 10px;
+    }
+}
+
+@media all and (max-width: 375px){
+    #connectwallect01 .selection-button a .choose {
+        padding: 6px 13px;
+        top: 7px;
+    }
+    #connectwallect01 .img-main {
+        top: 122px;
+    }
+    #connectwallect01 .item-check {
+        top: 233px;
+    }
+    #connectwallect01 .selection-button a span {
+        padding: 6px 10px;
     }
 }
