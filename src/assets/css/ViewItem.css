@@ -265,36 +265,12 @@
 
   /* =============================== Responsive ================================== */
 /* Ty le man hinh nho hon 768px*/
-/* @media screen and (max-width: 768px) {
-    #viewitem .right_Art .highest{
-        height: 350px;
-    }
-    #viewitem .right_Art .highest .purchase_place .place a{
+@media screen and (max-width: 768px) {
+    #createitem .content__Bottom .Menu_right{
         position: relative;
-        top: 20px;
-        left: 115px;
+        left: 0;
     }
-    #viewitem .right_Art .owner_will .owner{
-        position: relative;
-        top: 10px;
-        right: 12px;
-    }
-    #viewitem .right_Art .owner_will span{
-        position: relative;
-        top: 10px;
-        right: 12px;
-    }
-    #viewitem .right_Art .highest .purchase_place .purchase a{
-        position: relative;
-        left: 90px;
-    }
-    #viewitem .right_Art {
-        position: relative;
-        left: 100px;
-        right: 55px;
-        bottom: 160px;
-    }
-  } */
+  }
 /* Ty le man hinh nho hon 984px*/
 @media screen and (max-width: 984px) {
     #viewitem .right_Art .highest{
@@ -331,52 +307,42 @@
     }
 }
 /* Ty le man hinh nho hon 375px*/
-@media screen and (max-width: 375px) {
-    #viewitem .right_Art {
+@media screen and (max-width: 414px) {
+    #viewitem .content__createitem{
         position: relative;
-        right: 130px;
-        bottom: 100px;
+        right: 0;
+        left: 0;
     }
-    #viewitem .left_imgArt .imgArt .like .icon__img {
-        width: 200px;
-    }
-    #viewitem .right_Art .highest {
+    #createitem .switch_multiple{
         position: relative;
-        width: 330px;
-        height: 400px;
+        left: 25pc;
+        width: 100px;
     }
-    #viewitem .right_Art .highest .purchase_place .purchase{
+    #createitem .content__createitem .left__UploadFile .form-Uploadfile{
+        width: 300px;
+    }
+    #createitem .content__createitem .left__itemname .form-itemname .form-control {
+        width: 240px;
+    }
+    #createitem .content__createitem .left__itemname .form-description .form-control{
+        width: 240px;
+    }
+    #createitem .content__createitem .hr_left{
+        width: 300px;
+    }
+    #createitem .content__createitem .right__Preview {
+        left: 0;
+    }
+    #createitem .content__Bottom .Menu_left {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 375px){
+    #createitem .switch_multiple{
         position: relative;
-        right: 30px;
+        left: 23pc;
+        width: 100px;
     }
-    #viewitem .right_Art .highest .purchase_place .place {
-        position: relative;
-        right: 30px;
-    }
-    #viewitem .right_Art .highest .Service span{
-        position: relative;
-        top: 20px;
-        left: 40px;
-    }
-    #viewitem .left_imgArt .imgArt{
-        position: relative;
-        width: 200px;
-        height: 400px;
-    }
-    #viewitem .left_imgArt .imgArt .like .icon__img {
-        display: none;
-    }
-    #viewitem .right_Art .price_art .stock {
-        width: 50px;
-    }
-    #viewitem .left_imgArt .imgArt img {
-        position: relative;
-        width: 200px;
-    }
-    /* #viewitem .right_Art .highest .Service{
-        position: relative;
-        right: 20px;
-    } */
 }
 @media screen and (max-width: 414px) {
     #viewitem .left_imgArt .imgArt img {

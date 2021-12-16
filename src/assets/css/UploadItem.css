@@ -221,26 +221,16 @@
 
 }
 @media screen and (max-width: 411px){
-  #uploaditem a {
-    position: relative;
-    right: 180px;
+  #uploaditem .container{
+    left: 1px;
   }
-  #uploaditem .Center_upload h1{
-    position: relative;
-    left: 160px;
+  #uploaditem .ContentUpload{
+    right: 300px;
   }
-#uploaditem .Center_upload p{
-  position: relative;
-  left: 200px;
-}
-#uploaditem .Center_upload .Creat {
-  position: relative;
-  height: 2000px;
-}
-#uploaditem .Center_upload .Creat .single{
-  position: relative;
-  top: 30px;
-}
+  #uploaditem .hrUpload{
+    
+    display: none;
+  }
 }
 /* Ty le man hinh nho hon 768*/
 @media screen and (max-width: 767px){
@@ -318,27 +308,40 @@
     #uploaditem .container{
       position: relative;
       max-width: 750px;
-      right: 85px;
+      right: 90px;
     }
     #uploaditem .hrUpload{
       position: relative;
       left: 150px;
     }
   }
+  /* @media screen and (max-width: 540px){
+    #uploaditem .center_Upload{
+      position: relative;
+      left: 170px;
+    }
+    #uploaditem .ContentUpload{
+      right: 10px;
+    }
+  } */
   @media screen and (max-width: 375px){
+    #uploaditem .ContentUpload{
+      position: relative;
+      right: 320px;
+    }
     #uploaditem .Center_upload h1{
       position: relative;
-      right: 100px;
+      right: 130px;
     }
-    #uploaditem .Upload_Item{
+    #uploaditem .container{
       position: relative;
-      margin-left: 70px;
-    }
-    #uploaditem .Center_upload .Creat .creat_single_mutiple{
-      position: relative;
-      margin-left: 350px;
+      margin-right: 100px;
     }
     #uploaditem .hrUpload {
       display: none;
+    }
+    #uploaditem .Center_upload .Creat{
+      position: relative;
+      right: 20px;
     }
   }
