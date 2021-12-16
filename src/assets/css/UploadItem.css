@@ -8,13 +8,25 @@
     --txt-dark-pink-footer: #a92e71; */
 }
 #uploaditem .container{
-  font-family: "Lora";
+  font-family: "Lora",sans-serif;
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  /* position: relative; */
+  width: 1144px;
+}
+#uploaditem .container .Upload_Item{
+  /* position:relative; */
+}
+#uploaditem .Center_upload .item {
+  font-family: 'Poppins', sans-serif;
 }
 #uploaditem  a {
   text-decoration: none;
   font-family: "Lora";
   color: #000;
   font-weight: 500;
+  font-family: 'Poppins', sans-serif;
 }
 #uploaditem a:hover {
   color: #fff;
@@ -76,7 +88,7 @@
   text-align: center;
 }
 #uploaditem .Center_upload p {
-  position: static;
+  font-family: 'Poppins', sans-serif;
   width: 880px;
   top: 66px;
   font-style: normal;
@@ -97,7 +109,6 @@
   justify-content: center;
   align-items: center;
   padding: 30px 18px 22px;
-  position: static;
   width: 354px;
   height: 367px;
   background: #ffffff;
@@ -110,7 +121,6 @@
   justify-content: center;
   align-items: center;
   padding: 30px 18px 22px;
-  position: static;
   width: 354px;
   height: 367px;
   background: #ffffff;
@@ -128,51 +138,11 @@
   margin-left: 40px;
   text-align: center;
   margin-top: 30px;
-  font-family: SVN-Poppins;
   font-style: normal;
   font-size: 8px;
+  font-family: 'Poppins', sans-serif;
 }
-
 /* =============================== Responsive ================================== */
-/* Ty le man hinh nho hon 1200*/
-@media screen and (max-width: 375px) {
-  #uploaditem .Center_upload .item p {
-    position: relative;
-    width: 200px;
-    left: 80px;
-  }
-  #uploaditem .Center_upload h1{
-    width: 200px;
-    left: 80px;
-    position: relative;
-  }
-  #uploaditem a{
-    position: relative;
-    left: 80px;
-  }
-  #uploaditem .Center_upload p{
-    width: 200px;
-    left: 30px;
-    position: relative;
-  }
-  #uploaditem .Center_upload .Creat .single {
-    position: relative;
-    top: 20px;
-    left: 50px;
-  }
-  #uploaditem a{
-    position: relative;
-    top: 75px;
-    right: 500px;
-  }
-  #uploaditem .Center_upload .Creat .mutiple{
-    position: relative;
-    top: 70px;
-    left: 30px;
-  }
-}
-/* Ty le man hinh nho hon 989*/
-
 /* Ty le man hinh nho hon 991*/
 @media screen and (max-width: 989px)
 {
@@ -238,14 +208,18 @@
   #uploaditem .Center_upload .Creat .mutiple{
     position: relative;
     margin-top: 400px;
-    right: 470px;
+    right: 565px;
   }
   #uploaditem .Center_upload .Creat .mutiple .img_mutiple{
     position: relative;
     top: 8px;
   }
+  #uploaditem .Upload_Item{
+    position: relative;
+    right: 180px;
+  }
+
 }
-/* Ty le man hinh nho hon 768*/
 @media screen and (max-width: 411px){
   #uploaditem a {
     position: relative;
@@ -340,3 +314,31 @@
     right:270px;
   }
 }
+  @media screen and (max-width: 576px){
+    #uploaditem .container{
+      position: relative;
+      max-width: 750px;
+      right: 85px;
+    }
+    #uploaditem .hrUpload{
+      position: relative;
+      left: 150px;
+    }
+  }
+  @media screen and (max-width: 375px){
+    #uploaditem .Center_upload h1{
+      position: relative;
+      right: 100px;
+    }
+    #uploaditem .Upload_Item{
+      position: relative;
+      margin-left: 70px;
+    }
+    #uploaditem .Center_upload .Creat .creat_single_mutiple{
+      position: relative;
+      margin-left: 350px;
+    }
+    #uploaditem .hrUpload {
+      display: none;
+    }
+  }

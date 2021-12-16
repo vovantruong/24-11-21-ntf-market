@@ -59,6 +59,7 @@ function UploadItem() {
                           <div className="single" >
                             <div className="img_single">
                               <Image src={single} width={318} height={255} />
+                          
                             </div>
                             <div className="creat_single_mutiple">
                               <div className="single_mutiple">

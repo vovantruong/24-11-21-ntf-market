@@ -168,7 +168,7 @@ const Contnt_viewItem = () => {
                                                     className="purchase"
                                                     to=""
                                                 >
-                                                    Purchase now
+                                                    <b>Purchase now</b>
                                                 </Link>
                                             </div>
                                         </Col>
@@ -179,7 +179,7 @@ const Contnt_viewItem = () => {
                                                     className="place"
                                                     to=""
                                                 >
-                                                    Place a bid
+                                                    <b>Place a bid</b>
                                                 </Link>
                                             </div>
                                         </Col>
