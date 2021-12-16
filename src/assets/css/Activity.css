@@ -106,7 +106,7 @@
     cursor: default;
     left: 20px;
     top: 120px;
-    
+    width: unset;
 }
 
 #activity .content .col-md-8 .article-title{
@@ -116,6 +116,7 @@
     font-size: 24px;
     line-height: 25px;
     color: black !important;
+    width: auto;
 }
 
 #activity .content .col-md-8{
@@ -165,6 +166,7 @@
     position: relative;
     top: 45px;
     left: 45px;
+    width: max-content;
 }
 #activity .check-filters .item-check .check-box{
     position: relative;
@@ -202,6 +204,7 @@
     top: 38px;
     left: 45px;
     padding-top: 24px;
+    width: max-content;
 }
 #activity .check-filters .item-check span{
     position: absolute;
@@ -292,9 +295,6 @@
     #activity .selection-activity {
         width: unset;
     }
-    #activity .content .row>*{
-        width: unset;
-    }
     #activity .content .col-md-8 {
         right: 0%;
     }
@@ -303,13 +303,16 @@
         position: relative;
         top: 68px;
     }
-}
-@media all and (max-width: 567px){
+    #activity .content .row .col-md-3{
+        margin: 0 auto;
+    }
+    #activity .content .row{
+        left: 0;
+        text-align: center;
+    }
     #activity .content .col-md-1 .status-content{
         display: none;
     }
-}
-@media all and (max-width: 486px){
     #activity .main {
         height: 1811px;
     }
