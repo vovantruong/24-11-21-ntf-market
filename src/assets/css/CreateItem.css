@@ -359,7 +359,7 @@
   padding-bottom: 25px;
 }
 /*Menu_right*/
-input[type=checkbox] {
+#createitem input[type=checkbox] {
   visibility: hidden;
 }
 .checkbox-example,
@@ -397,7 +397,7 @@ input[type=checkbox] {
 .checkbox-example  input[type=checkbox]:checked + label {
   left: 25px;
 }
-input[type=checkbox] {
+#createitem input[type=checkbox] {
   visibility: hidden;
 }
 #createitem .content__Bottom .Menu_right .btn {
