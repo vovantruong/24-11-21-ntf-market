@@ -162,7 +162,7 @@
 @media all and (max-width: 1200px){
     #scanwallet .layout-right {
         position: relative !important;
-        z-index: -1;
+        margin-top: 97px;
     }
     #scanwallet .main {
         display: flex;
