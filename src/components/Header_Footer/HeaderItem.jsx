@@ -14,7 +14,7 @@ import {
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "../../assets/images/Header/Vector.png";
-import "../../assets/css/Header.css";
+// import "../../assets/css/Header.css";
 import "../../assets/css/HeaderItem.css";
 import user from "../../assets/images/Home Item/unsplash_mEZ3PoFGs_k.png";
 import bell from "../../assets/images/Home Item/Ellipse 16.png";
@@ -27,10 +27,12 @@ const Header = () => {
       <Navbar expand="lg">
         <Container>
           <ShowModel show={modalShow} onHide={() => setModalShow(false)} />
+          <div className="logo_women">
           <Navbar.Brand href="/">
             <Image src={logo} width="33,22px" height="31,63px" />
             <p className="logo">Womentech</p>
           </Navbar.Brand>
+          </div>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
