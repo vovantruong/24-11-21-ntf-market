@@ -445,11 +445,8 @@
 }
 
 @media screen and (max-width: 576px) {
-  /* .just__like p.place {
-    left: 90px;
-  } */
   #followwing__followers .navbar_item .container {
-    max-width: 480px;
+    max-width: 400px;
   }
   #followwing__followers .navbar_item .menu__item {
     display: contents;
@@ -457,10 +454,12 @@
   #followwing__followers .navbar_item .detail__profile {
     position: relative;
     height: 120%;
-    /* margin-top: 800px; */
-    margin-left: 20px;
+    margin: 0 15px;
     left: 0px;
     margin-top: -30%;
+  }
+  #followwing__followers .fadel__view_followings{
+   margin: 0 50px;
   }
   #followwing__followers .navbar_item .group__img {
  
@@ -485,6 +484,9 @@
   }
   #followwing__followers .navbar_item .view__img_small {
     display: flex;
+  }
+  #followwing__followers .border__ruler{
+    display: none;
   }
 }
 /* Ty le man hinh nho hon 320px */
