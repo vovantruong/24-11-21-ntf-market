@@ -135,7 +135,6 @@ export default function FollowersPage() {
                   </div>
                 </Col>
                 <Col className="view_content_col">
-
                   <div className="fadel__view_followings">
                     {salyFadel.map((e, index) => (
                       <div

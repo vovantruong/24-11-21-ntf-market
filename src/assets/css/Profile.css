@@ -143,8 +143,8 @@
 }
 #profile__header__top .top__card img {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   transition: 0.5s all ease;
 }
 
@@ -354,39 +354,47 @@
 
 /* =========================== Responsive ============================= */
 @media screen and (max-width: 1024px) {
-  #profile__header__top .container {
-    max-width: 960px;
+  #profile__header__top .menu__item {
+    left: 300px;
   }
-  #profile .menu__item {
-    left: -100px;
+  #profile__header__top .top__card img {
+    width: 80%;
   }
-
-  #profile__header__top .top__card {
-    width: 219px;
-    height: 254px;
-  }
-
-  #profile__header__top .just__like p.place {
-    left: 50px;
+  #profile__header__top .card__bid {
+    width: auto;
   }
 }
 /* <768px */
 @media screen and (max-width: 768px) {
-  #profile__header__top .just__like p.place {
-    left: 86px;
-  }
-
-  #profile__header__top .container {
-    max-width: 720px;
-  }
-
   #profile__header__top .menu__item {
-    left: 0;
+    display: contents;
+    position: relative;
+    padding-top: 20px;
   }
-
-  #profile__header__top .top__card {
-    width: 297px;
-    height: 343px;
+  #profile__header__top .top__card img {
+    width: 100%;
+    position: relative;
+  }
+  #profile__header__top .detail__profile {
+    margin: -175px 140px;
+    position: relative;
+    height: 820px;
+    width: 420px;
+  }
+  #profile__header__top .view__bid {
+    margin: 0 190px;
+    padding-top: 100px;
+  }
+  #profile__header__top a.profile {
+    margin-top: -240px;
+  }
+  #profile__header__top a.cover {
+    margin-top: -240px;
+    font-size: 10px;
+    padding: 15px;
+  }
+  #profile__header__top .bg__profile {
+    margin-top: 200px;
   }
 }
 /* <576px */
@@ -399,10 +407,17 @@
     position: relative;
     padding-top: 20px;
   }
+  #profile__header__top .top__card img {
+    width: 100%;
+  }
   #profile__header__top .detail__profile {
-    margin-left: 20px;
-    left: 0px;
-    position: relative !important;
+    margin: -175px 15px;
+    position: relative;
+    height: 660px;
+  }
+  #profile__header__top .view__bid {
+    margin: 0 15px;
+    padding-top: 100px;
   }
   #profile__header__top a.profile {
     margin-top: -240px;

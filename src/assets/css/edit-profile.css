@@ -153,11 +153,14 @@
   #edit__profile .content__input {
     margin-left: 0px !important;
   }
+  #edit__profile .avatar_profile .image__avatar_one {
+    margin-left: -20px;
+  }
 }
 /* chia ti le man hinh nho 576px */
 @media screen and (max-width: 576px) {
   #edit__profile .navbar_item .container {
-    width: 410px;
+    width: 250px;
   }
   #edit__profile .navbar_item {
     margin-bottom: 40%;
