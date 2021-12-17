@@ -33,15 +33,15 @@ const CreateItem = () => {
         <ShowModel show={modalShow} onHide={() => setModalShow(false)} />
         <div className="content__createitem">
           <Row>
-            <Col lg={7}>
+            <Col lg={8}>
               <div className="left__CreateSimple">
                 <Row>
-                  <Col className=" Collectible" lg={8} md={6}>
+                  <Col className=" Collectible" lg={10} md={6}>
                     {
                       sigle ? <h1>Create single collectible</h1> : <h1>Create multiple collectible</h1>
                     }
                   </Col>
-                  <Col className="Multiple" lg={4} md={6}>
+                  <Col className="Multiple" lg={2} md={6}>
                     <div
                       onClick={() => setSigle(!sigle)}
                       className="switch_multiple"
@@ -129,7 +129,7 @@ const CreateItem = () => {
               </div>
               <div class="hr_left"></div>
             </Col>
-            <Col lg={5}>
+            <Col lg={4}>
               <div className="right__Preview">
                 <h1>Preview</h1>
                 <div className="img_preview">
@@ -192,7 +192,7 @@ const CreateItem = () => {
             <Col lg={7}>
               <div className="Menu">
                 <Row>
-                  <Col className="Menu_left" lg={8} md={6}>
+                  <Col className="Menu_left" lg={9} md={6}>
                     <div className="put">
                       <h5>Put on sale</h5>
                       <p>You’ll receive bids on this item</p>
@@ -215,7 +215,7 @@ const CreateItem = () => {
                       <p>Choose an exiting collection or create a new one</p>
                     </div>
                   </Col>
-                  <Col className="Menu_right" lg={2} md={6}>
+                  <Col className="Menu_right" lg={3} md={6}>
                     <div class="checkbox-example">
                       <input type="checkbox" value="1" id="checkboxOneInput" />
                       <label for="checkboxOneInput"></label>
