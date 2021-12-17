@@ -40,7 +40,7 @@ export default function Navbaritem() {
           <Row className="mt-5" >
             <Col md="2" sm="12">
               <div className="avatar_profile">
-                <Image src={avatar} width="130px" height="130px" />
+                <Image className="image__avatar_one" src={avatar} width="130px" height="130px" />
               </div>
             </Col>
             <Col md="2" sm="12">
