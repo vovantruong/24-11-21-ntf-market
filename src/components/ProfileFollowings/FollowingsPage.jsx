@@ -36,10 +36,6 @@ const salyFadel = [
     link: "Unfollow",
   },
 ];
-
-
-
-
 const salyFadel_image = [
   {
     img: Image01,
