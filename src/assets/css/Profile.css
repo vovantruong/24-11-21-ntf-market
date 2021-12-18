@@ -328,7 +328,7 @@
   justify-content: space-between;
   position: absolute;
   margin-top: 55px;
-  left: 610px;
+  margin-left: 315px;
 }
 #profile__header__top .btn__cover__profile {
   position: relative;
@@ -354,12 +354,11 @@
 
 /* =========================== Responsive ============================= */
 @media screen and (max-width: 1024px) {
-  html,body
-  {
-    
-      margin: 0px;
-      padding: 0px;
-      overflow-x: hidden; 
+  html,
+  body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
   }
   #profile__header__top .menu__item {
     left: 300px;
@@ -373,12 +372,11 @@
 }
 /* <768px */
 @media screen and (max-width: 768px) {
-  html,body
-  {
-    
-      margin: 0px;
-      padding: 0px;
-      overflow-x: hidden; 
+  html,
+  body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
   }
   #profile__header__top .menu__item {
     display: contents;
@@ -388,8 +386,8 @@
   #profile__header__top .top__card img {
     width: 100%;
   }
-  #profile__header__top .card__bid{
-    margin-top: 500px;
+  #profile__header__top .card__bid {
+    margin-top: 150px;
   }
   #profile__header__top .detail__profile {
     margin: -175px 120px;
@@ -399,7 +397,6 @@
   }
   #profile__header__top .view__bid {
     margin: 0 214px;
-   
   }
   #profile__header__top a.profile {
     margin-top: -240px;
@@ -417,16 +414,15 @@
   #profile__header__top .bg__profile {
     margin-top: 200px;
   }
- 
 }
 /* <576px */
 @media screen and (max-width: 576px) {
-  html,body
-{
+  html,
+  body {
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
-}
+    overflow-x: hidden;
+  }
   #profile__header__top .container {
     max-width: 250px;
   }
@@ -470,11 +466,14 @@
   #profile__header__top .container {
     max-width: 310px;
   }
-  #profile__header__top .detail__profile{
+  #profile__header__top .card__bid {
+    margin: 150px 20px;
+  }
+  #profile__header__top .detail__profile {
     width: 270px;
     margin: -170px 30px;
   }
-  #profile__header__top .view__bid{
+  #profile__header__top .view__bid {
     padding-top: 0px;
     margin: 0 15px;
   }
