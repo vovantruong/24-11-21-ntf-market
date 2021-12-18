@@ -168,6 +168,18 @@
   #edit__profile .acount_info_tittle {
     margin-top: 30px;
   }
+  #edit__profile .navbar_item .left a {
+    margin-left: -50px;
+  }
+  #edit__profile .update_profile {
+    padding: 10px 10px;
+  }
+  #edit__profile .clearn_all {
+    margin-left: 10px;
+  }
+  #edit__profile .right {
+    margin-left: 100px;
+  }
   #edit__profile .navbar_item .left span {
     font-size: 10px;
   }
@@ -179,7 +191,7 @@
     margin-top: -23px !important;
   }
   #edit__profile .right.link-address {
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
 }
 /* chia ti le man hinh nho hon 450px */

@@ -373,16 +373,18 @@
   }
   #profile__header__top .top__card img {
     width: 100%;
-    position: relative;
+  }
+  .card__bid{
+    margin-top: 500px;
   }
   #profile__header__top .detail__profile {
-    margin: -175px 140px;
+    margin: -175px 120px;
     position: relative;
-    height: 820px;
-    width: 420px;
+    height: 750px;
+    width: 500px;
   }
   #profile__header__top .view__bid {
-    margin: 0 190px;
+    margin: 0 214px;
     padding-top: 100px;
   }
   #profile__header__top a.profile {
@@ -393,14 +395,20 @@
     font-size: 10px;
     padding: 15px;
   }
+  #profile__header__top a.profile {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
   #profile__header__top .bg__profile {
     margin-top: 200px;
   }
+ 
 }
 /* <576px */
 @media screen and (max-width: 576px) {
   #profile__header__top .container {
-    max-width: 480px;
+    max-width: 250px;
   }
   #profile__header__top .menu__item {
     display: contents;
@@ -411,12 +419,13 @@
     width: 100%;
   }
   #profile__header__top .detail__profile {
-    margin: -175px 15px;
+    margin: -175px 120px;
     position: relative;
     height: 660px;
+    width: 270px;
   }
   #profile__header__top .view__bid {
-    margin: 0 15px;
+    margin: 0 95px;
     padding-top: 100px;
   }
   #profile__header__top a.profile {

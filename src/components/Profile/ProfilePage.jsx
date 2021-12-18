@@ -149,7 +149,7 @@ export default function ProfilePage() {
                   className="view__bid mt-5"
                   key={index}
                   lg={3}
-                  md={3}
+                  md={12}
                   xs={12}
                 >
                   <div className="card__bid">
