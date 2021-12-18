@@ -465,3 +465,17 @@
     margin-top: 200px;
   }
 }
+/* Ty le man hinh nho hon 320px */
+@media screen and (max-width: 360px) {
+  #profile__header__top .container {
+    max-width: 310px;
+  }
+  #profile__header__top .detail__profile{
+    width: 270px;
+    margin: -170px 30px;
+  }
+  #profile__header__top .view__bid{
+    padding-top: 0px;
+    margin: 0 15px;
+  }
+}
