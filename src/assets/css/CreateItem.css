@@ -15,7 +15,7 @@
   width: 156px;
   height: 39px;
   border-radius: 46px;
-  margin-left: 40px;
+  margin-left: 173px;
 }
 #createitem .left__CreateSimple .switch_multiple:hover {
   border: 1px solid #a92e71;
@@ -37,7 +37,7 @@
 }
 #createitem .content__createitem .Multiple {
   margin-top: 8px;
-  margin-left: 133px;
+  /* margin-left: 133px; */
 }
 #createitem .content__createitem .Collectible {
   position: static;
@@ -404,9 +404,8 @@
   position: absolute;
   background: #ccc;
 }
-#createitem .content__Bottom .Menu_right {
-  position: relative;
-  left: 45px;
+#createitem .content__Bottom .Menu_right{
+  padding-left: 55px;
 }
 /*button_view*/
 #createitem .button_view {
@@ -505,90 +504,128 @@
   }
   #createitem .content__createitem .right__Preview {
     position: relative;
-    right: 14px;
+    right: 20px;
+  }
+  #createitem .bottom_menu .create_bottom{
+    margin-top: 5px;
   }
 }
 @media screen and (max-width: 768px){
-  #createitem .left__itemname{
-    width: 650px;
-  }
-  #createitem .switch_multiple {
+  #createitem .content__createitem .right__Preview{
     position: relative;
     left: 200px;
-    bottom: 100px;
   }
-  #createitem .content__Bottom .Menu_right{
-    position: relative;
-    width: 100px;
+  #createitem .content__createitem .digital_price .price_ETH b{
+    margin-left: 50px;
   }
-  #createitem .content__Bottom .Menu{
-    position: relative;
-    top: 30px;
+  #createitem .content__createitem .digital_price .price_ETH p {
+    margin-left: 40px;
+  }
+  #createitem .content__createitem .right__Preview .bid .newbid{
+    margin-left: 45px;
   }
 }
 @media screen and (max-width: 540px){
-  #createitem .content__createitem .left__UploadFile .form-Uploadfile{
-    width: 520px;
-  }
-  #createitem .content__createitem .left__itemname {
-    width: 520px;
-  }
-#createitem .content__createitem .hr_left{
-  position: relative;
-  width: 520px;
-}
-#createitem .content__Bottom .Menu{
-  position: relative;
-  width: 520px;
-  top: 30px;
-}
-#createitem .content__Bottom .Menu_right{
-  left: 400px;
-  bottom: 400px;
-}
-#createitem .content__createitem .right__Preview{
-  left: 40px;
-}
-@media screen and (max-width: 375px){
-  #createitem .switch_multiple{
+  #createitem .switch_multiple {
     position: relative;
-    width: 120px;
+    margin-left: 350px;
+    bottom: 100px;
   }
-}
+  #createitem .content__createitem .left__UploadFile .form-Uploadfile {
+    width: 500px;
+  }
+  #createitem .content__createitem .left__itemname{
+    width: 500px;
+  }
+  #createitem .content__createitem .hr_left{
+    width: 500px;
+  }
+  #createitem .content__createitem .right__Preview{
+    position: relative;
+    left: 100px;
+  }
+  #createitem .content__createitem .digital_price .price_ETH b{
+    position: relative;
+    margin-left: 190px;
+    bottom: 15px;
+  }
+  #createitem .content__createitem .digital_price .price_ETH p{
+    position: relative;
+    margin-left: 178px;
+    bottom: 15px;
+  }
+  #createitem .content__createitem .right__Preview .bid .newbid{
+    position: relative;
+    margin-left: 185px;
+    bottom: 30px;
+  }
+  #createitem .content__Bottom .Menu{
+    position: relative;
+    width: 300px;
+    top: 100px;
+  }
+  #createitem .content__Bottom .Menu_right{
+    position: relative;
+    padding-left: 300px;
+    bottom: 480px;
+  }
+  #createitem .content__Bottom .bottom_menu{
+    position: relative;
+    width: 500px;
+    bottom: 200px;
+  }
 }
 @media screen and (max-width: 414px){
   #createitem .switch_multiple{
-    left: 0;
-    left: 30px;
+    margin-left: 230px;
   }
   #createitem .content__createitem .left__UploadFile .form-Uploadfile{
-    position: relative;
-    width: 350px;
-    margin-bottom: 100px;
+    width: 390px;
   }
 #createitem .content__createitem .left__itemname{
-  position: relative;
-  width: 350px;
+  width: 390px;
 }
 #createitem .content__createitem .hr_left {
-  position: relative;
-  width: 350px;
+  width: 390px;
 }
 #createitem .content__createitem .right__Preview {
   left: 0;
 }
-#createitem .content__Bottom .Menu_left{
-  width: 300px;
-}
 #createitem .content__Bottom .bottom_menu{
-  width: 450px;
+  width: 350px;
 }
-#createitem .bottom_menu .create_bottom{
-  margin-top: 5px;
 }
-#createitem .content__Bottom .Menu_right{
-  top: 50px;
-  left: 0;
-  display: none;
+@media screen and (max-width: 375px){
+  #createitem .switch_multiple {
+    width: 130px;
+    right: 20px;
+  }
+  #createitem .content__createitem .left__UploadFile .form-Uploadfile{
+    width: 330px;
+  }
+  #createitem .content__createitem .left__itemname {
+    width: 330px;
+  }
+  #createitem .content__createitem .hr_left{
+    width: 330px;
+  }
+  #createitem .content__Bottom .Menu_right{
+    padding-left: 275px;
+  }
 }
+@media screen and (max-width: 360px){
+  #createitem .content__createitem .right__Preview {
+    position: relative;
+    width:320px;
+    padding: 30px;
+  }
+  #createitem .content__Bottom .Menu_left{
+    width: 280px;
+  }
+  #createitem .content__Bottom .Menu_right{
+    padding-left: 250px
+  }
+  #createitem .content__Bottom .bottom_menu {
+    width: 320px;
+  }
 }

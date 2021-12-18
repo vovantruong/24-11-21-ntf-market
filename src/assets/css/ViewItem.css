@@ -282,8 +282,21 @@
     }
   }
   @media screen and (max-width: 768px){
-    #viewitem .left_imgArt{
-        /* left: 40px; */
+    #viewitem .right_Art .highest .price_highest img{
+        position: relative;
+        left: 130px;
+    }
+    #viewitem .left_imgArt .imgArt .like{
+        display: none;
+    }
+    #viewitem .left_imgArt .imgArt img{
+        position: relative;
+        left: 60px;
+    }
+    #viewitem .right_Art {
+        position: relative;
+        left: 20px;
+        bottom: 100px;
     }
     #viewitem .right_Art .highest{
         position: relative;
@@ -296,18 +309,21 @@
         left: 48px;
         top: 10px;
     }
+    #viewitem .right_Art .owner_will span {
+        position: relative;
+        margin-left: 0;
+    }
     @media screen and (max-width: 540px){
         #viewitem .left_imgArt .imgArt img{
             position: relative;
             width: 500px;
             bottom: 140px;
-            left: 34px;
+            left: 38px;
         }
         #viewitem .right_Art{
             position: relative;
-            /* width: 100px; */
-            right: 100px;
             bottom: 350px;
+            left: -50px;
         }
         #viewitem .left_imgArt .imgArt .like{
             display: none;
@@ -315,18 +331,26 @@
         #viewitem .container{
             height: 1800px;
         }
+        #viewitem .right_Art .owner_will span {
+            position: relative;
+            margin-left: 0;
+        }
     }
     @media screen and (max-width: 414px){
         #viewitem .left_imgArt .imgArt img {
             position:relative;
             width: 380px;
+            left: 34px;
 
         }
         #viewitem .right_Art{
             position: relative;
-            right: 130px;
-        }
+            left: -120px;
     }
+    #viewitem .right_Art .price_art{
+        width: 300px;
+    }
+}
     @media screen and (max-width: 375px){
         #viewitem .left_imgArt .imgArt img {
             position: relative;
@@ -335,7 +359,7 @@
         }
         #viewitem .right_Art{
             bottom: 600px;
-            right: 140px;
+            left: -138px;
         }
     }
     @media screen and (max-width: 360px){
@@ -359,6 +383,12 @@
         #viewitem .right_Art .highest .purchase_place .place{
             position: relative;
             margin-right: 40px;
+        }
+        #viewitem .right_Art .highest .price_highest img{
+            left: 100px;
+        }
+        #viewitem .right_Art .highest .Service {
+            margin-left: 50px;
         }
     }
   }
