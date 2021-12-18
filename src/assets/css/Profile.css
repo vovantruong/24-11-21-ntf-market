@@ -354,6 +354,13 @@
 
 /* =========================== Responsive ============================= */
 @media screen and (max-width: 1024px) {
+  html,body
+  {
+    
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden; 
+  }
   #profile__header__top .menu__item {
     left: 300px;
   }
@@ -366,10 +373,17 @@
 }
 /* <768px */
 @media screen and (max-width: 768px) {
+  html,body
+  {
+    
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden; 
+  }
   #profile__header__top .menu__item {
     display: contents;
     position: relative;
-    padding-top: 20px;
+    padding-top: 40px;
   }
   #profile__header__top .top__card img {
     width: 100%;
@@ -385,7 +399,7 @@
   }
   #profile__header__top .view__bid {
     margin: 0 214px;
-    padding-top: 100px;
+   
   }
   #profile__header__top a.profile {
     margin-top: -240px;
@@ -407,6 +421,12 @@
 }
 /* <576px */
 @media screen and (max-width: 576px) {
+  html,body
+{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
   #profile__header__top .container {
     max-width: 250px;
   }
