@@ -90,8 +90,8 @@
 }
 #scanwallet .title-main {
     position: absolute;
-    width: 100%;
-    text-align: center;
+    width: 50%;
+    left: 676px;
     top: 125px;
 }
 #scanwallet .title-main span{
@@ -186,6 +186,11 @@
     #scanwallet .img-title-select{
         margin: 0 auto;
         width: 85%;
+    }
+    #scanwallet .title-main {
+        width: 100%;
+        text-align: center;
+        left: 0;
     }
 }
 @media all and (max-width: 768px){
