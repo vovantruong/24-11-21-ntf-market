@@ -7,10 +7,11 @@
 #createitem .container{
   max-width: 1144px;
   /* margin-left: 50px; */
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
 }
-
-
+#createitem .content__createitem .Collectible h1{
+  font-size: 36px;
+}
 #createitem .switch_multiple {
   width: 156px;
   height: 39px;
