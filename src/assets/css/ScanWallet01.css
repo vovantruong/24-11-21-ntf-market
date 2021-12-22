@@ -226,10 +226,6 @@
         left: 15px;
         width: max-content;
         top: 280px;
-        margin: 0 auto;
-    }
-    #connectwallect01 .item-v1{
-        padding-right: 33px;
     }
     #connectwallect01 .selection-button {
         left: 10px;
@@ -237,24 +233,49 @@
         margin: 0 auto;
     }
 }
+@media all and (max-width: 1024px){
+    #connectwallect01 .img-title-select span{
+        font-size: 17px;
+    }
+    #connectwallect01 .img-main img {
+        height: 100%;
+        width: 100%;
+    }
+    #connectwallect01 .item-check {
+        top: 387px;
+    }
+    #connectwallect01 .selection-button {
+        top: 411px;
+    }
+}
 @media all and (max-width: 768px){
     #connectwallect01 .img-title-select span{
         font-size: 17px;
     }
-}
-@media all and (max-width: 576px){
     #connectwallect01 .img-main img {
-        width: 250px;
-        height: 100px;
+        height: 200px;
+        width: 570px;
+    }
+    #connectwallect01 .item-check {
+        top: 314px;
+    }
+    #connectwallect01 .selection-button {
+        top: 329px;
+    }
+}
+@media all and (max-width: 540px){
+    #connectwallect01 .img-main img {
+        width: 100%;
+        height: 100%;
     }
     #connectwallect01 .title-main span{
         font-size: 24px;
     }
     #connectwallect01 .item-check {
-        top: 214px;
+        top: 246px;
     }
     #connectwallect01 .selection-button {
-        top: 230px;
+        top: 245px;
     }
     #connectwallect01 .main {
         margin-bottom: -340px;
@@ -273,19 +294,87 @@
         padding: 6px 10px;
     }
 }
-
+@media all and (max-width: 414px){
+    #connectwallect01 .img-title-select span {
+        left: 7px;
+    }
+    #connectwallect01 .title-main p {
+        margin: 0 -27px;
+    }
+    #connectwallect01 .img-main {
+        left: -16px;
+        top: 85px;
+    }
+    #connectwallect01 .img-main img {
+        width: 340px;
+        height: 130px;
+    }
+    #connectwallect01 .item-check {
+        left: -15px;
+        top: 228px;
+    }
+    #connectwallect01 .selection-button {
+        left: -1px;
+    }
+}
 @media all and (max-width: 375px){
     #connectwallect01 .selection-button a .choose {
         padding: 6px 13px;
         top: 7px;
     }
-    #connectwallect01 .img-main {
-        top: 122px;
-    }
     #connectwallect01 .item-check {
         top: 233px;
+        left: -23px;
     }
     #connectwallect01 .selection-button a span {
         padding: 6px 10px;
+    }
+    #connectwallect01 .img-main {
+        top: 87px;
+    }
+    #connectwallect01 .img-main {
+        left: -22px;
+    }
+    #connectwallect01 .img-main img {
+        width: 325px;
+        height: 125px;
+    }
+    #connectwallect01 .title-main p {
+        margin: 0 -27px;
+    }
+}
+@media all and (max-width: 360px){
+    #connectwallect01 .img-main {
+        left: -16px;
+        top: 105px;
+    }
+    #connectwallect01 .img-main img {
+        width: 303px;
+        height: 125px;
+    }
+    #connectwallect01 .item-check {
+        top: 240px;
+        left: -15px;
+    }
+    #connectwallect01 .selection-button{
+        left: 0;
+    }
+}
+@media all and (max-width: 320px){
+    #connectwallect01 .img-main {
+        left: -3px;
+    }
+    #connectwallect01 .img-main img {
+        width: 274px;
+        height: 108px;
+    }
+    #connectwallect01 .title-main p {
+        margin: 0px -21px;
+    }
+    #connectwallect01 .item-check {
+        left: -3px;
+    }
+    #connectwallect01 .selection-button {
+        left: 11px;
     }
 }

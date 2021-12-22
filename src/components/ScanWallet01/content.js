@@ -89,7 +89,7 @@ function Content() {
               height="160px"
             />
           </div>
-          <div class="item-check item-v1">
+          <div class="item-check">
             <input type="checkbox" class="check-box" defaultChecked={false} />
             <span>I am at least 13 years old</span>
           </div>
