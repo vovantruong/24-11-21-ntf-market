@@ -7,10 +7,10 @@
 #createitem .container{
   max-width: 1144px;
   /* margin-left: 50px; */
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
 }
 #createitem .content__createitem .Collectible h1{
-  font-size: 36px;
+  width: 314px;
 }
 #createitem .switch_multiple {
   width: 156px;
@@ -529,17 +529,17 @@
 @media screen and (max-width: 540px){
   #createitem .switch_multiple {
     position: relative;
-    margin-left: 350px;
+    margin-left: 360px;
     bottom: 100px;
   }
   #createitem .content__createitem .left__UploadFile .form-Uploadfile {
-    width: 500px;
+    width: 515px;
   }
   #createitem .content__createitem .left__itemname{
-    width: 500px;
+    width: 515px;
   }
   #createitem .content__createitem .hr_left{
-    width: 500px;
+    width: 515px;
   }
   #createitem .content__createitem .right__Preview{
     position: relative;
@@ -578,7 +578,7 @@
 }
 @media screen and (max-width: 414px){
   #createitem .switch_multiple{
-    margin-left: 230px;
+    margin-left: 243px;
   }
   #createitem .content__createitem .left__UploadFile .form-Uploadfile{
     width: 390px;
@@ -596,13 +596,18 @@
   width: 350px;
 }
 }
+@media screen and (max-width: 411px){
+  #createitem .switch_multiple{
+    right: 10px;
+  }
+}
 @media screen and (max-width: 375px){
   #createitem .switch_multiple {
     width: 130px;
     right: 20px;
   }
   #createitem .content__createitem .left__UploadFile .form-Uploadfile{
-    width: 330px;
+    width: 350px;
   }
   #createitem .content__createitem .left__itemname {
     width: 330px;
@@ -620,6 +625,9 @@
     width:320px;
     padding: 30px;
   }
+  #createitem .content__createitem .left__UploadFile .form-Uploadfile{
+    width: 335px;
+  }
   #createitem .content__Bottom .Menu_left{
     width: 280px;
   }
@@ -628,5 +636,9 @@
   }
   #createitem .content__Bottom .bottom_menu {
     width: 320px;
+  }
+  #createitem .switch_multiple{
+    right: 5px;
+    width: 100px;
   }
 }
