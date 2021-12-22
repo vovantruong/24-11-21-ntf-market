@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+#scanwallet {
+    font-family: "Poppins", sans-serif;
+    max-width: 1920px;
+    margin: 0;
+    padding: 0;
+  }
+#scanwallet .button-header{
+    position: relative;
+    height: 126px;
+    
+}
+#scanwallet a{
+    text-decoration: none;
+    color: black;
+}
+#scanwallet .container{
+    max-width: 1144px;
+}
+#scanwallet .button-header a {
+    padding: 8px 10px;
+    border: 1px solid gray;
+    border-radius: 90px;
+}
+#scanwallet .back-home{
+    position: absolute;
+    
+    top: 84px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center; 
+}
+#scanwallet .back-home:hover,  #scanwallet .back-home a:hover {
+    background: #a92e71;
+    color: white !important;
+    border-radius: 90px;
+}
+
+#scanwallet .title-header{
+    position: absolute;
+    top: 82px;
+    right: 0;
+    /* left: 1419px; */
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 14px;
+    color: #000000;
+}
+#scanwallet .main{
+    position: relative;
+    height: 922px;
+}
+#scanwallet .img-title-select{
+    position: relative;
+    width: 523px;
+    height: 125px;
+    /* left: 400px; */
+    top: 125px;
+    padding: 30px;
+    cursor: pointer;
+}
+#scanwallet .img-title-select span{
+    /* position: relative; 
+    padding: auto;
+    left: 30px;
+    top: 3px; */
+    position: absolute;
+    padding: auto;
+    left: 114px;
+    top: 53px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    color: #000000;
+}
+#scanwallet .img-main{
+    position: absolute; 
+    top: 220px;
+    right: 0;
+}
+#scanwallet .img-title-select:hover::after{
+    position: absolute;
+    content: "\f061";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 1.3rem;
+    top: 36%;
+    left: 90%;
+    /* display: none; */
+}
+#scanwallet .title-main {
+    position: absolute;
+    width: 50%;
+    left: 676px;
+    top: 125px;
+}
+#scanwallet .title-main span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 40px;
+    color: #000;
+}
+#scanwallet .title-main p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+}
+#scanwallet .selection-button{
+    position: absolute;
+    right: 205px;
+    display: flex;
+    overflow: hidden;
+    top: 690px;
+}
+#scanwallet .selection-button a{
+    padding: 7px 10px;
+    color:#000;
+    border: 1px solid gray;
+    border-radius: 90px;
+}
+#scanwallet .selection-button a:hover{
+    color:white;
+    background: #a92e71;
+   
+}
+#scanwallet .hidden-img{
+    width: 65px;
+    height: 65px;
+}
+#scanwallet .check-item{
+    position: absolute;
+    left: 30px;
+    border-radius: 50%;
+    padding: 23px;
+    z-index: 100;
+ 
+}
+#scanwallet .item-1{
+    border: 1px solid purple;
+    color: purple;  
+     display: none;
+}
+#scanwallet .item-2{
+    border: 1px solid blue;
+    color: blue;
+    display: none;
+}
+#scanwallet .item-3{
+    border: 1px solid green;
+    color: green;
+    display: none;
+}
+#scanwallet .item-4{
+    border: 1px solid pink;
+    color: pink;
+    display: none;
+
+}
+
+@media all and (max-width: 1200px){
+    #scanwallet .layout-right {
+        position: relative !important;
+        margin-top: 97px;
+    }
+    #scanwallet .main {
+        display: flex;
+        height: 1469px;
+        flex-direction: column;
+        align-content: space-around;
+        flex-wrap: wrap;
+    }
+    #scanwallet .img-title-select {
+        left: 7%;
+    }
+    #scanwallet .img-main {
+    position: relative;
+    top: 220px;
+    /* left: 11%; */
+
+    }
+    #scanwallet .img-title-select:hover::after{
+        left: 103%;
+    }
+    #scanwallet .img-title-select{
+        margin: 0 auto;
+        width: 85%;
+    }
+    #scanwallet .title-main {
+        width: 100%;
+        text-align: center;
+        left: 0;
+    }
+}
+@media all and (max-width: 768px){
+    #scanwallet .layout-right {
+        position: relative !important;
+    }
+    #scanwallet .main {
+        display: flex;
+        height: 1469px;
+        flex-direction: column;
+        align-content: space-around;
+        flex-wrap: wrap;
+    }
+    #scanwallet .img-title-select {
+        left: 4%;
+        width: 86%;
+    }
+    #scanwallet .img-main {
+        position: relative;
+        top: 220px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+}
+@media all and (max-width: 576px){
+    #scanwallet .img-main {
+        left: unset;
+    }
+    #scanwallet .layout-right .img-main img{
+        width: 250px;
+        height: 250px;
+    }
+    #scanwallet .title-main span{
+        font-size: 20px;
+    }
+    #scanwallet .img-title-select span{
+        font-size: 20px;
+    }
+    #scanwallet .img-title-select {
+        left: -12%;
+    }
+    #scanwallet .img-title-select span {
+        position: absolute;
+        top: 30px;
+    }
+    #scanwallet .selection-button {
+        right: unset;
+        top: 484px;
+        font-size: 10px;
+    }
+    #scanwallet .main {
+        margin-bottom: -353px;
+    }
+    #scanwallet .title-main {
+        width: 100%;
+        right: unset;
+    }
+    #scanwallet .img-title-select img{
+        width: 50px;
+        height: 50px;
+    }
+}

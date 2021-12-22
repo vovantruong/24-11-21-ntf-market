@@ -167,6 +167,7 @@ function HotBid() {
                     <Button
                       className="icon__img"
                       onClick={() => setClicked(!clicked)}
+                     
                     >
                       {clicked ? (
                         <i className="far fa-heart"></i>

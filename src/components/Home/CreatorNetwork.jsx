@@ -151,7 +151,7 @@ const CreatorNetwork = () => {
                     Place a bid
                   </Link>
                   <br />
-                  <Link className="view" to="">
+                  <Link className="view" to="view_item">
                     View item
                   </Link>
                 </div>

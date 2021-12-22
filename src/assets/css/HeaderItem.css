@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --bg-main-header: #6d3f5f;
+  --txt-pink-header: #b5689e;
+  --txt-light-header: #fff;
+  --txt-gray-header: #606060;
+  --bg-btn-header: #ec4c93;
+  --boder-radius-header: 20px;
+  --border-header: 1.5px solid #ec4c93;
+  --border-input-header: 1.5px solid #c4c4c4;
+  --dark-pink-header: #a92e71;
+}
+
+/* ===================================== CSS Header ============================================= */
+#header {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-main-header);
+  max-width: 1920px;
+  height: 83px;
+  color: var(--txt-light-header);
+}
+
+#header p {
+  margin: 0;
+  padding: 0;
+}
+
+#header nav p.logo {
+  color: var(--txt-pink-header);
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+#header nav {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#header nav .container {
+  max-width: 1144px;
+}
+
+#header a {
+  position: relative;
+  top: 1px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: var(--txt-light-header);
+  margin: 0;
+  padding: 0;
+}
+
+#header .logo_women {
+  position: relative;
+  top: 20px;
+}
+#header .logo_women img{
+    position: relative;
+    left: 17px;
+}
+#header .logo_women p.logo{
+  width: 52px;
+  padding: 0px 2px;
+  height: 45px;
+}
+
+#header form {
+  position: relative;
+  width: 257px;
+  height: 40px;
+}
+
+#header form input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  outline: none;
+  padding: 11px;
+  border: var(--border-input-header);
+  border-radius: 5px;
+  color: var(--txt-gray-header);
+}
+
+#header form input:focus {
+  box-shadow: none;
+}
+
+#header form button {
+  position: absolute;
+  background: none;
+  color: var(--txt-gray-header);
+  border: none;
+  outline: 0;
+  top: 5px;
+  font-size: 12px;
+  right: 0;
+  z-index: 1;
+}
+
+#header form button:focus {
+  box-shadow: none;
+}
+
+#header nav .left {
+  margin-left: 130px;
+}
+#header nav .left:hover{
+  background: none !important;
+}
+
+#header nav .left a:hover{
+  color: #B5689E;
+}
+
+#header nav .left a:nth-child(1) {
+  margin-right: 30px;
+}
+
+#header nav .right a {
+  padding: 8px 19px;
+  border: var(--border-header);
+  border-radius: var(--boder-radius-header);
+  font-size: 13px;
+}
+
+#header nav .right a:nth-child(1) {
+  position: relative;
+  background: var(--bg-btn-header);
+  margin: 0 30px;
+}
+
+#header nav .right a:hover {
+  color: var(--dark-pink-header);
+}
+
+#header nav .right a:nth-child(2):hover {
+  background: var(--bg-btn-header);
+}
+
+/* ======================= Responsive ========================= */
+/* CSS cho tỷ lệ màn hình dưới 990px */
+@media screen and (max-width: 991px) {
+  #header nav button.navbar-toggler {
+    background-color: var(--txt-pink-header);
+    outline: none;
+  }
+
+  #header nav button.navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  #header nav .navbar-collapse {
+    background-color: var(--bg-main-header);
+    width: 100%;
+    position: absolute;
+    top: 83px;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0px 11px 12px rgb(0 0 0 / 30%);
+  }
+
+  #header .navbar-collapse .left {
+    margin: 10px 0 !important;
+  }
+
+  #header nav .left a:nth-child(1) {
+    margin-right: 0px;
+  }
+
+  #header nav .left a {
+    margin-right: 0px;
+    padding: 10px 0;
+  }
+
+  #header form {
+    margin: 20px 0;
+    width: 90%;
+    align-items: center;
+    margin-left: 38px;
+  }
+
+  #header nav .right {
+    padding: 20px 0;
+  }
+
+  #header nav .right a {
+    margin: 10px 0;
+    width: 90%;
+  }
+
+  #header nav .right a:nth-child(2) {
+    margin: 20px 32px;
+    width: 90%;
+  }
+
+}
+
+/* CSS cho tỷ lệ màn hình dưới 480px */
+@media screen and (max-width: 480px) {
+  #header form {
+    margin-left: 22px;
+  }
+
+  #header nav .right a:nth-child(1) {
+    margin: 0 22px;
+  }
+
+  #header nav .right a:nth-child(2) {
+    margin: 20px 22px;
+  }
+}
+
+/* ===================================== ========== ============================================= */
+
+#header .bell{
+    /* border-radius: 100%;
+    border-color: #6d3f5f; */
+    margin-left: 20px;
+}

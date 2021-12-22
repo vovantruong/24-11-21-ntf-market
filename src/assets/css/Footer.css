@@ -176,6 +176,7 @@
   color: var(--txt-dark-pink-footer);
 }
 
+
 /* =============================== Responsive ================================== */
 /* Ty le man hinh nho hon 1200*/
 @media screen and (max-width: 1200px) {
@@ -230,6 +231,7 @@
     width: 100%;
     top: 0;
     margin-top: 40px;
+    width: 625px;
   }
   #footer .footer__info .info,
   #footer .footer__crypter .crypter,
@@ -261,6 +263,9 @@
 @media screen and (max-width: 576px) {
   #footer .container {
     width: 410px;
+  }
+  #footer form {
+    width: 100%;
   }
 }
 

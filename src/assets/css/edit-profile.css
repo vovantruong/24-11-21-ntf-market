@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --txt-pink: #b5689e;
+  --txt-light: #fff;
+  --txt-gray: #606060;
+  --bg-btn: #ec4c93;
+  --boder-radius: 20px;
+  --border: 1.5px solid #ec4c93;
+  --border-input: 1.5px solid #c4c4c4;
+  --dark-pink: #a92e71;
+}
+#edit__profile .navbar_item {
+  font-family: "Poppins", sans-serif;
+  max-width: 1920px;
+}
+#edit__profile .top_content_header {
+  margin-top: 35px;
+}
+#edit__profile .navbar_item .container {
+  position: relative;
+  top: 55px;
+}
+
+#edit__profile .navbar_item {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 134px;
+  max-width: 1920px;
+}
+#edit__profile .navbar_item .left a {
+  border: 1px solid #dadada;
+  border-radius: var(--boder-radius);
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+}
+#edit__profile .navbar_item .left:hover a {
+  background: var(--dark-pink);
+  color: var(--txt-light);
+}
+#edit__profile .navbar_item .ruler {
+  border: 1px solid #c4c4c4;
+  margin-left: -18%;
+  margin-right: -18%;
+}
+#edit__profile .right {
+  text-align: right;
+  font-size: 14px;
+  font-weight: 500;
+}
+#edit__profile .btn_upload {
+  border: 1px solid #dadada;
+  border-radius: var(--boder-radius);
+  padding: 12px 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+#edit__profile .content_profile {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: var(--txt-gray);
+}
+#edit__profile .content_profile_edit {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--txt-gray);
+}
+#edit__profile .upload_profile :hover.btn_upload {
+  background: var(--dark-pink);
+  color: var(--txt-light);
+}
+#edit__profile .acount_info_tittle {
+  text-align: left;
+}
+#edit__profile .form-control {
+  border-radius: 10px;
+}
+#edit__profile .navbar_item .form-twitter {
+  position: relative;
+}
+
+#edit__profile .navbar_item .form-twitter button {
+  position: absolute;
+  top: 35px;
+  right: 16px;
+  width: 88px;
+  height: 26px;
+  size: 12px;
+  color: var(--txt-gray);
+  font-size: 8px;
+  background: var(--txt-light);
+  border: 1px solid #dadada;
+  border-radius: var(--boder-radius);
+  text-align: center;
+}
+#edit__profile .navbar_item .form-twitter :hover.vertical {
+  background: var(--dark-pink);
+  color: var(--txt-light);
+}
+
+#edit__profile Label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 13px;
+  color: #c4c4c4;
+}
+#edit__profile .addmore {
+  border: 1px solid #dadada;
+  border-radius: var(--boder-radius);
+  padding: 10px 10px;
+  font-size: 14px;
+}
+#edit__profile .more_acount :hover.addmore {
+  background: var(--dark-pink);
+  color: var(--txt-light);
+}
+#edit__profile .tittle_updateprofile .to_update {
+  font-size: 14px;
+}
+#edit__profile .update_profile {
+  border: 1px solid #dadada;
+  border-radius: var(--boder-radius);
+  padding: 10px 20px;
+  background: var(--dark-pink);
+  color: var(--txt-light);
+}
+#edit__profile .content__input {
+  margin-left: 90px;
+}
+#edit__profile .profile :hover.update_profile {
+  color: var(--bg-btn);
+}
+#edit__profile .update_ruler {
+  border-bottom: 1px solid #c4c4c4;
+  margin-top: 40px;
+}
+#edit__profile .clearn_all {
+  margin-left: 5%;
+}
+@media screen and (max-width: 1024px) {
+  #edit__profile .navbar_item .container {
+    width: 1144px;
+  }
+  #edit__profile .navbar_item .ruler {
+    margin-right: 0px !important;
+  }
+  #edit__profile .content__input {
+    margin-left: 0px !important;
+  }
+  #edit__profile .avatar_profile .image__avatar_one {
+    margin-left: -20px;
+  }
+}
+/* chia ti le man hinh nho 576px */
+@media screen and (max-width: 576px) {
+  #edit__profile .navbar_item .container {
+    width: 250px;
+  }
+  #edit__profile .navbar_item {
+    margin-bottom: 40%;
+  }
+  #edit__profile .acount_info_tittle {
+    margin-top: 30px;
+  }
+  #edit__profile .navbar_item .left a {
+    margin-left: -50px;
+  }
+  #edit__profile .update_profile {
+    padding: 10px 10px;
+  }
+  #edit__profile .clearn_all {
+    margin-left: 10px;
+  }
+  #edit__profile .right {
+    margin-left: 100px;
+  }
+  #edit__profile .navbar_item .left span {
+    font-size: 10px;
+  }
+  #edit__profile .navbar_item .ruler {
+    margin-right: 0px !important;
+    margin-top: 20px;
+  }
+  #edit__profile .right {
+    margin-top: -23px !important;
+  }
+  #edit__profile .right.link-address {
+    /* margin-left: 50px; */
+  }
+}
+/* chia ti le man hinh nho hon 450px */
+@media screen and (max-width: 450px) {
+  #edit__profile .navbar_item .container {
+    width: 320px;
+  }
+  #edit__profile .navbar_item {
+    margin-bottom: 60%;
+  }
+  #edit__profile .navbar_item .ruler {
+    margin-right: 0px !important;
+  }
+  #edit__profile .right {
+    margin-top: -23px !important;
+  }
+}
