@@ -82,11 +82,21 @@ function HomeDiscover() {
     setActive(index);
   };
 
+  const [dropdown, setDropdown] = useState(true);
+
+
   return (
     <section id="discover__home">
       <Container>
-        <h1 data-aos="fade-up" data-aos-duration="1000">Dicover</h1>
-        <div className="nav__menu"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="30">
+        <h1 data-aos="fade-up" data-aos-duration="1000">
+          Dicover
+        </h1>
+        <div
+          className="nav__menu"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="30"
+        >
           <Row>
             <Col lg={4} md={12}>
               <div className="recently__menu">
@@ -99,7 +109,12 @@ function HomeDiscover() {
             <Col lg={8} md={12}>
               <Row>
                 <Col lg={9} md={8} xs={12}>
-                  <div className="menu__item">
+                  <div className="dropdown" onClick={()  => setDropdown(!dropdown)}>
+                  <i class="fal fa-ellipsis-h"></i>
+                  </div>
+                
+                  <div className={dropdown ? "menu__item active" : "menu__item"}>
+
                     {menu.map((e, index) => (
                       <Link
                         onClick={() => handleClick(index)}
@@ -123,7 +138,12 @@ function HomeDiscover() {
           </Row>
         </div>
         <div className="category__img">
-          <div className="top__category" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="30">
+          <div
+            className="top__category"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="30"
+          >
             <Row>
               {discover__home.map((e, index) => (
                 <Col key={index} lg={3} md={6} xs={12}>
@@ -160,7 +180,12 @@ function HomeDiscover() {
               ))}
             </Row>
           </div>
-          <div className="bottom__category" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="40">
+          <div
+            className="bottom__category"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="40"
+          >
             <Row>
               {discover__home.reverse().map((e, index) => (
                 <Col key={index} lg={3} md={6}>
