@@ -1,7 +1,7 @@
 import React from "react";
 import "../../assets/css/ConnectWallet.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container,Image } from "react-bootstrap";
+import { Container,Image,Tab,Row,Col,Nav } from "react-bootstrap";
 import purple from "../../assets/images/scan wallet1_2/purple.svg";
 import blue from "../../assets/images/scan wallet1_2/blue1.svg";
 import green from "../../assets/images/scan wallet1_2/green.svg";
@@ -71,6 +71,7 @@ function Content() {
               <span>Coinbase Wallet</span>
             </Link>
           </div>
+       
           </div>
           <div class="layout-right">
           <div class="img-main">
@@ -84,6 +85,7 @@ function Content() {
           </div>
         </div>
         </Container>
+
       </connectwallect>
     </div>
   );

@@ -257,3 +257,59 @@
         height: 50px;
     }
 }
+@media all and (max-width: 414px){
+    #scanwallet .img-title-select {
+        width: 100%;
+        left: 8%;
+    }
+    #scanwallet .img-title-select span {
+        top: 43px;
+        left: 90px;
+    }
+    #scanwallet .layout-right {
+        bottom: 115px;
+        margin-bottom: 20px;
+    }
+    #scanwallet .layout-right .img-main img {
+        width: 345px;
+        height: 345px;
+    }
+    #scanwallet .selection-button {
+        top: 576px;
+    }
+    #scanwallet .main {
+        margin-bottom: -300px;
+    }
+}
+@media all and (max-width: 375px){
+    #scanwallet .layout-right .img-main img {
+        width: 310px;
+        height: 310px;
+    }
+}
+@media all and (max-width: 360px){
+    #scanwallet .img-title-select {
+        width: 123%;
+        left: -6%;
+    }
+    #scanwallet .img-title-select span {
+        top: 43px;
+        left: 90px;
+    }
+    #scanwallet .layout-right {
+        bottom: 115px;
+    }
+    #scanwallet .layout-right .img-main img {
+        width: 290px;
+        height: 290px;
+    }
+    #scanwallet .selection-button {
+        top: 525px;
+    }
+}
+@media all and (max-width: 320px){
+    #scanwallet .layout-right .img-main img {
+        width: 260px;
+        height: 260px;
+    }
+}
