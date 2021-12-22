@@ -61,7 +61,15 @@ function Seller() {
       {
         breakpoint: 561,
         settings: {
-          slidesToShow: 1.5,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          rows: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1.7,
           slidesToScroll: 1,
           rows: 1,
         },
@@ -69,7 +77,15 @@ function Seller() {
       {
         breakpoint: 376,
         settings: {
-          slidesToShow: 1.3,
+          slidesToShow: 1.6,
+          slidesToScroll: 1,
+          rows: 1,
+        },
+      },
+      {
+        breakpoint: 361,
+        settings: {
+          slidesToShow: 1.5,
           slidesToScroll: 1,
           rows: 1,
         },

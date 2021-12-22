@@ -43,11 +43,11 @@
   box-shadow: -5px 5px 9px rgb(0 0 0 / 10%);
 }
 
-#seller .slide__seller .seller__card .body__card{
-  transition: .2s all ease;
+#seller .slide__seller .seller__card .body__card {
+  transition: 0.2s all ease;
 }
 
-#seller .slide__seller .seller__card:hover .body__card{
+#seller .slide__seller .seller__card:hover .body__card {
   transform: scale(1.2) translateY(15px);
 }
 
@@ -184,19 +184,17 @@
   color: #f4f5f6;
   width: 21px;
   height: 23px;
- 
 }
 
-#seller .bottom__seller .body__card .card__img .diamon::before{
-  content:  "\f3a5";
-  font-family: 'Font Awesome 5 Pro';
+#seller .bottom__seller .body__card .card__img .diamon::before {
+  content: "\f3a5";
+  font-family: "Font Awesome 5 Pro";
   position: absolute;
   font-size: 11px;
   top: 4px;
   left: 4px;
   z-index: 10;
 }
-
 
 #seller .bottom__seller .top__card {
   display: flex;
@@ -275,40 +273,63 @@
 /* =============================== Responsive ================================== */
 /* Ty le man hinh nho hon 1024*/
 @media screen and (max-width: 1024px) {
-  #seller .container{
+  #seller .container {
     max-width: 960px;
   }
 
-  #seller .right__top .time__frame{
+  #seller .right__top .time__frame {
     left: 6rem;
   }
 }
 
 /* Ty le man hinh nho hon 768px*/
-@media screen and (max-width: 768px){
-  #seller{
+@media screen and (max-width: 768px) {
+  #seller {
     min-height: 755px;
   }
-  #seller .container{
+  #seller .container {
     max-width: 720px;
   }
 
-  #seller .right__top .time__frame{
+  #seller .right__top .time__frame {
     left: 0;
   }
 }
 
 /* Ty le man hinh nho hon 600px*/
-@media screen and (max-width: 600px){
-  #seller .container{
-    max-width: 350px;
+@media screen and (max-width: 540px) {
+  #seller .container {
+    max-width: 520px;
   }
 
-  #seller .right__top .time__frame{
+  #seller .right__top .time__frame {
     left: 0;
   }
 
-  #seller .right__top{
+  #seller .right__top {
     text-align: left;
+  }
+
+  #seller .bottom__seller {
+    padding-left: 15px;
+  }
+
+  #seller .right__top .time__frame .dropdown__time {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #seller .container {
+    max-width: 520px;
+  }
+  #seller .bottom__seller {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #seller .bottom__seller {
+    padding-left: 10px;
   }
 }

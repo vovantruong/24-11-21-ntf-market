@@ -291,35 +291,50 @@
 }
 
 @media screen and (max-width: 580px) {
-  #hot__bid .container {
-    max-width: 490px;
-  }
   #hot__bid .bottom__bid .slick-list {
     padding-left: 20px;
   }
   #hot__bid .top__bid {
     padding: 0 18px;
   }
+
+  #hot__bid .bottom__bid {
+    padding-left: 5px;
+  }
 }
 
 @media screen and (max-width: 460px) {
+  #hot__bid {
+    height: 890px;
+  }
+
+  #hot__bid .bottom__bid {
+    padding-left: 15px;
+  }
+
   #hot__bid .bottom__bid .top__card {
-    width: 258px;
-    height: 299px;
+    width: 335px;
+    height: 388px;
   }
+
   #hot__bid .bottom__bid .slick-list {
-    padding-left: 66px;
+    padding: 0 10px;
+    height: 555px;
   }
+
   #hot__bid .bottom__bid .just__like p.place {
     left: 72px;
   }
+
   #hot__bid .card__bid .card__title {
     display: flex;
   }
+
   #hot__bid .card__bid .body__card,
   #hot__bid .card__bid hr {
     width: 100%;
   }
+
   #hot__bid .card__bid .card__icon p {
     left: 0;
   }
@@ -329,26 +344,46 @@
   }
 
   #hot__bid .top__bid {
-    padding: 0px 70px;
+    padding: 0;
+  }
+
+  #hot__bid .card__bid {
+    width: 350px !important;
   }
 }
 
 @media screen and (max-width: 380px) {
-  #hot__bid .bottom__bid .slick-list {
-    padding-left: 42px;
+  /* #hot__bid .container {
+    max-width: 250px;
+  } */
+  #hot__bid .bottom__bid{
+    padding-left: 5px;
   }
+
+  #hot__bid .bottom__bid .top__card {
+    width: 301px;
+    height: 349px;
+  }
+
+  #hot__bid .bottom__bid .slick-list {
+    padding-left: 16px;
+  }
+
   #hot__bid .top__bid {
-    padding: 0px 45px;
-    display: block;
+    align-items: flex-start;
   }
 
   #hot__bid .previout__next {
     position: relative;
     top: 10px;
   }
+
+  #hot__bid .card__bid {
+    width: 300px !important;
+  }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 280px) {
   #hot__bid .container {
     max-width: 250px;
   }
@@ -363,7 +398,7 @@
     padding-left: 13px;
   }
 
-  #hot__bid .card__bid .card__title h5{
+  #hot__bid .card__bid .card__title h5 {
     font-size: 13px;
   }
   #hot__bid .card__bid .body__card {

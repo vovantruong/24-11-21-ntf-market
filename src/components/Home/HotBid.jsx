@@ -93,7 +93,7 @@ function HotBid() {
     autoplaySpeed: 4000,
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
     responsive: [
       {
         breakpoint: 1025,
