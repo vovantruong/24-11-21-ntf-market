@@ -297,9 +297,9 @@
 }
 
 /* Ty le man hinh nho hon 600px*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 540px) {
   #seller .container {
-    max-width: 490px;
+    max-width: 520px;
   }
 
   #seller .right__top .time__frame {
@@ -310,6 +310,10 @@
     text-align: left;
   }
 
+  #seller .bottom__seller {
+    padding-left: 15px;
+  }
+
   #seller .right__top .time__frame .dropdown__time {
     width: 100%;
   }
@@ -317,14 +321,15 @@
 
 @media screen and (max-width: 480px) {
   #seller .container {
-    max-width: 380px;
+    max-width: 520px;
+  }
+  #seller .bottom__seller {
+    padding-left: 0;
   }
 }
 
-@media screen and (max-width: 380px) {
-
-  #seller .bottom__seller{
-    padding-left: 16px;
+@media screen and (max-width: 360px) {
+  #seller .bottom__seller {
+    padding-left: 10px;
   }
 }
-
