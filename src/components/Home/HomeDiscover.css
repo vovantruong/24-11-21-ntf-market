@@ -3,7 +3,24 @@
   min-height: 1445px;
   background: #ffffff;
   color: #000000;
-  padding: 125px 0;
+  padding: 90px 0;
+}
+
+#discover__home .dropdown {
+  display: none;
+  text-align: end;
+}
+
+#discover__home .dropdown i {
+  font-size: 37px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 35px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 #discover__home .container {
@@ -380,6 +397,7 @@
     width: 297px;
     height: 343px;
   }
+
   #discover__home .card__discover .bottom__card,
   #discover__home .card__discover .body__card,
   #discover__home .card__discover hr {
@@ -405,58 +423,110 @@
 
 @media screen and (max-width: 576px) {
   #discover__home {
-    min-height: 310rem;
+    min-height: 390rem;
   }
 
   #discover__home .category__img .just__like p.place {
-    left: 90px;
+    left: 175px;
   }
 
-  #discover__home .nav__menu .filter__menu {
-    margin: 40px auto 27px;
+  #discover__home .category__img .top__card {
+    width: 463px;
+    height: 534px;
   }
-  #discover__home .container {
-    max-width: 480px;
+  #discover__home .card__discover {
+    width: 100% !important;
+    padding-left: 18px;
   }
-  #discover__home .menu__item {
-    display: contents;
-  }
-  #discover__home .category__img {
-    padding-left: 5rem;
+
+  #discover__home .card__discover .bottom__card,
+  #discover__home .card__discover .body__card,
+  #discover__home .card__discover hr {
+    width: 463px;
   }
 
   #discover__home .bottom__category {
-    top: 100rem;
+    top: 146rem;
+  }
+
+  #discover__home .nav__menu .filter__menu {
+    margin: 10px 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #discover__home .nav__menu .filter__menu i {
+    padding-left: 10px;
+  }
+
+  #discover__home .container {
+    max-width: 520px;
+  }
+
+  #discover__home .menu__item {
+    justify-content: flex-start;
+  }
+
+  #discover__home .category__img {
+    padding-left: 0;
   }
 }
 
 @media screen and (max-width: 480px) {
-  #discover__home .container {
-    max-width: 375px;
+  #discover__home {
+    min-height: 336rem;
   }
-  #discover__home .category__img {
-    padding-left: 33px;
-    position: relative;
-    left: -5px;
+
+  #discover__home .container {
+    max-width: 410px;
+  }
+
+  #discover__home .category__img .top__card {
+    width: 370px;
+    height: 427px;
+  }
+
+  #discover__home .card__discover {
+    padding-left: 8px;
+  }
+
+  #discover__home .card__discover .bottom__card,
+  #discover__home .card__discover .body__card,
+  #discover__home .card__discover hr {
+    width: 370px;
+  }
+
+  #discover__home .bottom__category {
+    top: 120rem;
+  }
+
+  #discover__home .menu__item {
+    display: contents;
+  }
+
+  #discover__home .menu__item.active {
+    display: none;
+  }
+
+  #discover__home .dropdown {
+    display: block;
+  }
+
+  #discover__home .category__img .just__like p.place {
+    left: 130px;
   }
 }
 
 @media screen and (max-width: 380px) {
   #discover__home .container {
-    max-width: 350px;
+    max-width: 360px;
   }
   #discover__home .bottom__category {
-    top: 77rem;
+    top: 104rem;
   }
 
   #discover__home {
-    min-height: 265rem;
-  }
-
-  #discover__home .category__img {
-    padding-left: 55px;
-    position: relative;
-    left: 0px;
+    min-height: 316rem;
   }
 
   #discover__home .category__img .just__like p.place {
@@ -464,34 +534,48 @@
   }
 
   #discover__home .category__img .top__card {
-    width: 219px;
-    height: 254px;
+    width: 314px;
+    height: 364px;
   }
 
   #discover__home .card__discover .bottom__card,
   #discover__home .card__discover .body__card,
   #discover__home .card__discover hr {
-    width: 219px;
+    width: 314px;
   }
 }
 
 @media screen and (max-width: 280px) {
   #discover__home {
-    min-height: 262rem;
+    min-height: 265rem;
   }
+
+  #discover__home .category__img .top__card {
+    width: 251px;
+    height: 291px;
+  }
+
   #discover__home .container {
-    max-width: 265px;
+    max-width: 280px;
   }
-  #discover__home .category__img {
-    left: 0px;
-    padding-left: 12px;
+
+  #discover__home .card__discover .bottom__card,
+  #discover__home .card__discover .body__card,
+  #discover__home .card__discover hr {
+    width: 251px;
   }
+  #discover__home .card__discover {
+    padding-left: 0;
+  }
+
   #discover__home .category__img .just__like p.place {
     left: 56px;
   }
+
   #discover__home .bottom__category {
-    top: 75rem;
-  }
+    top: 84rem;
+}
+
   #discover__home .card__discover {
     width: inherit !important;
   }

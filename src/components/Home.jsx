@@ -16,12 +16,12 @@ function Home() {
   return (
     <div id="home">
       <Header/>
-      <CreatorNetwork />
+      {/* <CreatorNetwork />
        <Seller/>
       <HotBid />
-      <HotCollections />
+      <HotCollections /> */}
       <HomeDiscover />
-      <Crypter />
+      {/* <Crypter /> */}
       <Footer />
     </div>
   );
