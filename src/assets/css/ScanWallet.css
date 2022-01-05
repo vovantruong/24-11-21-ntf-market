@@ -158,7 +158,9 @@
     display: none;
 
 }
-
+#scanwallet .layout-left {
+    position: relative !important;
+}
 @media all and (max-width: 1200px){
     #scanwallet .layout-right {
         position: relative !important;
@@ -166,7 +168,7 @@
     }
     #scanwallet .main {
         display: flex;
-        height: 1469px;
+        height: 1228px;
         flex-direction: column;
         align-content: space-around;
         flex-wrap: wrap;
@@ -175,49 +177,65 @@
         left: 7%;
     }
     #scanwallet .img-main {
-    position: relative;
-    top: 220px;
-    /* left: 11%; */
-
+        position: relative;
+        top: 63px;
+    }
+    #scanwallet .selection-button {
+        top: 542px;
     }
     #scanwallet .img-title-select:hover::after{
         left: 103%;
     }
     #scanwallet .img-title-select{
         margin: 0 auto;
+        position: relative;
+        top: 12px;
         width: 85%;
+        left: 25px;
     }
     #scanwallet .title-main {
         width: 100%;
         text-align: center;
         left: 0;
+        top: -30px;
     }
 }
 @media all and (max-width: 768px){
     #scanwallet .layout-right {
         position: relative !important;
     }
+    #scanwallet .title-main {
+        top: -16px;
+    }
     #scanwallet .main {
         display: flex;
-        height: 1469px;
+        height: 1258px;
         flex-direction: column;
         align-content: space-around;
         flex-wrap: wrap;
     }
+    #scanwallet .img-main {
+        top: 85px;
+    }
+    #scanwallet .selection-button {
+        top: 568px;
+    }
+    #scanwallet .img-main {
+        top: 86px;
+    }
     #scanwallet .img-title-select {
-        left: 4%;
+        top: 14px;
+        left: 29px;
         width: 86%;
     }
     #scanwallet .img-main {
         position: relative;
-        top: 220px;
+        top: 123px;
         display: block;
         margin-left: auto;
         margin-right: auto;
 
     }
-
-
 }
 @media all and (max-width: 576px){
     #scanwallet .img-main {
@@ -259,8 +277,13 @@
 }
 @media all and (max-width: 414px){
     #scanwallet .img-title-select {
-        width: 100%;
-        left: 8%;
+        width: auto;
+        margin: 0 auto;
+        top: 15px;
+        left: 45px;
+    }
+    #scanwallet .img-title-select span {
+        font-size: 17px;
     }
     #scanwallet .img-title-select span {
         top: 43px;
@@ -274,11 +297,17 @@
         width: 345px;
         height: 345px;
     }
-    #scanwallet .selection-button {
-        top: 576px;
-    }
     #scanwallet .main {
-        margin-bottom: -300px;
+        margin-bottom: -398px;
+    }
+    #scanwallet .title-main {
+        top: 46px;
+    }
+    #scanwallet .img-main {
+        top: 137px;
+    }
+    #scanwallet .selection-button {
+        top: 521px;
     }
 }
 @media all and (max-width: 375px){
@@ -286,15 +315,45 @@
         width: 310px;
         height: 310px;
     }
+    #scanwallet .img-title-select {
+        left: 27px;
+    }
+    #scanwallet .main {
+        margin-bottom: -442px;
+    }
+    #scanwallet .selection-button {
+        top: 483px;
+    }
 }
 @media all and (max-width: 360px){
     #scanwallet .img-title-select {
-        width: 123%;
-        left: -6%;
+        width: auto;
+        margin: 0 auto;
+        top: 16px;
+        left: 18px;
+    }
+    #scanwallet .main {
+        margin-bottom: -4px;
+    }
+    #scanwallet .title-main {
+        top: 55px;
+    }
+    #scanwallet .img-main {
+        top: 150px;
+    }
+    #scanwallet .selection-button {
+        top: 483px;
+    }
+    #scanwallet .img-title-select:hover::after{
+        display: none;
+    }
+    #scanwallet .check-item {
+        padding: 15px;
     }
     #scanwallet .img-title-select span {
         top: 43px;
         left: 90px;
+        font-size: 17px;
     }
     #scanwallet .layout-right {
         bottom: 115px;
@@ -304,12 +363,27 @@
         height: 290px;
     }
     #scanwallet .selection-button {
-        top: 525px;
+        top: 483px;
     }
 }
 @media all and (max-width: 320px){
     #scanwallet .layout-right .img-main img {
         width: 260px;
         height: 260px;
+    }
+    #scanwallet .img-title-select {
+        left: 5px;
+    }
+    #scanwallet .main {
+        margin-bottom: -537px;
+    }
+    #scanwallet .selection-button {
+        top: 403px;
+    }
+    #scanwallet .title-main {
+        top: 33px;
+    }
+    #scanwallet .img-main {
+        top: 119px;
     }
 }
