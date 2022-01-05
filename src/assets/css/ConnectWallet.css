@@ -110,7 +110,11 @@
         margin: 0 auto;
         width: 72%;
     }
+    #connectwallect .layout-right{
+        z-index: -1;
+    }
 }
+
 @media all and (max-width: 576px){
     #connectwallect .img-title-select{
         width: unset;
@@ -125,13 +129,35 @@
         left: 0%;
     }
 }
-@media all and (max-width: 350px){
+@media all and (max-width: 414px){
+    #connectwallect .img-title-select:hover::after{
+        display: none;
+    }
+}
+@media all and (max-width: 375px){
+    #connectwallect .layout-right .img-main img {
+        width: 320px;
+        height: 320px;
+    }
+    #connectwallect .img-title-select span {
+        left: 10px;
+    }
+}
+@media all and (max-width: 360px){
     #connectwallect .layout-right .img-main img{
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
         display: block;
         margin: 0 auto;
     }
+    #connectwallect .img-title-select {
+        left: -17px;
+    }
+    #connectwallect .img-title-select:hover::after{
+        display: none;
+    }
+}
+@media all and (max-width: 320px){
     #connectwallect .img-title-select span{
         font-size: 16px;
         left: 7%;
@@ -142,5 +168,12 @@
     #connectwallect .img-title-select img{
         width: 50px;
         height: 50px;
+    }
+    #connectwallect .layout-right .img-main img{
+        width: 270px;
+        height: 270px;
+    }
+    #connectwallect .img-title-select {
+        left: 0;
     }
 }
