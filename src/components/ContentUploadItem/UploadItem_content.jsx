@@ -16,7 +16,7 @@ function UploadItem() {
       <Container>
         <div className="ContentUpload">
           <Row>
-            <Col className="left_Upload" lg={3} md={6}>
+            <Col className="left_Upload" lg={10} md={6}>
               <div className="btnBack">
                 <Link className="btna" to="/">
                   <i class="fas fa-arrow-left">
@@ -25,11 +25,10 @@ function UploadItem() {
                 </Link>
               </div>
             </Col>
-            <Col className="center_Upload" lg={6} md={6}></Col>
-            <Col className="right_Upload" lg={3} md={6}>
-              <Link to="/upload">
+            <Col className="right_Upload" lg={2} md={6}>
+              <div className="up">
                 <b>Upload Item</b>
-              </Link>
+              </div>
             </Col>
           </Row>
         </div>
@@ -59,7 +58,7 @@ function UploadItem() {
                           <div className="single" >
                             <div className="img_single">
                               <Image src={single} width={318} height={255} />
-                          
+
                             </div>
                             <div className="creat_single_mutiple">
                               <div className="single_mutiple">

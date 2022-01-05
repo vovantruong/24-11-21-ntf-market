@@ -46,7 +46,7 @@ const CreateItem = () => {
                       onClick={() => setSigle(!sigle)}
                       className="switch_multiple"
                     >
-                      <p>Swich to multiple</p>
+                      {sigle ? <p>Swich to multiple</p> : <p>Swich to single</p>}
                     </div>
                   </Col>
                 </Row>
@@ -235,25 +235,25 @@ const CreateItem = () => {
                     <Col className="create_bottom" lg={3} md={6}>
                       <div className="circle_xanhbien"></div>
                       <div class="name_color">
-                        <b>Create collection</b>
+                        Create collection
                       </div>
                     </Col>
                     <Col className="create_bottom" lg={3} md={6}>
                       <div className="circle_xanhla"></div>
                       <div class="name_color">
-                        <b>Crypto Legend - Professorion</b>
+                        Crypto Legend - Professorion
                       </div>
                     </Col>
                     <Col className="create_bottom" lg={3} md={6}>
                       <div className="circle_hong"></div>
                       <div class="name_color">
-                        <b>Crypto Legend - Professor</b>
+                        Crypto Legend - Professor
                       </div>
                     </Col>
                     <Col lg={3} md={6} className="create_bottom">
                       <div className="circle_tim"></div>
                       <div class="name_color">
-                        <b>Legend Photography</b>
+                        Legend Photography
                       </div>
                     </Col>
                   </Row>
