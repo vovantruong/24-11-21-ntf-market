@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 #viewitem .container{
-    /* width: 1144px; */
+    width: 1144px;
     font-family: 'Poppins', sans-serif;
 }
+
 #viewitem .left_imgArt{
     margin-top: 125px;
     margin-bottom: 125px;
     position: relative;
 }
 #viewitem.container{
+    max-width: 1250px;
     /* margin-left: 105px; */
     font-family: "Lora";
   }
@@ -101,7 +103,7 @@
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
     border-radius: 15px;
-    /* width: 386px; */
+    width: 386px;
     height: 233px;
     margin-top: 47px;
 }
