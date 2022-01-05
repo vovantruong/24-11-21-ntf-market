@@ -9,7 +9,7 @@ import {
   FormControl,
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "../../assets/images/Header/women-tech-logo-bg.png";
+import logo from "../../assets/images/Image-logo-svg/logo-woman.svg"
 import "../../assets/css/Header.css";
 
 import {Link} from "react-router-dom"

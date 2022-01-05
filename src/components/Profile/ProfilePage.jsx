@@ -1,10 +1,13 @@
 import React, { useRef, useState } from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import bgItem from "../../assets/images/Profile/unsplash_wQLAGv4_OYs.png";
-import avatar from "../../assets/images/Profile/unsplash_mEZ3PoFGs_k.png";
-import Image01 from "../../assets/images/Profile/unsplash_8uZPynIu-rQ.png";
+import bgItem from "../../assets/images/Profile/unsplash_wQLAGv4_OYs.svg";
+import avatar from "../../assets/images/Profile/unsplash_mEZ3PoFGs_k.svg"
+import Image01 from "../../assets/images/Profile/unsplash_8uZPynIu-rQ.svg";
 import IconNotBG from "../../assets/images/Profile/heart-no-bg.png";
+import twitter from "../../assets/images/Profile/twiter.svg";
+import instagram from "../../assets/images/Profile/instagram.svg";
+import facebook from "../../assets/images/Profile/facebook.svg";
 import "../../assets/css/Profile.css";
 import { Link } from "react-router-dom";
 
@@ -64,7 +67,7 @@ export default function ProfilePage() {
     setActive(index);
   };
   return (
-    <div id="profile">
+    <div id="profile__header__top">
       <header className="navbar_item">
         <div className="picture_item">
           <Image className="img-fluid" src={bgItem} />
@@ -128,10 +131,11 @@ export default function ProfilePage() {
                         <i class="far fa-flag"></i>
                       </Link>
                     </div>
-                    <div className="icon__social mt-5">
-                      <i class="fab fa-twitter"></i>
-                      <i class="fab fa-instagram"></i>
-                      <i class="fab fa-facebook-f"></i>
+                    <div className="icon__social mt-2">
+
+                      <img className="icon__link" src={twitter} />
+                      <img className="icon__link" src={instagram} />
+                      <img className="icon__link" src={facebook} />
                     </div>
                     <div className="ruler__bottom"></div>
                     <div className="bottom__date">
@@ -145,12 +149,12 @@ export default function ProfilePage() {
                   className="view__bid mt-5"
                   key={index}
                   lg={3}
-                  md={3}
+                  md={12}
                   xs={12}
                 >
                   <div className="card__bid">
                     <div className="top__card">
-                      <Image src={e.img} />
+                      <Image src={e.img}/>
                       <div className="just__like">
                         <p className="purchas">{e.txt}</p>
                         <Button className="icon__img">

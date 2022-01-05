@@ -17,15 +17,15 @@
 #scanwallet .container{
     max-width: 1144px;
 }
-#scanwallet .button-header a{
-    padding: 7px 10px;
+#scanwallet .button-header a {
+    padding: 8px 10px;
     border: 1px solid gray;
     border-radius: 90px;
 }
 #scanwallet .back-home{
     position: absolute;
-    /* left: 400px; */
-    top: 73px;
+    
+    top: 84px;
     font-weight: 500;
     font-size: 14px;
     line-height: 15px;
@@ -88,11 +88,11 @@
     left: 90%;
     /* display: none; */
 }
-#scanwallet .title-main{
+#scanwallet .title-main {
     position: absolute;
-    right: 131px;
+    width: 50%;
+    left: 676px;
     top: 125px;
-    
 }
 #scanwallet .title-main span{
     font-style: normal;
@@ -125,11 +125,11 @@
     background: #a92e71;
    
 }
-.hidden-img{
+#scanwallet .hidden-img{
     width: 65px;
     height: 65px;
 }
-.check-item{
+#scanwallet .check-item{
     position: absolute;
     left: 30px;
     border-radius: 50%;
@@ -137,24 +137,179 @@
     z-index: 100;
  
 }
-.item-1{
+#scanwallet .item-1{
     border: 1px solid purple;
     color: purple;  
      display: none;
 }
-.item-2{
+#scanwallet .item-2{
     border: 1px solid blue;
     color: blue;
     display: none;
 }
-.item-3{
+#scanwallet .item-3{
     border: 1px solid green;
     color: green;
     display: none;
 }
-.item-4{
+#scanwallet .item-4{
     border: 1px solid pink;
     color: pink;
     display: none;
 
+}
+
+@media all and (max-width: 1200px){
+    #scanwallet .layout-right {
+        position: relative !important;
+        margin-top: 97px;
+    }
+    #scanwallet .main {
+        display: flex;
+        height: 1469px;
+        flex-direction: column;
+        align-content: space-around;
+        flex-wrap: wrap;
+    }
+    #scanwallet .img-title-select {
+        left: 7%;
+    }
+    #scanwallet .img-main {
+    position: relative;
+    top: 220px;
+    /* left: 11%; */
+
+    }
+    #scanwallet .img-title-select:hover::after{
+        left: 103%;
+    }
+    #scanwallet .img-title-select{
+        margin: 0 auto;
+        width: 85%;
+    }
+    #scanwallet .title-main {
+        width: 100%;
+        text-align: center;
+        left: 0;
+    }
+}
+@media all and (max-width: 768px){
+    #scanwallet .layout-right {
+        position: relative !important;
+    }
+    #scanwallet .main {
+        display: flex;
+        height: 1469px;
+        flex-direction: column;
+        align-content: space-around;
+        flex-wrap: wrap;
+    }
+    #scanwallet .img-title-select {
+        left: 4%;
+        width: 86%;
+    }
+    #scanwallet .img-main {
+        position: relative;
+        top: 220px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+}
+@media all and (max-width: 576px){
+    #scanwallet .img-main {
+        left: unset;
+    }
+    #scanwallet .layout-right .img-main img{
+        width: 250px;
+        height: 250px;
+    }
+    #scanwallet .title-main span{
+        font-size: 20px;
+    }
+    #scanwallet .img-title-select span{
+        font-size: 20px;
+    }
+    #scanwallet .img-title-select {
+        left: -12%;
+    }
+    #scanwallet .img-title-select span {
+        position: absolute;
+        top: 30px;
+    }
+    #scanwallet .selection-button {
+        right: unset;
+        top: 484px;
+        font-size: 10px;
+    }
+    #scanwallet .main {
+        margin-bottom: -353px;
+    }
+    #scanwallet .title-main {
+        width: 100%;
+        right: unset;
+    }
+    #scanwallet .img-title-select img{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media all and (max-width: 414px){
+    #scanwallet .img-title-select {
+        width: 100%;
+        left: 8%;
+    }
+    #scanwallet .img-title-select span {
+        top: 43px;
+        left: 90px;
+    }
+    #scanwallet .layout-right {
+        bottom: 115px;
+        margin-bottom: 20px;
+    }
+    #scanwallet .layout-right .img-main img {
+        width: 345px;
+        height: 345px;
+    }
+    #scanwallet .selection-button {
+        top: 576px;
+    }
+    #scanwallet .main {
+        margin-bottom: -300px;
+    }
+}
+@media all and (max-width: 375px){
+    #scanwallet .layout-right .img-main img {
+        width: 310px;
+        height: 310px;
+    }
+}
+@media all and (max-width: 360px){
+    #scanwallet .img-title-select {
+        width: 123%;
+        left: -6%;
+    }
+    #scanwallet .img-title-select span {
+        top: 43px;
+        left: 90px;
+    }
+    #scanwallet .layout-right {
+        bottom: 115px;
+    }
+    #scanwallet .layout-right .img-main img {
+        width: 290px;
+        height: 290px;
+    }
+    #scanwallet .selection-button {
+        top: 525px;
+    }
+}
+@media all and (max-width: 320px){
+    #scanwallet .layout-right .img-main img {
+        width: 260px;
+        height: 260px;
+    }
 }

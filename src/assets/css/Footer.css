@@ -231,7 +231,7 @@
     width: 100%;
     top: 0;
     margin-top: 40px;
-    /* width: 720px; */
+    width: 625px;
   }
   #footer .footer__info .info,
   #footer .footer__crypter .crypter,
@@ -263,6 +263,9 @@
 @media screen and (max-width: 576px) {
   #footer .container {
     width: 410px;
+  }
+  #footer form {
+    width: 100%;
   }
 }
 

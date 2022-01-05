@@ -9,29 +9,31 @@
   --border-input: 1.5px solid #c4c4c4;
   --dark-pink: #a92e71;
 }
-.navbar_item {
+#followwing__followers .navbar_item {
   font-family: "Poppins", sans-serif;
   max-width: 1920px;
 }
-.navbar_item .container {
+#followwing__followers .navbar_item .container {
   max-width: 1140px;
   margin-bottom: 140px;
 }
-.navbar_item Image {
+#followwing__followers Image {
   background: red;
   width: auto;
   height: auto;
 }
-
-.navbar_item .btn__cover__profile a {
-  position: absolute;
-  margin-top: -5%;
-  right: 0px;
-  /* margin-left: 60%; */
+#followwing__followers .card__bid {
+  margin-top: 60px;
 }
-.navbar_item a.cover {
+
+#followwing__followers .btn__cover__profile a {
+  position: absolute;
+  margin-top: -65px;
+  right: 0px;
+}
+#followwing__followers a.cover {
   color: var(--txt-light);
-  right: 23%;
+  right: 145px;
   text-decoration: none;
   border: 1px solid;
   padding: 10px 15px;
@@ -39,77 +41,88 @@
   border-radius: var(--boder-radius);
   border: var(--border-input);
 }
-.navbar_item a.profile {
+#followwing__followers a.profile {
   color: var(--txt-light);
   text-decoration: none;
   padding: 10px 15px;
   width: auto;
   border-radius: var(--boder-radius);
   border: var(--border-input);
-  right: 14%;
 }
-.navbar_item .btn__cover__profile :hover.cover {
+#followwing__followers .btn__cover__profile :hover.cover {
   background: var(--dark-pink);
 }
-.navbar_item .btn__cover__profile :hover.profile {
+#followwing__followers .btn__cover__profile :hover.profile {
   background: var(--dark-pink);
 }
-.navbar_item .detail__profile {
+#followwing__followers .detail__profile {
   text-align: center;
   border: 1px solid #c4c4c4;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   position: absolute;
-  margin-top: -8%;
+  margin-top: -95px;
   background: var(--txt-light);
   padding: 0 35px;
-  height: 90%;
+  height: 720px;
 }
-/* .view__bid {
-  margin-top: 12%;
-} */
-.navbar_item .content__detail {
+
+#followwing__followers .content__detail {
   right: 20px;
   font-size: 11px;
   margin-top: 10%;
 }
-.navbar_item .link__Profile b {
+#followwing__followers .link__Profile b {
   font-size: 12px;
 }
-.navbar_item .follower_profile {
+#followwing__followers .follower_profile {
   text-decoration: none;
   background: var(--dark-pink);
   padding: 10px 15px;
   border-radius: var(--boder-radius);
   color: var(--txt-light);
 }
-.navbar_item  .view__like {
+#followwing__followers .view__like {
   border-radius: 50%;
   border: 1.5px solid #606060;
   margin-left: 10px;
   padding: 10px 15px;
   color: #606060;
 }
-.navbar_item :hover.view__like {
+#followwing__followers .icon__link {
+  margin-top: 70px;
+  padding: 0 10px;
+  margin-bottom: -25px;
+}
+#followwing__followers :hover.view__like {
   background: var(--dark-pink);
   color: var(--txt-light);
 }
-.navbar_item .icon__social i {
+#followwing__followers .icon__social i {
   padding: 0 10px;
   font-size: 30px;
   margin-top: 65px;
 }
-.navbar_item .ruler__bottom {
+#followwing__followers .ruler__bottom {
   border: 1px solid #c4c4c4;
   margin-top: 35%;
 }
-.navbar_item .bottom__date {
+#followwing__followers .bottom__date {
   color: #606060;
   font-size: 12px;
-  margin-top: 30px;
+  margin-top: 35px;
 }
-
+#followwing__followers .detail__profile .view__profile {
+  padding-top: 28px;
+}
+#followwing__followers .view__name__profile {
+  margin-top: 18px;
+}
+#followwing__followers .view__name__profile .name__profile {
+  font-size: 24px;
+}
 /* css bid */
-.navbar_item .top__bid {
+#followwing__followers .top__bid {
   position: relative;
   top: 7.4rem;
   display: flex;
@@ -117,38 +130,38 @@
   justify-content: space-between;
 }
 
-.navbar_item .container {
+#followwing__followers .container {
   max-width: 1144px;
 }
 
-.navbar_item .top__card {
+#followwing__followers .top__card {
   width: 258px;
   height: 299px;
   position: relative;
   overflow: hidden;
   border-radius: 15px;
 }
-.navbar_item .top__card img {
+#followwing__followers .top__card img {
   position: absolute;
   width: 100%;
   height: 100%;
   transition: 0.5s all ease;
 }
 
-.navbar_item .top__card:hover > img {
+#followwing__followers .top__card:hover > img {
   transform: scale(1.2);
 }
 
-.navbar_item .top__card:hover > .just__like {
+#followwing__followers .top__card:hover > .just__like {
   opacity: 1;
 }
 
-.navbar_item .top__card .just__like {
+#followwing__followers .top__card .just__like {
   opacity: 0;
   transition: 0.6s all ease;
 }
 
-.navbar_item .top__card .just__like .icon__img {
+#followwing__followers .top__card .just__like .icon__img {
   position: absolute;
   top: 16px;
   border: none;
@@ -159,7 +172,7 @@
   border-radius: 50%;
 }
 
-.navbar_item .top__card .just__like .icon__img img {
+#followwing__followers .top__card .just__like .icon__img img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -168,86 +181,91 @@
   height: 55%;
 }
 
-.navbar_item .title__bid h1 {
+#followwing__followers .title__bid h1 {
   font-size: 40px;
   font-weight: 500;
 }
-
-.navbar_item .bottom__bid {
+#followwing__followers .bottom__bid {
   position: relative;
   top: 11.8rem;
 }
 
-.navbar_item .bottom__bid .slick-list {
+#followwing__followers .bottom__bid .slick-list {
   height: 428px;
   padding-left: 12px;
 }
 
-.navbar_item .card__bid .card__title,
-.navbar_item .card__bid .card__icon,
-.navbar_item .card__bid .bottom__card {
+#followwing__followers .card__bid .card__title,
+#followwing__followers .card__bid .card__icon,
+#followwing__followers .card__bid .bottom__card {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+#followwing__followers .card__title {
+  margin-bottom: -30px;
+}
 
-.navbar_item .card__bid .body__card,
-.navbar_item .card__bid .bottom__card,
-.navbar_item .card__bid hr {
+#followwing__followers .card__bid .body__card,
+#followwing__followers .card__bid .bottom__card,
+#followwing__followers .card__bid hr {
   margin-right: 22px;
 }
 
-.navbar_item .card__bid .body__card {
+#followwing__followers .card__bid .body__card {
   position: relative;
   top: 23px;
 }
 
-.navbar_item .card__bid hr {
+#followwing__followers .card__bid hr {
   position: relative;
   top: 26px;
 }
 
-.navbar_item .card__bid .card__title h5 {
+#followwing__followers .card__bid .card__title h5 {
   font-size: 16px;
   font-weight: 500;
   color: #000000;
+  margin-top: -10px;
 }
 
-.navbar_item .card__bid .card__icon {
+#followwing__followers .card__bid .card__icon {
   position: relative;
   top: 15px;
   align-items: inherit;
 }
 
-.navbar_item0 .card__bid {
+#followwing__followers .card__bid {
   width: 260px !important;
+  margin-left: 30px;
+  position: relative;
 }
 
-.navbar_item .card__bid .card__icon img {
+#followwing__followers .card__bid .card__icon img {
   width: 29px;
   height: 29px;
 }
 
-.navbar_item .navbar_item .card__bid .card__icon p {
+#followwing__followers .card__bid .card__icon p {
   font-size: 14px;
   font-weight: 400;
 }
 
-.navbar_item .card__icon p,
-.navbar_item .bottom__card p {
+#followwing__followers .card__icon p,
+#followwing__followers .bottom__card p {
   color: #606060;
 }
 
-.navbar_item .card__bid .bottom__card p {
+#followwing__followers .card__bid .bottom__card p {
   font-size: 12px;
   font-weight: 400;
 }
 
-.navbar_item .card__bid .bottom__card p.bt_left span {
+#followwing__followers .card__bid .bottom__card p.bt_left span {
   font-weight: 600;
   color: #000000;
 }
-.navbar_item .body__card .card__title p {
+#followwing__followers .body__card .card__title p {
   display: flex;
   align-items: center;
   width: 66px;
@@ -260,11 +278,11 @@
   color: #a92e71;
 }
 
-.navbar_item .card__bid .bottom__card {
+#followwing__followers .card__bid .bottom__card {
   position: relative;
   top: 20px;
 }
-.navbar_item .just__like p.place {
+#followwing__followers .just__like p.place {
   position: absolute;
   background: #a92e71;
   bottom: 16px;
@@ -280,7 +298,7 @@
   justify-content: center;
 }
 
-.navbar_item .just__like p.purchas {
+#followwing__followers .just__like p.purchas {
   position: absolute;
   left: 16px;
   top: 21px;
@@ -296,23 +314,25 @@
   color: #fff;
 }
 
-.navbar_item .just__like button:focus {
+#followwing__followers .just__like button:focus {
   box-shadow: none;
 }
 /* menuitem */
 
-.navbar_item .menu__item {
+#followwing__followers .menu__item {
   width: 568px;
   height: 31px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: absolute;
-  margin-top: 3%;
-  left: 35%;
+  margin-top: 55px;
+  margin-left: 330px;
 }
-
-.navbar_item .menu__item a {
+#followwing__followers .btn__cover__profile {
+  position: relative;
+}
+#followwing__followers .menu__item a {
   color: #000000;
   height: 31px;
   border-radius: 6px;
@@ -326,30 +346,27 @@
   border-radius: 20px;
 }
 
-.navbar_item .menu__item a.active {
+#followwing__followers .menu__item a.active {
   background: #a92e71;
   color: #fff;
 }
-.navbar_item .view_content_col{
-  margin-top: 8.7%;
-}
-/* .view__content_unfollow{
-  text-align: left;
-} */
-.navbar_item .fadel__view_followings{
-  margin-top: 90px;
-}
-.navbar_item .group__img{
+#followwing__followers .navbar_item .group__img {
   display: flex;
   margin-top: 40px;
+  border-bottom: 1px solid #c4c4c4;
+  padding-top: 20px;
+  width: 120%;
 }
-.navbar_item .item__image_content{
+#followwing__followers .navbar_item .item__image_content {
   margin-top: 20px;
-}
-.navbar_item .item__image_content{
   padding-top: 20px;
 }
-.navbar_item .fadel__view_followings a.place {
+#followwing__followers .border__ruler {
+  border-bottom: 1px solid #c4c4c4;
+  padding-top: 20px;
+  width: 120%;
+}
+#followwing__followers .navbar_item .fadel__view_followings a.place {
   background: #ffffff;
   border: 1.5px solid #c4c4c4;
   color: #000000;
@@ -360,122 +377,169 @@
   padding: 5px 10px;
   font-size: 12px;
   weight: 500px;
-  
 }
-.navbar_item .fadel__view_followings a.place:hover {
+#followwing__followers .navbar_item .fadel__view_followings a.place:hover {
   background: #a92e71;
   color: #ffffff;
   border: 1.5px solid #a92e71;
 }
 
-.navbar_item .info__view__tittle{
+#followwing__followers .navbar_item .info__view__tittle {
   text-align: left;
+  margin-top: -25px;
 }
-.navbar_item .text__followings__view{
+#followwing__followers .navbar_item .text__followings__view {
   font-size: 12px;
   color: #606060;
 }
-.navbar_item .detail__profile .view__profile
-{
-padding-top: 40px;  
+#followwing__followers .img__view__followings {
+  padding-top: -45px;
 }
-
-
-
-
-
+#followwing__followers .view_content_col {
+  margin-top: 90px;
+  text-align: center;
+}
+#followwing__followers .item__image_content {
+  padding: 40px -200px;
+}
 /* =========================== Responsive ============================= */
 @media screen and (max-width: 1024px) {
-  .navbar_item .container {
-    max-width: 960px;
+  #followwing__followers .menu__item {
+    margin-left: -295px;
   }
-  .navbar_item .menu__item {
-    left: -100px;
-  }
-
-  .navbar_item .top__card {
-    width: 219px;
-    height: 254px;
-  }
-
-  .navbar_item .just__like p.place {
-    left: 50px;
-  }
-  .navbar_item .detail__profile{
-    position: relative;
-    height: 100px;
+  #followwing__followers .navbar_item .group__img {
+    margin-left: -245px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .navbar_item .just__like p.place {
-    left: 86px;
+  #followwing__followers .navbar_item .container {
+    max-width: 400px;
   }
-
-  .navbar_item .container {
-    max-width: 720px;
+  #followwing__followers .navbar_item .menu__item {
+    display: none;
   }
-
-  .navbar_item .menu__item {
-    left: 0;
+  #followwing__followers .fadel__view_followings {
+    margin: 0 320px !important;
   }
-
-  .navbar_item .top__card {
-    width: 297px;
-    height: 343px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  /* .just__like p.place {
-    left: 90px;
-  } */
-  .navbar_item .container {
-    max-width: 480px;
-  }
-  .navbar_item .menu__item {
-    display: contents;
-  }
-  .navbar_item .detail__profile {
+ 
+  #followwing__followers .navbar_item .detail__profile {
     position: relative;
     height: 120%;
-    /* margin-top: 800px; */
-    margin-left: 20px;
+    margin: 0 15px;
     left: 0px;
-    margin-top:-30%;
- 
+    margin-top: -30%;
   }
-  .navbar_item  a.profile {
-    margin-top: -240px;
+  #followwing__followers .fadel__view_followings {
+    margin: 0 50px;
   }
-  .navbar_item  a.cover {
-    margin-top: -241px;
+  #followwing__followers .navbar_item .group__img {
+    width: 0px !important;
+  }
+  #followwing__followers .navbar_item a.profile {
+    margin-top: -50px;
+  }
+  #followwing__followers .navbar_item a.cover {
+    margin-top: -50px;
     font-size: 10px;
     padding: 15px;
     right: 43% !important;
   }
-  .navbar_item a.profile{
+  #followwing__followers .navbar_item a.profile {
     font-size: 12px;
     margin-bottom: 20px;
   }
 
-  .navbar_item  .bg__profile {
+  #followwing__followers .navbar_item .bg__profile {
     margin-top: 200px;
   }
-  .navbar_item .card__bid{
-    /* margin-top: 420px !important; */
-  }
-  .navbar_item .view__img_small{
+  #followwing__followers .navbar_item .view__img_small {
     display: flex;
   }
+  #followwing__followers .border__ruler {
+    display: none;
+  }
+}
 
 
+@media screen and (max-width: 576px) {
+  #followwing__followers .navbar_item .container {
+    max-width: 400px;
+  }
+  #followwing__followers .navbar_item .menu__item {
+    display: contents;
+    display: none;
+  }
+  #followwing__followers .navbar_item .detail__profile {
+    position: relative;
+    height: 120%;
+    margin: 0 15px;
+    left: 0px;
+    margin-top: -30%;
+  }
+  #followwing__followers .fadel__view_followings {
+    margin: 0 315px;
+  }
+  #followwing__followers .navbar_item .group__img {
+    width: 0px !important;
+  }
+  #followwing__followers .navbar_item a.profile {
+    margin-top: -50px;
+  }
+  #followwing__followers .navbar_item a.cover {
+    margin-top: -55px;
+    font-size: 10px;
+    padding: 15px;
+    right: 43% !important;
+  }
+  #followwing__followers .navbar_item a.profile {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
 
+  #followwing__followers .navbar_item .bg__profile {
+    margin-top: 200px;
+  }
+  #followwing__followers .navbar_item .view__img_small {
+    display: flex;
+  }
+  #followwing__followers .border__ruler {
+    display: none;
+  }
+}
+@media screen and (width:411px) {
+  #followwing__followers .fadel__view_followings {
+    margin: 0 315px !important;
+  }
 }
 /* Ty le man hinh nho hon 320px */
 @media screen and (max-width: 320px) {
-  .navbar_item  .container {
+  #followwing__followers .navbar_item .container {
     max-width: 310px;
   }
+  #followwing__followers .fadel__view_followings {
+    margin: 0 80px !important;
+  }
+  #followwing__followers .navbar_item .menu__item {
+    display: contents;
+    display: none;
+  }
+  #followwing__followers .navbar_item a.cover {
+    margin-right: 20px;
+  }
+  #followwing__followers .btn__follower__link__note {
+    margin: 0 -25px;
+  }
+  #followwing__followers .navbar_item a.cover {
+    margin-top: -47px;
+    font-size: 9px;
+    padding-bottom: 15px;
+   
 }
-
+#followwing__followers a.profile {
+  padding-bottom: 17px;
+}
+#followwing__followers .navbar_item .group__img {
+  margin-left: -15px;
+}
+}

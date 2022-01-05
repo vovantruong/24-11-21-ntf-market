@@ -20,16 +20,18 @@
 #connectwallect .button-header a{
     color: #000000;
 }
-#connectwallect .back-home{
+#connectwallect .back-home {
     position: absolute;
- padding: 10px;
+    padding: 0 10px;
+    padding-bottom: 9px;
+    padding-top: 10px;
     top: 73px;
     font-weight: 500;
     font-size: 14px;
     line-height: 15px;
     border: 1px solid gray;
     border-radius: 90px;
-    text-align: center; 
+    text-align: center;
 }
 #connectwallect .back-home:hover,  #connectwallect .back-home a:hover {
     background: #a92e71;
@@ -48,6 +50,7 @@
 }
 #connectwallect .main{
     position: relative;
+    margin-bottom: 250px;
 }
 #connectwallect .img-title-select{
     position: relative;
@@ -70,8 +73,8 @@
 }
 #connectwallect .img-main{
     position: absolute;
-   right: 0;
-    top: 125px;
+    right: 0;
+    bottom: -125px;
 }
 #connectwallect .img-title-select:hover::after{
     position: absolute;
@@ -85,3 +88,92 @@
 /* #connectwallect .img-title-select:hover,{
     display: block;
 } */
+#connectwallect .layout-right {
+    position: relative;
+}
+@media all and (max-width: 1200px){
+    #connectwallect .main {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    #connectwallect .img-main{
+        position: relative;
+        left: 3%;
+    }
+    #connectwallect .img-title-select:hover::after{
+        left: 100%;
+    }
+    #connectwallect .img-title-select{
+        margin: 0 auto;
+        width: 72%;
+    }
+    #connectwallect .layout-right{
+        z-index: -1;
+    }
+}
+
+@media all and (max-width: 576px){
+    #connectwallect .img-title-select{
+        width: unset;
+    }
+    #connectwallect .layout-right .img-main img{
+        width: 350px;
+        height: 350px;
+        display: block;
+        margin: 0 auto;
+    }
+    #connectwallect .img-main {
+        left: 0%;
+    }
+}
+@media all and (max-width: 414px){
+    #connectwallect .img-title-select:hover::after{
+        display: none;
+    }
+}
+@media all and (max-width: 375px){
+    #connectwallect .layout-right .img-main img {
+        width: 320px;
+        height: 320px;
+    }
+    #connectwallect .img-title-select span {
+        left: 10px;
+    }
+}
+@media all and (max-width: 360px){
+    #connectwallect .layout-right .img-main img{
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+    #connectwallect .img-title-select {
+        left: -17px;
+    }
+    #connectwallect .img-title-select:hover::after{
+        display: none;
+    }
+}
+@media all and (max-width: 320px){
+    #connectwallect .img-title-select span{
+        font-size: 16px;
+        left: 7%;
+    }
+    #connectwallect .layout-right{
+        position: static;
+    }
+    #connectwallect .img-title-select img{
+        width: 50px;
+        height: 50px;
+    }
+    #connectwallect .layout-right .img-main img{
+        width: 270px;
+        height: 270px;
+    }
+    #connectwallect .img-title-select {
+        left: 0;
+    }
+}

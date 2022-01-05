@@ -1,11 +1,11 @@
 import React from "react";
 import "../../assets/css/ConnectWallet.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container,Image } from "react-bootstrap";
-import purple from "../../assets/images/connect wallet/purple.png";
-import blue from "../../assets/images/connect wallet/blue.png";
-import green from "../../assets/images/connect wallet/green.png";
-import pink from "../../assets/images/connect wallet/pink.png";
+import { Container,Image,Tab,Row,Col,Nav } from "react-bootstrap";
+import purple from "../../assets/images/scan wallet1_2/purple.svg";
+import blue from "../../assets/images/scan wallet1_2/blue1.svg";
+import green from "../../assets/images/scan wallet1_2/green.svg";
+import pink from "../../assets/images/scan wallet1_2/pink.svg";
 import main from "../../assets/images/connect wallet/main.png";
 import {Link} from 'react-router-dom'
 function Content() {
@@ -25,6 +25,7 @@ function Content() {
           <hr width="100%" align="center" />
         </div>
         <div class="main">
+          <div class="layout-left">
         <div class="img-title-select">
             <Link to="/scan-wallet">
               <Image
@@ -70,6 +71,9 @@ function Content() {
               <span>Coinbase Wallet</span>
             </Link>
           </div>
+       
+          </div>
+          <div class="layout-right">
           <div class="img-main">
             <Image
               src={main}
@@ -78,8 +82,10 @@ function Content() {
               height="500px"
             />
           </div>
+          </div>
         </div>
         </Container>
+
       </connectwallect>
     </div>
   );

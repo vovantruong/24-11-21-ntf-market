@@ -13,7 +13,7 @@
   overflow: hidden;
   height: auto;
   /* position: relative; */
-  width: 1144px;
+  /* width: 1144px; */
 }
 #uploaditem .container .Upload_Item{
   /* position:relative; */
@@ -143,202 +143,130 @@
   font-family: 'Poppins', sans-serif;
 }
 /* =============================== Responsive ================================== */
-/* Ty le man hinh nho hon 991*/
-@media screen and (max-width: 989px)
-{
-  #uploaditem a{
-    position: relative;
-    margin-bottom: 20px;
-    margin-left: 430px;
-  }
-  #uploaditem .Center_upload .item{
-    position: relative;
-    right: 430px;
-  }
-  #uploaditem .Center_upload h1{
-    margin-left: 340px;
-    width: 200px;
-  }
-  #uploaditem .Center_upload .Creat .single{
-    position: relative;
-    right: 280px;
-    bottom: 20px;
-  }
-  #uploaditem .Center_upload .Creat .single .img_single{
-    position: relative;
-    top: 10px;
-  }
-  #uploaditem .Center_upload .Creat .creat_single_mutiple {
-    position: relative;
-    right: 210px;
-  }
-  #uploaditem .Center_upload .Creat .mutiple{
-    position: relative;
-    right: 295px;
-  }
-  #uploaditem .Center_upload .confirmation{
-    position: relative;
-    right: 480px;
-  }
-}
-
-/* Ty le man hinh nho hon 768*/
-@media screen and (max-width: 768px){
-  #uploaditem .ContentUpload{
-    position: relative;
-    right: 140px;
-  }
-  #uploaditem .Center_upload h1{
-    position: relative;
-    right: 35px;
-  }
-  #uploaditem .Center_upload p {
-    width: 300px;
-    margin-left: 250px;
-  }
-  #uploaditem .Center_upload .Creat .single .img_single {
-    position: relative;
-  }
-  #uploaditem .Center_upload .Creat {
-    height: 800px;
-  }
-   #uploaditem .Center_upload .Creat .single {
-    right: 320px;
-  }
-  #uploaditem .Center_upload .Creat .mutiple{
-    position: relative;
-    margin-top: 400px;
-    right: 565px;
-  }
-  #uploaditem .Center_upload .Creat .mutiple .img_mutiple{
-    position: relative;
-    top: 8px;
-  }
-  #uploaditem .Upload_Item{
-    position: relative;
-    right: 180px;
-  }
-
-}
-@media screen and (max-width: 411px){
-  #uploaditem a {
-    position: relative;
-    right: 180px;
-  }
-  #uploaditem .Center_upload h1{
-    position: relative;
-    left: 160px;
-  }
-#uploaditem .Center_upload p{
-  position: relative;
-  left: 200px;
-}
-#uploaditem .Center_upload .Creat {
-  position: relative;
-  height: 2000px;
-}
-#uploaditem .Center_upload .Creat .single{
-  position: relative;
-  top: 30px;
-}
-}
-/* Ty le man hinh nho hon 768*/
-@media screen and (max-width: 767px){
-  #uploaditem .Upload_Item .Center_upload{
-    position: relative;
-    width: 1000px;
-    height: 1300px;
-  }
-  #uploaditem .Center_upload h1 {
-    position: relative;
-    left: 350px;
-  }
-  #uploaditem .Center_upload p{
-    position: relative;
-    left: 400px;
-  }
-  #uploaditem .Center_upload .Creat .single {
-    position: relative;
-    top: 50px;
-    left:85px
-  }
-  #uploaditem .Center_upload .Creat .mutiple{
-    position: relative;
-    left:70px;
-    bottom: 200px;
-  }
-  #uploaditem .Center_upload .confirmation p {
-    position: relative;
-    top: 150px;
-  }
-}
-@media screen and (max-width: 768px) {
-  #createitem .content__createitem{
-    position: relative;
-    right: 280px;
-  }
-  .content__createitem .left__itemname .size{
-    position: relative;
-    top: 80px;
-    right: 448px;
-  }
-  .content__createitem .left__itemname .form-properti{
-    position: relative;
-    top: 80px;
-  }
-  #createitem .content__createitem .left__itemname {
-    height: 500px;
-  }
-  #createitem .content__createitem .hr_left{
-    position: relative;
-    /* display: none; */
-    top: 500px;
-  }
-  #createitem .content__createitem .right__Preview {
-    position: relative;
-    top: 150px;
-  }
-  #createitem .content__Bottom .Menu_left{
-    right:280px;
-    position: relative;
-    top: 20px;
-  }
-  #createitem .content__Bottom .Menu_right {
-    position: relative;
-    width: 100px;
-    right: 400px;
-    top: 30px;
-  }
-  #createitem .bottom_menu{
-    position: relative;
-    right:270px;
-  }
-}
-  @media screen and (max-width: 576px){
-    #uploaditem .container{
+@media screen and (max-width: 1024px)
+  {
+    #uploaditem .Center_upload .Creat .single{
       position: relative;
-      max-width: 750px;
-      right: 85px;
+      right: 50px;
     }
-    #uploaditem .hrUpload{
+  }
+  @media screen and (max-width: 768px){
+    #uploaditem .Center_upload h1{
       position: relative;
-      left: 150px;
+      right: 170px;
+    }
+    #uploaditem .Center_upload p {
+      position: relative;
+      width: 400px;
+      right: 170px;
+    }
+    #uploaditem .Center_upload .Creat .single{
+      right: 500px;
+      top: 30px;
+    }
+    #uploaditem .Center_upload .Creat .mutiple {
+      position: relative;
+      right: 260px;
+      top: 30px;
+    }
+    #uploaditem .Center_upload .confirmation{
+      position: relative;
+      right: 80px;
+    }
+    #uploaditem .ContentUpload{
+      position: relative;
+      left: 320px;
+    }
+    #uploaditem .ContentUpload .right_Upload {
+      padding-top: 10px;
+    }
+  }
+   @media screen and (max-width: 540px){
+    #uploaditem .ContentUpload{
+      left: 0;
+      left: 190px;
+    }
+    #uploaditem .container .Upload_Item {
+      position: relative;
+      left: 200px;
+    }
+    #uploaditem .Center_upload h1{
+      position: relative;
+      right: 200px;
+    }
+    #uploaditem .Center_upload p{
+      position: relative;
+      right: 145px;
+    }
+    #uploaditem .Center_upload .Creat .single{
+      position: relative;
+      right: 230px;
+    }
+    #uploaditem .Center_upload .Creat .mutiple {
+      position: relative;
+      right: 249px;
+      top: 40px;
+    }
+    #uploaditem .Center_upload .confirmation{
+      right: 40px;
+    }
+   }
+  @media screen and (max-width: 414px){
+    #uploaditem .ContentUpload{
+      position: relative;
+      left: 0;
+      margin-left: 130px;
+    }
+    #uploaditem .Center_upload h1{
+      position: relative;
+      right: 190px;
+    }
+    #uploaditem .Center_upload p {
+      position: relative;
+      right: 200px;
+    }
+    #uploaditem .Center_upload .Creat .single{
+      right: 295px;
+    }
+    #uploaditem .Center_upload .Creat .mutiple{
+      right: 312px;
     }
   }
   @media screen and (max-width: 375px){
-    #uploaditem .Center_upload h1{
+    #uploaditem .ContentUpload {
       position: relative;
-      right: 100px;
+      left: 10px;
     }
-    #uploaditem .Upload_Item{
+    #uploaditem .ContentUpload{
       position: relative;
-      margin-left: 70px;
+      margin-left: 100px;
     }
-    #uploaditem .Center_upload .Creat .creat_single_mutiple{
-      position: relative;
-      margin-left: 350px;
+    #uploaditem .Center_upload p {
+      width: 350px;
     }
-    #uploaditem .hrUpload {
-      display: none;
+    #uploaditem .Center_upload .Creat .single{
+      right: 315px;
+    }
+    #uploaditem .Center_upload .Creat .mutiple {
+      right: 332px;
     }
   }
+
+  @media screen and (max-width: 360px){
+    #uploaditem .Center_upload .Creat .single{
+      right: 325px;
+    }
+    #uploaditem .Center_upload .Creat .mutiple {
+      right: 342px;
+    }
+    #uploaditem .Center_upload .confirmation{
+      right: 48px;
+    }
+  }
+  @media screen and (max-width: 280px){
+    #uploaditem .container{
+      width: 300px;
+    }
+  }
+
+  

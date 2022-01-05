@@ -1,17 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 #viewitem .container{
-    width: 1144px;
+    /* width: 1144px; */
     font-family: 'Poppins', sans-serif;
 }
-
 #viewitem .left_imgArt{
     margin-top: 125px;
     margin-bottom: 125px;
     position: relative;
 }
 #viewitem.container{
-    max-width: 1250px;
     /* margin-left: 105px; */
     font-family: "Lora";
   }
@@ -103,7 +101,7 @@
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
     border-radius: 15px;
-    width: 386px;
+    /* width: 386px; */
     height: 233px;
     margin-top: 47px;
 }
@@ -264,170 +262,133 @@
   }
 
   /* =============================== Responsive ================================== */
-/* Ty le man hinh nho hon 768px*/
-/* @media screen and (max-width: 768px) {
-    #viewitem .right_Art .highest{
-        height: 350px;
-    }
-    #viewitem .right_Art .highest .purchase_place .place a{
-        position: relative;
-        top: 20px;
-        left: 115px;
-    }
-    #viewitem .right_Art .owner_will .owner{
-        position: relative;
-        top: 10px;
-        right: 12px;
-    }
-    #viewitem .right_Art .owner_will span{
-        position: relative;
-        top: 10px;
-        right: 12px;
-    }
-    #viewitem .right_Art .highest .purchase_place .purchase a{
-        position: relative;
-        left: 90px;
-    }
-    #viewitem .right_Art {
-        position: relative;
-        left: 100px;
-        right: 55px;
-        bottom: 160px;
-    }
-  } */
-/* Ty le man hinh nho hon 984px*/
-@media screen and (max-width: 984px) {
-    #viewitem .right_Art .highest{
-        position: relative;
-        height: 350px;
-    }
-    #viewitem .right_Art .highest .purchase_place .place a{
-        position: relative;
-        top: 20px;
-        left: 115px;
-    }
-    #viewitem .right_Art .owner_will .owner{
-        position: relative;
-        top: 10px;
-        right: 12px;
-    }
-    #viewitem .right_Art .owner_will span{
-        position: relative;
-        top: 10px;
-        right: 12px;
-    }
-    #viewitem .right_Art .highest .purchase_place .purchase a{
-        position: relative;
-        left: 90px;
-    }
-    #viewitem .right_Art{
-        position: relative;
-        /* left: 100px; */
-        right: 55px;
-    }
-    #viewitem .left_imgArt .imgArt img{
-        position: relative;
-        left: 40px;
-    }
-}
-/* Ty le man hinh nho hon 375px*/
-@media screen and (max-width: 375px) {
-    #viewitem .right_Art {
-        position: relative;
-        right: 130px;
-        bottom: 100px;
-    }
-    #viewitem .left_imgArt .imgArt .like .icon__img {
-        width: 200px;
-    }
-    #viewitem .right_Art .highest {
-        position: relative;
-        width: 330px;
-        height: 400px;
-    }
-    #viewitem .right_Art .highest .purchase_place .purchase{
+  @media screen and (max-width: 1024px){
+    #viewitem .left_imgArt .imgArt{
         position: relative;
         right: 30px;
+    }
+    #viewitem .right_Art .highest{
+        position: relative;
+        width: 350px;
+        bottom: 40px;
+    }
+    #viewitem .right_Art .highest .purchase_place .purchase {
+        position: relative;
+        right: 10px;
     }
     #viewitem .right_Art .highest .purchase_place .place {
         position: relative;
-        right: 30px;
+        right: 5px;
     }
-    #viewitem .right_Art .highest .Service span{
+  }
+  @media screen and (max-width: 768px){
+    #viewitem .right_Art .highest .price_highest img{
         position: relative;
-        top: 20px;
-        left: 40px;
+        left: 130px;
     }
-    #viewitem .left_imgArt .imgArt{
-        position: relative;
-        width: 200px;
-        height: 400px;
-    }
-    #viewitem .left_imgArt .imgArt .like .icon__img {
+    #viewitem .left_imgArt .imgArt .like{
         display: none;
     }
-    #viewitem .right_Art .price_art .stock {
-        width: 50px;
-    }
-    #viewitem .left_imgArt .imgArt img {
+    #viewitem .left_imgArt .imgArt img{
         position: relative;
-        width: 200px;
-    }
-    /* #viewitem .right_Art .highest .Service{
-        position: relative;
-        right: 20px;
-    } */
-}
-@media screen and (max-width: 414px) {
-    #viewitem .left_imgArt .imgArt img {
-        position: relative;
-        width: 320px;
-        height: 350px;
-    }
-    #viewitem .left_imgArt .imgArt .like .icon__img {
-        display: none;
+        left: 60px;
     }
     #viewitem .right_Art {
         position: relative;
-        right: 130px;
+        left: 20px;
         bottom: 100px;
     }
-}
-@media screen and (max-width:1399px) {
-    /* #viewitem .left_imgArt .imgArt img {
+    #viewitem .right_Art .highest{
         position: relative;
-        right: 25px;
-    } */
-}
+        height: 350px;
+    }
+    #viewitem .right_Art .highest .purchase_place .purchase {
+        left: 35px;
+    }
+    #viewitem .right_Art .highest .purchase_place .place {
+        left: 48px;
+        top: 10px;
+    }
+    #viewitem .right_Art .owner_will span {
+        position: relative;
+        margin-left: 0;
+    }
+    @media screen and (max-width: 540px){
+        #viewitem .left_imgArt .imgArt img{
+            position: relative;
+            width: 500px;
+            bottom: 140px;
+            left: 38px;
+        }
+        #viewitem .right_Art{
+            position: relative;
+            bottom: 350px;
+            left: -50px;
+        }
+        #viewitem .left_imgArt .imgArt .like{
+            display: none;
+        }
+        #viewitem .container{
+            height: 1800px;
+        }
+        #viewitem .right_Art .owner_will span {
+            position: relative;
+            margin-left: 0;
+        }
+    }
+    @media screen and (max-width: 414px){
+        #viewitem .left_imgArt .imgArt img {
+            position:relative;
+            width: 380px;
+            left: 34px;
 
-@media screen and (max-width: 1024px) {
-    #viewitem .left_imgArt{
-        right: 40px;
+        }
+        #viewitem .right_Art{
+            position: relative;
+            left: -120px;
     }
-    #viewitem .right_Art .highest {
-        position: relative;
-        width: 360px;
-        bottom: 40px;
-    }
-    #viewitem .right_Art .highest .purchase_place .purchase{
-        position: relative;
-        left: 1px;
-    }
-    #viewitem .right_Art .highest .purchase_place .place{
-        position: relative;
-        left: 1px;
+    #viewitem .right_Art .price_art{
+        width: 300px;
     }
 }
-@media screen and (max-width: 576px) {
-    #viewitem .left_imgArt .imgArt img {
-        position: relative;
-        width: 350px;
+    @media screen and (max-width: 375px){
+        #viewitem .left_imgArt .imgArt img {
+            position: relative;
+            width: 345px;
+            bottom: 200px;
+        }
+        #viewitem .right_Art{
+            bottom: 600px;
+            left: -138px;
+        }
     }
-    #viewitem .right_Art .highest .Service {
-        position: relative;
-        right: 30px;
+    @media screen and (max-width: 360px){
+        #viewitem .left_imgArt .imgArt img{
+            width: 330px;
+        }
+        #viewitem .right_Art .price_art {
+            width: 300px;
+        }
+        #viewitem .right_Art{
+            position: relative;
+            right: 140px;
+        }
+        #viewitem .right_Art .highest {
+            width: 300px;
+        }
+        #viewitem .right_Art .highest .purchase_place .purchase{
+            position: relative;
+            margin-right: 40px;
+        }
+        #viewitem .right_Art .highest .purchase_place .place{
+            position: relative;
+            margin-right: 40px;
+        }
+        #viewitem .right_Art .highest .price_highest img{
+            left: 100px;
+        }
+        #viewitem .right_Art .highest .Service {
+            margin-left: 50px;
+        }
     }
-    #viewitem .right_Art .highest .Service{
-        left: 0.5px;
-    }
-}
+  }
