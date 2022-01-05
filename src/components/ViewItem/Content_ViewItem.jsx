@@ -149,12 +149,12 @@ const Contnt_viewItem = () => {
                                             </span>
                                             <br />
                                             <span className="ETH">
-                                                <b>1.46 ETH</b>
+                                                1.46 ETH
                                             </span>
                                             <span className="eth">
-                                                <b>
+                                          
                                                     $2,764.89
-                                                </b>
+                                           
                                             </span>
                                         </Col>
                                     </Row>

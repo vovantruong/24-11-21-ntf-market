@@ -111,21 +111,56 @@
     margin: 24px 24px;
 }
 #viewitem .right_Art .highest .price_highest .highest_bid{
+    padding-right: 3px;
+    padding-left: 8px;
+    position: static;
+    width: 116px;
+    height: 17px;
+    left: 0px;
+    top: 0px;   
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
+    line-height: 17px;
+    /* identical to box height */  
+    text-align: center; 
     color: #606060;
-    padding-right: 4px;
-    margin-left: 16px;
+    /* Inside Auto Layout */ 
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 2px;
 }
 #viewitem .right_Art .highest .price_highest .eth{
-    font-size: 20px;
-    color: #606060;
-    margin-left: 5px;
+position: static;
+height: 25px;
+top: 0px;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 25px;
+color: #606060;
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 0px;
 }
 #viewitem .right_Art .highest .price_highest .ETH{
-    font-size: 20px;
-    padding-right: 10px;
-    margin-left: 5px;
-    margin-left: 16px;
+    position: static;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;   
+    color: #000000;  
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
 }
 #viewitem .right_Art .highest .purchase_place .purchase{
     /* border: 1px solid #C4C4C4; */

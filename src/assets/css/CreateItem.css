@@ -195,20 +195,21 @@
     justify-content: center;
 }
 #createitem .content__createitem .right__Preview h1 {
-  /* position: static; */
+  position: static;
   width: 104px;
   height: 27px;
   left: 0px;
   top: 0px;
-  font-weight: 100px;
+  font-style: normal;
+  font-weight: 600;
   font-size: 26px;
-  line-height: 27px;
+  line-height: 27px; 
   color: #000000;
+  /* Inside Auto Layout */ 
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 24px 0px;
-  font-family: 'Poppins', sans-serif;
 }
 #createitem .content__createitem .digital_price {
   margin-top: 15px;
