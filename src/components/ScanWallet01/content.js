@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 function Content() {
   return (
     <div>
-      <connectwallect id="connectwallect01">
+      <connectwallect id="scanwallet01">
         <Container>
         <div class="main-connect-wallect">
           <div class="button-header">
