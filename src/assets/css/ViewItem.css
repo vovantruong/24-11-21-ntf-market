@@ -297,7 +297,10 @@ margin: 0px 0px;
       align-items: center;
       justify-content: center;
   }
-
+  /* ===============================Modal================================== */
+.modal-content .modal-footer .place_continue{
+    background: #A92E71;
+}
   /* =============================== Responsive ================================== */
   @media screen and (max-width: 1024px){
     #viewitem .left_imgArt .imgArt{

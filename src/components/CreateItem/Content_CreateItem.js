@@ -20,17 +20,22 @@ import "../../assets/css/CreateItem.css";
 
 import Preview from "../../assets/images/Create Item/unsplash_hoS3dzgpHzw.svg";
 import Avatar from "../../assets/images/Create Item//unsplash_mEZ3PoFGs_k.svg";
+import Variant from "../../assets/images/Create Item/Variant3.png";
+import Property from "../../assets/images/Create Item/Property 24.png";
+import Component from "../../assets/images/Create Item/Component 14.png";
 
 /* ================================================================= */
 
 const CreateItem = () => {
   const [sigle, setSigle] = useState(true);
   const [modalShow, setModalShow] = useState(false);
+  const [modalShowFile, setupfile] = useState(false);
 
   return (
     <createitem id="createitem">
       <Container>
         <ShowModel show={modalShow} onHide={() => setModalShow(false)} />
+        <Upfile show={modalShowFile} onHide={() => setupfile(false)} />
         <div className="content__createitem">
           <Row>
             <Col lg={8}>
@@ -56,7 +61,13 @@ const CreateItem = () => {
                   <b>Upload file</b>
                 </h6>
                 <p>Drag or choose your file to upload </p>
-                <div class="form-Uploadfile"></div>
+                <Link
+                  onClick={() => setupfile(true)}
+                  className="place"
+                  to=""
+                >
+                  <div class="form-Uploadfile"></div>
+                </Link>
               </div>
               <div className="left__ItemDetail">
                 <h6>
@@ -218,40 +229,48 @@ const CreateItem = () => {
                   <Col className="Menu_right" lg={3} md={6}>
                     <div class="checkbox-example">
                       <input type="checkbox" value="1" id="checkboxOneInput" />
-                      <label for="checkboxOneInput"></label>
+                      <label className="label1" for="checkboxOneInput"></label>
                     </div>
                     <div class="checkbox-example1">
-                      <input type="checkbox" value="1" id="checkboxOneInput" />
-                      <label for="checkboxOneInput"></label>
+                      <input type="checkbox" value="2" id="checkboxOneInput" />
+                      <label className="label2" className="label2" for="checkboxOneInput"></label>
                     </div>
                     <div class="checkbox-example2">
-                      <input type="checkbox" value="1" id="checkboxOneInput" />
-                      <label for="checkboxOneInput"></label>
+                      <input type="checkbox" value="3" id="checkboxOneInput" />
+                      <label className="label3" for="checkboxOneInput"></label>
                     </div>
                   </Col>
                 </Row>
                 <div className="bottom_menu">
                   <Row>
                     <Col className="create_bottom" lg={3} md={6}>
-                      <div className="circle_xanhbien"></div>
+                      <div onClick={clickimg1} className="circle_xanhbien img-1">
+                        <i class="fas fa-plus plus-item item-1"></i>
+                      </div>
                       <div class="name_color">
                         Create collection
                       </div>
                     </Col>
                     <Col className="create_bottom" lg={3} md={6}>
-                      <div className="circle_xanhla"></div>
+                      <div onClick={clickimg2} className="circle_xanhla img-2">
+                        <i class="fas fa-plus plus-item  item-2"></i>
+                      </div>
                       <div class="name_color">
                         Crypto Legend - Professorion
                       </div>
                     </Col>
                     <Col className="create_bottom" lg={3} md={6}>
-                      <div className="circle_hong"></div>
+                      <div onClick={clickimg3} className="circle_hong img-3">
+                        <i class="fas fa-plus plus-item  item-3"></i>
+                      </div>
                       <div class="name_color">
                         Crypto Legend - Professor
                       </div>
                     </Col>
                     <Col lg={3} md={6} className="create_bottom">
-                      <div className="circle_tim"></div>
+                      <div onClick={clickimg4} className="circle_tim img-4">
+                        <i class="fas fa-plus plus-item item-4"></i>
+                      </div>
                       <div class="name_color">
                         Legend Photography
                       </div>
@@ -279,13 +298,59 @@ const CreateItem = () => {
 };
 
 /* ======================================================================== */
-function ShowModel(props) {
-  const banlance = [
-    { left: "Your balance", right: "8.498 ETH" },
-    { left: "Service fee", right: "0 ETH" },
-    { left: "Total bid amount", right: "0 ETH" },
-  ];
+function clickimg1() {
+  const img1 = document.querySelector(".img-1");
+  const checkitem = document.querySelector(".item-1");
 
+  let styleBoder = document.querySelector(".item-1");
+  if (styleBoder == "none" || styleBoder == "") {
+    checkitem.style.display = "none";
+    img1.style.display = "block";
+  } else {
+    img1.style.display = "block";
+    checkitem.style.display = "none";
+  }
+}
+function clickimg2() {
+  const img2 = document.querySelector(".img-2");
+  const checkitem2 = document.querySelector(".item-2");
+
+  let styleBoder = document.querySelector(".item-2");
+  if (styleBoder == "block") {
+    img2.style.display = "none";
+    checkitem2.style.display = "block";
+  } else {
+    img2.style.display = "block";
+    checkitem2.style.display = "none";
+  }
+}
+function clickimg3() {
+  const img3 = document.querySelector(".img-3");
+  const checkitem3 = document.querySelector(".item-3");
+
+  let styleBoder = document.querySelector(".item-3");
+  if (styleBoder == "block") {
+    img3.style.display = "none";
+    checkitem3.style.display = "block";
+  } else {
+    img3.style.display = "block";
+    checkitem3.style.display = "none";
+  }
+}
+function clickimg4() {
+  const img4 = document.querySelector(".img-4");
+  const checkitem4 = document.querySelector(".item-4");
+
+  let styleBoder = document.querySelector(".item-4");
+  if (styleBoder == "block") {
+    img4.style.display = "none";
+    checkitem4.style.display = "block";
+  } else {
+    img4.style.display = "block";
+    checkitem4.style.display = "none";
+  }
+}
+function ShowModel(props) {
   return (
     <Modal
       {...props}
@@ -295,30 +360,89 @@ function ShowModel(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Place a bid
+          <b>Folow steps</b>
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <p className="top__text">You are about to purchase COINZ from UI8</p>
-        <div className="info__bid">
-          <h3>Your bid</h3>
-          <Form>
-            <FormControl type="text" placeholder="Enter bid" />
-            <p>ETH</p>
-          </Form>
-          <hr />
-          <div className="amount">
-            {banlance.map((e, index) => (
-              <div key={index} className="balance">
-                <p>{e.left}</p>
-                <p>{e.right}</p>
-              </div>
-            ))}
+        <Row>
+          <Col lg={2}>
+            <div className="img">
+              <Image src={Variant} />
+            </div>
+          </Col>
+          <Col lg={8}>
+            <div className="sign_oder">
+              <p className="sign"> <b>Upload files & Mint token</b></p>
+              <p className="call">Call contract method</p>
+            </div>
+          </Col>
+          <Button className="btn_start">
+            Start now
+          </Button>
+        </Row>
+        <Row>
+          <Col lg={2}>
+            <div className="img">
+              <Image src={Property} />
+            </div>
+          </Col>
+          <Col lg={8}>
+            <div className="sign_oder">
+              <p className="sign"><b>Sign sell order</b></p>
+              <p className="oder">Sign sell order using your wallet</p>
+            </div>
+          </Col>
+          <Button className="btn_start">
+            Start now
+          </Button>
+        </Row>
+        <Row>
+          <Col lg={2}>
+            <div className="img">
+              <Image src={Component} />
+            </div>
+          </Col>
+          <Col lg={8}>
+            <div className="sign_oder">
+              <p className="sign"><b>Sign lock order</b></p>
+              <p className="oder">Sign sell order using your wallet</p>
+            </div>
+          </Col>
+          <Button className="btn_start">
+            Start now
+          </Button>
+        </Row>
+      </Modal.Body>
+      <Modal.Footer>
+        <div className="Something">Something went wrong, please <b>try again</b></div>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+function Upfile(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          <b>Upload File Image</b>
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <div className="chooseFile">
+          <h5>Show a file-select field which allows only one file to be chosen:</h5>
+          <div class="form-group">
+            <label for="myfile">Select a file:</label>
+            <input type="file" class="form-control-file" name="" id="" placeholder="" aria-describedby="fileHelpId"></input><br></br><br></br>
+            <input type="submit"></input>
           </div>
         </div>
       </Modal.Body>
       <Modal.Footer>
-        <div className="">Place a bid</div>
         <Button className="cancel" onClick={props.onHide}>
           Cancel
         </Button>

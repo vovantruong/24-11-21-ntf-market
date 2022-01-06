@@ -30,10 +30,12 @@ import ellipse from "../../assets/images/View Item/heart.png";
 const Contnt_viewItem = () => {
     /* ===================  */
     const [modalShow, setModalShow] = useState(false);
+    const [modalShow1, setModalShow1] = useState(false);
     return (
         <viewitem id="viewitem">
             <Container>
                 <ShowModel show={modalShow} onHide={() => setModalShow(false)} />
+                <ShowModel1 show={modalShow1} onHide={() => setModalShow1(false)} />
                 <Row>
                     <Col lg={6} md={12}>
                         <div className="left_imgArt">
@@ -47,9 +49,9 @@ const Contnt_viewItem = () => {
                                         UNLOCKABLE
                                     </p>
                                     <button type="button" class="icon__img btn btn-primary">
-                                        <img className="arrow"src={arrow} width="42px" height="42px"/>
-                                        <img className="ellipse" src={ellipse} width="42px" height="42px"/>
-                                        <img className="button..."src={button} width="42px" height="42px"/>
+                                        <img className="arrow" src={arrow} width="42px" height="42px" />
+                                        <img className="ellipse" src={ellipse} width="42px" height="42px" />
+                                        <img className="button..." src={button} width="42px" height="42px" />
                                         {/* <img className="vector" src={vector} width="23.31px" height="19.2px"/> */}
                                     </button>
                                 </div>
@@ -152,9 +154,9 @@ const Contnt_viewItem = () => {
                                                 1.46 ETH
                                             </span>
                                             <span className="eth">
-                                          
-                                                    $2,764.89
-                                           
+
+                                                $2,764.89
+
                                             </span>
                                         </Col>
                                     </Row>
@@ -175,7 +177,7 @@ const Contnt_viewItem = () => {
                                         <Col lg={6}>
                                             <div className="place">
                                                 <Link
-                                                    onClick={() => setModalShow(true)}
+                                                    onClick={() => setModalShow1(true)}
                                                     className="place"
                                                     to=""
                                                 >
@@ -211,6 +213,8 @@ const Contnt_viewItem = () => {
     );
 }
 
+
+
 function ShowModel(props) {
     const banlance = [
         { left: "Your balance", right: "8.498 ETH" },
@@ -227,7 +231,53 @@ function ShowModel(props) {
         >
             <Modal.Header closeButton>
                 <Modal.Title id="contained-modal-title-vcenter">
-                    Place a bid
+                    <b>Checkout</b>
+                </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+                <p className="top__text">You are about to purchase COINZ from UI8</p>
+                <div className="info__bid">
+                    <Form>
+                        <FormControl type="text" placeholder="Enter bid" />
+                        <p>ETH</p>
+                    </Form>
+                    <hr />
+                    <div className="amount">
+                        {banlance.map((e, index) => (
+                            <div key={index} className="balance">
+                                <p>{e.left}</p>
+                                <p>{e.right}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </Modal.Body>
+            <Modal.Footer>
+                <Button className="place_continue">I understand, continue</Button>
+                <Button className="cancel" onClick={props.onHide}>
+                    Cancel
+                </Button>
+            </Modal.Footer>
+        </Modal>
+    );
+}
+function ShowModel1(props) {
+    const banlance = [
+        { left: "Your balance", right: "8.498 ETH" },
+        { left: "Service fee", right: "0 ETH" },
+        { left: "Total bid amount", right: "0 ETH" },
+    ];
+
+    return (
+        <Modal
+            {...props}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+        >
+            <Modal.Header closeButton>
+                <Modal.Title id="contained-modal-title-vcenter">
+                    <b>Place a bid</b>
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
@@ -250,8 +300,7 @@ function ShowModel(props) {
                 </div>
             </Modal.Body>
             <Modal.Footer>
-                <div className="place">Place a bid</div>
-                <div className="purchases">Purchase now</div>
+                <Button className="place_continue">Place a bid</Button>
                 <Button className="cancel" onClick={props.onHide}>
                     Cancel
                 </Button>
