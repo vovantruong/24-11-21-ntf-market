@@ -317,23 +317,30 @@ margin: 0px 0px;
         position: relative;
         right: 5px;
     }
+    #viewitem .right_Art{
+        margin-left: 150px;
+    }
   }
   @media screen and (max-width: 768px){
+    #viewitem .right_Art .highest .price_highest .price_highesr{
+        margin-left: 38px;
+    }
     #viewitem .right_Art .highest .price_highest img{
         position: relative;
         left: 130px;
     }
-    #viewitem .left_imgArt .imgArt .like{
-        display: none;
-    }
-    #viewitem .left_imgArt .imgArt img{
+    #viewitem .left_imgArt .imgArt {
         position: relative;
         left: 60px;
+        top: 1080px;
+    }
+    #viewitem .left_imgArt .imgArt .imageArt{
+        position: relative;
+        right: 30px;
     }
     #viewitem .right_Art {
         position: relative;
-        left: 20px;
-        bottom: 100px;
+        bottom: 1080px;
     }
     #viewitem .right_Art .highest{
         position: relative;
@@ -352,25 +359,6 @@ margin: 0px 0px;
     }
     @media screen and (max-width: 540px){
         #viewitem .left_imgArt .imgArt img{
-            position: relative;
-            width: 500px;
-            bottom: 140px;
-            left: 38px;
-        }
-        #viewitem .right_Art{
-            position: relative;
-            bottom: 350px;
-            left: -50px;
-        }
-        #viewitem .left_imgArt .imgArt .like{
-            display: none;
-        }
-        #viewitem .container{
-            height: 1800px;
-        }
-        #viewitem .right_Art .owner_will span {
-            position: relative;
-            margin-left: 0;
         }
     }
     @media screen and (max-width: 414px){
@@ -427,5 +415,186 @@ margin: 0px 0px;
         #viewitem .right_Art .highest .Service {
             margin-left: 50px;
         }
+    }
+  }
+  @media screen and (max-width: 540px){
+    #viewitem .right_Art{
+        right: 70px;
+        margin-bottom: -450px;
+    }
+    #viewitem .left_imgArt .imgArt{
+        position: relative;
+        margin-top: 0px;
+        top: 800px;
+        left: 100px;
+    }
+    #viewitem .left_imgArt .imgArt .imageArt{
+        width: 380px;
+    }
+    #viewitem .left_imgArt .imgArt .like p.purchase {
+        position: relative;
+        bottom: 600px;
+        left: -20px;
+    }
+    #viewitem .left_imgArt .imgArt .like p.place{
+        position: relative;
+        bottom: 643px;
+        left: 30px;
+    }
+    #viewitem .left_imgArt .imgArt .like .icon__img {
+        top: 540px;
+        /* left: 75px; */
+    }
+    @media screen and (max-width: 414px){
+        #viewitem .right_Art .link p{
+            width: 250px;
+        }
+        #viewitem .container{
+            position: relative;
+            left: 30px;
+        }
+        #viewitem .right_Art .info span{
+            padding: 2px 2px;
+        }
+        #viewitem .right_Art .info {
+            width: 265px;
+        }
+        #viewitem .right_Art .owner_will hr{
+            width: 265px;
+        }
+        #viewitem .right_Art .highest {
+            width: 280px;
+        }
+        #viewitem .right_Art .highest .price_highest .highest_bid{
+            font-size: 15px;
+            padding-left: 0px;
+            
+        }
+        #viewitem .right_Art .highest .price_highest .price_highesr{
+            margin-left: 0px;
+        }
+        #viewitem .right_Art .highest .price_highest img{
+            left: 98px;
+        }
+        #viewitem .right_Art .highest .price_highest .ETH{
+            margin: 0px;
+        }
+        #viewitem .right_Art .highest .purchase_place .purchase {
+            left: 17px;
+        }
+        #viewitem .right_Art .highest .purchase_place .place{
+            left: 30px;
+        }
+        #viewitem .left_imgArt .imgArt .imageArt {
+            position: relative;
+            width: 280px;
+            left: -70px;
+        }
+        #viewitem .left_imgArt .imgArt .like .icon__img{
+            left: -38px;
+            top: 485px;
+        }
+        #viewitem .left_imgArt .imgArt img{
+            width: 50px;
+            left: -1px;
+        }
+        #viewitem .left_imgArt .imgArt .like p.purchase{
+            bottom: 530px;
+            left: -50px;
+        }
+        #viewitem .left_imgArt .imgArt .like p.place{
+            bottom: 573px;
+            left: 1px;
+        }
+    }
+  }
+  @media screen and (max-width: 375px){
+    #viewitem .right_Art{
+        bottom: 1170px;
+        margin-bottom: -800px;
+    }
+    #viewitem .container{
+        left: 45px;
+    }
+    #viewitem .right_Art .price_art .stock {
+        position: relative;
+        top: 42px;
+        right: 100px;
+    }
+    #viewitem .right_Art .price_art .price{
+        position: relative;
+        left: 40px;
+        top: 10px;
+    }
+    #viewitem .right_Art .price_art .price_eth {
+        position: relative;
+        left: 40px;
+        top: 10px;
+    }
+    #viewitem .right_Art .info span{
+        padding: 0px;
+    }
+    #viewitem .right_Art .info{
+        width: 246px;
+    }
+    #viewitem .right_Art .link p{
+        position: relative;
+        top: 10px;
+    }
+    #viewitem .right_Art .owner_will span{
+        margin-left: 80px;
+    }
+    #viewitem .right_Art .owner_will img{
+        margin-left: 100px;
+    }
+    #viewitem .right_Art .owner_will .owner{
+        margin-left: 100px;
+    }
+    #viewitem .right_Art .owner_will hr{
+        width: 246px;
+    }
+    #viewitem .right_Art .highest{
+        width: 246px;
+    }
+    #viewitem .right_Art .highest .price_highest .highest_bid{
+        font-size: 14px;
+    }
+    #viewitem .right_Art .highest .price_highest span{
+        font-size: 13px;
+    }
+    #viewitem .right_Art .highest .price_highest img{
+        left: 80px;
+    }
+    #viewitem .right_Art .highest .price_highest .ETH{
+        font-size: 22px;
+    }
+    #viewitem .right_Art .highest .price_highest .eth {
+        font-size: 22px;    
+    }
+    #viewitem .right_Art .highest .purchase_place .purchase{
+        left: 10px;
+    }
+    #viewitem .right_Art .highest .purchase_place .place{
+        left: 22px;
+    }
+    #viewitem .left_imgArt .imgArt .imageArt{
+        bottom: 100px;
+        width: 246px;
+        left: -87px;
+    }
+    #viewitem .left_imgArt .imgArt .like p.purchase{
+        bottom: 620px;
+        left: -70px;
+    }
+    #viewitem .left_imgArt .imgArt .like p.place{
+        bottom: 664px;
+        left: -5px;
+    }
+    #viewitem .left_imgArt .imgArt .like .icon__img{
+        top: 370px;
+        left: -68px;
+    }
+    #viewitem .left_imgArt .imgArt img {
+        bottom: 0px;
     }
   }

@@ -38,7 +38,7 @@ const Contnt_viewItem = () => {
                     <Col lg={6} md={12}>
                         <div className="left_imgArt">
                             <div className="imgArt">
-                                <Image src={imgArt} width="640px" height="768px" />
+                                <Image className="imageArt" src={imgArt} width="640px" height="768px" />
                                 <div className="like">
                                     <p className="purchase">
                                         ART
@@ -138,7 +138,7 @@ const Contnt_viewItem = () => {
                                         <Col lg={2}>
                                             <Image src={avtOwner} width="50px" height="50px"></Image>
                                         </Col>
-                                        <Col lg={10}>
+                                        <Col lg={10} className="price_highesr">
                                             <span className="highest_bid">
                                                 Highest bid by
                                             </span>

@@ -181,19 +181,31 @@ margin: 0px 10px;
       position: relative;
       right: 50px;
     }
+#uploaditem .ContentUpload .right_Upload .up b{
+      margin-left: 45px;
+}
+#uploaditem .Center_upload p {
+      margin-left: 0px;
+}
+#uploaditem .Center_upload .confirmation p{
+      margin-left: 0px;
+}
   }
   @media screen and (max-width: 768px){
     #uploaditem .Center_upload h1{
       position: relative;
-      right: 170px;
+      right: 160px;
+    }
+    #uploaditem .ContentUpload .right_Upload .up b{
+      margin-left: 250px;
     }
     #uploaditem .Center_upload p {
       position: relative;
       width: 400px;
-      right: 170px;
+      right: 190px;
     }
     #uploaditem .Center_upload .Creat .single{
-      right: 500px;
+      right: 490px;
       top: 30px;
     }
     #uploaditem .Center_upload .Creat .mutiple {
@@ -205,15 +217,19 @@ margin: 0px 10px;
       position: relative;
       right: 80px;
     }
-    #uploaditem .ContentUpload{
-      position: relative;
-      left: 320px;
+    #uploaditem .Center_upload .Creat .mutiple{
+      margin-left: 5px;
     }
-    #uploaditem .ContentUpload .right_Upload {
-      padding-top: 10px;
+    #uploaditem .Center_upload .confirmation p {
+      margin-left: 80px;
     }
   }
    @media screen and (max-width: 540px){
+    #uploaditem .ContentUpload .right_Upload .up b {
+      position: relative;
+      left: 170px;
+      bottom: 40px;
+    }
     #uploaditem .ContentUpload{
       left: 0;
       left: 190px;
@@ -228,7 +244,7 @@ margin: 0px 10px;
     }
     #uploaditem .Center_upload p{
       position: relative;
-      right: 145px;
+      right: 135px;
     }
     #uploaditem .Center_upload .Creat .single{
       position: relative;
@@ -236,18 +252,19 @@ margin: 0px 10px;
     }
     #uploaditem .Center_upload .Creat .mutiple {
       position: relative;
-      right: 249px;
-      top: 40px;
+      right: 235px;
+      top: 45px;
     }
     #uploaditem .Center_upload .confirmation{
       right: 40px;
     }
+    #uploaditem .Center_upload .confirmation p{
+      margin-left: 30px;
+    }
    }
   @media screen and (max-width: 414px){
-    #uploaditem .ContentUpload{
-      position: relative;
-      left: 0;
-      margin-left: 130px;
+    #uploaditem .ContentUpload .right_Upload .up b{
+      left: 50px;
     }
     #uploaditem .Center_upload h1{
       position: relative;
@@ -255,44 +272,74 @@ margin: 0px 10px;
     }
     #uploaditem .Center_upload p {
       position: relative;
-      right: 200px;
+      width: 260px;
+      top: 0px;
     }
     #uploaditem .Center_upload .Creat .single{
-      right: 295px;
+      width: 300px;
+      right: 270px;
+      height: 330px;
+      top: 0px;
     }
+    #uploaditem .Center_upload .Creat .creat_single_mutiple{
+      position: relative;
+      bottom: 20px;
+    }
+    #uploaditem .Center_upload .Creat .single .img_single img{
+      position: relative;
+      width: 270px;
+    } 
     #uploaditem .Center_upload .Creat .mutiple{
-      right: 312px;
+      width: 300px;
+      right: 273px;
+      height: 330px;
+    }
+    #uploaditem .Center_upload .Creat .mutiple .img_mutiple img{
+      position: relative;
+      width: 270px;
+    }
+    #uploaditem .Center_upload .confirmation p{
+      position: relative;
+      top: 30px;
+      margin-left: 40px;
     }
   }
   @media screen and (max-width: 375px){
-    #uploaditem .ContentUpload {
-      position: relative;
+    #uploaditem .ContentUpload .right_Upload .up b{
       left: 10px;
     }
-    #uploaditem .ContentUpload{
+    #uploaditem .Center_upload .Creat .single {
+      width: 250px;
+      height: 285px;
+      right: 260px;
+    }
+    #uploaditem .Center_upload .Creat .single .img_single img{
+      width: 220px;
+    }
+    #uploaditem .Center_upload .Creat .creat_single_mutiple{
       position: relative;
-      margin-left: 100px;
+      bottom: 40px;
+    }
+    #uploaditem .Center_upload .Creat .mutiple{
+      width: 250px;
+      height: 285px;
+      right: 263px;
+    }
+    #uploaditem .Center_upload .Creat .mutiple .img_mutiple img{
+      width: 220px;
+    }
+    #uploaditem .Center_upload .confirmation p {
+      margin-left: 37px;
     }
     #uploaditem .Center_upload p {
-      width: 350px;
-    }
-    #uploaditem .Center_upload .Creat .single{
-      right: 315px;
-    }
-    #uploaditem .Center_upload .Creat .mutiple {
-      right: 332px;
+      right: 145px;
     }
   }
 
   @media screen and (max-width: 360px){
-    #uploaditem .Center_upload .Creat .single{
-      right: 325px;
-    }
-    #uploaditem .Center_upload .Creat .mutiple {
-      right: 342px;
-    }
-    #uploaditem .Center_upload .confirmation{
-      right: 48px;
+    #uploaditem .ContentUpload .right_Upload .up b{
+      position: relative;
+      left: 10px;
     }
   }
   @media screen and (max-width: 280px){
