@@ -25,17 +25,38 @@ import arrow from "../../assets/images/View Item/Button arrow.png";
 // import vector from "../../assets/images/View Item/Vector.png";
 import button from "../../assets/images/View Item/Button ....png";
 import ellipse from "../../assets/images/View Item/heart.png";
+import burn from "../../assets/images/View Item/burn.svg";
+import change from "../../assets/images/View Item/change.svg";
+import chansfer from "../../assets/images/View Item/chansfer.svg";
+import remove from "../../assets/images/View Item/remove.svg";
+import report from "../../assets/images/View Item/report.svg";
+import FaceBook from "../../assets/images/View Item/Button facebook01.svg";
+import Twitter from "../../assets/images/View Item/Button twitter01.svg";
 /* ================================================================= */
 
 const Contnt_viewItem = () => {
     /* ===================  */
     const [modalShow, setModalShow] = useState(false);
     const [modalShow1, setModalShow1] = useState(false);
+    const [modalShow2, setModalShow2] = useState(false);
+    const [modalShow3, setModalShow3] = useState(false);
+    const [modalShow4, setModalShow4] = useState(false);
+    const [modalShow5, setModalShow5] = useState(false);
+    const [modalShow6, setModalShow6] = useState(false);
+    const [modalShow7, setModalShow7] = useState(false);
+    const [modalShow8, setModalShow8] = useState(false);
     return (
         <viewitem id="viewitem">
             <Container>
                 <ShowModel show={modalShow} onHide={() => setModalShow(false)} />
                 <ShowModel1 show={modalShow1} onHide={() => setModalShow1(false)} />
+                <Choose show={modalShow2} onHide={() => setModalShow2(false)} />
+                <Change_price show={modalShow3} onHide={() => setModalShow3(false)} />
+                <Choose show={modalShow4} onHide={() => setModalShow4(false)} />
+                <Choose show={modalShow5} onHide={() => setModalShow5(false)} />
+                <Choose show={modalShow6} onHide={() => setModalShow6(false)} />
+                <Report show={modalShow7} onHide={() => setModalShow7(false)} />
+                <Arrow show={modalShow8} onHide={() => setModalShow8(false)} />
                 <Row>
                     <Col lg={6} md={12}>
                         <div className="left_imgArt">
@@ -49,9 +70,21 @@ const Contnt_viewItem = () => {
                                         UNLOCKABLE
                                     </p>
                                     <button type="button" class="icon__img btn btn-primary">
-                                        <img className="arrow" src={arrow} width="42px" height="42px" />
+                                        <Link
+                                            onClick={() => setModalShow8(true)}
+                                            className="button_arrow"
+                                            to=""
+                                        >
+                                            <img className="arrow" src={arrow} width="42px" height="42px" />
+                                        </Link>
                                         <img className="ellipse" src={ellipse} width="42px" height="42px" />
-                                        <img className="button..." src={button} width="42px" height="42px" />
+                                        <Link
+                                            onClick={() => setModalShow2(true)}
+                                            className="button_choose"
+                                            to=""
+                                        >
+                                            <img className="button..." src={button} width="42px" height="42px" />
+                                        </Link>
                                         {/* <img className="vector" src={vector} width="23.31px" height="19.2px"/> */}
                                     </button>
                                 </div>
@@ -223,7 +256,7 @@ function ShowModel(props) {
     ];
 
     return (
-        <Modal
+        <Modal id="modal1"
             {...props}
             size="lg"
             aria-labelledby="contained-modal-title-vcenter"
@@ -275,6 +308,7 @@ function ShowModel1(props) {
             aria-labelledby="contained-modal-title-vcenter"
             centered
         >
+            {/* <div className="modal_viewitem"> */}
             <Modal.Header closeButton>
                 <Modal.Title id="contained-modal-title-vcenter">
                     <b>Place a bid</b>
@@ -305,9 +339,287 @@ function ShowModel1(props) {
                     Cancel
                 </Button>
             </Modal.Footer>
+            {/* </div> */}
         </Modal>
     );
 }
+function Choose(props) {
+    const [modalShow1, setModalShow1] = useState(false);
+    const [modalShow3, setModalShow3] = useState(false);
+    const [modalShow4, setModalShow4] = useState(false);
+    const [modalShow5, setModalShow5] = useState(false);
+    const [modalShow6, setModalShow6] = useState(false);
+    const [modalShow7, setModalShow7] = useState(false);
+    return (
+        <Modal id="modal_choose"
+            {...props}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+        >
+            <ShowModel1 show={modalShow1} onHide={() => setModalShow1(false)} />
+            <Change_price show={modalShow3} onHide={() => setModalShow3(false)} />
+            <Transfer show={modalShow4} onHide={() => setModalShow4(false)} />
+            <Remove show={modalShow5} onHide={() => setModalShow5(false)} />
+            <Burn show={modalShow6} onHide={() => setModalShow6(false)} />
+            <Report show={modalShow7} onHide={() => setModalShow7(false)} />
+            <Modal.Body>
+                <Row>
+                    <Link
+                        onClick={() => setModalShow3(true)}
+                        className="img_change"
+                        to=""
+                    >
+                        <Col lg={1}>
+                            <div className="img_change">
+                                <Image src={change}></Image>
+                            </div>
+                        </Col>
+                        <Col lg={9}>
+                            <div className="change">Change price</div>
+                        </Col>
+                    </Link>
+                </Row>
+                <hr />
+                <Row>
+                    <Link
+                        onClick={() => setModalShow4(true)}
+                        className="img_change"
+                        to=""
+                    >
+                        <Col lg={1}>
+                            <div className="img_change">
+                                <Image src={chansfer}></Image>
+                            </div>
+                        </Col>
+                        <Col lg={9}>
+                            <div className="change">Transfer token </div>
+                        </Col>
+                    </Link>
+                </Row>
+                <hr />
+                <Row>
+                    <Link
+                        onClick={() => setModalShow5(true)}
+                        className="img_change"
+                        to=""
+                    >
+                        <Col lg={1}>
+                            <div className="img_change">
+                                <Image src={remove}></Image>
+                            </div>
+                        </Col>
+                        <Col lg={9}>
+                            <div className="change">Remove from sale</div>
+                        </Col>
+                    </Link>
+                </Row>
+                <hr />
+                <Row>
+                    <Link
+                        onClick={() => setModalShow6(true)}
+                        className="img_change"
+                        to=""
+                    >
+                        <Col lg={1}>
+                            <div className="img_change">
+                                <Image src={burn}></Image>
+                            </div>
+                        </Col>
+                        <Col lg={9}>
+                            <div className="change">Burn token</div>
+                        </Col>
+                    </Link>
+                </Row>
+                <hr />
+                <Row>
+                    <Link
+                        onClick={() => setModalShow7(true)}
+                        className="img_change"
+                        to=""
+                    >
+                        <Col lg={1}>
+                            <div className="img_change">
+                                <Image src={report}></Image>
+                            </div>
+                        </Col>
+                        <Col lg={9}>
+                            <div className="change">Report</div>
+                        </Col>
+                    </Link>
+                </Row>
+            </Modal.Body>
+        </Modal>
+    );
+}
+function Change_price(props) {
+    return (
+        <Modal id="modal_change"
+            {...props}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+        >
+            {/* <div className="modal_viewitem"> */}
+            <Modal.Header closeButton>
+                <Modal.Title id="contained-modal-title-vcenter">
+                    <b>Change price</b>
+                </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+                <p className="newPrice">NEW PRICE</p>
+                <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId"></input>
+            </Modal.Body>
+            <Modal.Footer>
+                <Button className="place_continue">Change price</Button>
+                <Button className="cancel" onClick={props.onHide}>
+                    Cancel
+                </Button>
+            </Modal.Footer>
+            {/* </div> */}
+        </Modal>
+    );
+}
+function Transfer(props) {
+    return (
+        <Modal id="modal_Transfer"
+            {...props}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+        >
+            {/* <div className="modal_viewitem"> */}
+            <Modal.Header closeButton>
+                <Modal.Title id="contained-modal-title-vcenter">
+                    <b>Transfer token</b>
+                </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+                <p className="transfer_token">You can transfer tokens from your address to another</p>
+                <p className="address"><b>Receiver address</b></p>
+                <p className="paste">Paste address</p>
+                <hr />
+            </Modal.Body>
+            <Modal.Footer>
+                <Button className="place_continue">Send now</Button>
+                <Button className="cancel" onClick={props.onHide}>
+                    Cancel
+                </Button>
+            </Modal.Footer>
+            {/* </div> */}
+        </Modal>
+    );
+}
+function Remove(props) {
+    return (
+        <Modal id="modal_remove"
+            {...props}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+        >
+            {/* <div className="modal_viewitem"> */}
+            <Modal.Header closeButton>
+                <Modal.Title id="contained-modal-title-vcenter">
+                    <b>Remove from sale</b>
+                </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+                <p className="remove_item">Do you really want to remove your item from sale? You can put it on sale anytime</p>
+            </Modal.Body>
+            <Modal.Footer>
+                <Button className="place_continue">Send now</Button>
+                <Button className="cancel" onClick={props.onHide}>
+                    Cancel
+                </Button>
+            </Modal.Footer>
+            {/* </div> */}
+        </Modal>
+    );
+}
+function Burn(props) {
+    return (
+        <Modal id="modal_burn"
+            {...props}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+        >
+            {/* <div className="modal_viewitem"> */}
+            <Modal.Header closeButton>
+                <Modal.Title id="contained-modal-title-vcenter">
+                    <b>Burn token</b>
+                </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+                <p className="burn_token">Are you sure to burn this token? This action cannot be undone. Token will be transfered to zero address</p>
+            </Modal.Body>
+            <Modal.Footer>
+                <Button className="place_continue">Send now</Button>
+                <Button className="cancel" onClick={props.onHide}>
+                    Cancel
+                </Button>
+            </Modal.Footer>
+            {/* </div> */}
+        </Modal>
+    );
+}
+function Report(props) {
+    return (
+        <Modal id="modal_report"
+            {...props}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+        >
+            {/* <div className="modal_viewitem"> */}
+            <Modal.Header closeButton>
+                <Modal.Title id="contained-modal-title-vcenter">
+                    <b>Report</b>
+                </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+                <p className="report_token">Describe why you think this item should be removed from marketplace</p>
+                <p className="message"><b>MESSAGE</b></p>
+                <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Tell us the details"></input>
+            </Modal.Body>
+            <Modal.Footer>
+                <Button className="place_continue">Place a bid</Button>
+                <Button className="cancel" onClick={props.onHide}>
+                    Cancel
+                </Button>
+            </Modal.Footer>
+            {/* </div> */}
+        </Modal>
+    );
+}
+function Arrow(props) {
+    return (
+        <Modal id="modal_arrow"
+            {...props}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+        >
+            <Modal.Header >
+                <Modal.Title id="contained-modal-title-vcenter">
+                    <p className="share"><b>Share link to this page</b></p>
+                </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+                <Row>
+                    <Col lg={5}>
+                        <Image src={FaceBook}></Image>
+                    </Col>
+                    <Col lg={5}>
+                        <Image src={Twitter}></Image>
+                    </Col>
+                </Row>
+            </Modal.Body>
+        </Modal>
+    );
+}
+
 /* ======================================================================== */
 
 export default Contnt_viewItem;

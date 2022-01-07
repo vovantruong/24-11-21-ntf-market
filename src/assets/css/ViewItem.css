@@ -298,9 +298,246 @@ margin: 0px 0px;
       justify-content: center;
   }
   /* ===============================Modal================================== */
+#modal_choose .modal-content{
+    width: 250px;
+    height: 300px;
+  }
+#modal_change .modal-content{
+    width: 443px;
+    height: 349px;
+}
+#modal_change .modal-content .newPrice{
+    position: static;
+width: 66px;
+height: 18px;
+left: 0px;
+top: 0px;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 150%;
+/* identical to box height, or 18px */
+color: #606060;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#modal_change .modal-content input{
+    position: relative;
+    top: 20px;
+    height: 50px;
+}
+#modal_Transfer .modal-content{
+    width: 443px;
+height: 420px;
+}
+#modal_Transfer .modal-content .transfer_token{
+    
+position: static;
+width: 348px;
+height: 48px;
+left: 0px;
+top: 70px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+color: #606060;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+}
+#modal_Transfer .modal-content .address{
+    position: static;
+width: 209px;
+height: 36px;
+left: 0px;
+top: 0px;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 150%;
+/* identical to box height, or 36px */
+color: #000000;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 6px 0px;
+}
+#modal_Transfer .modal-content .paste{
+    position: static;
+width: 115px;
+height: 24px;
+left: 0px;
+top: 0px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+color: #606060;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 6px 0px;
+}
+#modal_remove .modal-content{
+    width: 443px;
+height: 316px;
+}
+#modal_remove .modal-content .remove_item{
+    position: static;
+width: 348px;
+height: 48px;
+left: 0px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+color: #606060;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 30px 0px;
+}
+#modal_burn .modal-content{
+    width: 443px;
+height: 316px;
+}
+#modal_burn .modal-content .burn_token{
+    position: static;
+width: 348px;
+height: 72px;
+left: 0px;
+top: 70px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+color: #606060;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 25px 0px;
+}
+#modal_report .modal-content{
+    width: 443px;
+    height: 471px;
+}
+#modal_report .modal-content .report_token{
+    position: static;
+width: 348px;
+height: 48px;
+left: 0px;
+top: 70px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+color: #606060;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+}
+#modal_report .modal-content .message{
+    position: static;
+width: 56px;
+height: 18px;
+left: 0px;
+top: 0px;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 150%;
+/* identical to box height, or 18px */
+color: #000000;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+#modal_report .modal-content input{
+    position: relative;
+    height: 80px;
+}
 .modal-content .modal-footer .place_continue{
     background: #A92E71;
 }
+.modal-content .modal-body .change{
+    position: relative;
+    margin-left: 28px;
+    bottom: 17px;
+width: 315x;
+height: 8px;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 14px;
+/* identical to box height */
+color: #606060;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.modal-content .modal-body hr{
+    top: 0px;
+position: static;
+height: 0px;
+left: 20px;
+border: 1px solid #C4C4C4;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+#modal_arrow .modal-content {
+    position: relative;
+    width: 215px;
+    height: 153px;
+    /* top: 55px;
+    right: 320px; */
+} 
+#modal_arrow .modal-content .modal-body{
+    left: 18px;
+    top: 20px;
+}
+#modal_arrow .modal-content .share{
+    position: static;
+width: 157px;
+height: 15px;
+left: 29px;
+top: 32px;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 15px;
+/* identical to box height */
+color: #000000;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+/* #modal1 .modal-content{
+    width: 443px;
+    height: 453px;
+} */
   /* =============================== Responsive ================================== */
   @media screen and (max-width: 1024px){
     #viewitem .left_imgArt .imgArt{

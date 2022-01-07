@@ -352,7 +352,7 @@ function clickimg4() {
 }
 function ShowModel(props) {
   return (
-    <Modal
+    <Modal id="modal_View"
       {...props}
       size="lg"
       aria-labelledby="contained-modal-title-vcenter"
@@ -421,20 +421,14 @@ function ShowModel(props) {
 }
 function Upfile(props) {
   return (
-    <Modal
+    <Modal id="modal_upFile"
       {...props}
       size="lg"
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          <b>Upload File Image</b>
-        </Modal.Title>
-      </Modal.Header>
       <Modal.Body>
         <div className="chooseFile">
-          <h5>Show a file-select field which allows only one file to be chosen:</h5>
           <div class="form-group">
             <label for="myfile">Select a file:</label>
             <input type="file" class="form-control-file" name="" id="" placeholder="" aria-describedby="fileHelpId"></input><br></br><br></br>
@@ -443,9 +437,6 @@ function Upfile(props) {
         </div>
       </Modal.Body>
       <Modal.Footer>
-        <Button className="cancel" onClick={props.onHide}>
-          Cancel
-        </Button>
       </Modal.Footer>
     </Modal>
   );
