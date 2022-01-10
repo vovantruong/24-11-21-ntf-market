@@ -16,6 +16,11 @@
   top: 127px;
 }
 
+#creator__network a.to-link {
+  border: none !important;
+  padding: 0 !important;
+}
+
 #creator__network .top__network a {
   border: 1.5px solid #c4c4c4;
   border-radius: 30px;
@@ -84,7 +89,7 @@
   display: flex;
   position: relative;
   top: -23px;
-  left: 13px;
+  left: 10px;
   margin-top: 13px;
 }
 
@@ -141,15 +146,63 @@
 }
 
 #creator__network .card__current {
-  width: 370px;
-  height: 317px;
+  width: 349px;
+  height: 297px;
+  background: #ffffff;
+  border: 1.5px solid #c4c4c4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
   position: relative;
-  top: 12px;
+  left: 10px;
+  top: 17px;
+  text-align: center;
+  padding: 33px 72px;
 }
 
-#creator__network .card__current img {
-  width: 100%;
-  height: 100%;
+#creator__network .card__current p {
+  margin: 0;
+}
+
+#creator__network .card__current p.title {
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+
+#creator__network .card__current h5 {
+  font-weight: 600;
+  font-size: 48px;
+  color: #000000;
+}
+
+#creator__network .card__current h6 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #606060;
+}
+
+#creator__network .card__current p.ending {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+
+#creator__network .card__current .time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#creator__network .card__current .time p {
+  font-weight: 600;
+  font-size: 30px;
+  color: #000000;
+}
+
+#creator__network .card__current .time span {
+  font-size: 16px;
+  color: #606060;
 }
 
 #creator__network .btn__place__view a {
@@ -163,8 +216,8 @@
 
 #creator__network .btn__place__view {
   position: relative;
-  top: 32px;
-  left: 12px;
+  top: 53px;
+  left: 10px;
 }
 
 #creator__network .btn__place__view a.place {
@@ -199,7 +252,7 @@
 #creator__network .previout__next {
   display: inline-flex;
   position: relative;
-  top: 11.4rem;
+  top: 12.6rem;
   left: 12px;
 }
 
@@ -543,6 +596,7 @@
 
 /* =============================== CSS model =============================== */
 .modal-content {
+  font-family: "Poppins", sans-serif;
   width: 433px;
   height: 518px;
   margin: 0 auto;
@@ -658,7 +712,7 @@
   top: 57px;
 }
 
-.modal-content .info__bid h3{
+.modal-content .info__bid h3 {
   font-size: 24px;
   font-weight: 500;
   position: relative;
@@ -841,7 +895,6 @@
     justify-content: space-around;
     position: relative;
     left: -14px;
-
   }
 
   #creator__network .bottom__network .the__info .info__left {
@@ -949,6 +1002,7 @@
 
   #creator__network .card__current {
     left: -11px;
+    padding: 15px 50px;
   }
 
   #creator__network .btn__place__view {
@@ -991,14 +1045,14 @@
   }
 
   #creator__network .content__network .left__img {
-    left: -1px;
+    left: -4px;
   }
 
   .modal-content {
     width: 340px;
   }
 
-  #creator__network .right__btn__network{
+  #creator__network .right__btn__network {
     left: -32px;
     width: 100%;
   }
@@ -1112,30 +1166,34 @@
 
 /* Ty le man hinh nho hon 240px*/
 @media screen and (max-width: 280px) {
-  #creator__network .bottom__network .eth_never_die{
+  #creator__network .bottom__network .eth_never_die {
     left: 43px;
   }
 
-  #creator__network .right__btn__network h6.title{
+  #creator__network .right__btn__network h6.title {
     text-align: center;
   }
 
   #creator__network {
     min-height: 215rem;
-}
+  }
 
-  #creator__network .bottom__network .left__network .eth_never_die .img__eth__never{
+  #creator__network
+    .bottom__network
+    .left__network
+    .eth_never_die
+    .img__eth__never {
     width: 150px;
     height: 140px;
   }
 
-  #creator__network .bottom__network .info__eth__never a{
+  #creator__network .bottom__network .info__eth__never a {
     padding: 5px 35px;
   }
-  #creator__network .right__btn__network .group__social{
+  #creator__network .right__btn__network .group__social {
     left: 21px;
   }
-  #creator__network .bottom__network .right__btn__network a{
+  #creator__network .bottom__network .right__btn__network a {
     padding: 8px 45px;
     left: 20px;
   }

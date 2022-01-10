@@ -90,10 +90,10 @@ function HotBid() {
     infinite: true,
     arrows: false,
     speed: 1350,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 6000,
     slidesToShow: 4,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1025,

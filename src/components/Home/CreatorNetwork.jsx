@@ -19,6 +19,7 @@ import "./CreatorNetwork.css";
 /* ========================= Import Image ======================== */
 
 import ImageCreatorLg from "../../assets/images/Home/unsplat.png";
+import ImageCreatorLg02 from "../../assets/images/Home/img-large-639x802.png";
 import Avata01 from "../../assets/images/Home/avata-1.png";
 import Rectangle from "../../assets/images/Home/icon/Rectangle4.png";
 import CardCurrent from "../../assets/images/Home/card-current.png";
@@ -100,11 +101,13 @@ const CreatorNetwork = () => {
   const [modalShow, setModalShow] = useState(false);
   /* ===================  */
 
+  let [img, setImg] = useState(true);
+
   return (
     <section id="creator__network">
       <Container>
         <ShowModel show={modalShow} onHide={() => setModalShow(false)} />
-        <div className="top__network animate__animated animate__fadeInDown" >
+        <div className="top__network animate__animated animate__fadeInDown">
           <h6>create, explore, & collect digital art nfts.</h6>
           <h2>The new creative economy.</h2>
           <Link to="/discover">Start your search</Link>
@@ -112,8 +115,13 @@ const CreatorNetwork = () => {
         <div className="content__network">
           <Row>
             <Col lg={7}>
-              <div className="left__img animate__animated animate__fadeInLeft" >
-                <Image src={ImageCreatorLg} />
+              <div className="left__img animate__animated animate__fadeInLeft">
+                {img ? (
+                  <Image src={ImageCreatorLg} />
+                ) : (
+                  <Image src={ImageCreatorLg02} />
+                )}
+                {/* <Image src={ImageCreatorLg} /> */}
               </div>
             </Col>
             <Col lg={5}>
@@ -140,7 +148,24 @@ const CreatorNetwork = () => {
                   </div>
                 </div>
                 <div className="card__current">
-                  <Image src={CardCurrent} />
+                  <p className="title">Current Bid</p>
+                  <h5>1.00 ETH</h5>
+                  <h6>$3,618.36</h6>
+                  <p className="ending">Auction ending in</p>
+                  <div className="time">
+                    <div className="hour">
+                      <p>13</p>
+                      <span>Hrs</span>
+                    </div>
+                    <div className="mins">
+                      <p>04</p>
+                      <span>mins</span>
+                    </div>
+                    <div className="secs">
+                      <p>48</p>
+                      <span>secs</span>
+                    </div>
+                  </div>
                 </div>
                 <div className="btn__place__view">
                   <Link
@@ -157,11 +182,11 @@ const CreatorNetwork = () => {
                 </div>
                 <div className="previout__next">
                   <div className="prev">
-                    <Link to="#">
+                    <Link to="#" onClick={() => setImg(!img)}>
                       <i className="fas fa-arrow-left"></i>
                     </Link>
                   </div>
-                  <div className="next">
+                  <div className="next" onClick={() => setImg(!img)}>
                     <Link to="#">
                       <i className="fas fa-arrow-right"></i>
                     </Link>
@@ -171,19 +196,26 @@ const CreatorNetwork = () => {
             </Col>
           </Row>
         </div>
-        <div className="bottom__network" data-aos="fade-up" data-aos-duration="1200">
+        <div
+          className="bottom__network"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
           <Row>
             <Col xl={9} lg={12}>
               <div className="left__network">
                 <Row>
                   <Col lg={7}>
                     <div className="the__future">
-                      <div className="the__img__lg">
-                        <Image src={ImgSmoke} />
-                        <div className="arrow">
-                          <i className="fas fa-arrow-right"></i>
+                      <Link className="to-link" to="/profile">
+                        <div className="the__img__lg">
+                          <Image src={ImgSmoke} />
+                          <div className="arrow">
+                            <i className="fas fa-arrow-right"></i>
+                          </div>
                         </div>
-                      </div>
+                      </Link>
+
                       <div className="the__info">
                         <div className="info__left">
                           <Image src={Avata01} />
@@ -206,12 +238,15 @@ const CreatorNetwork = () => {
                           key={index}
                           className={"group__img " + e.className}
                         >
-                          <div className="img__eth__never">
-                            <Image src={e.srcImg} />
-                            <div className="arrow">
-                              <i className="fas fa-arrow-right"></i>
+                          <Link className="to-link" to="/profile">
+                            <div className="img__eth__never">
+                              <Image src={e.srcImg} />
+                              <div className="arrow">
+                                <i className="fas fa-arrow-right"></i>
+                              </div>
                             </div>
-                          </div>
+                          </Link>
+
                           <div className="info__eth__never">
                             <h3>{e.title}</h3>
                             <div className="amout">
@@ -285,7 +320,7 @@ function ShowModel(props) {
             <FormControl type="text" placeholder="Enter bid" />
             <p>ETH</p>
           </Form>
-          <hr/>
+          <hr />
           <div className="amount">
             {banlance.map((e, index) => (
               <div key={index} className="balance">

@@ -371,6 +371,7 @@
 
   #hot__bid .top__bid {
     align-items: flex-start;
+    padding: 0 20px;
   }
 
   #hot__bid .previout__next {

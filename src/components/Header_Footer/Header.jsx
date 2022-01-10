@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Navbar,
   Container,
@@ -9,18 +9,19 @@ import {
   FormControl,
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "../../assets/images/Image-logo-svg/logo-woman.svg"
+import logo from "../../assets/images/Image-logo-svg/logo-woman.svg";
 import "../../assets/css/Header.css";
 
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 function Header() {
+
   return (
     <header id="header">
       <Navbar expand="lg">
         <Container>
           <Navbar.Brand href="/">
-            <Image className='logo' src={logo}/>
+            <Image className="logo" src={logo} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -34,13 +35,13 @@ function Header() {
             </Nav>
             <Form className="d-flex">
               <FormControl
+                id="search"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
+                autoComplete=""
               />
-              <Button>
-                <i className="fas fa-search"></i>
-              </Button>
+              <Button><i className="fas fa-search"></i></Button>
             </Form>
             <Nav className="right">
               <Link to="/upload">Upload</Link>

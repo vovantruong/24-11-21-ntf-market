@@ -243,6 +243,7 @@
 #seller .bottom__seller .top__card .icon__card i:last-child {
   transform: rotate(315deg);
   font-size: 15px;
+  left: 0;
 }
 
 #seller .bottom__seller .body__card {
@@ -328,8 +329,17 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px){
+  #seller .container {
+    max-width: 340px;
+  }
+} 
+
+
+
+@media screen and (max-width: 280px) {
   #seller .bottom__seller {
     padding-left: 10px;
   }
+
 }

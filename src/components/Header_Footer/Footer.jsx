@@ -25,7 +25,7 @@ function Footer() {
                     <Link to="/discover">Discover</Link>
                   </li>
                   <li>
-                    <Link to="/connet-wallet">Connect wallet</Link>
+                    <Link to="/connect-wallet">Connect wallet</Link>
                   </li>
               </ul>
             </div>
@@ -35,7 +35,7 @@ function Footer() {
               <h4>Info</h4>
               <ul>
                   <li>
-                    <Link to="/faq">FAQ</Link>
+                    <Link to="/how-it-work">FAQ</Link>
                   </li>
                   <li>
                     <Link to="/create-item">Create item</Link>
@@ -52,7 +52,7 @@ function Footer() {
                   </li>
               </ul>
               <Form className="form">
-                  <FormControl type="search" placeholder="Enter your email" />
+                  <FormControl className="searchFooter" id="search" type="search" placeholder="Enter your email" autoComplete=""/>
                   <Button><i className="fas fa-arrow-right"></i></Button>
               </Form>
             </div>

@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Seller.css";
 
 import Slider from "react-slick";
@@ -77,7 +78,7 @@ function Seller() {
       {
         breakpoint: 376,
         settings: {
-          slidesToShow: 1.6,
+          slidesToShow: 1.3,
           slidesToScroll: 1,
           rows: 1,
         },
@@ -110,7 +111,7 @@ function Seller() {
               <div className="left__top">
                 <h3>Popular</h3>
                 <h2>
-                  Sellers <i className="fas fa-chevron-down"></i>
+                  Sellers
                 </h2>
               </div>
             </Col>
@@ -154,7 +155,7 @@ function Seller() {
                   </div>
                   <div className="icon__card">
                     <i className="far fa-plus-square"></i>
-                    <i className="fas fa-arrow-right"></i>
+                    <Link to="profile" ><i className="fas fa-arrow-right"></i></Link>
                   </div>
                 </div>
                 <div className="body__card">
